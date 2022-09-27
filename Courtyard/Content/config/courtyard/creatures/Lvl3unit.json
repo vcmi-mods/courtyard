@@ -1,0 +1,79 @@
+{
+	"fireNewt" : {
+		"abilities" : {
+			"fireImmune" :
+				{ "type" : "FIRE_IMMUNITY", "subtype" : 0 },		
+		},
+		"doubleWide" : true,
+		"advMapAmount" : { "max" : 24, "min" : 12 },
+		"aiValue" : 230,
+		"attack" : 6,
+		"cost" : { "gold" : 210 },
+		"damage" : { "max" : 6, "min" : 4 },
+		"defense" : 6,
+		"faction" : "courtyard",
+		"fightValue" : 235,
+		"graphics" : {
+			"animation" : "courtyard/battle/CSalamander.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 8, "walk" : 1 },
+			"iconLarge" : "courtyard/icons/units/IcSalm101",
+			"iconSmall" : "courtyard/icons/units/IsSalm101",
+			"map" : "courtyard/map/lvl1unit.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 6,
+		"hitPoints" : 24,
+		"level" : 3,
+		"name" : { "plural" : "Salamanders", "singular" : "Salamander" },
+		"sound" : {
+			"attack" : "courtyard/lvl1/SalamanderATTK.wav",
+			"defend" : "courtyard/lvl1/SalamanderDFND.wav",
+			"killed" : "courtyard/lvl1/SalamanderDEAD.wav",
+			"move" : "courtyard/lvl1/SalamanderMOVE.wav",
+			"wince" : "courtyard/lvl1/SalamanderWNCE.wav"
+		},
+		"speed" : 3,
+		"upgrades" : [ "salamander" ]
+	},
+	
+	
+	
+	"salamander" : {
+		"abilities" : {
+			"fireImmune" :
+				{ "type" : "FIRE_IMMUNITY", "subtype" : 0 },		
+		},	
+		"doubleWide" : true,		
+		"advMapAmount" : { "max" : 24, "min" : 11 },
+		"aiValue" : 230,
+		"attack" : 6,
+		"cost" : { "gold" : 260 },
+		"damage" : { "max" : 6, "min" : 6 },
+		"defense" : 8,
+		"faction" : "courtyard",
+		"fightValue" : 260,
+		"graphics" : {
+			"animation" : "courtyard/battle/CTrSalamand.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 8, "walk" : 1 },
+			"iconLarge" : "courtyard/icons/units/IcSalm102",
+			"iconSmall" : "courtyard/icons/units/IsSalm102",
+			"map" : "courtyard/map/lvl1unitup.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 6,
+		"hitPoints" : 27,
+		"level" : 3,
+		"name" : { "plural" : "Shiny Salamanders", "singular" : "Shiny Salamander" },
+		"sound" : {
+			"attack" : "courtyard/lvl1/SalamanderATTK.wav",
+			"defend" : "courtyard/lvl1/SalamanderDFND.wav",
+			"killed" : "courtyard/lvl1/SalamanderDEAD.wav",
+			"move" : "courtyard/lvl1/SalamanderMOVE.wav",
+			"wince" : "courtyard/lvl1/SalamanderWNCE.wav"
+		},
+		"speed" : 6,
+	}
+	
+}
+
+

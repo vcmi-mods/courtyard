@@ -1,0 +1,125 @@
+{
+	
+	
+	"pacifism":
+	{
+		"type": "combat", 
+		"targetType": "LOCATION", 
+		"name": "Pacifism",
+		"school":
+		{
+			"air": true,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 4,
+		"power": 90,
+		
+		"defaultGainChance": 5, 
+		"gainChance":
+		{
+		"castle" : 20,
+		"inferno" : 0,
+		"necropolis" : 0,
+		"dungeon" : 0,
+		"tower" : 10,
+		"conflux" : 10,
+		"rampart" : 15,
+		},
+
+ 
+		"animation":{
+			"affect":["courtyard/spells/Pacifism/Pacifism.def"]
+		},
+ 
+		"flags" : { "negative": true },
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.MIND_IMMUNITY" : "normal",
+				"bonus.NON_LIVING" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "normal"
+			}
+		},
+		"counters" : {
+			"spell.hypnotize": true,
+			"spell.berserk": true,
+		},
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "courtyard/spells/Pacifism/Pacifism_book1",
+			"iconEffect": "courtyard/spells/Pacifism/Pacifism_effect1",
+			"iconScroll": "courtyard/spells/Pacifism/Pacifism_scroll1",
+			"iconScenarioBonus": "courtyard/spells/Pacifism/Pacifism_bonus1",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "courtyard/spells/SPELLPACIFY.wav"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 22,
+				"range": "0",
+				"power": 10,
+				"aiValue": 70,
+				"targetModifier":
+				{
+					"smart": false
+				},
+				
+				"effects":
+				{
+				"noRetaliation" : {
+					"type" : "NO_RETALIATION",
+						"duration" : ["N_TURNS"]
+					},
+				"noAttacks" : {
+						"type" : "ADDITIONAL_ATTACK",
+						"val" : -5,
+						"duration" : ["N_TURNS"]
+					},
+				"noShooting" : {
+						"type" : "FORGETFULL",
+						"val" : 3,
+						"duration" : ["N_TURNS"]
+					},
+					"cowardice" : {
+						"type" : "ATTACKS_NEAREST_CREATURE",
+						"duration" : ["N_TURNS"]
+					},
+				},
+			},
+			"none":
+			{
+				"description": "{Pacifism}\n\nUnit becomes unable to attack and moves in the direction of other closest unit.",
+	 
+	 
+			},
+			"basic":
+			{ 
+				"description": "{Basic Pacifism}\n\nUnit becomes unable to attack and moves in the direction of other closest unit.",
+			},
+			"advanced":
+			{
+				"description": "{Advanced Pacifism}\n\nUnits become unable to attack and moves in the direction of other closest unit.",
+				"range" : "0-1",
+			},
+			"expert":
+			{
+				"description": "{Expert Pacifism}\n\nUnits become unable to attack and moves in the direction of other closest unit.",
+				"range" : "0-2",
+			},
+		}
+	},
+	"core:berserk" : {	"counters" : { "spell.hypnotize": true, "courtyard:spell.pacifism": true },},
+	"core:hypnotize" : {	"counters" : { "spell.berserk": true, "courtyard:spell.pacifism": true },}
+}

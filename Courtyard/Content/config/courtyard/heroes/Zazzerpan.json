@@ -1,0 +1,41 @@
+{
+	"15zazzerpan" : {
+		"army" : [
+			{ "creature" : "cupid", "max" : 18, "min" : 10 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+			{ "creature" : "fireNewt", "max" : 5, "min" : 3 }
+		],
+		"class" : "philosopher",
+		"female" : false,
+		"images" : {
+			"large" : "courtyard/heroes/Zazzerpan/portraitlarge.png",
+			"small" : "courtyard/heroes/Zazzerpan/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Zazzerpan/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Zazzerpan/specsmall1.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "wisdom" }, { "level" : "basic", "skill" : "scholar" }],
+		"spellbook" :
+		[
+			"enchantedWeapon"
+		],
+		"specialty" : {
+				"bonuses" : {
+			"magicVulnerability":			{
+				"type" : "NEGATE_ALL_NATURAL_IMMUNITIES",
+				"subtype" : 0,
+				"val" : 0,
+				"valueType" : "BASE_NUMBER",
+				"propagator": "BATTLE_WIDE"
+					},
+			"magicVulnerability2":			{
+				"type" : "NEGATE_ALL_NATURAL_IMMUNITIES",
+				"subtype" : 1,
+				"val" : 0,
+				"valueType" : "BASE_NUMBER",
+				"propagator": "BATTLE_WIDE"
+					
+					}
+			}	
+		}
+	}
+}

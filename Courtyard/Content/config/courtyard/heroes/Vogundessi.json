@@ -1,0 +1,32 @@
+{
+	"10vogundessi" : {
+		"army" : [
+			{ "creature" : "cupid", "max" : 18, "min" : 10 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+			{ "creature" : "fireNewt", "max" : 5, "min" : 3 }
+		],
+		"class" : "philosopher",
+		"female" : false,
+		"images" : {
+			"large" : "courtyard/heroes/Vogundessi/portraitlarge.png",
+			"small" : "courtyard/heroes/Vogundessi/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Vogundessi/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Vogundessi/specsmall1.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "wisdom" }, { "level" : "basic", "skill" : "estates" } ],
+		"spellbook" :
+		[
+			"viewEarth", "viewAir",
+		],
+		"specialty" : {
+			"bonuses" : {
+			"manaRegen" : {
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gold",
+				"val" : 50,
+				"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+	}
+}

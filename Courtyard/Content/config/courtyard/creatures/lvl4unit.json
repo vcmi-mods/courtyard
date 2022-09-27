@@ -1,0 +1,107 @@
+{
+	"arquebusier" : {
+			"abilities" : {
+			"canShoot" : { "type" : "SHOOTER" },
+			"defenseReduction" : { "type" : "ENEMY_DEFENCE_REDUCTION", "val" : 15 },
+			},
+		"advMapAmount" : { "max" : 20, "min" : 10 },
+		"aiValue" : 690,
+		"attack" : 10,
+		"cost" : { "gold" : 200 },
+		"damage" : { "max" : 11, "min" : 5 },
+		"defense" : 8,
+		"faction" : "courtyard",
+		"fightValue" : 807,
+		"graphics" : {
+			"animation" : "courtyard/battle/CMusketeer.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "courtyard/icons/units/IcMuskt101",
+			"iconSmall" : "courtyard/icons/units/IsMuskt101",
+			"map" : "courtyard/map/lvl3unit.def",
+			
+			"missile" : {
+				"attackClimaxFrame" : 10,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 11,
+					"lowerY" : -46,
+					"middleX" : 37,
+					"middleY" : -62,
+					"upperX" : 32,
+					"upperY" : -82
+					},
+				"projectile" : "courtyard/battle/projectile/PMusket.def"
+				},
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 5,
+		"hasDoubleWeek" : true,
+		"hitPoints" : 30,
+		"level" : 4,
+		"name" : { "plural" : "Arquebusiers", "singular" : "Arquebusier" },
+		"shots" : 10,
+		"sound" : {
+			"attack" : "courtyard/lvl3/MusketeerATTK.wav",
+			"defend" : "courtyard/lvl3/MusketeerDFND.wav",
+			"killed" : "courtyard/lvl3/MusketeerDEAD.wav",
+			"move" : "courtyard/lvl3/MusketeerMOVE.wav",
+			"shoot" : "courtyard/lvl3/MusketeerSHOT.wav", 
+			"wince" : "courtyard/lvl3/MusketeerWNCE.wav"
+		},
+		"speed" : 4,
+		"upgrades" : [ "musketeer" ]
+	},
+
+	
+	
+	"musketeer" : {
+		"abilities" : {
+			"canShoot" : { "type" : "SHOOTER" },
+			"defenseReduction" : { "type" : "ENEMY_DEFENCE_REDUCTION", "val" : 30 },
+		},
+		"advMapAmount" : { "max" : 20, "min" : 10 },
+		"aiValue" : 1001,
+		"attack" : 13,
+		"cost" : { "gold" : 250 },
+		"damage" : { "max" : 11, "min" : 8 },
+		"defense" : 9,
+		"faction" : "courtyard",
+		"fightValue" : 990,
+		"graphics" : {
+			"animation" : "courtyard/battle/CEMusketeer.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "courtyard/icons/units/IcMuskt102",
+			"iconSmall" : "courtyard/icons/units/IsMuskt102",
+			"map" : "courtyard/map/lvl3unitup.def",
+			"missile" : {
+				"attackClimaxFrame" : 10,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 11,
+					"lowerY" : -46,
+					"middleX" : 37,
+					"middleY" : -62,
+					"upperX" : 32,
+					"upperY" : -82
+					},
+				"projectile" : "courtyard/battle/projectile/PMusket.def"
+				},
+			
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 5,
+		"hitPoints" : 30,
+		"level" : 4,
+		"name" : { "plural" : "Musketeers", "singular" : "Musketeer" },
+		"shots" : 20,
+		"sound" : {
+			"attack" : "courtyard/lvl3/MusketeerATTK.wav",
+			"defend" : "courtyard/lvl3/MusketeerDFND.wav",
+			"killed" : "courtyard/lvl3/MusketeerDEAD.wav",
+			"move" : "courtyard/lvl3/MusketeerMOVE.wav",
+			"shoot" : "courtyard/lvl3/MusketeerSHOT.wav", 
+			"wince" : "courtyard/lvl3/MusketeerWNCE.wav"
+		},
+		"speed" : 6,
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"potionCartCreature":
+	{
+		"name" : { "plural" : "Potion Carts", "singular" : "Potion Cart" },
+		"faction" : "neutral",
+		"level": 0,
+		"aiValue" : 2500,
+		"special" : true,
+		"attack" : 0,
+                "cost" :
+		{
+			"gold" : 1500
+		},
+		"defense" : 0,
+		"fightValue" : 2500,
+		"graphics" :
+		{
+			"animation": "courtyard/battle/PotionCart.def",
+			"iconLarge" : "courtyard/icons/units/PotCart01",
+			"iconSmall" : "courtyard/icons/units/PotCart_small01",
+			"map" : "courtyard/map/lvl1unit.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+		},
+		"sound" :
+		{
+			"killed": "CARTKILL.wav",
+			"wince": "CARTWNCE.wav"
+		},
+		"doubleWide" : false,
+		"growth" : 0,
+		"hitPoints" : 125,
+		"speed" : 0,
+		"abilities" :
+		{
+			
+			"inactive" :
+				{ "type" : "NOT_ACTIVE" },				
+		    "noRetaliation" :
+			{
+				"type" : "NO_RETALIATION",
+				 "val" : 0
+			},
+			"warmachine" :
+			{
+				"type" : "SIEGE_WEAPON"
+			},
+			"supply" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.potionSupply",
+				"val" : 0,
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+					"parameters": [ "potionCartCreature", false ]
+} ],
+			},
+//			"automatic" : {
+//				"subtype" : "creature.plagueTentCreature",
+//				"type" : "MANUAL_CONTROL",
+//				"val" : 0,
+//				"valueType" : "BASE_NUMBER",				
+//				"propagator" : "HERO"
+//			}
+
+		}
+	}
+}

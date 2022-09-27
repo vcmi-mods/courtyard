@@ -1,0 +1,39 @@
+{
+	"styven" : {
+		"army" : [
+			{ "creature" : "cupid", "max" : 18, "min" : 10 },
+			{ "creature" : "cupid", "max" : 18, "min" : 10 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+
+		],
+		"class" : "aristocrat",
+		"female" : false,
+		"images" : {
+			"large" : "courtyard/heroes/Styven/portraitlarge.png",
+			"small" : "courtyard/heroes/Styven/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Styven/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Styven/specsmall1.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "luck" }, { "level" : "basic", "skill" : "estates" } ],
+		"spellbook" :
+		[
+			"reconstruction",
+		],
+		"specialty" : 
+		{
+			"creature" : "cupid",
+			"bonuses" : {
+				"reconstruction":{
+				"type" : "SPELL",
+				"subtype" : "spell.reconstruction",
+				"val" : 3,
+				},
+				"reconstruction2":{
+				"type" : "MAXED_SPELL",
+				"subtype" : "spell.reconstruction",
+				},
+			},
+			
+		},
+	}
+}

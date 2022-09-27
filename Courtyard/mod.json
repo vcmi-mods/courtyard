@@ -1,0 +1,86 @@
+{
+	"author" : "Trith, special thanks to: avatar, Kammer, Andruids, Hobbicus and MDT team",
+
+	"contact" : "NONE",
+	"spells" : [ 
+		"config/courtyard/spells/reconstruction",
+		"config/courtyard/spells/deathGrasp",
+		
+		"config/courtyard/spells/enchantedWeapon",
+		"config/courtyard/spells/pacifism",
+		"config/courtyard/spells/quagmire",
+		"config/courtyard/spells/quickStrikes",
+		"config/courtyard/spells/immolation",
+
+		"config/courtyard/spells/stunAbility",		
+		"config/courtyard/spells/ephemeralAbility",		
+		"config/courtyard/spells/ageCamera",
+		"config/courtyard/spells/vinesRevive",
+		
+		"config/courtyard/spells/potionSupply",
+		"config/courtyard/spells/toughnessPotion",
+		"config/courtyard/spells/regenerationPotion",
+		"config/courtyard/spells/etheralPotion",
+		"config/courtyard/spells/weaponPoisonPotion",
+		"config/courtyard/spells/dragonPotion",
+		],
+		
+	"creatures" : [
+		"config/courtyard/creatures/stackExp",
+		
+		"config/courtyard/creatures/lvl1unit",
+		"config/courtyard/creatures/lvl2unit",
+		"config/courtyard/creatures/lvl3unit",
+		"config/courtyard/creatures/lvl4unit",
+		"config/courtyard/creatures/lvl5unit",
+		"config/courtyard/creatures/lvl6unit",				
+		"config/courtyard/creatures/lvl7unit",
+		
+		"config/courtyard/creatures/vines",
+		"config/courtyard/creatures/apparition",
+		
+		"config/courtyard/warmachines/potionCartCreature",
+		"config/courtyard/warmachines/cameraObscuraCreature",
+		],
+	"artifacts" : ["config/courtyard/warmachines/potionCartArtifact","config/courtyard/warmachines/cameraObscuraArtifact"],
+	"skills" : ["config/courtyard/skills/firstAidPotions"],
+	"description" : "New faction.",
+	
+	"factions" : [
+		"config/courtyard/town",
+		"config/courtyard/courtyardPuzzle",	],
+	
+	"heroClasses" : [ "config/courtyard/classes/mightHero", "config/courtyard/classes/magicHero" ],
+	"heroes" : [
+		"config/courtyard/heroes/Nefefareen",
+		"config/courtyard/heroes/Auk",
+		"config/courtyard/heroes/Dizheel",
+		"config/courtyard/heroes/Ophrys",
+		"config/courtyard/heroes/Zana",
+		"config/courtyard/heroes/Lumiere",
+		"config/courtyard/heroes/Raphus",
+		"config/courtyard/heroes/Vogundessi",
+		"config/courtyard/heroes/Dictamnus",
+		"config/courtyard/heroes/Teophrast",
+		"config/courtyard/heroes/Audred",
+		"config/courtyard/heroes/Zazzerpan",
+		"config/courtyard/heroes/Migdigravia",
+		"config/courtyard/heroes/Caballe",
+		"config/courtyard/heroes/Hanester",
+		"config/courtyard/heroes/Kanim",
+		"config/courtyard/heroes/heroTexts",
+		
+	],
+	"objects" : [ "config/courtyard/dwellings", "config/courtyard/otherObjects" ],
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Town",
+	"name" : "Courtyard town",
+	"version" : "1.02",
+	"changelog" :
+    {
+		"1.02"   : [ "Tweaks" ],       
+		"1.01"   : [ "Special buildings support" ],
+		"1.00"   : [ "Initian release"  ]
+    }
+}

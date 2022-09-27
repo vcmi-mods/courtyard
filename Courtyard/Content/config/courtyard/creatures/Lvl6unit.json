@@ -1,0 +1,103 @@
+{
+	"mandrake" : {
+		"abilities" : {
+		"summonGuardians" :
+			{
+				"type" : "SUMMON_GUARDIANS",
+				"subtype" : "creature.tangleVine",
+				"val" : 200,
+			}
+		},
+		
+		"advMapAmount" : { "max" : 10, "min" : 4 },
+		"aiValue" : 1840,
+		"attack" : 20,
+		"cost" : { "gold" : 850 },
+		"damage" : { "max" : 30, "min" : 10 },
+		"defense" : 8,
+		"faction" : "courtyard",
+		"fightValue" : 1654,
+		"graphics" : {
+			"animation" : "courtyard/battle/CMndrak.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "courtyard/icons/units/IcMndrk101",
+			"iconSmall" : "courtyard/icons/units/IsMndrk101",
+			"map" : "courtyard/map/lvl4unit.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"horde" : 1,
+		"hasDoubleWeek" : true,
+		"hitPoints" : 70,
+		"level" : 6,
+		"name" : { "plural" : "Mandrakes", "singular" : "Mandrake" },
+		"sound" : {
+			"attack" : "courtyard/lvl4/MandraATTK.wav",
+			"defend" : "courtyard/lvl4/MandraDFND.wav",
+			"killed" : "courtyard/lvl4/MandraDEAD.wav",
+			"move" : "courtyard/lvl4/MandraMOVE.wav",
+			"wince" : "courtyard/lvl4/MandraWNCE.wav"
+		},
+		"speed" : 5,
+		"upgrades" : [ "regalMandrake" ]
+	},
+
+
+
+	"regalMandrake" : {
+		"abilities" : {
+		"summonGuardians" :
+			{
+				"type" : "SUMMON_GUARDIANS",
+				"subtype" : "creature.strangleVine",
+				"val" : 400,
+			},
+			"reviveVines" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.vinesRevive",
+				"val" : 0,
+			},
+		"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 6,
+			},
+			"power" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100,
+			},
+		},
+
+		"advMapAmount" : { "max" : 9, "min" : 4 },
+		"aiValue" : 2422,
+		"attack" : 22,
+		"cost" : { "gold" : 1000 },
+		"damage" : { "max" : 35, "min" : 12 },
+		"defense" : 9,
+		"faction" : "courtyard",
+		"fightValue" : 1852,
+		"graphics" : {
+			"animation" : "courtyard/battle/CRMndrk.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "courtyard/icons/units/IcMndrk102",
+			"iconSmall" : "courtyard/icons/units/IsMndrk102",
+			"map" : "courtyard/map/lvl4unitup.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"horde" : 1,
+		"hitPoints" : 77,
+		"level" : 6,
+		"name" : { "plural" : "Regal Mandrakes", "singular" : "Regal Mandrake" },
+		"sound" : {
+			"attack" : "courtyard/lvl4/MandraATTK.wav",
+			"defend" : "courtyard/lvl4/MandraDFND.wav",
+			"killed" : "courtyard/lvl4/MandraDEAD.wav",
+			"move" : "courtyard/lvl4/MandraMOVE.wav",
+			"wince" : "courtyard/lvl4/MandraWNCE.wav"
+		},
+		"speed" : 6,
+	}
+}

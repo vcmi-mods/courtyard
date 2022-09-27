@@ -1,0 +1,140 @@
+{
+	
+	
+	"toughnessPotion":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Toughness Tonic",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 3,
+		"power": 1,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":["courtyard/spells/Potions/Toughness/toughnessPotion.def"]
+		},
+ 
+		"flags" : { "positive": true, "special" : true },
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "normal",
+				"bonus.GARGOYLE" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "normal"
+			}
+		},
+
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "courtyard/spells/Potions/Toughness/toughnessP_book1",
+			"iconEffect": "courtyard/spells/Potions/Toughness/toughnessP_effect1",
+			"iconScroll": "courtyard/spells/Potions/Toughness/toughnessP_scroll1",
+			"iconScenarioBonus": "courtyard/spells/Potions/Toughness/toughnessP_bonus1",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "courtyard/spells/TOUGHNESSPOT.wav"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 0,
+				"range": "0",
+				"power": 1,
+				"aiValue": 70,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Tonic of Toughness}\n\nIncreases unit's hit points by 25% and damage dealt by unit by 15%.",
+	 
+	 
+				"effects":
+				{
+					"increaseDamage" : {
+						"val" : 15,
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : 0,
+						"valueType": "PERCENT_TO_BASE",
+						"duration": "N_TURNS",
+					},
+					"increaseHealth" : {
+						"val" : 25,
+						"type" : "STACK_HEALTH",
+						"valueType": "PERCENT_TO_BASE",
+						"duration": "N_TURNS",
+					},
+					"giant" : {
+						"val" : 40,
+						"type" : "KING1",
+					},
+					"potionMarkerEffect" :
+					{"type" : "SPECIFIC_SPELL_DAMAGE","subtype" : "spell.potionSupply",
+						"val" : 0
+					}
+					
+				}
+			},
+			"basic":
+			{
+				"description": "{Supreme Tonic of Toughness}\n\nIncreases unit's hit points by 40% and damage dealt by unit by 20%.",
+				"effects":
+				{
+					"increaseDamage" : {
+						"val" : 20,
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : 0,
+						"valueType": "PERCENT_TO_BASE",
+						"duration": "N_TURNS",
+					},
+					"increaseHealth" : {
+						"val" : 40,
+						"type" : "STACK_HEALTH",
+						"valueType": "PERCENT_TO_BASE",
+						"duration": "N_TURNS",
+					},
+					"giant" : {
+						"val" : 40,
+						"type" : "KING1",
+					},
+					"potionMarkerEffect" :
+					{"type" : "SPECIFIC_SPELL_DAMAGE","subtype" : "spell.potionSupply",
+						"val" : 0
+					}
+					
+				}				
+				
+			},
+			"advanced":
+			{
+				"description": "{Supreme Tonic of Toughness}\n\nIncreases unit's hit points by 40% and damage dealt by unit by 20%.",
+			},
+			"expert":
+			{
+				"description": "{Supreme Tonic of Toughness}\n\nIncreases unit's hit points by 40% and damage dealt by unit by 20%.",
+			}
+		}
+	}
+ 
+}

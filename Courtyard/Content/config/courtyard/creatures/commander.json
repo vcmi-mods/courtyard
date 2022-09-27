@@ -1,0 +1,100 @@
+{
+	"courtCommander" : {
+		"abilities":
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.clone",
+				"val" : 2
+			}
+		}, 
+		"special" : true,
+		"level": 0,
+		"faction": "courtyard",
+		"name" :
+		{
+			"plural" : "Hackbutters",
+			"singular" : "Hackbutter"
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"advMapAmount" :
+		{
+			 "min" : 16,
+			 "max" : 25
+		},
+		"attack" : 5,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 7,
+			 "max" : 15
+		},
+		"growth" : 9,
+		"hitPoints" : 60,
+		"speed" : 5,
+		"fightValue" : 130,
+		"aiValue" : 156,
+		"shots" : 24,
+		"cost" :
+		{
+			"gold" : 140
+		},		
+		"graphics" : {
+			"animation" : "courtyard/battle/CCommander",
+			"iconLarge" : "courtyard/icons/units/IcCommander",
+			"iconSmall" : "courtyard/icons/units/IsCommander",
+			"map" : "courtyard/map/mapCommander",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.4,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 0.7
+			},
+			"missile" : {
+				"attackClimaxFrame" : 10,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 11,
+					"lowerY" : -46,
+					"middleX" : 37,
+					"middleY" : -62,
+					"upperX" : 32,
+					"upperY" : -82
+				},
+				"projectile" : "courtyard/battle/projectile/PMusket.def"
+			} 
+		},
+		"sound" : {
+			"attack" : "courtyard/lvl3/MusketeerATTK.wav",
+			"defend" : "courtyard/lvl3/MusketeerDFND.wav",
+			"killed" : "courtyard/lvl3/MusketeerDEAD.wav",
+			"move" : "courtyard/lvl3/MusketeerMOVE.wav",
+			"shoot" : "courtyard/lvl3/MusketeerSHOT.wav", 
+			"wince" : "courtyard/lvl3/MusketeerWNCE.wav"
+		}
+	}
+}

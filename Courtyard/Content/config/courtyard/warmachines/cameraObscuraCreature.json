@@ -1,0 +1,75 @@
+{
+	"cameraObscuraCreature":
+	{
+		//"name" : { "plural" : "Camera Obscuras", "singular" : "Camera Obscura" },
+		"name" : { "plural" : "Camerae Obscurae", "singular" : "Camera Obscura" },
+		"faction" : "neutral",
+		"level": 0,
+		"aiValue" : 2500,
+		"special" : true,
+		"attack" : 0,
+                "cost" :
+		{
+			"gold" : 3000
+		},
+		"defense" : 0,
+		"fightValue" : 2500,
+		"graphics" :
+		{
+			"animation" : "courtyard/battle/WMCamera.def",
+			"iconSmall" : "courtyard/icons/units/SMCamra_small01",
+			"iconLarge" : "courtyard/icons/units/SMCamra1",
+			"map" : "courtyard/map/lvl1unit.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+		},
+		"sound" :
+		{
+			"killed": "CARTKILL.wav",
+			"wince": "CARTWNCE.wav",
+			"shoot": "courtyard/camera/cameraCast.wav",
+		},
+		"doubleWide" : false,
+		"growth" : 0,
+		"hitPoints" : 125,
+		"speed" : 5,
+		"abilities" :
+		{	
+			"ageCasting" : 
+				{
+				"type" : "SPELLCASTER",
+				"subtype": "spell.ageCamera",
+				"addInfo": 30,
+				},			
+			"casts" : 
+			{
+				"type" : "CASTS",
+				"val": 5
+			},						
+		      "noRetaliation" :
+			{
+				"type" : "NO_RETALIATION",
+				 "val" : 0
+			},
+			"warmachine" :
+			{
+				"type" : "SIEGE_WEAPON"
+			},
+//			"automatic" : {
+//				"subtype" : "creature.plagueTentCreature",
+//				"type" : "MANUAL_CONTROL",
+//				"val" : 0,
+//				"valueType" : "BASE_NUMBER",				
+//				"propagator" : "HERO"
+//			}
+
+		}
+	}
+}
+

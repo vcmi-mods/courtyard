@@ -1,0 +1,100 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"marbleHall" : {
+				"name" : "Marble Hall",
+				"creatures" : [[ "cupid" ]],
+				"sounds" : {
+					"ambient" : ["courtyard/buildingsAmbients/LOOPDW1"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "courtyard/map/lv1",
+						"mask" : ["VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"alchemyTower" : {
+				"name" : "Alchemy Tower",
+				"creatures" : [[ "homunculus" ]],
+				"sounds" : {
+					"ambient" : ["courtyard/buildingsAmbients/LOOPDW2"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "courtyard/map/lv2",
+						"mask" : ["VVV", "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"furnace" : {
+				"name" : "Furnace",
+				"creatures" : [[ "fireNewt" ]],
+				"sounds" : {
+					"ambient" : ["courtyard/buildingsAmbients/LOOPDW3"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "courtyard/map/lv3",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},			
+			"arsenal" : {
+				"name" : "Arsenal",
+				"creatures" : [[ "arquebusier" ]],
+				"sounds" : {
+					"ambient" : ["courtyard/buildingsAmbients/LOOPDW4"]
+				},
+				"templates" : {
+					"default" : {	
+						"animation" : "courtyard/map/lv4",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"dodoBurgh" : {
+				"name" : "Dodo Burgh",
+				"creatures" : [[ "dodo" ]],
+				"guards" : true,	
+				"sounds" : {
+					"ambient" : ["courtyard/buildingsAmbients/LOOPDW5"]
+				},				
+				"templates" : {
+					"default" : {
+						"animation" : "courtyard/map/lv5",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"arbours" : {
+				"name" : "Arbours",
+				"creatures" : [[ "mandrake" ]],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : ["courtyard/buildingsAmbients/LOOPDW6"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "courtyard/map/lv6",
+						"mask" : [ "VVV", "VVB", "VAB" ]
+					}
+				}
+			},
+			"scaryCavity" : {
+				"name" : "Scary Cavity",
+				"creatures" : [[ "jabberwock" ]],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : ["courtyard/buildingsAmbients/LOOPDW7"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "courtyard/map/lv7",
+						"mask" : [ "VVV", "VVV", "VBB", "VAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

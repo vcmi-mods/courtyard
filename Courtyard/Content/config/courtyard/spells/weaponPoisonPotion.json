@@ -1,0 +1,113 @@
+{
+	
+	
+	"weaponPoisonPotion":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Vial of Poison",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 1,
+		"power": 1,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":["courtyard/spells/Potions/Poison/poisonPotion.def"]
+		},
+ 
+		"flags" : { "positive": true, "special" : true },
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "courtyard/spells/Potions/Poison/poisonP_book1",
+			"iconEffect": "courtyard/spells/Potions/Poison/poisonP_effect1",
+			"iconScroll": "courtyard/spells/Potions/Poison/poisonP_scroll1",
+			"iconScenarioBonus": "courtyard/spells/Potions/Poison/poisonP_bonus1",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "courtyard/spells/POISONPOT.wav"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 0,
+				"range": "0",
+				"power": 1,
+				"aiValue": 70,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (10%).", 
+				"effects":
+				{
+					"poison" :
+					{
+						"type" : "SPELL_AFTER_ATTACK",
+						"subtype" : "spell.poison",
+						"val" : 10,
+						"duration": "N_TURNS",
+					},							
+				}
+			},
+			"basic":
+			{
+				"description": "{Concentrated Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (15%).", 
+				"effects":
+				{
+					"poison" :
+					{"type" : "SPELL_AFTER_ATTACK","subtype" : "spell.poison",
+						"val" : 15,
+						"duration": "N_TURNS",
+					},	
+				}	
+			},
+			"advanced":
+			{
+				"description": "{Distilled Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (20%).", 
+				"effects":
+				{
+					"poison" :
+					{"type" : "SPELL_AFTER_ATTACK","subtype" : "spell.poison",
+						"val" : 20,
+						"duration": "N_TURNS",
+					},
+				}
+			},
+			"expert":
+			{
+				"description": "{Supreme Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (30%).", 
+				"effects":
+				{
+					"poison" :
+					{"type" : "SPELL_AFTER_ATTACK","subtype" : "spell.poison",
+						"val" : 30,
+						"duration": "N_TURNS",
+					},
+				}
+			}
+		}
+	}
+ 
+}

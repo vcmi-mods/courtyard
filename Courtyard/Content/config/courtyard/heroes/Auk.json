@@ -1,0 +1,71 @@
+{
+	"00auk" : {
+		"army" : [
+			{ "creature" : "cupid", "max" : 18, "min" : 10 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+			{ "creature" : "fireNewt", "max" : 5, "min" : 3 }
+		],
+		"class" : "aristocrat",
+		"images" : {
+			"large" : "courtyard/heroes/Auk/portraitlarge.png",
+			"small" : "courtyard/heroes/Auk/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Auk/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Auk/specsmall1.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "armorer" }, { "level" : "basic", "skill" : "offence" } ],
+		"specialty" : 
+			{
+			"bonuses" : {
+			"dodoSpeed":{
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+					"parameters": [ "dodo", true ]
+				} ],
+				},
+				"greaterDodoMorale" : {
+				"type" : "MORALE",
+				"val" : 2,
+				"limiters" : [
+					{
+					"type":"CREATURE_TYPE_LIMITER",
+					"parameters": [ "greaterDodo", false ]
+					}
+				]
+			},
+			"battleDodoResist" : {
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 33,
+				"limiters" : [
+					{
+					"type":"CREATURE_TYPE_LIMITER",
+					"parameters": [ "battleDodo", false ]
+					}
+				]
+			},
+			"battleDodoResistAura" : {
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 20,
+				"limiters" : [
+					{
+					"type":"CREATURE_TYPE_LIMITER",
+					"parameters": [ "battleDodo", false ]
+					}
+				]
+			},
+			"battleDodoMagicReduction" : {
+			"type" : "SPELL_DAMAGE_REDUCTION",
+			"subtype" : -1,
+			"val" : 12,
+			"limiters" : [
+					{
+					"type":"CREATURE_TYPE_LIMITER",
+					"parameters": [ "battleDodo", false ]
+					}
+				]
+				},			
+			}
+		},
+	}
+}

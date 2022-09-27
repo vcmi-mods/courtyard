@@ -1,0 +1,83 @@
+{
+	"apparition" : {
+		"abilities" : { 
+			
+			"canFly" :
+				{ "type" : "FLYING", "subtype": 1 },
+			"immuneToMind" : 
+				{ "type" : "MIND_IMMUNITY" },
+			"nonLiving" : 
+				{ "type" : "NON_LIVING" },
+			"undead" : 
+				{ "type" : "UNDEAD" },
+			"earthImmune" :
+				{ "type" : "EARTH_IMMUNITY", "subtype" : 0 },
+			"noRevive" :
+				{ "type" : "SPELL_IMMUNITY", "subtype" : "spell.animateDead", "addInfo": 1 },
+
+			"ephemeral" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : "spell.ephemeral",
+					"val" : 3,
+				},	
+			"noAttacks" :
+				{
+			"type" : "ADDITIONAL_ATTACK",
+			"val" : -10,
+			},			
+			"damageReduction1" : {
+			"type" : "GENERAL_DAMAGE_REDUCTION",
+			"subtype" : 0,
+			"val" : 98
+			},
+			"damageReduction2" : {
+			"type" : "GENERAL_DAMAGE_REDUCTION",
+			"subtype" : 1,
+			"val" : 98
+			},
+			"magicDamageReduction" : {
+			"type" : "SPELL_DAMAGE_REDUCTION",
+			"subtype" : -1,
+			"val" : 95
+			},
+			"fear" : { "type" : "FEAR" },
+			"noRetaliation" : { "type" : "NO_RETALIATION" },
+			"noSpeed":{ "type": "STACKS_SPEED",
+								"val" : 0,
+								"valueType": "INDEPENDENT_MIN",
+							},
+		},
+		"special": true,
+		"advMapAmount" : { "max" : 12, "min" : 6 },
+		"aiValue" : 200,
+		"attack" : 5,
+		"cost" : { "gold" : 150 },
+		"damage" : { "max" : 0, "min" : 0 },
+		"defense" : 0,
+		"faction" : "courtyard",
+		"fightValue" : 120,
+		"graphics" : {
+			"animation" : "courtyard/battle/CApparition.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "courtyard/icons/units/IcApparition",
+			"iconSmall" : "courtyard/icons/units/IsApparition",
+			"map" : "courtyard/map/MApparition.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hasDoubleWeek" : false,
+		"hitPoints" : 3,
+		"level" : 3,
+		"name" : { "plural" : "Ephemeral Apparitions", "singular" : "Ephemeral Apparition" },
+		"sound" :
+		{
+			"attack": "WGHTATTK.wav",
+			"defend": "WGHTDFND.wav",
+			"killed": "WGHTKILL.wav",
+			"move": "WGHTMOVE.wav",
+			"wince": "WGHTWNCE.wav"
+		},
+		"speed" : 0,
+	},
+}

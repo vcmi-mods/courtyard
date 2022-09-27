@@ -1,0 +1,57 @@
+{
+	"aristocrat" : {
+		"affinity" : "might",
+		"animation" : { "battle" : { "female" : "courtyard/heroes/battleFemaleLord", "male" : "courtyard/heroes/battleMaleLord" } },
+		"commander" : "arquebusier",
+		"defaultTavern" : 5,
+		"faction" : "courtyard",
+		"lowLevelChance" : { "attack" : 45, "defence" : 30, "knowledge" : 10, "spellpower" : 15 },
+		"highLevelChance" : { "attack" : 30, "defence" : 25, "knowledge" : 20, "spellpower" : 25 },
+
+		"mapObject" : { "templates" : { "default" : { "animation" : "courtyard/heroes/CourtFemaleMightMap" } } },
+		"name" : "Aristocrat",
+		"primarySkills" : { "attack" : 2, "defence" : 1, "knowledge" : 1, "spellpower" : 2 },
+		"secondarySkills" : {
+			"airMagic" : 3,
+			"archery" : 4,
+			"armorer" : 3,
+			"artillery" : 5,
+			"ballistics" : 5,
+			"diplomacy" : 7,
+			"eagleEye" : 1,
+			"earthMagic" : 1,
+			"estates" : 8,
+			"fireMagic" : 3,
+			"intelligence" : 1,
+			"leadership" : 6,
+			"learning" : 4,
+			"logistics" : 7,
+			"luck" : 4,
+			"mysticism" : 1,
+			"navigation" : 5,
+			"necromancy" : 0,
+			"offence" : 4,
+			"pathfinding" : 5,
+			"resistance" : 5,
+			"scholar" : 1,
+			"scouting" : 2,
+			"sorcery" : 2,
+			"tactics" : 3,
+			"waterMagic" : 2,
+			"wisdom" : 4,
+			"firstAid" : 1
+		},
+		"tavern" : {
+			"castle" : 7,
+			"conflux" : 5,
+			"courtyard" : 8,
+			"dungeon" : 5,
+			"fortress" : 2,
+			"inferno" : 6,
+			"necropolis" : 4,
+			"rampart" : 3,
+			"stronghold" : 4,
+			"tower" : 6
+		}
+	}
+}

@@ -1,0 +1,124 @@
+{
+	
+	
+	"enchantedWeapon":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Enchanted Weapon",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},
+		"level": 3,
+		"power": 45,
+		
+		"defaultGainChance": 5, 
+		"gainChance":
+		{
+
+		"courtyard" : 15,
+		"inferno" : 10,
+		"tower" : 18,
+		"conflux" : 15,
+		"dungeon" : 20,
+		},
+
+ 
+		"animation":{
+			"affect":["courtyard/spells/EnchantedWeapon/EnchantedWeapon.def"]
+		},
+ 
+		"flags" : { "positive": true },
+
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "courtyard/spells/EnchantedWeapon/enchantedWeapon_book1",
+			"iconEffect": "courtyard/spells/EnchantedWeapon/enchantedWeapon_effect1",
+			"iconScroll": "courtyard/spells/EnchantedWeapon/enchantedWeapon_scroll1",
+			"iconScenarioBonus": "courtyard/spells/EnchantedWeapon/enchantedWeapon_bonus1",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "courtyard/spells/SPELLENCHANTEDWPN.wav"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 11,
+				"range": "0",
+				"power": 10,
+				"aiValue": 70,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Enchanted Weapon}\n\nIncreases damage dealt by friendly unit by 20%.",
+	 
+	 
+				"effects":
+				{
+					"increaseDamage" : {
+						"val" : 20,
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : 0,
+						"valueType": "PERCENT_TO_BASE",
+						"duration": "N_TURNS",
+
+					}
+				}
+			},
+			"basic":
+			{
+				"cost": 9,
+				"description": "{Basic Enchanted Weapon}\n\nIncreases damage dealt by friendly unit by 20%.",
+			},
+			"advanced":
+			{
+				"description": "{Advanced Enchanted Weapon}\n\nIncreases damage dealt by friendly unit by 35%.",
+
+				"effects":
+				{
+					"increaseDamage" : {
+						"val" : 35,
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : 0,
+						"valueType": "PERCENT_TO_BASE",
+						"duration": "N_TURNS",
+
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Expert Enchanted Weapon}\n\nIncreases damage dealt by friendly unit by 50%.",
+
+				"effects":
+				{
+					"increaseDamage" : {
+						"val" : 50,
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : 0,
+						"valueType": "PERCENT_TO_BASE",
+						"duration": "N_TURNS",
+
+					}
+				}
+			}
+		}
+	}
+ 
+}

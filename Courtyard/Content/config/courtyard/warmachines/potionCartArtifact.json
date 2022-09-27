@@ -1,0 +1,24 @@
+{
+	"potionCartArtifact":
+        {
+	"type" : ["HERO"],
+	"warMachine":"potionCartCreature",
+        "class": "SPECIAL",
+        "value": 1500,
+        "slot":"MACH2",
+        "text":
+		{
+			"name": "Potion Cart",
+			"description": "{Potion Cart}\r\n\r\nThe Potion Cart provides your army with benefical elixirs.",
+			"event": "You make a stop at a small hut inhabited by an old woman. She invites you in and tells you that you remind her of her grandkid as she keeps feeding you broth and dumplings. When you finally convince her you're not hungry and you have to go, she leaves you only after you promise to take a month worth of healing balms and home-made remedies from her closet, since it's dangerous out there."
+		},
+		"graphics":
+		{
+			"image": "courtyard/icons/artifacts/PotCart_art01",
+			"large": "courtyard/icons/artifacts/PotCart_artBonus01.png",
+			"map"  : "courtyard/map/artPotCart.def",
+		},
+	}
+}
+
+

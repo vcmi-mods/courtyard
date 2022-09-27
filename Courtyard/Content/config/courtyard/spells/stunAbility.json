@@ -1,0 +1,109 @@
+{
+	"stunAbility":
+	{
+		"type": "ability", 
+		"targetType": "CREATURE", 
+		"name": "Stun",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 4,
+		"power": 10,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+
+		"courtyard" : 0,
+		},
+
+ 
+		//counterstrike animation?
+		"animation":{
+		"affect":["courtyard/spells/Stun/Stun.def"]
+		},
+ 
+		"flags" : {"negative": true},
+		"targetCondition" : {
+			"noneOf" : { "bonus.UNDEAD" : "absolute", "bonus.NON_LIVING" : "absolute", "bonus.GARGOYLE" : "absolute", "bonus.MIND_IMMUNITY" : "absolute", },
+		},		
+		
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconEffect": "courtyard/spells/Stun/Stun_effect",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds":
+		{
+			//OPTIONAL; resourse path, casting sound
+			"cast":"courtyard/spells/SPELLSTUN.wav"
+		},
+ 
+		"levels" : {
+			"base":{
+				"cost": 0,
+				"range": "0",
+				"power": 10,
+				"aiValue": 70,
+				"description": "",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"notActive" : {
+						"val" : 0,
+						"type" : "NOT_ACTIVE",
+						//"subtype" : "spell.paralyze",
+						"duration" : [
+							"N_TURNS", "UNTIL_BEING_ATTACKED"
+						],
+						"turns": 2,
+					},
+					"noRetaliation" : {
+						"val" : 0,
+						"type" : "NO_RETALIATION",
+						"duration" : [
+							"N_TURNS", "UNTIL_BEING_ATTACKED"
+						],
+						"turns": 2,
+					}
+				}
+			},
+			"none":{
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"notActive" : {
+						"val" : 0,
+						"type" : "NOT_ACTIVE",
+						//"subtype" : "spell.paralyze",
+						"duration" : [
+							"N_TURNS", "UNTIL_BEING_ATTACKED"
+						],
+						"turns": 2,
+					},
+					"noRetaliation" : {
+						"val" : 0,
+						"type" : "NO_RETALIATION",
+						"duration" : ["N_TURNS"],
+						"turns": 2,
+					}
+				}
+			},	
+			"basic":{
+			},	
+			"advanced":{
+			},	
+			"expert":{
+			},			
+		},
+	}
+ 
+}

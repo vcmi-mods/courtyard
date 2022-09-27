@@ -1,0 +1,74 @@
+{
+	"homunculus" : {
+		"abilities" : {
+			"regeneration" : { "type" : "HP_REGENERATION", "val" : 7, "subtype" : 1 },
+		},
+		
+		"advMapAmount" : { "max" : 30, "min" : 12 },
+		"aiValue" : 127,
+		"attack" : 8,
+		"cost" : { "gold" : 100 },
+		"damage" : { "max" : 4, "min" : 1 },
+		"defense" : 4,
+		"faction" : "courtyard",
+		"fightValue" : 135,
+		"graphics" : {
+			"animation" : "courtyard/battle/CHomunculus.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.25 },
+			"iconLarge" : "courtyard/icons/units/IcHomun101",
+			"iconSmall" : "courtyard/icons/units/IsHomun101",
+			"map" : "courtyard/map/lvl6unit.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 8,
+		"hitPoints" : 16,
+		"level" : 2,
+		"name" : { "plural" : "Homunculi", "singular" : "Homunculus" },
+		"sound" : {
+			"attack" : "courtyard/lvl5/HomunATTK.wav",
+			"defend" : "courtyard/lvl5/HomunDFND.wav",
+			"killed" : "courtyard/lvl5/HomunDEAD.wav",
+			"move" : "courtyard/lvl5/HomunMOVE.wav",
+			"wince" : "courtyard/lvl5/HomunWNCE.wav"
+		},
+		"speed" : 5,
+		"upgrades" : [ "gildedHomunculus" ]
+	},
+
+
+
+	"gildedHomunculus" : {
+		"abilities" : {
+			"regeneration" : { "type" : "HP_REGENERATION", "val" : 10, "subtype" : 1 },
+			"increasedSpellDamage" : { "type" : "SPELL_DAMAGE", "propagator" : "HERO", "val" : 15 }
+		},
+		"advMapAmount" : { "max" : 30, "min" : 12 },
+		"aiValue" : 205,
+		"attack" : 9,
+		"cost" : { "gold" : 155 },
+		"damage" : { "max" : 4, "min" : 3 },
+		"defense" : 6,
+		"faction" : "courtyard",
+		"fightValue" : 182,
+		"graphics" : {
+			"animation" : "courtyard/battle/CSHomuncul.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.25 },
+			"iconLarge" : "courtyard/icons/units/IcHomun102",
+			"iconSmall" : "courtyard/icons/units/IsHomun102",
+			"map" : "courtyard/map/lvl6unitup.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 8,
+		"hitPoints" : 20,
+		"level" : 2,
+		"name" : { "plural" : "Gilded Homunculi", "singular" : "Gilded Homunculi" },
+		"sound" : {
+			"attack" : "courtyard/lvl5/HomunATTK.wav",
+			"defend" : "courtyard/lvl5/HomunDFND.wav",
+			"killed" : "courtyard/lvl5/HomunDEAD.wav",
+			"move" : "courtyard/lvl5/HomunMOVE.wav",
+			"wince" : "courtyard/lvl5/HomunWNCE.wav"
+		},
+		"speed" : 5,
+	}
+}

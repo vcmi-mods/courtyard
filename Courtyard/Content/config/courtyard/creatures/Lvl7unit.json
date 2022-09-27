@@ -1,0 +1,83 @@
+{
+	"jabberwock" : {
+		"abilities" : {
+			"basicSlayer" : { "type" : "KING2" },
+			"canFly" : { "type" : "FLYING" },
+		},
+		"advMapAmount" : { "max" : 10, "min" : 4 },
+		"aiValue" : 4419,
+		"attack" : 19,
+		"cost" : { "gold" : 2000 },
+		"damage" : { "max" : 40, "min" : 30 },
+		"defense" : 15,
+		"doubleWide" : true,
+		"faction" : "courtyard",
+		"fightValue" : 3251,
+		"graphics" : {
+			"animation" : "courtyard/battle/CJabber.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "courtyard/icons/units/IcJabber101",
+			"iconSmall" : "courtyard/icons/units/IsJabber101",
+			"map" : "courtyard/map/lvl7unit.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 160,
+		"level" : 7,
+		"name" : { "plural" : "Jabberwocks", "singular" : "Jabberwock" },
+		"sound" : {
+			"attack" : "courtyard/lvl7/JabberATTK.wav",
+			"defend" : "courtyard/lvl7/JabberDFND.wav",
+			"killed" : "courtyard/lvl7/JabberDEAD.wav",
+			"move" : "courtyard/lvl7/JabberMOVE.wav",
+			"wince" : "courtyard/lvl7/JabberWNCE.wav"
+		},
+		"speed" : 9,
+		"upgrades" : [ "monstrousJabberwock" ]
+	},
+	
+	
+	"monstrousJabberwock" : {
+		"abilities" : {
+			"basicSlayer" : { "type" : "KING2" },
+			"canFly" : { "type" : "FLYING" },
+			"fear" : { "type" : "FEAR" },
+			"decimation" : 
+			{ 
+				"type" : "DESTRUCTION",
+				"subtype" : 0,
+				"val" : 25,
+				"addInfo" : 10
+			}
+		},
+		"advMapAmount" : { "max" : 8, "min" : 3 },
+		"aiValue" : 8076,
+		"attack" : 27,
+		"cost" : { "gold" : 4500, "mercury" : 2 },
+		"damage" : { "max" : 45, "min" : 35 },
+		"defense" : 25,
+		"doubleWide" : true,
+		"faction" : "courtyard",
+		"fightValue" : 5830,
+		"graphics" : {
+			"animation" : "courtyard/battle/CJbbrwk.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "courtyard/icons/units/IcJabber102",
+			"iconSmall" : "courtyard/icons/units/IsJabber102",
+			"map" : "courtyard/map/lvl7unitup.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 245,
+		"level" : 7,
+		"name" : { "plural" : "Monstrous Jabberwocks", "singular" : "Monstrous Jabberwock" },
+		"sound" : {
+			"attack" : "courtyard/lvl7/JabberATTK.wav",
+			"defend" : "courtyard/lvl7/JabberDFND.wav",
+			"killed" : "courtyard/lvl7/JabberDEAD.wav",
+			"move" : "courtyard/lvl7/JabberMOVE.wav",
+			"wince" : "courtyard/lvl7/JabberWNCE.wav"
+		},
+		"speed" : 13,
+	}
+}

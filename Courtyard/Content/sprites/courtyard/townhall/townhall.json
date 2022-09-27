@@ -1,0 +1,61 @@
+{ "basepath" : "courtyard/townhall/",
+	"images" :
+	[
+		{ "frame" : 44, "file" : "castle1" },
+		
+		{ "frame" : 0, "file" : "guild1" },
+		{ "frame" : 1, "file" : "guild2" },
+		{ "frame" : 2, "file" : "guild3" },
+		{ "frame" : 3, "file" : "guild4" },
+		{ "frame" : 4, "file" : "guild5" },
+		
+		{ "frame" : 5, "file" : "tavern" },
+		
+		{ "frame" : 7, "file" : "castle1" },
+		{ "frame" : 8, "file" : "castle2" },
+		{ "frame" : 9, "file" : "castle3" },
+		
+		{ "frame" : 10, "file" : "hall1" },
+		{ "frame" : 11, "file" : "hall2" },
+		{ "frame" : 12, "file" : "hall3" },
+		{ "frame" : 13, "file" : "hall4" },
+
+		{ "frame" : 14, "file" : "market" },
+		{ "frame" : 15, "file" : "silo" },
+
+		{ "frame" : 16, "file" : "blacksmith" },
+		
+		{ "frame" : 21, "file" : "spec1" },
+		{ "frame" : 22, "file" : "spec2" },
+		{ "frame" : 23, "file" : "spec3" },
+		
+		{ "frame" : 26, "file" : "grail" },
+		
+		
+		{ "frame" : 30, "file" : "lv1" },
+		{ "frame" : 37, "file" : "lv1up" },
+		{ "frame" : 18, "file" : "lv1hr" },
+		{ "frame" : 19, "file" : "lv1hrup" },		
+		
+		{ "frame" : 31, "file" : "lv2" },
+		{ "frame" : 38, "file" : "lv2up" },
+		
+		{ "frame" : 32, "file" : "lvl3un1" },
+		{ "frame" : 39, "file" : "lvl3up1" },
+		
+		{ "frame" : 33, "file" : "lv4" },
+		{ "frame" : 40, "file" : "lv4up" },
+		
+		{ "frame" : 34, "file" : "lv5" },
+		{ "frame" : 41, "file" : "lv5up" },		
+		{ "frame" : 48, "file" : "lv5upa" },
+		
+		{ "frame" : 35, "file" : "lvl6un1" },
+		{ "frame" : 42, "file" : "lvl6up1" },	
+		{ "frame" : 24, "file" : "lvl6hr1" },	
+
+		{ "frame" : 36, "file" : "lv7" },
+		{ "frame" : 43, "file" : "lv7up" },		
+		
+	]
+}

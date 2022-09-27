@@ -1,0 +1,87 @@
+{
+	"vinesRevive" : {
+		"type": "ability",
+		"name": "Regrowth",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"targetType": "CREATURE",
+		"level": 5,
+		"power": 1, //duration spellpower=turns
+		"defaultGainChance": 0, 
+		"gainChance": {},
+		"animation":{
+			"affect":["courtyard/spells/vinesRevive/SP_SYMBIOSIS.def"]
+		},
+		"flags" : 
+		{
+			"positive": true, 
+			"rising" : true
+		},
+		"targetCondition" : {
+			"anyOf" : {
+				"courtyard:creature.tangleVine" : "absolute",
+				"courtyard:creature.strangleVine" : "absolute"
+			}
+		},
+		"sounds": {
+			"cast": "RESURECT"
+		},
+		"graphics":
+		{
+			"iconBook": "courtyard/spells/Pacifism/Pacifism_book1",
+			"iconEffect": "courtyard/spells/Pacifism/Pacifism_effect1",
+			"iconScroll": "courtyard/spells/Pacifism/Pacifism_scroll1",
+			"iconScenarioBonus": "courtyard/spells/Pacifism/Pacifism_bonus1",
+		},
+		"levels" : {
+			"base":{
+				"range" : "X",
+				"targetModifier":{"smart":true},
+				"aiValue": 20, //don't know what it means
+				"cost": 0, 
+				"description": "{Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +25.",
+				"power": 8,
+				"battleEffects":{
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"resurrect",
+						"healPower":"oneBattle",
+						"minFullUnits" : 1
+					},
+					"cure":{
+						"type":"core:dispel",
+						"indirect": true,
+						"optional":true,
+						"dispelNegative":true,
+						"dispelNeutral":false,
+						"dispelPositive":false
+					}
+				}
+			},
+			"none":
+			{
+				"cost" : 0
+			},
+			"basic":
+			{	 
+				"description": "{Basic Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +25.",
+				"power": 10
+			},
+			"advanced":
+			{	 
+				"description": "{Advaced Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +75.",
+				"power": 12
+			},
+			"expert":
+			{	 
+				"description": "{Expert Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +125.",
+				"power": 14
+			}
+		}
+	}
+}

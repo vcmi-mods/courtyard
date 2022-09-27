@@ -1,0 +1,34 @@
+{
+	"04dizheel" : {
+		"army" : [
+			{ "creature" : "cupid", "max" : 18, "min" : 10 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+			{ "creature" : "fireNewt", "max" : 5, "min" : 3 }
+		],
+		"class" : "aristocrat",
+		"female" : true,
+		"images" : {
+			"large" : "courtyard/heroes/Dizheel/portraitlarge.png",
+			"small" : "courtyard/heroes/Dizheel/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Dizheel/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Dizheel/specsmall1.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "diplomacy" }, { "level" : "basic", "skill" : "logistics" } ],
+		"specialty" : {
+			"bonuses" : {
+				"diplomacy" : {
+					"subtype" : "skill.diplomacy",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					 "updater" : {
+					   "parameters" : [ 5 ],
+					   "type" : "GROWS_WITH_LEVEL"
+				   }
+					
+				}
+			}
+		},
+
+	}
+}

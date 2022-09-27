@@ -1,0 +1,32 @@
+{
+	"13dictamnus" : {
+		"army" : [
+			{ "creature" : "cupid", "max" : 18, "min" : 10 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+			{ "creature" : "fireNewt", "max" : 5, "min" : 3 }
+		],
+		"class" : "philosopher",
+		"female" : false,
+		"images" : {
+			"large" : "courtyard/heroes/Dictamnus/portraitlarge.png",
+			"small" : "courtyard/heroes/Dictamnus/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Dictamnus/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Dictamnus/specsmall1.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "fireMagic" }, { "level" : "basic", "skill" : "sorcery" } ],
+		"spellbook" :
+		[
+			"inferno", "immolationCurse"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"fireMagic" : {
+					"type" : "FIRE_SPELL_DMG_PREMY",
+					"val" : 5,
+					"valueType" : "BASE_NUMBER",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+	}
+}

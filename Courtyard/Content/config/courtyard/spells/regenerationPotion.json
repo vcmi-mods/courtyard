@@ -1,0 +1,137 @@
+{
+	
+	
+	"regenerationPotion":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Regeneration Potion",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 1,
+		"power": 1,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":["courtyard/spells/Potions/Regeneration/regenPotion.def"]
+		},
+ 
+		"flags" : { "positive": true, "special" : true },
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "normal",
+				"bonus.GARGOYLE" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "normal"
+			}
+		},
+		
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "courtyard/spells/Potions/Regeneration/regenP_book1",
+			"iconEffect": "courtyard/spells/Potions/Regeneration/regenP_effect1",
+			"iconScroll": "courtyard/spells/Potions/Regeneration/regenP_scroll1",
+			"iconScenarioBonus": "courtyard/spells/Potions/Regeneration/regenP_bonus1",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "courtyard/spells/REGENPOT.wav"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 0,
+				"range": "0",
+				"power": 1,
+				"aiValue": 70,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Regeneration Potion}\n\nGrants unit regeneration ability (5 points/turn).",
+	 
+	 
+				"effects":
+				{
+					"regeneration" : {
+						"val" : 5,
+						"type" : "HP_REGENERATION",
+						"subtype" : 1,
+						"duration": "N_TURNS",
+					},
+					"potionMarkerEffect" :
+					{"type" : "SPECIFIC_SPELL_DAMAGE","subtype" : "spell.potionSupply",
+						"val" : 0, "duration" : "N_TURNS",
+					}
+					
+				}
+			},
+			"basic":
+			{
+				"description": "{Concentrated Regeneration Potion}\n\nGrants unit regeneration ability (15 points/turn).",
+				"effects":
+				{
+					"regeneration" : { "type" : "HP_REGENERATION", "val" : 15, "duration" : "N_TURNS", },
+					"potionMarkerEffect" :
+					{"type" : "SPECIFIC_SPELL_DAMAGE","subtype" : "spell.potionSupply",
+						"val" : 0, "duration" : "N_TURNS",
+					},
+					
+				},
+				
+			},
+			"advanced":
+			{
+				"description": "{Distilled Regeneration Potion}\n\nGrants unit regeneration ability (30 points/turn).",
+				"effects":
+				{
+					"regeneration" : { "type" : "HP_REGENERATION", "val" : 30, "duration" : "N_TURNS",},
+					"potionMarkerEffect" :
+					{"type" : "SPECIFIC_SPELL_DAMAGE","subtype" : "spell.potionSupply",
+						"val" : 0, "duration" : "N_TURNS",
+					}
+					
+				},
+
+			},
+			"expert":
+			{
+				"description": "{Supreme Regeneration Potion}\n\nGrants unit complete regeneration ability.",
+				"effects":
+				{
+					"regeneration" : {
+						"val" : 0,
+						"type" : "FULL_HP_REGENERATION",
+						"subtype" : 0,
+						"duration" : "N_TURNS",
+					},
+					"potionMarkerEffect" :
+					{"type" : "SPECIFIC_SPELL_DAMAGE","subtype" : "spell.potionSupply",
+						"val" : 0, "duration" : "N_TURNS",
+					}
+					
+				}	
+			}
+		}
+	}
+ 
+}

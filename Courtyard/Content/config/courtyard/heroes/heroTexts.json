@@ -1,0 +1,186 @@
+{
+	
+	"01caballe" : {
+		"texts" : {
+			"biography" : "In her slumbersome dreams, young lady Caballe often finds herself at a feast with beverages of fantastical properties. Although she never tasted any of them herself, she always wakes up with precise knowledge of how to create such drinks.",
+			"name" : "Caballe",
+			"specialty" : {
+				"description" : "{Potion Benefits}\r\n\r\nCreatures of {good alignment} gain +1 Morale when under effect of {Potions}. {Neutral alignment} creatures gain +1 luck instead.",
+				"name" : "Potion Benefits",
+				"tooltip" : "Special Bonus: Potion Benefits"
+			}
+		}
+	},	
+	"04dizheel" : {
+		"texts" : {
+			"biography" : "The noblewoman known as Dizheel is a charismatic leader. Wherever she appears, it is not rare for common folk, mercenaries and even lesser lords to join her cause whatever it might be.",
+			"name" : "Dizheel",
+			"specialty" : {
+				"description" : "Secondary Skill Bonus: Diplomacy",
+				"name" : "Diplomacy",
+				"tooltip" : "{Diplomacy}\r\n\r\nReceives a 1% increased chance of wandering creatures joining hero's army for each 4th level attained."
+			}
+		}
+	},
+	
+	"15zazzerpan" : {	
+		"texts" : {
+			"biography" : "The only thing more legendary than Zazzerpan's magic skill was his complacency. When he was defeated by a student in a magic duel, he revoked all his academic titles, and fled Bracada abruptly in shame. Among Larnians he still insists not to be called professor, as he has not yet recovered from his sense of failure.",
+			"name" : "Zazzerpan",
+			"specialty" : {
+				"description" : "{Negate Immunities}\r\n\r\nAll creatures on the battlefield lose their natural spell immunities.",
+				"name" : "Negate Immunities",
+				"tooltip" : "Magic Bonus: Negate Immunities"
+			}
+		}
+	},
+	"08audred" : {	
+		"texts" : {
+			"biography" : "This prodigy alchemist, while still too young to even attend magical university, turned to research in artifical creation of life prohibited in Bracada. After one horrible accident he blames on having to work in secrecy, he fled to Larnia to be quickly accepted as the lead Homunculi researcher.",
+			"name" : "Audred",
+			"specialty" : {
+				"description" : "{Homunculi}\r\n\r\nIncreases the Attack and Defense skills of any Homunculi and Gilded Homunculi for each level attained after 2nd level. Additionally, they get a permanent +1 Speed bonus.",
+				"name" : "Homunculi",
+				"tooltip" : "Creature Bonus: Homunculi"
+			}
+		}
+	},
+	"00auk" : {	
+		"texts" : {
+			"biography" : "Governor Auk likes pies.",
+			"name" : "Auk",
+			"specialty" : {
+			"description" : "{Dodos}\r\n\r\nIncreases Speed of {any kind of Dodos} by 1, {Battle Dodos} Magic Resistance Aura has doubled efficiency and and they gain 33% chance to resist hostile spells and {Grand Dodos} gain +2 Morale.",
+				"name" : "Dodos",
+				"tooltip" : "Creature Bonus: Dodos"
+			}
+		}
+	},	
+	"13dictamnus" : {	
+		"texts" : {
+			"biography" : "When asked why plantfolk would use conjured flames, Dictamnus always asks in return if fire is any less deadly to humans and if it ever stopped them from wielding it. He had sworn to his clan to fight any invasive species threatening Larnia, especially floral ones. And for that, fire is especially useful.",
+			"name" : "Dictamnus",
+			"specialty" : {
+				"description" : "{Offensive Fire Magic}\r\n\r\nDamaging fire spells are 5% more efficient per level.",
+				"name" : "Offensive Fire Magic",
+				"tooltip" : "Spell Damage Bonus: Fire Magic"
+			}
+		}
+	},	
+	"02kanim" : {	
+		"texts" : {
+			"biography" : "Kanim once was a highwayman robbing elves on the contested lands of Harmondale, excusing himself with abhorrent humanist ideology. This changed when he was ambushed by Kreegans only to be saved by despised elves, an event that changed his outlook. Today many reformed fugitives from Jadame join his mercenary company.",
+			"name" : "Kanim",
+			"specialty" : {
+				"description" : "{Arquebusiers}\r\n\r\nIncreases the Attack and Defense skills of any Arquebusiers and Musketeers for each level attained after 4th level. Additionally, they get a permanent +1 Speed bonus and 5 additional shots.",
+				"name" : "Arquebusiers",
+				"tooltip" : "Creature Bonus: Arquebusiers"
+			}
+		}
+	},	
+	"11nefefareen" : {	
+		"texts" : {
+			"biography" : "Given her old age even for an efreet, it was surprising that Nefefareen travelled beyond the Plane of Fire, especially that she wasn't interested in wars waged by Devils. It is not known what is the purpose of her meddling in Larnia, but she's the one who popularized keeping Salamanders as pets and servants.",
+			"name" : "Nefefareen",
+			"specialty" : {
+				"description" : "{Salamander Fire Shield}\r\n\r\nSalamanders and Shiny Salamanders are susceptible to positive fire spells. When under effect of {Fire Shield} they gain +2 speed and damage, positive morale and 33% chance to cast Immolation after attack.",
+				"name" : "Salamander Synergy",
+				"tooltip" : "Special Bonus: Salamander Synergy"
+
+			}
+		}
+	},	
+	"06ophrys" : {	
+		"texts" : {
+			"biography" : "Other mandrakes consider Ophrys' voice to be quiet and weak and they do not regard her highly. This however makes her voice bearable to human ears, allowing her to coordinate efforts between them and her capricious kin.",
+			"name" : "Ophrys",
+			"specialty" : {
+			"description" : "{Mandrakes}\r\n\r\nIncreases health of Mandrakes and Regal Mandrakes by 5 points. Additionally, their {Vines} gain +1 Speed bonus and have Preemptive Retaliation.",
+				"name" : "Mandrakes",
+				"tooltip" : "Creature Bonus: Mandrakes"
+
+			}
+		}
+	},
+	"05raphus" : {	
+		"texts" : {
+			"biography" : "Upon finding himself unsuccessful in The School of Sorcery in Bracada, Raphus abandoned his formal education. However the practical skill in golem enchanting and his creativity made him a renowned mage-artist in Larnia, popular for the expressive living statues he sculpts.",
+			"name" : "Raphus",
+			"specialty" : {
+				"description" : "{Cupids}\r\n\r\nIncreases the Attack and Defense skills of any Marble and Granite Cupids for each level attained after 2th level and they get a permanent +1 Speed bonus. Additionally can cast {Reconstruction} at expert efficiency.",
+				"name" : "Marble Cupids",
+				"tooltip" : "Creature Bonus: Marble Cupids"
+
+			}
+		}
+	},
+	
+	"10vogundessi" : {	
+		"texts" : {
+			"biography" : "When alchemists were unsuccessful prying out secrets of Vogundessi's craft from him, they announced him a fraud to ruin his reputation and sentenced to shameful execution. He escaped this sordid fate supposedly by striking a deal with devils, but barely anyone believe these accusations in Larnia.",
+			"name" : "Vogundessi",
+			"specialty" : {
+				"description" : "{Gold}\r\n\r\nIncreases kingdom's gold income by 50 per day for each level.",
+				"name" : "Gold",
+				"tooltip" : "Resource Bonus: Gold"
+			}
+		}
+	},
+		
+	"14zana" : {	
+		"texts" : {
+			"biography" : "Nobody in their sane mind would believe Zana's improbable stories of travels to places like Vori or Fiery Moon, if not for a fact that she has uncanny habit of being found whimsically treading places most unexpected, and she has extensive knowledge of many secret areas. This granted her the position of Larnia's Royal Cartographer.",
+			"name" : "Zana",
+			"specialty" : {
+				"description" :"{Dimension Door}\r\n\r\nStarts with Dimension Door spell.",
+				"name" : "Dimension Door",
+				"tooltip" : "Spell Bonus: Dimension Door"
+			}
+		}
+	},
+	"03lumiere" : {	
+		"texts" : {
+			"biography" : "Lumiere had to abandon luxury of elven nobility and live among hunters of Tularean Forest to escape war. She quickly learned the art of guerilla warfare, impressing even experienced rangers with her elaborate traps. Despite mingling back into the high society when she left to Larnia, Lumiere still has no qualms using dirty tricks on the battlefield.",
+			"name" : "Lumiere",
+			"specialty" : {
+				"description" : "{Battlefield Impediments}\r\n\r\n{Arquebusiers} and {Musketeers} randomly place {Land Mines}, {Quicksands} or {Force Fields} upon the battlefield every few rounds.",
+				"name" : "Battlefield Impediments",
+				"tooltip" : "Special Bonus: Battlefield Impediments"
+
+			}
+		}
+	},	
+	"09migdigravia" : {	
+		"texts" : {
+			"biography" : "Despite her gentle and warm perosnality, Migdigvarvia's pasttime involves designing contraptions of horrid curses. When she was denied a Warlock title in Nighon, she simply left in disapproval of its culture. In Larnia she is admired for her carefree attitude, even if at the same time feared for her dreadful devices.",
+			"name" : "Migdigravia",
+			"specialty" : {
+			"description" : "{Camera Obscura}\r\n\r\nGrants the Camera Obscura 3 additional spell casts, and allows to revive dead units as {Ephemeral Apparitions}..",
+				"name" : "Camera Obscura",
+				"tooltip" : "Special Bonus: Camera Obscura"
+			}
+		}
+	},
+	"12hanester" : {	
+		"texts" : {
+			"biography" : "Hanester initially was not interested in much beside researching philosopher stone in peace, until she realized how easily it can bring out the worst qualities of people. Seeing the increading greed and madness over this precius mineral, this bright scientist decided to intervene.",
+			"name" : "Hanester",
+			"specialty" : {
+				"description" : "{Interference}\r\n\r\nDecreases enemy heroes spell power by 15%, decreased further by 1% for each 2 levels.",
+				"name" : "Interference",
+				"tooltip" : "Special Bonus: Interference"
+			}
+		}
+	},
+	"07teophrast" : {	
+		"texts" : {
+			"biography" : "Unlike most of the dark elves of Jadame Theophrast didn't arrive as a refugee or exile. This industrious man sees Larnia for what it is, growing settlements that need to be built and expanded, and he is the one who can provide the building materials cheap thanks to his trade contacts.",
+			"name" : "Teophrast",
+			"specialty" : {
+				"tooltip" : "Resource Bonus: Wood and Ore",
+				"name" : "Wood and Ore",
+				"description" : "{Wood and Ore}\r\n\r\nIncreases kingdom's wood and ore production by 1 per day each 7 levels."
+			}
+		}
+	},	
+}

@@ -1,0 +1,46 @@
+{
+	"06ophrys" : {
+		"army" : [
+			{ "creature" : "cupid", "max" : 18, "min" : 10 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+			{ "creature" : "fireNewt", "max" : 5, "min" : 3 }
+		],
+		"class" : "aristocrat",
+		"female" : true,
+		"images" : {
+			"large" : "courtyard/heroes/Ophrys/portraitlarge.png",
+			"small" : "courtyard/heroes/Ophrys/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Ophrys/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Ophrys/specsmall1.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "diplomacy" }, { "level" : "basic", "skill" : "tactics" } ],
+		"specialty" : 
+		{
+			"bonuses":{
+				"mandrakeHealth":{
+				"type" : "STACK_HEALTH",
+				"val" : 5,
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+					"parameters": [ "mandrake", true ]
+				} ],
+				},
+				"vinesSpeed":{
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+					"parameters": [ "tangleVine", true ]
+				} ],
+				},
+				"vinesFirstStrike":{
+				"type" : "FIRST_STRIKE",
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+					"parameters": [ "tangleVine", true ]
+				} ],
+				},
+			}
+		},
+	}
+}

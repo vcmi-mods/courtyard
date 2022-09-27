@@ -1,0 +1,94 @@
+{
+	"cupid" : {
+		"abilities" : { 
+			
+			"canFly" :
+				{ "type" : "FLYING" },
+			"immuneToMind" : 
+				{ "type" : "MIND_IMMUNITY" },
+			"nonLiving" : 
+				{ "type" : "GARGOYLE" },
+		},
+		"advMapAmount" : { "max" : 40, "min" : 15 },
+		"aiValue" : 75,
+		"attack" : 3,
+		"cost" : { "gold" : 70 },
+		"damage" : { "max" : 2, "min" : 1 },
+		"defense" : 6,
+		"faction" : "courtyard",
+		"fightValue" : 70,
+		"graphics" : {
+			"animation" : "courtyard/battle/CCupid.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "courtyard/icons/units/IcCupid101",
+			"iconSmall" : "courtyard/icons/units/IsCupid101",
+			"map" : "courtyard/map/lvl2unit.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 12,
+		"horde" : 6,
+		"hasDoubleWeek" : true,
+		"hitPoints" : 8,
+		"level" : 1,
+		"name" : { "plural" : "Marble Cupids", "singular" : "Marble Cupid" },
+		"sound" : {
+			"attack" : "courtyard/lvl2/CupidATTK.wav",
+			"defend" : "courtyard/lvl2/CupidDFND.wav",
+			"killed" : "courtyard/lvl2/CupidDEAD.wav",
+			"move" : "courtyard/lvl2/CupidMOVE.wav",
+			"wince" : "courtyard/lvl2/CupidWNCE.wav"
+		},
+		"speed" : 6,
+		"upgrades" : [ "graniteCupid" ]
+	},
+
+
+
+	"graniteCupid" : {
+		"abilities" : { 
+			
+			"canFly" :
+				{ "type" : "FLYING" },
+			"immuneToMind" : 
+				{ "type" : "MIND_IMMUNITY" },
+			"nonLiving" : 
+				{ "type" : "GARGOYLE" },
+			"stun" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.stunAbility",
+					"val" : 20,
+					"addInfo" : 2002,
+				},				
+		},
+		"advMapAmount" : { "max" : 35, "min" : 15 },
+		"aiValue" : 110,
+		"attack" : 3,
+		"cost" : { "gold" : 95 },
+		"damage" : { "max" : 3, "min" : 1 },
+		"defense" : 10,
+		"faction" : "courtyard",
+		"fightValue" : 110,
+		"graphics" : {
+			"animation" : "courtyard/battle/CAmor.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "courtyard/icons/units/IcCupid102",
+			"iconSmall" : "courtyard/icons/units/IsCupid102",
+			"map" : "courtyard/map/lvl2unitup.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 12,
+		"horde" : 6,
+		"hitPoints" : 11,
+		"level" : 1,
+		"name" : { "plural" : "Granite Cupids", "singular" : "Granite Cupid" },
+		"sound" : {
+			"attack" : "courtyard/lvl2/CupidATTK.wav",
+			"defend" : "courtyard/lvl2/CupidDFND.wav",
+			"killed" : "courtyard/lvl2/CupidDEAD.wav",
+			"move" : "courtyard/lvl2/CupidMOVE.wav",
+			"wince" : "courtyard/lvl2/CupidWNCE.wav"
+		},
+		"speed" : 9,
+	}
+}

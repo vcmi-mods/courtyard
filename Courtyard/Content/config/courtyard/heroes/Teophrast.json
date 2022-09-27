@@ -1,0 +1,39 @@
+{
+	"07teophrast" : {
+		"army" : [
+			{ "creature" : "cupid", "max" : 18, "min" : 10 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+			{ "creature" : "fireNewt", "max" : 5, "min" : 3 }
+		],
+		"class" : "aristocrat",
+		"images" : {
+			"large" : "courtyard/heroes/Teophrast/portraitlarge.png",
+			"small" : "courtyard/heroes/Teophrast/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Teophrast/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Teophrast/specsmall1.png"
+		},
+		"skills" : [ { "level" : "advanced", "skill" : "estates" } ],
+		"specialty" : {
+			"bonuses" : {
+				"wood" : {
+					"subtype" : "resource.wood",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1,
+					   "updater" : {
+					   "parameters" : [ 3 ],
+					   "type" : "GROWS_WITH_LEVEL"
+						}
+				},
+				"ore" : {
+					"subtype" : "resource.ore",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1,
+					   "updater" : {
+					   "parameters" : [ 3 ],
+					   "type" : "GROWS_WITH_LEVEL"
+						}
+				}
+			}
+		},
+	}
+}

@@ -1,0 +1,115 @@
+{
+	
+	
+	"reconstruction":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Reconstruction",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 3,
+		"power": 30,
+		
+		"defaultGainChance": 5, 
+		"gainChance":
+		{
+
+		"courtyard" : 12,
+		"tower" : 20,
+		"conflux" : 15
+		},
+
+ 
+		"animation":{
+			"affect":["courtyard/spells/Reconstruction/Reconstruction.def"]
+		},
+ 
+		"flags" : {	"positive": true, "rising" : true},
+"targetCondition" : {
+			"noneOf" : { "bonus.UNDEAD" : "absolute" },
+			"anyOf" : {	"bonus.NON_LIVING" : "absolute", "bonus.GARGOYLE" : "absolute" },
+		},
+ 
+		"graphics":
+		{
+			
+			"iconBook": "courtyard/spells/reconstruction/Repair_book1",
+			"iconEffect": "courtyard/spells/reconstruction/Repair_effect1",
+			"iconScroll": "courtyard/spells/reconstruction/Repair_scroll1",
+			"iconScenarioBonus": "courtyard/spells/reconstruction/Repair_bonus1",
+		},
+
+		"sounds": {
+			"cast": "courtyard/spells/SPELLRECONSTRUCTION.wav"
+		},
+ 
+		"levels":
+		{
+			"base":{
+				"cost": 11,
+				"range": "0",
+				"power": 30,
+				"aiValue": 70,
+				"battleEffects":{
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"resurrect",
+						"healPower":"oneBattle",
+						"minFullUnits" : 1,
+						"val" : 30,
+					},
+					"cure":{
+						"type":"core:dispel",
+						"indirect": true,
+						"optional":true,
+						"dispelNegative":true,
+						"dispelNeutral":false,
+						"dispelPositive":false
+					}
+				},
+				"targetModifier":{"smart":true}
+			},
+			"none":
+			{
+				"description": "{Reconstruction}\n\nRestores a non-living units to functionality until the end of the battle.",
+			},
+			"basic":
+			{
+				"description": "{Basic Reconstruction}\n\nRestores a non-living units to functionality.",
+				"power": 30,
+				"battleEffects":{
+					"heal":{
+						"healPower":"permanent",
+						"val" : 30,
+					}
+				}
+			},
+			"advanced":{
+				"description": "{Advanced Reconstruction}\n\nRestores a non-living units to functionality.",
+				"power": 50,
+				"battleEffects":{
+					"heal":{
+						"healPower":"permanent",
+						"val" : 50,
+					}
+				}
+			},
+			"expert":{
+				"description": "{Expert Reconstruction}\n\nRestores a non-living unit to functionality.",
+				"power": 70,
+				"battleEffects":{
+					"heal":{
+						"val" : 70,
+					}
+				}
+			}
+		}
+	}
+ 
+}

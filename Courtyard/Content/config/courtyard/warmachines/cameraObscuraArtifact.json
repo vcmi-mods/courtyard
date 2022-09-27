@@ -1,0 +1,24 @@
+{
+	"cameraObscuraArtifact":
+        {
+	"type" : ["HERO"],
+	"warMachine":"cameraObscuraCreature",
+        "class": "MAJOR",
+        "value": 3000,
+        "slot":"MACH1",
+        "text":
+		{
+			"name": "Camera Obscura",
+			"description": "{Camera Obscura}\r\n\r\nThe Camera Obscura allows it to cast {Age} on enemy units.",
+			"event": "You stumble upon a bizarre and mortifying scenery: A bunch of dried up corpses donning fashionable outfits, posed up as in for a family portrait. The painter is nowhere to be seen, and instead of canvas there is a small wooden box with a lens on the easel. You decide to take the device and leave quickly, feeling stares of the dead upon you."
+		},
+		"graphics":
+		{
+			"image": "courtyard/icons/artifacts/Camera_art1",
+			"large": "courtyard/icons/artifacts/Camera_artBonus01",
+			"map"  : "courtyard/map/artCamera.def",
+		}
+	}
+}
+
+

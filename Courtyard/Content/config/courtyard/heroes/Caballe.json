@@ -1,0 +1,39 @@
+{
+	"01caballe" : {
+		"army" : [
+			{ "creature" : "cupid", "max" : 18, "min" : 10 },
+			{ "creature" : "potionCartCreature", "max" : 1, "min" : 1 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+		],
+		"class" : "aristocrat",
+		"female" : true,
+		"images" : {
+			"large" : "courtyard/heroes/Caballe/portraitlarge.png",
+			"small" : "courtyard/heroes/Caballe/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Caballe/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Caballe/specsmall1.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "firstAid" }, { "level" : "basic", "skill" : "tactics" }],
+				"spellbook" : [ "cure" ],
+		"specialty" : {
+			"bonuses" : {
+				"potionMorale":{
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters": [  "allOf", 
+				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters": [ "SPECIFIC_SPELL_DAMAGE", "spell.potionSupply" ] },
+				{ "type" : "CREATURE_ALIGNMENT_LIMITER", "parameters" : [ "good" ] }	],
+				},
+				"potionLuck":{
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters": [  "allOf", 
+				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters": [ "SPECIFIC_SPELL_DAMAGE", "spell.potionSupply" ] },
+				{ "type" : "CREATURE_ALIGNMENT_LIMITER", "parameters" : [ "neutral" ] }	],
+				},
+			}
+		},
+	}
+}

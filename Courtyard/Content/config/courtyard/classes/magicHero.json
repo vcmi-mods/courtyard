@@ -1,0 +1,57 @@
+{
+	"philosopher" : {
+		"affinity" : "magic",
+		"animation" : { "battle" : { "female" : "courtyard/heroes/battleFemalePhilosopher", "male" : "courtyard/heroes/battleMalePhilosopher" } },
+		"commander" : "arquebusier",
+		"defaultTavern" : 4,
+		"faction" : "courtyard",
+		"lowLevelChance" : { "attack" : 30, "defence" : 10, "knowledge" : 20, "spellpower" : 40 },
+		"highLevelChance" : { "attack" : 15, "defence" : 20, "knowledge" : 30, "spellpower" : 35 },
+
+		"mapObject" : { "templates" : { "default" : { "animation" : "courtyard/heroes/CourtMaleMagicMap" } } },
+		"name" : "Philosopher",
+		"primarySkills" : { "attack" : 1, "defence" : 0, "knowledge" : 1, "spellpower" : 3 },
+		"secondarySkills" : {
+			"airMagic" : 4,
+			"archery" : 1,
+			"armorer" : 2,
+			"artillery" : 3,
+			"ballistics" : 1,
+			"diplomacy" : 5,
+			"eagleEye" : 5,
+			"earthMagic" : 6,
+			"estates" : 5,
+			"fireMagic" : 7,
+			"intelligence" : 6,
+			"leadership" : 3,
+			"learning" : 5,
+			"logistics" : 1,
+			"luck" : 3,
+			"mysticism" : 7,
+			"navigation" : 2,
+			"necromancy" : 0,
+			"offence" : 3,
+			"pathfinding" : 1,
+			"resistance" : 2,
+			"scholar" : 8,
+			"scouting" : 0,
+			"sorcery" : 7,
+			"tactics" : 1,
+			"waterMagic" : 4,
+			"wisdom" : 9,
+			"firstAid" : 4
+		},
+		"tavern" : {
+			"castle" : 5,
+			"conflux" : 7,
+			"courtyard" : 8,
+			"dungeon" : 6,
+			"fortress" : 3,
+			"inferno" : 4,
+			"necropolis" : 4,
+			"rampart" : 3,
+			"stronghold" : 2,
+			"tower" : 6
+		}
+	}
+}

@@ -1,0 +1,226 @@
+{
+	
+	
+	"potionSupply":
+	{
+		"type": "ability", 
+		"targetType": "CREATURE", 
+		"name": "Potion Supply", 
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 0,
+		"power": 0,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+		},
+ 
+		"flags" : { "positive": true, "special" : true },
+
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "courtyard/spells/Potions/potSupply1",
+			"iconEffect": "courtyard/spells/Potions/potSupply1",
+			"iconScroll": "courtyard/spells/Potions/potSupply1",
+			"iconScenarioBonus": "courtyard/spells/Potions/potSupply1",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": null
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 0,
+				"range": "0",
+				"power": 10,
+				"aiValue": 70,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				
+				"effects":
+				{
+				"addRegenerationPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.regenerationPotion",
+						"val" : 0
+					},
+					"addWeaponPoisonPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.weaponPoisonPotion",
+						"val" : 0
+					}
+				}
+			},
+			"none":
+			{
+				"description": "",
+				"effects":
+				{
+				"addRegenerationPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.regenerationPotion",
+						"val" : 0
+					},
+					"addWeaponPoisonPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.weaponPoisonPotion",
+						"val" : 0
+					}
+				}
+				
+			},
+			"basic":
+			{ 
+				"description": "", 
+				"effects":
+				{
+					"addRegenerationPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.regenerationPotion",
+						"val" : 1
+					},
+					"addWeaponPoisonPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.weaponPoisonPotion",
+						"val" : 1
+					},
+					"addDragonPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.dragonPotion",
+						"val" : 0
+					}
+				}
+			},
+			"advanced":
+			{
+				"description": "", 
+				"effects":
+				{					
+					"addRegenerationPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.regenerationPotion",
+						"val" : 2
+					},
+					"addWeaponPoisonPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.weaponPoisonPotion",
+						"val" : 2
+					},
+					"addDragonPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.dragonPotion",
+						"val" : 1
+					},
+					
+					
+					"addToughnessPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.toughnessPotion",
+						"val" : 0
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "", 
+				"effects":
+				{
+					"addRegenerationPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.regenerationPotion",
+						"val" : 3
+					},
+				"addWeaponPoisonPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.weaponPoisonPotion",
+						"val" : 3
+					},
+				"addDragonPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.dragonPotion",
+						"val" : 2
+					},
+					"addToughnessPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.toughnessPotion",
+						"val" : 1
+					},					
+					
+					"addEtheralPotion" :
+					{
+						"propagator" : 	"HERO",
+						"sourceType" : "CREATURE_ABILITY",
+						"type" : "SPELL",
+						"subtype" : "spell.etheralPotion",
+						"val" : 0
+					}
+				}
+			}
+		}
+	}
+}

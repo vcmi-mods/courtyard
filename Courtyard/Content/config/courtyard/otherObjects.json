@@ -1,0 +1,35 @@
+{
+	"core:oceanBottle" : {
+		"types" : {
+			"courtyardJournal" : {
+				"name" : "Journal",
+				"sounds": {
+					"visit" : ["STORE"]
+				},
+				"tags":["sign", "journal", "book", "letter"],
+				"aiValue" : 0,				
+				"templates" : {
+					"journal" : { 
+						"animation" : "courtyard/map/other/AJournal",
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VV", "VA" ] 
+					}					
+				}
+			},
+			"courtyardLetter" : {
+				"name" : "Letter",
+				"sounds": {
+					"visit" : ["STORE"]
+				},	
+				"tags":["sign", "journal", "book", "letter"],
+				"aiValue" : 0,
+				"templates" : {			
+					"letter" : { "animation" : "courtyard/map/other/ALetter", 
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : [ "VV", "VA" ]
+					}
+				}
+			}
+		}	
+	}
+}

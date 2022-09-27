@@ -1,0 +1,121 @@
+{
+	
+	
+	"etheralPotion":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Etheral Extract",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 4,
+		"power": 45,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":["courtyard/spells/Potions/Etheral/etheralPotion.def"]
+		},
+ 
+		"flags" : { "positive": true, "special" : true },
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "normal",
+				"bonus.GARGOYLE" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "normal"
+			}
+		},
+
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "courtyard/spells/Potions/Etheral/etheralP_book1",
+			"iconEffect": "courtyard/spells/Potions/Etheral/etheralP_effect1",
+			"iconScroll": "courtyard/spells/Potions/Etheral/etheralP_scroll1",
+			"iconScenarioBonus": "courtyard/spells/Potions/Etheral/etheralP_bonus1",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "courtyard/spells/ETHERALPOT.wav"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 0,
+				"range": "0",
+				"power": 1,
+				"aiValue": 70,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Supreme Etheral Extract}\n\nGrants unit ability to fly and 20% damage reduction from spells and attacks.",
+	 
+	 
+				"effects":
+				{
+					"flying" : {
+						"type" : "FLYING",
+						"subtype" : 0,
+						"duration": "N_TURNS",
+					},
+					"damageReduction" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"subtype" : 0,
+						"val" : 20,
+						"duration": "N_TURNS",
+					},
+					"damageReductionShots" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"subtype" : 1,
+						"val" : 20,
+						"duration": "N_TURNS",
+					},
+					"magicDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : -1,
+						"val" : 20,
+						"duration": "N_TURNS",
+					},
+					"potionMarkerEffect" :
+					{"type" : "SPECIFIC_SPELL_DAMAGE","subtype" : "spell.potionSupply",
+						"val" : 0,
+						"duration": "N_TURNS",
+					}
+					
+				}
+			},
+			"basic":
+			{
+				"description": "{Supreme Etheral Extract}\n\nGrants unit ability to fly and 20% damage reduction from spells and attacks.",
+				},
+			"advanced":
+			{
+				"description": "{Supreme Etheral Extract}\n\nGrants unit ability to fly and 20% damage reduction from spells and attacks.",
+				},
+			"expert":
+			{
+				"description": "{Supreme Etheral Extract}\n\nGrants unit ability to fly and 20% damage reduction from spells and attacks.",
+				}
+		}
+	}
+ 
+}

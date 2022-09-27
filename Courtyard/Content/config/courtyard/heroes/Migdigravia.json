@@ -1,0 +1,45 @@
+{
+	"09migdigravia" : {
+		"army" : [
+			{ "creature" : "cupid", "max" : 18, "min" : 10 },
+			{ "creature" : "cameraObscuraCreature", "max" : 1, "min" : 1 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+
+		],
+		"class" : "philosopher",
+		"female" : true,
+		"images" : {
+			"large" : "courtyard/heroes/Migdigravia/portraitlarge.png",
+			"small" : "courtyard/heroes/Migdigravia/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Migdigravia/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Migdigravia/specsmall1.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "wisdom" }, { "level" : "basic", "skill" : "sorcery" } ],
+		"spellbook" :
+		[
+			"blind",
+		],
+		"specialty" : {
+				"bonuses": {
+				"spellcasts":{
+				"type" : "CASTS",
+				"val": 3,
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+					"parameters": [ "cameraObscuraCreature", true ]
+					} ],
+				},
+			"apparitionSummoning":
+			{
+				"type" : "DAEMON_SUMMONING",
+				"subtype": "creature.apparition",
+				"val": 15,
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+					"parameters": [ "cameraObscuraCreature", true ]
+					} ],
+			},
+			}	
+		}
+	}
+}

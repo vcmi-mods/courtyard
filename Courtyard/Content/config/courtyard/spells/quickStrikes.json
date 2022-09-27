@@ -1,0 +1,145 @@
+{
+	
+	
+	"quickStrikes":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Flurry of Strikes",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"level": 3,
+		"power": 45,
+		
+		"defaultGainChance": 5, 
+		"gainChance":
+		{
+
+		"courtyard" : 15,
+		"inferno" : 10,
+		"tower" : 18,
+		"conflux" : 15,
+		"dungeon" : 20,
+		},
+
+ 
+		"animation":{
+			"affect":["courtyard/spells/RapidStrikes/RapidStrikes.def"]
+		},
+ 
+		"flags" : { "positive": true },
+
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "courtyard/spells/RapidStrikes/quickStrikes_book1",
+			"iconEffect": "courtyard/spells/RapidStrikes/quickStrikes_effect1",
+			"iconScroll": "courtyard/spells/RapidStrikes/quickStrikes_scroll1",
+			"iconScenarioBonus": "courtyard/spells/RapidStrikes/quickStrikes_bonus1",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "courtyard/spells/SPELLFLURRY.wav"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 11,
+				"range": "0",
+				"power": 10,
+				"aiValue": 70,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Flurry of Strikes}\n\nGrants unit additional attack and Preemptive Retaliation, but decreases unit's damage by 30%.",
+	 
+	 
+				"effects":
+				{
+					"decreaseeDamage" : {
+						"val" : -30,
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : 0,
+						"valueType": "PERCENT_TO_BASE",
+						"duration": "N_TURNS",
+
+					},
+					"additionalAttack" : {
+						"type" : "ADDITIONAL_ATTACK",
+						"val" : 1,
+						"valueType": "ADDITIVE_VALUE",
+						"duration" : ["N_TURNS"]
+					},
+					"firstStrike" :
+					{
+						"type" : "FIRST_STRIKE", "duration": "N_TURNS",
+					},
+				}
+			},
+			"basic":
+			{
+				"cost": 9,
+				"description": "{Basic Flurry of Strikes}\n\nGrants unit additional attack and Preemptive Retaliation, but decreases unit's damage by 20%.",
+				"effects":
+				{
+					"decreaseeDamage" : {
+						"val" : -20,
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : 0,
+						"valueType": "PERCENT_TO_BASE",
+						"duration": "N_TURNS",
+
+						},
+					},
+			},
+			"advanced":
+			{
+				"description": "{Advanced Flurry of Strikes}\n\nGrants unit additional attack and Preemptive Retaliation, but decreases unit's damage by 10%.",
+
+				"effects":
+				{
+					"decreaseeDamage" : {
+						"val" : -10,
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : 0,
+						"valueType": "PERCENT_TO_BASE",
+						"duration": "N_TURNS",
+
+					},
+				}
+			},
+			"expert":
+			{
+				"description": "{Expert Flurry of Strikes}\n\nGrants units additional attack and Preemptive Retaliation, but decreases units' damage by 10%.",
+				"cost": 8,
+				"effects":
+				{
+					"decreaseeDamage" : {
+						"val" : -10,
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : 0,
+						"valueType": "PERCENT_TO_BASE",
+						"duration": "N_TURNS",
+
+					},
+				}
+			}
+		}
+	}
+ 
+}

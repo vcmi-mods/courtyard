@@ -1,0 +1,25 @@
+{
+	"08audred" : {
+		"army" : [
+			{ "creature" : "cupid", "max" : 18, "min" : 10 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+		],
+		"class" : "philosopher",
+		"images" : {
+			"large" : "courtyard/heroes/Audred/portraitlarge.png",
+			"small" : "courtyard/heroes/Audred/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Audred/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Audred/specsmall1.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "firstAid" }, { "level" : "basic", "skill" : "learning" } ],
+		"spellbook" :
+		[
+			"shield",
+		],
+		"specialty" : 
+			{
+			"creature" : "homunculus"
+			},
+	}
+}
