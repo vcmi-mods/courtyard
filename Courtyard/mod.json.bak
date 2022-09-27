@@ -82,9 +82,5 @@
 		"1.02"   : [ "Tweaks" ],       
 		"1.01"   : [ "Special buildings support" ],
 		"1.00"   : [ "Initian release"  ]
-    },
-	"compatibility":
-	{
-	"min" : "1.0.0"
-	}
+    }
 }
