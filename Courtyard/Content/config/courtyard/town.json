@@ -399,7 +399,7 @@
 				"magicMirror" : 4,
 			},
 			"guildWindow" : "courtyard/town/mageguild",
-			"hallBackground" : "courtyard/town/buildmenu",  //"TPTHBKDG",								
+			"hallBackground" : "courtyard/town/buildmenu",		
 			"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],
@@ -410,10 +410,12 @@
 				[
 					[ "marketplace", "resourceSilo" ],
 					[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
-					[ "special2" ],
-					[ "special3" ]
+					[ "special2" ]
 				],
-				[ [ "horde1", "horde1Upgr" ], [ "special4" ] ],
+				[ 
+					[ "horde1", "horde1Upgr" ], 
+					[ "special4" ], [ "special3" ] 
+				],
 				[
 					[ "dwellingLvl1", "dwellingUpLvl1" ],
 					[ "dwellingLvl2", "dwellingUpLvl2" ],
@@ -486,6 +488,8 @@
 			"siege" :
 			{
 				"shooter" : "arquebusier",
+				"towerIconSmall" : "courtyard/icons/arrowtowerssmall",
+				"towerIconLarge" : "courtyard/icons/arrowtowerslarge",
 				"imagePrefix" : "courtyard/siege/CourtSiege",
 				"gate" :
 				{

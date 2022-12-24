@@ -76,9 +76,10 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Courtyard town",
-	"version" : "1.02",
+	"version" : "1.03",
 	"changelog" :
     {
+		"1.03"   : [ "Added Arrow Tower icons", "Fixed buildmenu graphic" ],
 		"1.02"   : [ "Tweaks" ],       
 		"1.01"   : [ "Special buildings support" ],
 		"1.00"   : [ "Initian release"  ]
