@@ -87,5 +87,13 @@
 	"compatibility":
 	{
 	"min" : "1.0.0"
+	},
+	"german" : {
+		"name" : "Hof",
+		"description" : "Hof Stadt",
+		"modType" : "Stadt",		
+		"translations" : [
+			"translation/german.json"
+		]
 	}
 }
