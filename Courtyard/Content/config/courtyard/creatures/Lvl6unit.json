@@ -5,7 +5,7 @@
 			{
 				"type" : "SUMMON_GUARDIANS",
 				"subtype" : "creature.tangleVine",
-				"val" : 200,
+				"val" : 200
 			}
 		},
 		
@@ -19,7 +19,7 @@
 		"fightValue" : 1654,
 		"graphics" : {
 			"animation" : "courtyard/battle/CMndrak.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcMndrk101",
 			"iconSmall" : "courtyard/icons/units/IsMndrk101",
 			"map" : "courtyard/map/lvl4unit.def",
@@ -50,24 +50,24 @@
 			{
 				"type" : "SUMMON_GUARDIANS",
 				"subtype" : "creature.strangleVine",
-				"val" : 400,
+				"val" : 400
 			},
 			"reviveVines" :
 			{
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.vinesRevive",
-				"val" : 0,
+				"val" : 0
 			},
 		"casts" :
 			{
 				"type" : "CASTS",
-				"val" : 6,
+				"val" : 6
 			},
 			"power" :
 			{
 				"type" : "CREATURE_SPELL_POWER",
-				"val" : 100,
-			},
+				"val" : 100
+			}
 		},
 
 		"advMapAmount" : { "max" : 9, "min" : 4 },
@@ -80,7 +80,7 @@
 		"fightValue" : 1852,
 		"graphics" : {
 			"animation" : "courtyard/battle/CRMndrk.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcMndrk102",
 			"iconSmall" : "courtyard/icons/units/IsMndrk102",
 			"map" : "courtyard/map/lvl4unitup.def",
@@ -98,6 +98,6 @@
 			"move" : "courtyard/lvl4/MandraMOVE.wav",
 			"wince" : "courtyard/lvl4/MandraWNCE.wav"
 		},
-		"speed" : 6,
+		"speed" : 6
 	}
 }

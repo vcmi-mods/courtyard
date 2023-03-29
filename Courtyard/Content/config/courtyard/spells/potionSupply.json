@@ -1,6 +1,5 @@
 {
 	
-	
 	"potionSupply":
 	{
 		"type": "ability", 
@@ -20,24 +19,16 @@
 		"gainChance":
 		{
 		},
-
- 
 		"animation":{
 		},
  
 		"flags" : { "positive": true, "special" : true },
-
- 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
 			"iconBook": "courtyard/spells/Potions/potSupply1",
 			"iconEffect": "courtyard/spells/Potions/potSupply1",
 			"iconScroll": "courtyard/spells/Potions/potSupply1",
-			"iconScenarioBonus": "courtyard/spells/Potions/potSupply1",
-			//  ! will be moved to bonus type config in next bonus config version
-			//  iconImmune - OPTIONAL; string; 
-			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+			"iconScenarioBonus": "courtyard/spells/Potions/potSupply1"
 		},
 
 		"sounds": {

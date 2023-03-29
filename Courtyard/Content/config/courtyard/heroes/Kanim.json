@@ -25,8 +25,8 @@
 				"limiters": [ {
 					"type":"CREATURE_TYPE_LIMITER",
 					"parameters": [ "arquebusier", true ]
-				} ],
-			},}
-		},
+				} ]
+			}}
+		}
 	}
 }

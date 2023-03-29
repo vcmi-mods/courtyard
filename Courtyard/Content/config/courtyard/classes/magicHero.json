@@ -2,7 +2,7 @@
 	"philosopher" : {
 		"affinity" : "magic",
 		"animation" : { "battle" : { "female" : "courtyard/heroes/battleFemalePhilosopher", "male" : "courtyard/heroes/battleMalePhilosopher" } },
-		"commander" : "arquebusier",
+		"commander" : "courtCommander",
 		"defaultTavern" : 4,
 		"faction" : "courtyard",
 		"lowLevelChance" : { "attack" : 30, "defence" : 10, "knowledge" : 20, "spellpower" : 40 },

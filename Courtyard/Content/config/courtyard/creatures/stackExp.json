@@ -308,7 +308,9 @@
 			{
 				"bonus" : 
 				{
-					"type" : "FULL_HP_REGENERATION",
+					"type" : "HP_REGENERATION",
+					"val" : 100000,
+					"valueType" : "ADDITIVE_VALUE",
 					"subtype" :	1
 				},
 				"values" : [ false, false, false, false, false, false, false, true, true, true ]
@@ -1092,7 +1094,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 54, //"spell.slow"
+					"subtype" : 54 //"spell.slow"
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
@@ -1160,7 +1162,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 15, //"spell.magicArrow"
+					"subtype" : 15 //"spell.magicArrow"
 				},
 				"values" : [ false, false, false, false, false, true, true, true, true, true ]
 			}
@@ -1220,7 +1222,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : 26, //"spell.armageddon"
+					"subtype" : 26 //"spell.armageddon"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			}

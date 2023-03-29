@@ -7,7 +7,7 @@
 			"immuneToMind" : 
 				{ "type" : "MIND_IMMUNITY" },
 			"nonLiving" : 
-				{ "type" : "GARGOYLE" },
+				{ "type" : "GARGOYLE" }
 		},
 		"advMapAmount" : { "max" : 40, "min" : 15 },
 		"aiValue" : 75,
@@ -19,7 +19,7 @@
 		"fightValue" : 70,
 		"graphics" : {
 			"animation" : "courtyard/battle/CCupid.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcCupid101",
 			"iconSmall" : "courtyard/icons/units/IsCupid101",
 			"map" : "courtyard/map/lvl2unit.def",
@@ -58,8 +58,8 @@
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "spell.stunAbility",
 					"val" : 20,
-					"addInfo" : 2002,
-				},				
+					"addInfo" : [ 2, 2 ]
+				}
 		},
 		"advMapAmount" : { "max" : 35, "min" : 15 },
 		"aiValue" : 110,
@@ -71,7 +71,7 @@
 		"fightValue" : 110,
 		"graphics" : {
 			"animation" : "courtyard/battle/CAmor.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcCupid102",
 			"iconSmall" : "courtyard/icons/units/IsCupid102",
 			"map" : "courtyard/map/lvl2unitup.def",
@@ -89,6 +89,6 @@
 			"move" : "courtyard/lvl2/CupidMOVE.wav",
 			"wince" : "courtyard/lvl2/CupidWNCE.wav"
 		},
-		"speed" : 9,
+		"speed" : 9
 	}
 }

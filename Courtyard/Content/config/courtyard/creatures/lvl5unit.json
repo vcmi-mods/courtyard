@@ -7,9 +7,9 @@
 			"val" : 2
 			},
 			"fearless" : {
-			"type" : "FEARLESS",
-			},	
-	},
+			"type" : "FEARLESS"
+			}
+		},
 		"advMapAmount" : { "max" : 16, "min" : 8 },
 		"aiValue" : 903,
 		"attack" : 9,
@@ -21,7 +21,7 @@
 		"fightValue" : 888,
 		"graphics" : {
 			"animation" : "courtyard/battle/CDodo.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcDodo101",
 			"iconSmall" : "courtyard/icons/units/IsDodo101",
 			"map" : "courtyard/map/lvl5unit.def",
@@ -41,6 +41,7 @@
 		"speed" : 5,
 		"upgrades" : [ "battleDodo", "greaterDodo" ]
 	},
+	
 	"battleDodo" : {
 		"abilities" : {
 			"slayer" : {
@@ -49,7 +50,7 @@
 			"val" : 3
 			},
 			"fearless" : {
-			"type" : "FEARLESS",
+			"type" : "FEARLESS"
 			},
 			"damageReduction1" : {
 			"type" : "GENERAL_DAMAGE_REDUCTION",
@@ -71,8 +72,8 @@
 			"val" : 20
 			},
 			"defensiveStance" : {
-			"type" : "DEFENSIVE_STANCE", "val" : 5,
-			},	
+			"type" : "DEFENSIVE_STANCE", "val" : 5
+			}	
 		},
 		"advMapAmount" : { "max" : 16, "min" : 10 },
 		"aiValue" : 1319,
@@ -85,7 +86,7 @@
 		"fightValue" : 1171,
 		"graphics" : {
 			"animation" : "courtyard/battle/CPdod.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcDodo102",
 			"iconSmall" : "courtyard/icons/units/IsDodo102",
 			"map" : "courtyard/map/lvl5unitup.def",
@@ -105,6 +106,7 @@
 		"speed" : 5,
 		"upgrades" : [ "greaterDodo" ]
 	},
+	
 	"greaterDodo" : {
 		"abilities" : {
 			"slayer" : {
@@ -113,15 +115,15 @@
 			"val" : 3
 			},
 			"fearless" : {
-			"type" : "FEARLESS",
+			"type" : "FEARLESS"
 			},
 			"noRetaliation" : {
-			"type" : "NO_RETALIATION",
+			"type" : "NO_RETALIATION"
 			},	
 			"attacks" :
 			{
 				"type" : "ADDITIONAL_ATTACK",
-				"val" : 2,
+				"val" : 2
 			},	
 			"mortify" :
 			{
@@ -140,16 +142,13 @@
 			{
 				"type" : "MORALE",
 				"val" : 1,
-				"propagator" : "BATTLE_WIDE",
-				"effectRange" : "ONLY_ENEMY_ARMY",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
-					"noneOf",
-					{
-					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "dodo", true ]
-					}
+					[ "allOf", [ "OPPOSITE_SIDE" ] ],
+					[ "noneOf", { "type":"CREATURE_TYPE_LIMITER", "parameters": [ "dodo", true ] } ]
 				]
-			},
+			}
 		},
 		"advMapAmount" : { "max" : 12, "min" : 10 },
 		"aiValue" : 1319,
@@ -162,7 +161,7 @@
 		"fightValue" : 1171,
 		"graphics" : {
 			"animation" : "courtyard/battle/CCdod.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcDodo103",
 			"iconSmall" : "courtyard/icons/units/IsDodo103",
 			"map" : "courtyard/map/lvl5unitup.def",

@@ -2,7 +2,7 @@
 	"fireNewt" : {
 		"abilities" : {
 			"fireImmune" :
-				{ "type" : "FIRE_IMMUNITY", "subtype" : 0 },		
+				{ "type" : "FIRE_IMMUNITY", "subtype" : 0 }	
 		},
 		"doubleWide" : true,
 		"advMapAmount" : { "max" : 24, "min" : 12 },
@@ -15,7 +15,7 @@
 		"fightValue" : 235,
 		"graphics" : {
 			"animation" : "courtyard/battle/CSalamander.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 8, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 8, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcSalm101",
 			"iconSmall" : "courtyard/icons/units/IsSalm101",
 			"map" : "courtyard/map/lvl1unit.def",
@@ -41,7 +41,7 @@
 	"salamander" : {
 		"abilities" : {
 			"fireImmune" :
-				{ "type" : "FIRE_IMMUNITY", "subtype" : 0 },		
+				{ "type" : "FIRE_IMMUNITY", "subtype" : 0 }		
 		},	
 		"doubleWide" : true,		
 		"advMapAmount" : { "max" : 24, "min" : 11 },
@@ -54,7 +54,7 @@
 		"fightValue" : 260,
 		"graphics" : {
 			"animation" : "courtyard/battle/CTrSalamand.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 8, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 8, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcSalm102",
 			"iconSmall" : "courtyard/icons/units/IsSalm102",
 			"map" : "courtyard/map/lvl1unitup.def",
@@ -71,9 +71,8 @@
 			"move" : "courtyard/lvl1/SalamanderMOVE.wav",
 			"wince" : "courtyard/lvl1/SalamanderWNCE.wav"
 		},
-		"speed" : 6,
+		"speed" : 6
 	}
-	
 }
 
 

@@ -24,8 +24,7 @@
 			{
 				"walk" : 1.00,
 				"idle" : 10.00,
-				"attack" : 1.00,
-				"flight" : 1.00
+				"attack" : 1.00
 			}
 		},
 		"sound" :
@@ -59,8 +58,8 @@
 				"limiters": [ {
 					"type":"CREATURE_TYPE_LIMITER",
 					"parameters": [ "potionCartCreature", false ]
-} ],
-			},
+} ]
+			}
 //			"automatic" : {
 //				"subtype" : "creature.plagueTentCreature",
 //				"type" : "MANUAL_CONTROL",

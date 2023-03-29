@@ -16,7 +16,7 @@
 		"skills" : [ { "level" : "basic", "skill" : "wisdom" }, { "level" : "basic", "skill" : "estates" } ],
 		"spellbook" :
 		[
-			"viewEarth", "viewAir",
+			"viewEarth", "viewAir"
 		],
 		"specialty" : {
 			"bonuses" : {
@@ -27,6 +27,6 @@
 				"updater" : "TIMES_HERO_LEVEL"
 				}
 			}
-		},
+		}
 	}
 }

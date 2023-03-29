@@ -3,30 +3,30 @@
 		//"index" : 27,
 		"base" : {
 			"effects" : {
-				"potionsExtra" : 			{
+				"potionsExtra" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.potionSupply",
 				"val" : 0,
 				"limiters": [ {
 					"type":"CREATURE_TYPE_LIMITER",
 					"parameters": [ "potionCartCreature", false ]
-} ],
-			},
+				} ]
+			}
 			}
 		},
 		"basic" : {
 			"effects" : {
-				"potionsExtra" : {"val" : 1},
+				"potionsExtra" : {"val" : 1}
 			}
 		},
 		"advanced" : {
 			"effects" : {
-				"potionsExtra" : {"val" : 2},
+				"potionsExtra" : {"val" : 2}
 			}
 		},
 		"expert" : {
 			"effects" : {
-				"potionsExtra" : {"val" : 3},
+				"potionsExtra" : {"val" : 3}
 			}
 		}
 	}

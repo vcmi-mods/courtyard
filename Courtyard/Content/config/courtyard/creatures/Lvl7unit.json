@@ -1,8 +1,8 @@
 {
 	"jabberwock" : {
 		"abilities" : {
-			"basicSlayer" : { "type" : "KING2" },
-			"canFly" : { "type" : "FLYING" },
+			"advSlayer" : { "type" : "KING", "val" : 2, "valueType" : "ADDITIVE_VALUE" },
+			"canFly" : { "type" : "FLYING" }
 		},
 		"advMapAmount" : { "max" : 10, "min" : 4 },
 		"aiValue" : 4419,
@@ -15,7 +15,7 @@
 		"fightValue" : 3251,
 		"graphics" : {
 			"animation" : "courtyard/battle/CJabber.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcJabber101",
 			"iconSmall" : "courtyard/icons/units/IsJabber101",
 			"map" : "courtyard/map/lvl7unit.def",
@@ -39,7 +39,7 @@
 	
 	"monstrousJabberwock" : {
 		"abilities" : {
-			"basicSlayer" : { "type" : "KING2" },
+			"advSlayer" : { "type" : "KING", "val" : 2, "valueType" : "ADDITIVE_VALUE" },
 			"canFly" : { "type" : "FLYING" },
 			"fear" : { "type" : "FEAR" },
 			"decimation" : 
@@ -61,7 +61,7 @@
 		"fightValue" : 5830,
 		"graphics" : {
 			"animation" : "courtyard/battle/CJbbrwk.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcJabber102",
 			"iconSmall" : "courtyard/icons/units/IsJabber102",
 			"map" : "courtyard/map/lvl7unitup.def",
@@ -78,6 +78,6 @@
 			"move" : "courtyard/lvl7/JabberMOVE.wav",
 			"wince" : "courtyard/lvl7/JabberWNCE.wav"
 		},
-		"speed" : 13,
+		"speed" : 13
 	}
 }

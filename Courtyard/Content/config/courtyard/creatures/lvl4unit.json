@@ -1,9 +1,9 @@
 {
 	"arquebusier" : {
-			"abilities" : {
+		"abilities" : {
 			"canShoot" : { "type" : "SHOOTER" },
-			"defenseReduction" : { "type" : "ENEMY_DEFENCE_REDUCTION", "val" : 15 },
-			},
+			"defenseReduction" : { "type" : "ENEMY_DEFENCE_REDUCTION", "val" : 15 }
+		},
 		"advMapAmount" : { "max" : 20, "min" : 10 },
 		"aiValue" : 690,
 		"attack" : 10,
@@ -14,11 +14,10 @@
 		"fightValue" : 807,
 		"graphics" : {
 			"animation" : "courtyard/battle/CMusketeer.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcMuskt101",
 			"iconSmall" : "courtyard/icons/units/IsMuskt101",
 			"map" : "courtyard/map/lvl3unit.def",
-			
 			"missile" : {
 				"attackClimaxFrame" : 10,
 				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
@@ -29,7 +28,7 @@
 					"middleY" : -62,
 					"upperX" : 32,
 					"upperY" : -82
-					},
+				},
 				"projectile" : "courtyard/battle/projectile/PMusket.def"
 				},
 			"timeBetweenFidgets" : 1
@@ -57,7 +56,7 @@
 	"musketeer" : {
 		"abilities" : {
 			"canShoot" : { "type" : "SHOOTER" },
-			"defenseReduction" : { "type" : "ENEMY_DEFENCE_REDUCTION", "val" : 30 },
+			"defenseReduction" : { "type" : "ENEMY_DEFENCE_REDUCTION", "val" : 30 }
 		},
 		"advMapAmount" : { "max" : 20, "min" : 10 },
 		"aiValue" : 1001,
@@ -69,7 +68,7 @@
 		"fightValue" : 990,
 		"graphics" : {
 			"animation" : "courtyard/battle/CEMusketeer.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcMuskt102",
 			"iconSmall" : "courtyard/icons/units/IsMuskt102",
 			"map" : "courtyard/map/lvl3unitup.def",
@@ -102,6 +101,6 @@
 			"shoot" : "courtyard/lvl3/MusketeerSHOT.wav", 
 			"wince" : "courtyard/lvl3/MusketeerWNCE.wav"
 		},
-		"speed" : 6,
+		"speed" : 6
 	}
 }

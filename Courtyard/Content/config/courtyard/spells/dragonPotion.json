@@ -35,17 +35,13 @@
 				"bonus.UNDEAD" : "normal"
 			}
 		},
- 
-		//graphics - OPTIONAL; object;
+
 		"graphics":
 		{
 			"iconBook": "courtyard/spells/Potions/Dragon/dragonP_book1",
 			"iconEffect": "courtyard/spells/Potions/Dragon/dragonP_effect1",
 			"iconScroll": "courtyard/spells/Potions/Dragon/dragonP_scroll1",
-			"iconScenarioBonus": "courtyard/spells/Potions/Dragon/dragonP_bonus1",
-			//  ! will be moved to bonus type config in next bonus config version
-			//  iconImmune - OPTIONAL; string; 
-			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+			"iconScenarioBonus": "courtyard/spells/Potions/Dragon/dragonP_bonus1"
 		},
 
 		"sounds": {
@@ -72,32 +68,32 @@
 				{
 					"breathAttack" : {
 						"type" : "TWO_HEX_ATTACK_BREATH",
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					},
 					"isDragon" : {
 						"type" : "DRAGON_NATURE",
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					},
 					"potionMarkerEffect" :
 					{"type" : "SPECIFIC_SPELL_DAMAGE","subtype" : "spell.potionSupply",
 						"val" : 0,
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					},
 					"setAflame":{
 						"type" : "SPELL_AFTER_ATTACK",
 						"addInfo" : [0,2],
 						"subtype" : "spell.immolationCurse",
 						"val" : 15,
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					},
 					"setAflameDuration" :
 					{
 						"type" : "CREATURE_ENCHANT_POWER",
 						"subtype" : "spell.immolationCurse",
 						"val" : 2,
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					}
-				},
+				}
 			},
 			"basic":
 			{
@@ -106,30 +102,30 @@
 				{
 					"breathAttack" : {
 						"type" : "TWO_HEX_ATTACK_BREATH",
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					},
 					"isDragon" : {
 						"type" : "DRAGON_NATURE",
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					},
 					"setAflame":{
 						"type" : "SPELL_AFTER_ATTACK",
 						"addInfo" : [1,2],
 						"subtype" : "spell.immolationCurse",
 						"val" : 20,
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					},
 					"setAflameDuration" :
 					{
 						"type" : "CREATURE_ENCHANT_POWER",
 						"subtype" : "spell.immolationCurse",
 						"val" : 2,
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					},
 					"potionMarkerEffect" :
 					{"type" : "SPECIFIC_SPELL_DAMAGE","subtype" : "spell.potionSupply",
 						"val" : 0,
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					}
 				}
 			},
@@ -140,38 +136,37 @@
 				{
 					"breathAttack" : {
 						"type" : "TWO_HEX_ATTACK_BREATH",
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					},
 					"isDragon" : {
 						"type" : "DRAGON_NATURE",
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					},
 					"setAflame":{
 						"type" : "SPELL_AFTER_ATTACK",
 						"addInfo" : [2,2],
 						"subtype" : "spell.immolationCurse",
 						"val" : 25,
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					},
 					"setAflameDuration" :
 					{
 						"type" : "CREATURE_ENCHANT_POWER",
 						"subtype" : "spell.immolationCurse",
 						"val" : 3,
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					},
 					"potionMarkerEffect" :
 					{"type" : "SPECIFIC_SPELL_DAMAGE","subtype" : "spell.potionSupply",
 						"val" : 0,
-						"duration": "N_TURNS",
+						"duration": "N_TURNS"
 					}
 				}
 			},
 			"expert":
 			{
-				"description": "{Supreme Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
-			},
+				"description": "{Supreme Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame."
+			}
 		}
 	}
- 
 }

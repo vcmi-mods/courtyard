@@ -3,7 +3,7 @@
 		"army" : [
 			{ "creature" : "cupid", "max" : 18, "min" : 10 },
 			{ "creature" : "cupid", "max" : 18, "min" : 10 },
-			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 }
 
 		],
 		"class" : "aristocrat",
@@ -17,7 +17,7 @@
 		"skills" : [ { "level" : "basic", "skill" : "luck" }, { "level" : "basic", "skill" : "estates" } ],
 		"spellbook" :
 		[
-			"reconstruction",
+			"reconstruction"
 		],
 		"specialty" : 
 		{
@@ -26,14 +26,15 @@
 				"reconstruction":{
 				"type" : "SPELL",
 				"subtype" : "spell.reconstruction",
-				"val" : 3,
+				"val" : 3
 				},
 				"reconstruction2":{
-				"type" : "MAXED_SPELL",
-				"subtype" : "spell.reconstruction",
-				},
-			},
-			
-		},
+					"subtype" : "spell.reconstruction",
+					"type" : "SPELL",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX"
+				}
+			}
+		}
 	}
 }

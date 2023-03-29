@@ -22,7 +22,7 @@
 				"limiters": [ {
 					"type":"CREATURE_TYPE_LIMITER",
 					"parameters": [ "dodo", true ]
-				} ],
+				} ]
 				},
 				"greaterDodoMorale" : {
 				"type" : "MORALE",
@@ -64,8 +64,8 @@
 					"parameters": [ "battleDodo", false ]
 					}
 				]
-				},			
+				}		
 			}
-		},
+		}
 	}
 }

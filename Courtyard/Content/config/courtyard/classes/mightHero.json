@@ -2,7 +2,7 @@
 	"aristocrat" : {
 		"affinity" : "might",
 		"animation" : { "battle" : { "female" : "courtyard/heroes/battleFemaleLord", "male" : "courtyard/heroes/battleMaleLord" } },
-		"commander" : "arquebusier",
+		"commander" : "courtCommander",
 		"defaultTavern" : 5,
 		"faction" : "courtyard",
 		"lowLevelChance" : { "attack" : 45, "defence" : 30, "knowledge" : 10, "spellpower" : 15 },

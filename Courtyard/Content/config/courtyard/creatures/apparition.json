@@ -19,12 +19,12 @@
 				{
 					"type" : "ENCHANTED",
 					"subtype" : "spell.ephemeral",
-					"val" : 3,
+					"val" : 3
 				},	
 			"noAttacks" :
 				{
 			"type" : "ADDITIONAL_ATTACK",
-			"val" : -10,
+			"val" : -10
 			},			
 			"damageReduction1" : {
 			"type" : "GENERAL_DAMAGE_REDUCTION",
@@ -45,8 +45,8 @@
 			"noRetaliation" : { "type" : "NO_RETALIATION" },
 			"noSpeed":{ "type": "STACKS_SPEED",
 								"val" : 0,
-								"valueType": "INDEPENDENT_MIN",
-							},
+								"valueType": "INDEPENDENT_MIN"
+							}
 		},
 		"special": true,
 		"advMapAmount" : { "max" : 12, "min" : 6 },
@@ -59,7 +59,7 @@
 		"fightValue" : 120,
 		"graphics" : {
 			"animation" : "courtyard/battle/CApparition.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcApparition",
 			"iconSmall" : "courtyard/icons/units/IsApparition",
 			"map" : "courtyard/map/MApparition.def",
@@ -78,6 +78,6 @@
 			"move": "WGHTMOVE.wav",
 			"wince": "WGHTWNCE.wav"
 		},
-		"speed" : 0,
-	},
+		"speed" : 0
+	}
 }

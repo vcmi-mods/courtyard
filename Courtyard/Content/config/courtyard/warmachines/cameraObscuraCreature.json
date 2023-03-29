@@ -1,7 +1,6 @@
 {
 	"cameraObscuraCreature":
 	{
-		//"name" : { "plural" : "Camera Obscuras", "singular" : "Camera Obscura" },
 		"name" : { "plural" : "Camerae Obscurae", "singular" : "Camera Obscura" },
 		"faction" : "neutral",
 		"level": 0,
@@ -25,15 +24,14 @@
 			{
 				"walk" : 1.00,
 				"idle" : 10.00,
-				"attack" : 1.00,
-				"flight" : 1.00
+				"attack" : 1.00
 			}
 		},
 		"sound" :
 		{
 			"killed": "CARTKILL.wav",
 			"wince": "CARTWNCE.wav",
-			"shoot": "courtyard/camera/cameraCast.wav",
+			"shoot": "courtyard/camera/cameraCast.wav"
 		},
 		"doubleWide" : false,
 		"growth" : 0,
@@ -42,11 +40,17 @@
 		"abilities" :
 		{	
 			"ageCasting" : 
-				{
+			{
 				"type" : "SPELLCASTER",
 				"subtype": "spell.ageCamera",
-				"addInfo": 30,
-				},			
+				"addInfo": 30
+			},	
+			"summonCasting" : 
+			{
+				"type" : "SPELLCASTER",
+				"subtype": "spell.summonApparition",
+				"addInfo": 0
+			},			
 			"casts" : 
 			{
 				"type" : "CASTS",
@@ -60,16 +64,7 @@
 			"warmachine" :
 			{
 				"type" : "SIEGE_WEAPON"
-			},
-//			"automatic" : {
-//				"subtype" : "creature.plagueTentCreature",
-//				"type" : "MANUAL_CONTROL",
-//				"val" : 0,
-//				"valueType" : "BASE_NUMBER",				
-//				"propagator" : "HERO"
-//			}
-
+			}
 		}
 	}
 }
-

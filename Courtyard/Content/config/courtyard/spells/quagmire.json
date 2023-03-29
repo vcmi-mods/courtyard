@@ -1,110 +1,108 @@
 {
-	"quagmire" : {
-		"type": "combat",
-		"name": "Quagmire",
-		"school":
-		{
-			"air": false,
-			"earth": true,
-			"fire": false,
-			"water": false
-		},
-		"targetType": "NO_TARGET",
-		"level": 3,
-		"power": 10, //i think power is irrevelant in this case
-		"defaultGainChance": 7, 
-		"gainChance" :
-		{
-			"rampart" : 6,
-			"fortress" : 20,
-			"necropolis" : 20,
-			"stronghold" : 15,
-			"tower" : 3,
-			"dungeon" : 15,
-			"castle" : 0,
-			"conflux" : 15,
-			"courtyard" : 15,
-		},
-		"animation":{
-			"hit":[ "courtyard/spells/Quagmire/Quagmire.def" ]
-		},
-		"flags" : { "positive": false, "negative": false, "indifferent": true },
-		"immunity":
-		{
-		},
-		"sounds": {
-			"cast": "courtyard/spells/SPELLQUAGMIRE.wav"
-		},
-		"graphics":
-		{
-			"iconBook": "courtyard/spells/Quagmire/Quagmire_book1",
-			"iconEffect": "courtyard/spells/Quagmire/Quagmire_effect1",
-			"iconScroll": "courtyard/spells/Quagmire/Quagmire_scroll1",
-			"iconScenarioBonus": "courtyard/spells/Quagmire/Quagmire_bonus1",
-		},
-		"levels" : {
-			"base":{
-				"power": 10, //irrevelant?
-				"aiValue": 20,
-				"range" : "X", //like armageddon, death ripple, destroy undead
-				"targetModifier":{"smart":false},
-				"cost": 13,
-				"effects" : {
-					"noFleeing" : {
-						"type" : "BATTLE_NO_FLEEING",
-						"duration" : "N_TURNS",
-						"propagator" : "HERO"
-					},
-				}
-			},
-			"none":
-			{	 
-				"description": "{Quagmire}\n\nPrevents heroes from escaping the battlefield.",
-				"effects" : {
-					"noFleeing" : {
-						"type" : "BATTLE_NO_FLEEING",
-						"duration" : "N_TURNS",
-						"propagator" : "HERO"
-					},
-				}
-			},
-			"basic":
-			{	 
-				"description": "{Basic Quagmire}\n\nPrevents heroes from escaping the battlefield.",
-				"cost": 12,
-				"effects" : {
-					"noFleeing" : {
-						"type" : "BATTLE_NO_FLEEING",
-						"duration" : "N_TURNS",
-						"propagator" : "HERO"
-					},
-				}
-			},
-			"advanced":
-			{	 
-				"description": "{Advanced Quagmire}\n\nPrevents heroes from escaping the battlefield.",
-				"cost": 10,
-				"effects" : {
-					"noFleeing" : {
-						"type" : "BATTLE_NO_FLEEING",
-						"duration" : "N_TURNS",
-						"propagator" : "HERO"
-					},
-				}
-			},
-			"expert":
-			{	 
-				"description": "{Expert Quagmire}\n\nPrevents enemy hero from escaping the battlefield.",
-				"cost": 10,
-				"effects" : {
-					"noFleeing" : {
-						"type" : "BATTLE_NO_FLEEING",
-						"duration" : "N_TURNS",
-						"propagator" : "HERO",
-						"effectRange" : "ONLY_ENEMY_ARMY"
-					},
-				}
-			}
-		}
-	}	
+    "quagmire": {
+        "type": "combat",
+        "name": "Quagmire",
+        "school": {
+            "air": false,
+            "earth": true,
+            "fire": false,
+            "water": false
+        },
+        "targetType": "NO_TARGET",
+        "level": 3,
+        "power": 10, //i think power is irrevelant in this case
+        "defaultGainChance": 7,
+        "gainChance": {
+            "rampart": 6,
+            "fortress": 20,
+            "necropolis": 20,
+            "stronghold": 15,
+            "tower": 3,
+            "dungeon": 15,
+            "castle": 0,
+            "conflux": 15,
+            "courtyard": 15
+        },
+        "animation": {
+            "hit": ["courtyard/spells/Quagmire/Quagmire.def"]
+        },
+        "flags": {
+            "positive": false,
+            "negative": false,
+            "indifferent": true
+        },
+        "immunity": {},
+        "sounds": {
+            "cast": "courtyard/spells/SPELLQUAGMIRE.wav"
+        },
+        "graphics": {
+            "iconBook": "courtyard/spells/Quagmire/Quagmire_book1",
+            "iconEffect": "courtyard/spells/Quagmire/Quagmire_effect1",
+            "iconScroll": "courtyard/spells/Quagmire/Quagmire_scroll1",
+            "iconScenarioBonus": "courtyard/spells/Quagmire/Quagmire_bonus1"
+        },
+        "levels": {
+            "base": {
+                "power": 10, //irrevelant?
+                "aiValue": 20,
+                "range": "X", //like armageddon, death ripple, destroy undead
+                "targetModifier": {
+                    "smart": false
+                },
+                "cost": 13,
+                "effects": {
+                    "noFleeing": {
+                        "type": "BATTLE_NO_FLEEING",
+                        "duration": "N_TURNS",
+                        "propagator": "HERO"
+                    }
+                }
+            },
+            "none": {
+                "description": "{Quagmire}\n\nPrevents heroes from escaping the battlefield.",
+                "effects": {
+                    "noFleeing": {
+                        "type": "BATTLE_NO_FLEEING",
+                        "duration": "N_TURNS",
+                        "propagator": "HERO"
+                    }
+                }
+            },
+            "basic": {
+                "description": "{Basic Quagmire}\n\nPrevents heroes from escaping the battlefield.",
+                "cost": 12,
+                "effects": {
+                    "noFleeing": {
+                        "type": "BATTLE_NO_FLEEING",
+                        "duration": "N_TURNS",
+                        "propagator": "HERO"
+                    }
+                }
+            },
+            "advanced": {
+                "description": "{Advanced Quagmire}\n\nPrevents heroes from escaping the battlefield.",
+                "cost": 10,
+                "effects": {
+                    "noFleeing": {
+                        "type": "BATTLE_NO_FLEEING",
+                        "duration": "N_TURNS",
+                        "propagator": "HERO"
+                    }
+                }
+            },
+            "expert": {
+                "description": "{Expert Quagmire}\n\nPrevents enemy hero from escaping the battlefield.",
+                "cost": 10,
+                "effects": {
+                    "noFleeing": {
+                        "type": "BATTLE_NO_FLEEING",
+                        "duration": "N_TURNS",
+                        "propagator": "BATTLE_WIDE",
+                        "propagationUpdater": "BONUS_OWNER_UPDATER",
+                        "limiters": ["OPPOSITE_SIDE"]
+                    }
+                }
+            }
+        }
+    }
 }

@@ -17,34 +17,24 @@
 		"defaultGainChance": 0, 
 		"gainChance":
 		{
-
-		"courtyard" : 0,
+		"courtyard" : 0
 		},
 
- 
-		//counterstrike animation?
 		"animation":{
 		"affect":["courtyard/spells/Stun/Stun.def"]
 		},
  
 		"flags" : {"negative": true},
 		"targetCondition" : {
-			"noneOf" : { "bonus.UNDEAD" : "absolute", "bonus.NON_LIVING" : "absolute", "bonus.GARGOYLE" : "absolute", "bonus.MIND_IMMUNITY" : "absolute", },
+			"noneOf" : { "bonus.UNDEAD" : "absolute", "bonus.NON_LIVING" : "absolute", "bonus.GARGOYLE" : "absolute", "bonus.MIND_IMMUNITY" : "absolute" }
 		},		
-		
- 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
-			"iconEffect": "courtyard/spells/Stun/Stun_effect",
-			//  ! will be moved to bonus type config in next bonus config version
-			//  iconImmune - OPTIONAL; string; 
-			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+			"iconEffect": "courtyard/spells/Stun/Stun_effect"
 		},
 
 		"sounds":
 		{
-			//OPTIONAL; resourse path, casting sound
 			"cast":"courtyard/spells/SPELLSTUN.wav"
 		},
  
@@ -60,11 +50,10 @@
 					"notActive" : {
 						"val" : 0,
 						"type" : "NOT_ACTIVE",
-						//"subtype" : "spell.paralyze",
 						"duration" : [
 							"N_TURNS", "UNTIL_BEING_ATTACKED"
 						],
-						"turns": 2,
+						"turns": 2
 					},
 					"noRetaliation" : {
 						"val" : 0,
@@ -72,7 +61,7 @@
 						"duration" : [
 							"N_TURNS", "UNTIL_BEING_ATTACKED"
 						],
-						"turns": 2,
+						"turns": 2
 					}
 				}
 			},
@@ -83,17 +72,16 @@
 					"notActive" : {
 						"val" : 0,
 						"type" : "NOT_ACTIVE",
-						//"subtype" : "spell.paralyze",
 						"duration" : [
 							"N_TURNS", "UNTIL_BEING_ATTACKED"
 						],
-						"turns": 2,
+						"turns": 2
 					},
 					"noRetaliation" : {
 						"val" : 0,
 						"type" : "NO_RETALIATION",
 						"duration" : ["N_TURNS"],
-						"turns": 2,
+						"turns": 2
 					}
 				}
 			},	
@@ -102,8 +90,7 @@
 			"advanced":{
 			},	
 			"expert":{
-			},			
-		},
+			}	
+		}
 	}
- 
 }

@@ -1,6 +1,4 @@
 {
-	
-	
 	"weaponPoisonPotion":
 	{
 		"type": "combat", 
@@ -27,17 +25,13 @@
 		},
  
 		"flags" : { "positive": true, "special" : true },
- 
-		//graphics - OPTIONAL; object;
+
 		"graphics":
 		{
 			"iconBook": "courtyard/spells/Potions/Poison/poisonP_book1",
 			"iconEffect": "courtyard/spells/Potions/Poison/poisonP_effect1",
 			"iconScroll": "courtyard/spells/Potions/Poison/poisonP_scroll1",
-			"iconScenarioBonus": "courtyard/spells/Potions/Poison/poisonP_bonus1",
-			//  ! will be moved to bonus type config in next bonus config version
-			//  iconImmune - OPTIONAL; string; 
-			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+			"iconScenarioBonus": "courtyard/spells/Potions/Poison/poisonP_bonus1"
 		},
 
 		"sounds": {
@@ -67,8 +61,8 @@
 						"type" : "SPELL_AFTER_ATTACK",
 						"subtype" : "spell.poison",
 						"val" : 10,
-						"duration": "N_TURNS",
-					},							
+						"duration": "N_TURNS"
+					}	
 				}
 			},
 			"basic":
@@ -79,8 +73,8 @@
 					"poison" :
 					{"type" : "SPELL_AFTER_ATTACK","subtype" : "spell.poison",
 						"val" : 15,
-						"duration": "N_TURNS",
-					},	
+						"duration": "N_TURNS"
+					}
 				}	
 			},
 			"advanced":
@@ -91,8 +85,8 @@
 					"poison" :
 					{"type" : "SPELL_AFTER_ATTACK","subtype" : "spell.poison",
 						"val" : 20,
-						"duration": "N_TURNS",
-					},
+						"duration": "N_TURNS"
+					}
 				}
 			},
 			"expert":
@@ -103,11 +97,10 @@
 					"poison" :
 					{"type" : "SPELL_AFTER_ATTACK","subtype" : "spell.poison",
 						"val" : 30,
-						"duration": "N_TURNS",
-					},
+						"duration": "N_TURNS"
+					}
 				}
 			}
 		}
 	}
- 
 }

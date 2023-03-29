@@ -8,7 +8,6 @@
 				"subtype" : "spell.bind",
 				"val" : 100
 			}
-			
 		},
 		"advMapAmount" : { "max" : 50, "min" : 10 },
 		"aiValue" : 22,
@@ -20,7 +19,7 @@
 		"fightValue" : 30,
 		"graphics" : {
 			"animation" : "courtyard/battle/CVine.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 8, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 8, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcVine101",
 			"iconSmall" : "courtyard/icons/units/IsVine101",
 			"map" : "courtyard/map/Cvine1.def",
@@ -41,6 +40,7 @@
 		"speed" : 4,
 		"upgrades" : [ "strangleVine" ]
 	},
+	
 	"strangleVine" : {
 		"abilities" : {
 			"flying" : {"type" : "FLYING", "subtype" : 1},
@@ -50,7 +50,6 @@
 				"subtype" : "spell.bind",
 				"val" : 100
 			}
-			
 		},
 		"advMapAmount" : { "max" : 50, "min" : 10 },
 		"aiValue" : 26,
@@ -62,7 +61,7 @@
 		"fightValue" : 40,
 		"graphics" : {
 			"animation" : "courtyard/battle/CSVin.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 8, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 8, "walk" : 1 },
 			"iconLarge" : "courtyard/icons/units/IcVine101",
 			"iconSmall" : "courtyard/icons/units/IsVine101",
 			"map" : "courtyard/map/Cvine2.def",
@@ -80,8 +79,6 @@
 			"endMoving" : "courtyard/specialVines/VINEMEND.wav",
 			"wince" : "courtyard/specialVines/VINEWNCE.wav"
 		},
-		"speed" : 5,
+		"speed" : 5
 	}
-
-	
 }

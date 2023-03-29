@@ -26,14 +26,14 @@
 			"affect":["SP01_"]
 		},
  
-		"flags" : {	"negative": true, "special":true,},
-"targetCondition" : {
-		"noneOf" : { "bonus.UNDEAD" : "normal", "bonus.GARGOYLE" : "absolute", "bonus.NON_LIVING" : "absolute" },
+		"flags" : {	"negative": true, "special":true },
+		"targetCondition" : {
+		"noneOf" : { "bonus.UNDEAD" : "normal", "bonus.GARGOYLE" : "absolute", "bonus.NON_LIVING" : "absolute" }
 		},
  
 		"graphics":
 		{
-			"iconEffect": "courtyard/spells/Age/Age_effect",
+			"iconEffect": "courtyard/spells/Age/Age_effect"
 
 		},
 
@@ -61,31 +61,24 @@
 								"val" : -33,
 								"valueType": "PERCENT_TO_ALL",
 								"duration": "N_TURNS",
-								"turns": 5,
-							},
-										
+								"turns": 5
+							}
 						}	
-					},					
-				},
+					}			
+				}
 			},
 				
-
 			"none":
 			{
-
 			},
 			"basic":
 			{ 
-				
 			},
 			"advanced":
 			{	 
-				
 			},
 			"expert":
 			{	 
-				
-
 			}
 		}
 	}

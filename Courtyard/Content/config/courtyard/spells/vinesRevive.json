@@ -36,7 +36,7 @@
 			"iconBook": "courtyard/spells/Pacifism/Pacifism_book1",
 			"iconEffect": "courtyard/spells/Pacifism/Pacifism_effect1",
 			"iconScroll": "courtyard/spells/Pacifism/Pacifism_scroll1",
-			"iconScenarioBonus": "courtyard/spells/Pacifism/Pacifism_bonus1",
+			"iconScenarioBonus": "courtyard/spells/Pacifism/Pacifism_bonus1"
 		},
 		"levels" : {
 			"base":{

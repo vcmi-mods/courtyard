@@ -25,18 +25,12 @@
 		},
  
 		"flags" : { "offensive": true, "damage": true, "negative" : true, "special" : true },
-
- 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
 			"iconBook": "courtyard/spells/Immolation/Immolation_book1",
 			"iconEffect": "courtyard/spells/Immolation/Immolation_effect1",
 			"iconScroll": "courtyard/spells/Immolation/Immolation_scroll1",
-			"iconScenarioBonus": "courtyard/spells/Immolation/Immolation_bonus1",
-			//  ! will be moved to bonus type config in next bonus config version
-			//  iconImmune - OPTIONAL; string; 
-			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+			"iconScenarioBonus": "courtyard/spells/Immolation/Immolation_bonus1"
 		},
 
 		"sounds": {
@@ -58,27 +52,25 @@
 				"description": "IMMOLATION DAMAGE",
 	 
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage", "val": 1, "killByCount" : true, "valueType": 	"INDEPENDENT_MIN"},
-				},
+					"directDamage" : {"type":"core:damage", "val": 1, "killByCount" : true, "valueType": "INDEPENDENT_MIN"}
+				}
 			},
 			"none":
 			{
-				"description": "IMMOLATION DAMAGE",
+				"description": "IMMOLATION DAMAGE"
 			},
 			"basic":
 			{
-				"description": "IMMOLATION DAMAGE",
+				"description": "IMMOLATION DAMAGE"
 			},
 			"advanced":
 			{
-				"description": "IMMOLATION DAMAGE",
+				"description": "IMMOLATION DAMAGE"
 			},
 			"expert":
 			{
-				"description": "IMMOLATION DAMAGE",
+				"description": "IMMOLATION DAMAGE"
 			}
 		}
 	}
- 
- 
-}
+ }

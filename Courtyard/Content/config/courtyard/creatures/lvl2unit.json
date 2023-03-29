@@ -1,7 +1,7 @@
 {
 	"homunculus" : {
 		"abilities" : {
-			"regeneration" : { "type" : "HP_REGENERATION", "val" : 7, "subtype" : 1 },
+			"regeneration" : { "type" : "HP_REGENERATION", "val" : 7, "subtype" : 1 }
 		},
 		
 		"advMapAmount" : { "max" : 30, "min" : 12 },
@@ -14,7 +14,7 @@
 		"fightValue" : 135,
 		"graphics" : {
 			"animation" : "courtyard/battle/CHomunculus.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.25 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.25 },
 			"iconLarge" : "courtyard/icons/units/IcHomun101",
 			"iconSmall" : "courtyard/icons/units/IsHomun101",
 			"map" : "courtyard/map/lvl6unit.def",
@@ -52,7 +52,7 @@
 		"fightValue" : 182,
 		"graphics" : {
 			"animation" : "courtyard/battle/CSHomuncul.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.25 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.25 },
 			"iconLarge" : "courtyard/icons/units/IcHomun102",
 			"iconSmall" : "courtyard/icons/units/IsHomun102",
 			"map" : "courtyard/map/lvl6unitup.def",
@@ -69,6 +69,6 @@
 			"move" : "courtyard/lvl5/HomunMOVE.wav",
 			"wince" : "courtyard/lvl5/HomunWNCE.wav"
 		},
-		"speed" : 5,
+		"speed" : 5
 	}
 }

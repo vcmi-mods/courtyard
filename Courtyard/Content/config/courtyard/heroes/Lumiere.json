@@ -25,7 +25,7 @@
 								"propagator" : "HERO",
 				"val" : 3,
 				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] },],
+				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
 			},
 			"castMine":{
 				"addInfo" : 4,
@@ -34,7 +34,7 @@
 				"propagator" : "HERO",
 				"val" : 1,
 				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] },],
+				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
 			},
 			"castSand":{
 				"addInfo" : 4,
@@ -43,7 +43,7 @@
 				"type" : "ENCHANTER",
 				"val" : 2,
 				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] },],
+				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
 			},
 			"castSand2":{
 				"addInfo" : 3,
@@ -52,7 +52,7 @@
 				"type" : "ENCHANTER",
 				"val" : 1,
 				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] },],
+				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
 			},
 			"castField":{
 				"addInfo" : 3,
@@ -61,7 +61,7 @@
 				"type" : "ENCHANTER",
 				"val" : 1,
 				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] },],
+				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
 			},
 			"castField2":{
 				"addInfo" : 3,
@@ -70,10 +70,9 @@
 				"type" : "ENCHANTER",
 				"val" : 3,
 				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] },],
-			},
+				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
 			}
-		},
-
+			}
+		}
 	}
 }

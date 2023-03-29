@@ -3,7 +3,7 @@
 		"army" : [
 			{ "creature" : "cupid", "max" : 18, "min" : 10 },
 			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
-			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
+			{ "creature" : "homunculus", "max" : 11, "min" : 5 }
 		],
 		"class" : "philosopher",
 		"images" : {
@@ -15,11 +15,11 @@
 		"skills" : [ { "level" : "basic", "skill" : "firstAid" }, { "level" : "basic", "skill" : "learning" } ],
 		"spellbook" :
 		[
-			"shield",
+			"shield"
 		],
 		"specialty" : 
-			{
+		{
 			"creature" : "homunculus"
-			},
+		}
 	}
 }

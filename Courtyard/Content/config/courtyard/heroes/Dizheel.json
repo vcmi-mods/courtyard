@@ -17,18 +17,16 @@
 		"specialty" : {
 			"bonuses" : {
 				"diplomacy" : {
-					"subtype" : "skill.diplomacy",
-					"type" : "SECONDARY_SKILL_PREMY",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "WANDERING_CREATURES_JOIN_BONUS",
 					"val" : 5,
 					"valueType" : "PERCENT_TO_BASE",
 					 "updater" : {
 					   "parameters" : [ 5 ],
 					   "type" : "GROWS_WITH_LEVEL"
 				   }
-					
 				}
 			}
-		},
-
+		}
 	}
 }

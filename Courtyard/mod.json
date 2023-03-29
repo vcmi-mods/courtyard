@@ -23,6 +23,8 @@
 		"config/courtyard/spells/etheralPotion",
 		"config/courtyard/spells/weaponPoisonPotion",
 		"config/courtyard/spells/dragonPotion",
+		
+		"config/courtyard/spells/summonApparition"
 		],
 		
 	"creatures" : [
@@ -41,6 +43,8 @@
 		
 		"config/courtyard/warmachines/potionCartCreature",
 		"config/courtyard/warmachines/cameraObscuraCreature",
+		
+		"config/courtyard/creatures/commander"
 		],
 	"artifacts" : ["config/courtyard/warmachines/potionCartArtifact","config/courtyard/warmachines/cameraObscuraArtifact"],
 	"skills" : ["config/courtyard/skills/firstAidPotions"],
@@ -48,7 +52,7 @@
 	
 	"factions" : [
 		"config/courtyard/town",
-		"config/courtyard/courtyardPuzzle",	],
+		"config/courtyard/courtyardPuzzle"	],
 	
 	"heroClasses" : [ "config/courtyard/classes/mightHero", "config/courtyard/classes/magicHero" ],
 	"heroes" : [
@@ -68,7 +72,7 @@
 		"config/courtyard/heroes/Caballe",
 		"config/courtyard/heroes/Hanester",
 		"config/courtyard/heroes/Kanim",
-		"config/courtyard/heroes/heroTexts",
+		"config/courtyard/heroes/heroTexts"
 		
 	],
 	"objects" : [ "config/courtyard/dwellings", "config/courtyard/otherObjects" ],
@@ -76,9 +80,11 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Courtyard town",
-	"version" : "1.03",
+	"version" : "1.05",
 	"changelog" :
     {
+		"1.05"   : [ "New bonus system format" ],
+		"1.04"   : [ "Delete DAEMON_SUMMONIG bonus" ],
 		"1.03"   : [ "Added Arrow Tower icons", "Fixed buildmenu graphic" ],
 		"1.02"   : [ "Tweaks" ],       
 		"1.01"   : [ "Special buildings support" ],
@@ -86,7 +92,7 @@
     },
 	"compatibility":
 	{
-	"min" : "1.0.0"
+		"min" : "1.2"
 	},
 	"german" : {
 		"name" : "Hof",

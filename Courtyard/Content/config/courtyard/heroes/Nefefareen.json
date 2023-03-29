@@ -16,7 +16,7 @@
 		"skills" : [ { "level" : "basic", "skill" : "fireMagic" }, { "level" : "basic", "skill" : "wisdom" } ],
 		"spellbook" :
 		[
-			"fireShield",
+			"fireShield"
 		],
 		"specialty" : {
 			"bonuses" : {
@@ -27,7 +27,7 @@
 				"val" : 33,
 				"limiters": [  "allOf", 
 				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "fireNewt", true ] },
-				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }	],
+				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }	]
 				},
 				"setAflameDuration" :
 				{
@@ -35,21 +35,21 @@
 					"val" : 3,
 				"limiters": [  "allOf", 
 				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "fireNewt", true ] },
-				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }	],	
+				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }	]
 				},
 				"salamanderReceptive":{
 				"type" : "RECEPTIVE",
 				"limiters": [ {
 					"type":"CREATURE_TYPE_LIMITER",
 					"parameters": [ "fireNewt", true ]
-				} ],
+				} ]
 				},
 				"salamanderEnchantSpeed":{
 				"type" : "STACKS_SPEED",
 				"val" : 2,
 				"limiters": [  "allOf", 
 				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "fireNewt", true ] },
-				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }	],
+				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }]
 				},
 				"salamanderEnchantDamage":{
 				"type" : "CREATURE_DAMAGE",
@@ -57,17 +57,17 @@
 				"val" : 2,
 				"limiters": [  "allOf", 
 				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "fireNewt", true ] },
-				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }	],
+				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }]
 				},
 				"salamanderEnchantMorale":{
-				"type" : "SELF_MORALE",
+				"type" : "MORALE",
 				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX",
 				"limiters": [  "allOf", 
 				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "fireNewt", true ] },
-				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }	],
-				},
-				
+				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }]
+				}		
 			}
-		},
+		}
 	}
 }

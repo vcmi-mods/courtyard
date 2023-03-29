@@ -1,6 +1,4 @@
 {
-	
-	
 	"deathGrasp":
 	{
 		"type": "combat", 
@@ -21,7 +19,7 @@
 		{
 			"necropolis" : 0.5,
 			"dungeon" : 0.3,
-			"courtyard" : 0.2,
+			"courtyard" : 0.2
 		},
 
  
@@ -38,7 +36,7 @@
 			"iconBook": "courtyard/spells/DeathGrasp/DGrasp_book1",
 			"iconEffect": "courtyard/spells/DeathGrasp/DGrasp_effect1",
 			"iconScroll": "courtyard/spells/DeathGrasp/DGrasp_scroll1",
-			"iconScenarioBonus": "courtyard/spells/DeathGrasp/DGrasp_bonus1",
+			"iconScenarioBonus": "courtyard/spells/DeathGrasp/DGrasp_bonus1"
 			//  ! will be moved to bonus type config in next bonus config version
 			//  iconImmune - OPTIONAL; string; 
 			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
@@ -64,41 +62,35 @@
 			"none":
 			{
 				"description": "{Death Grasp}\n\nKills units from selected stack.",
-	 
-	 
-			"battleEffects" : {
-				"directDamage" : {"type":"core:damage", "killByCount": true, "val": 5, "valueType": 	"INDEPENDENT_MIN"}
-			},
+				"battleEffects" : {
+				"directDamage" : {"type":"core:damage", "killByCount": true, "val": 5, "valueType": "INDEPENDENT_MIN"}
+				}
 			},
 			"basic":
 			{
-								"power": 0.15,
+				"power": 0.15,
 				"description": "{Basic Death Grasp}\n\nKills units from selected stack.",
-	 
-	 
-			"battleEffects" : {
-				"directDamage" : {"type":"core:damage", "killByCount": true, "val": 1, "valueType": 	"INDEPENDENT_MIN"}
-				},
+				"battleEffects" : {
+				"directDamage" : {"type":"core:damage", "killByCount": true, "val": 1, "valueType": "INDEPENDENT_MIN"}
+				}
 			},
 			"advanced":
-			{					"power": 0.2,
+			{	
+				"power": 0.2,
 				"description": "{Advanced Death Grasp}\n\nKills units from selected stack.",
 	 
 	 
 			"battleEffects" : {
-				"directDamage" : {"type":"core:damage", "killByCount": true, "val": 2, "valueType": 	"INDEPENDENT_MIN"}
-				},
+				"directDamage" : {"type":"core:damage", "killByCount": true, "val": 2, "valueType": "INDEPENDENT_MIN"}
+				}
 			},
 			"expert":
-			{					"power": 0.25,
+			{	"power": 0.25,
 				"description": "{Expert Death Grasp}\n\nKills units from selected stack.",
-	 
-	 
-			"battleEffects" : {
-				"directDamage" : {"type":"core:damage", "killByCount": true, "val": 3, "valueType": 	"INDEPENDENT_MIN"}
+				"battleEffects" : {
+				"directDamage" : {"type":"core:damage", "killByCount": true, "val": 3, "valueType": "INDEPENDENT_MIN"}
 				}
 			}
 		}
 	}
- 
 }

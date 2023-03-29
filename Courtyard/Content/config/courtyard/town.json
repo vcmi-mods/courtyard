@@ -85,7 +85,7 @@
 					"requires" : [ "allOf", [ "dwellingLvl4" ], ["mageGuild1"] ]
 				},
 				"dwellingLvl7" : {
-					"cost" : { "gold" : 7500, "ore" : 10, "sulfur" : 5, "crystal" : 5, },
+					"cost" : { "gold" : 7500, "ore" : 10, "sulfur" : 5, "crystal" : 5 },
 					"description" : "The Scary Cavity allows you to recruit Jabberwocks.",
 					"id" : 36,
 					"name" : "Scary Cavity",
@@ -118,7 +118,7 @@
 					"description" :"The Upg. Arsenal allows you to recruit Musketeers.",
 					"id" : 40,
 					"name" : "Upg. Arsenal",
-					"requires" : [ "allOf", [ "dwellingUpLvl2" ], ],
+					"requires" : [ "allOf", [ "dwellingUpLvl2" ] ],
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" : {
@@ -143,7 +143,7 @@
 					"id" : 42,
 					"name" : "Upg. Arbours",
 					"upgrades" : "dwellingLvl6",
-					"requires" : [ "allOf", [ "dwellingUpLvl3" ], ["cityHall"] ],
+					"requires" : [ "allOf", [ "dwellingUpLvl3" ], ["cityHall"] ]
 				},
 				"dwellingUpLvl7" : {
 					"cost" : { "gems" : 15, "gold" : 20000, "ore" : 5, "sulfur" : 15, "wood" : 5 },
@@ -182,7 +182,7 @@
 					"upgrades" : "dwellingUpLvl1"
 				},
 				"horde2" : {
-					"cost" : { "gold" : 2000, "crystal" : 1, },
+					"cost" : { "gold" : 2000, "crystal" : 1 },
 					"description" : "The Hanging Gardens increases Regal Mandrakes production by 1 per week.",
 					"id" : 24,
 					"name" : "Hanging Gardens",
@@ -294,7 +294,7 @@
 					"description" : "The Alchemy Shop does nothing at the moment.",
 					"id" : 23,
 					"name" : "Alchemy Shop",
-					"requires" : [ "marketplace" ],
+					"requires" : [ "marketplace" ]
 				},
 				"tavern" : {
 					"cost" : { "gold" : 500, "wood" : 5 },
@@ -319,6 +319,8 @@
 				"townFountain": {
 					"id" : 28,
 					"requires" : [ "cityHall" ],
+					"name" : "Magic Fountain",
+					"description" : "Magic Fountain restores all mana points of visiting hero at the beginning of next day.",
 					"mode" : "auto"
 				}
 			},
@@ -396,7 +398,7 @@
 				"sacrifice" : 5,
 				"fly" : 2,
 				"dimensionDoor" : 1,
-				"magicMirror" : 4,
+				"magicMirror" : 4
 			},
 			"guildWindow" : "courtyard/town/mageguild",
 			"hallBackground" : "courtyard/town/buildmenu",		
@@ -420,7 +422,7 @@
 					[ "dwellingLvl1", "dwellingUpLvl1" ],
 					[ "dwellingLvl2", "dwellingUpLvl2" ],
 					[ "dwellingLvl3", "dwellingUpLvl3" ],
-					[ "dwellingLvl4", "dwellingUpLvl4" ],
+					[ "dwellingLvl4", "dwellingUpLvl4" ]
 				],
 				[
 					[ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingAltUpLvl5" ],
@@ -876,7 +878,7 @@
 			},
 			"tavernVideo" : "tvrncrt.BIK",
 			"townBackground" : "courtyard/town/background",
-			"warMachine" : "potionCartCreature",
+			"warMachine" : "potionCartCreature"
 		}
 	}
 }

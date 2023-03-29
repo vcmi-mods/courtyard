@@ -31,9 +31,9 @@
 		},
  
 		"flags" : {	"positive": true, "rising" : true},
-"targetCondition" : {
+		"targetCondition" : {
 			"noneOf" : { "bonus.UNDEAD" : "absolute" },
-			"anyOf" : {	"bonus.NON_LIVING" : "absolute", "bonus.GARGOYLE" : "absolute" },
+			"anyOf" : {	"bonus.NON_LIVING" : "absolute", "bonus.GARGOYLE" : "absolute" }
 		},
  
 		"graphics":
@@ -42,7 +42,7 @@
 			"iconBook": "courtyard/spells/reconstruction/Repair_book1",
 			"iconEffect": "courtyard/spells/reconstruction/Repair_effect1",
 			"iconScroll": "courtyard/spells/reconstruction/Repair_scroll1",
-			"iconScenarioBonus": "courtyard/spells/reconstruction/Repair_bonus1",
+			"iconScenarioBonus": "courtyard/spells/reconstruction/Repair_bonus1"
 		},
 
 		"sounds": {
@@ -62,7 +62,7 @@
 						"healLevel":"resurrect",
 						"healPower":"oneBattle",
 						"minFullUnits" : 1,
-						"val" : 30,
+						"val" : 30
 					},
 					"cure":{
 						"type":"core:dispel",
@@ -77,7 +77,7 @@
 			},
 			"none":
 			{
-				"description": "{Reconstruction}\n\nRestores a non-living units to functionality until the end of the battle.",
+				"description": "{Reconstruction}\n\nRestores a non-living units to functionality until the end of the battle."
 			},
 			"basic":
 			{
@@ -86,7 +86,7 @@
 				"battleEffects":{
 					"heal":{
 						"healPower":"permanent",
-						"val" : 30,
+						"val" : 30
 					}
 				}
 			},
@@ -96,7 +96,7 @@
 				"battleEffects":{
 					"heal":{
 						"healPower":"permanent",
-						"val" : 50,
+						"val" : 50
 					}
 				}
 			},
@@ -105,11 +105,10 @@
 				"power": 70,
 				"battleEffects":{
 					"heal":{
-						"val" : 70,
+						"val" : 70
 					}
 				}
 			}
 		}
 	}
- 
 }

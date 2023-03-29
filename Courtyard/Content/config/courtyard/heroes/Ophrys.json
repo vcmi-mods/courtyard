@@ -23,7 +23,7 @@
 				"limiters": [ {
 					"type":"CREATURE_TYPE_LIMITER",
 					"parameters": [ "mandrake", true ]
-				} ],
+				} ]
 				},
 				"vinesSpeed":{
 				"type" : "STACKS_SPEED",
@@ -31,16 +31,16 @@
 				"limiters": [ {
 					"type":"CREATURE_TYPE_LIMITER",
 					"parameters": [ "tangleVine", true ]
-				} ],
+				} ]
 				},
 				"vinesFirstStrike":{
 				"type" : "FIRST_STRIKE",
 				"limiters": [ {
 					"type":"CREATURE_TYPE_LIMITER",
 					"parameters": [ "tangleVine", true ]
-				} ],
-				},
+				} ]
+				}
 			}
-		},
+		}
 	}
 }
