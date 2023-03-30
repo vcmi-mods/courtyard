@@ -97,7 +97,6 @@
 	"german" : {
 		"name" : "Hof",
 		"description" : "Hof Stadt",
-		"modType" : "Stadt",		
 		"translations" : [
 			"translation/courtyard/german.json"
 		]
