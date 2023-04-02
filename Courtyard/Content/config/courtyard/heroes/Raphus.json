@@ -24,15 +24,14 @@
 			"creature" : "cupid",
 			"bonuses" : {
 				"reconstruction":{
-				"type" : "SPELL",
-				"subtype" : "spell.reconstruction",
-				"val" : 3
+					"type" : "SPELL",
+					"subtype" : "spell.reconstruction",
+					"val" : 3
 				},
 				"reconstruction2":{
+					"addInfo" : 3,
 					"subtype" : "spell.reconstruction",
-					"type" : "SPELL",
-					"val" : 3,
-					"valueType" : "INDEPENDENT_MAX"
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
 		}
