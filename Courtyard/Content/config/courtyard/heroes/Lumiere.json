@@ -20,58 +20,58 @@
 		],
 		"specialty" : {
 			"bonuses" : {
-			"casts":{
-				"type" : "CASTS",
-								"propagator" : "HERO",
-				"val" : 3,
-				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
-			},
-			"castMine":{
-				"addInfo" : 4,
-				"subtype" : "spell.landMine",
-								"type" : "ENCHANTER",
-				"propagator" : "HERO",
-				"val" : 1,
-				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
-			},
-			"castSand":{
-				"addInfo" : 4,
-				"subtype" : "spell.quicksand",
-								"propagator" : "HERO",
-				"type" : "ENCHANTER",
-				"val" : 2,
-				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
-			},
-			"castSand2":{
-				"addInfo" : 3,
-				"subtype" : "spell.quicksand",
-								"propagator" : "HERO",
-				"type" : "ENCHANTER",
-				"val" : 1,
-				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
-			},
-			"castField":{
-				"addInfo" : 3,
-				"subtype" : "spell.forceField",
-								"propagator" : "HERO",
-				"type" : "ENCHANTER",
-				"val" : 1,
-				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
-			},
-			"castField2":{
-				"addInfo" : 3,
-				"subtype" : "spell.forceField",
-								"propagator" : "HERO",
-				"type" : "ENCHANTER",
-				"val" : 3,
-				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
-			}
+				"casts":{
+					"type" : "CASTS",
+					"propagator" : "HERO",
+					"val" : 3,
+					"limiters": [  "allOf", 
+						{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
+				},
+				"castMine":{
+					"addInfo" : 4,
+					"subtype" : "spell.landMine",
+					"type" : "ENCHANTER",
+					"propagator" : "HERO",
+					"val" : 1,
+					"limiters": [  "allOf", 
+					{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
+				},
+				"castSand":{
+					"addInfo" : 4,
+					"subtype" : "spell.quicksand",
+					"propagator" : "HERO",
+					"type" : "ENCHANTER",
+					"val" : 2,
+					"limiters": [  "allOf", 
+					{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
+				},
+				"castSand2":{
+					"addInfo" : 3,
+					"subtype" : "spell.quicksand",
+					"propagator" : "HERO",
+					"type" : "ENCHANTER",
+					"val" : 1,
+					"limiters": [  "allOf", 
+					{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
+				},
+				"castField":{
+					"addInfo" : 3,
+					"subtype" : "spell.forceField",
+					"propagator" : "HERO",
+					"type" : "ENCHANTER",
+					"val" : 1,
+					"limiters": [  "allOf", 
+					{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
+				},
+				"castField2":{
+					"addInfo" : 3,
+					"subtype" : "spell.forceField",
+					"propagator" : "HERO",
+					"type" : "ENCHANTER",
+					"val" : 3,
+					"limiters": [  "allOf", 
+					{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
+				}
 			}
 		}
 	}
