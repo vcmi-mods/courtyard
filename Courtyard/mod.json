@@ -96,6 +96,7 @@
 		"min" : "1.2"
 	},
 	"chinese" : {
+		"name" : "教廷",
 		"translations" : [
 			"translation/courtyard/chinese.json"
 		]
