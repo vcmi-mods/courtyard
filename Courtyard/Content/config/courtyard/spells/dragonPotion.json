@@ -10,7 +10,7 @@
 		{
 			"air": false,
 			"earth": false,
-			"fire": true,
+			"fire": false,
 			"water": false
 		},
 		"level": 2,
