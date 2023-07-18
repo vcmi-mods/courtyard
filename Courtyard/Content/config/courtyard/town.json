@@ -1,6 +1,7 @@
 {
 	"courtyard" : {
 		"alignment" : "good",
+		"boat" : "boatCastle",
 		"creatureBackground" : { "120px" : "courtyard/creaturebg120px", "130px" : "courtyard/creaturebg130px" },
 		"name" : "Courtyard",
 		"nativeTerrain" : "grass",
@@ -431,6 +432,7 @@
 				]
 			],
 			"horde" : [ 0, 5 ],
+			"moatAbility" : "courtyardMoat",
 			"icons" : {
 				"fort" : {
 					"built" : {
@@ -485,8 +487,7 @@
 				"Al Londe"
 			],
 			//"primaryResource" : "sulfur",
-			
-			"moatDamage" : 70,			
+		
 			"siege" :
 			{
 				"shooter" : "arquebusier",

@@ -8,7 +8,7 @@
 		{
 			"air": false,
 			"earth": false,
-			"fire": false,
+			"fire": true,
 			"water": false
 		},
 		"level": 5,
@@ -28,18 +28,12 @@
 		},
  
 		"flags" : { "offensive": true, "damage": true, "negative" : true },
-
- 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
 			"iconBook": "courtyard/spells/DeathGrasp/DGrasp_book1",
 			"iconEffect": "courtyard/spells/DeathGrasp/DGrasp_effect1",
 			"iconScroll": "courtyard/spells/DeathGrasp/DGrasp_scroll1",
 			"iconScenarioBonus": "courtyard/spells/DeathGrasp/DGrasp_bonus1"
-			//  ! will be moved to bonus type config in next bonus config version
-			//  iconImmune - OPTIONAL; string; 
-			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
 		},
 
 		"sounds": {

@@ -1,7 +1,30 @@
 {
+	"modType" : "Town",
+	"name" : "Courtyard town",
+	"description" : "New faction based on alchemy-baroque climax",
 	"author" : "Trith, special thanks to: avatar, Kammer, Andruids, Hobbicus and MDT team",
-
 	"contact" : "NONE",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "1.07",
+	
+	"changelog" :
+    {
+		"1.07"   : [ "Update to vcmi-1.3", "some fixes in spells" ],
+		"1.06"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
+		"1.05"   : [ "New bonus system format" ],
+		"1.04"   : [ "Delete DAEMON_SUMMONIG bonus" ],
+		"1.03"   : [ "Added Arrow Tower icons", "Fixed buildmenu graphic" ],
+		"1.02"   : [ "Tweaks" ],       
+		"1.01"   : [ "Special buildings support" ],
+		"1.00"   : [ "Initian release"  ]
+    },
+	
+	"compatibility":
+	{
+		"min" : "1.3.0"
+	},
+	
 	"spells" : [ 
 		"config/courtyard/spells/reconstruction",
 		"config/courtyard/spells/deathGrasp",
@@ -24,7 +47,9 @@
 		"config/courtyard/spells/weaponPoisonPotion",
 		"config/courtyard/spells/dragonPotion",
 		
-		"config/courtyard/spells/summonApparition"
+		"config/courtyard/spells/summonApparition",
+		
+		"config/courtyard/spells/moat"
 		],
 		
 	"creatures" : [
@@ -46,15 +71,25 @@
 		
 		"config/courtyard/creatures/commander"
 		],
-	"artifacts" : ["config/courtyard/warmachines/potionCartArtifact","config/courtyard/warmachines/cameraObscuraArtifact"],
-	"skills" : ["config/courtyard/skills/firstAidPotions"],
-	"description" : "New faction.",
+	"artifacts" : [
+		"config/courtyard/warmachines/potionCartArtifact",
+		"config/courtyard/warmachines/cameraObscuraArtifact"
+	],
 	
+	"skills" : [
+		"config/courtyard/skills/firstAidPotions"
+	],
+		
 	"factions" : [
 		"config/courtyard/town",
-		"config/courtyard/courtyardPuzzle"	],
+		"config/courtyard/courtyardPuzzle"	
+	],
 	
-	"heroClasses" : [ "config/courtyard/classes/mightHero", "config/courtyard/classes/magicHero" ],
+	"heroClasses" : [ 
+		"config/courtyard/classes/mightHero", 
+		"config/courtyard/classes/magicHero" 
+	],
+	
 	"heroes" : [
 		"config/courtyard/heroes/Nefefareen",
 		"config/courtyard/heroes/Auk",
@@ -75,26 +110,11 @@
 		"config/courtyard/heroes/heroTexts"
 		
 	],
-	"objects" : [ "config/courtyard/dwellings", "config/courtyard/otherObjects" ],
-	"licenseName" : "Creative Commons Attribution-ShareAlike",
-	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"modType" : "Town",
-	"name" : "Courtyard town",
-	"version" : "1.06",
-	"changelog" :
-    {
-		"1.06"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"1.05"   : [ "New bonus system format" ],
-		"1.04"   : [ "Delete DAEMON_SUMMONIG bonus" ],
-		"1.03"   : [ "Added Arrow Tower icons", "Fixed buildmenu graphic" ],
-		"1.02"   : [ "Tweaks" ],       
-		"1.01"   : [ "Special buildings support" ],
-		"1.00"   : [ "Initian release"  ]
-    },
-	"compatibility":
-	{
-		"min" : "1.2"
-	},
+	"objects" : [
+		"config/courtyard/dwellings", 
+		"config/courtyard/otherObjects" 
+	],
+
 	"chinese" : {
 		"name" : "教廷",
 		"translations" : [

@@ -1,6 +1,4 @@
 {
-	
-	
 	"etheralPotion":
 	{
 		"type": "combat", 
@@ -20,8 +18,6 @@
 		"gainChance":
 		{
 		},
-
- 
 		"animation":{
 			"affect":["courtyard/spells/Potions/Etheral/etheralPotion.def"]
 		},
@@ -64,8 +60,6 @@
 			"none":
 			{
 				"description": "{Supreme Etheral Extract}\n\nGrants unit ability to fly and 20% damage reduction from spells and attacks.",
-	 
-	 
 				"effects":
 				{
 					"flying" : {

@@ -21,9 +21,10 @@
 		"specialty" : {
 			"bonuses" : {
 				"fireMagic" : {
-					"type" : "FIRE_SPELL_DMG_PREMY",
-					"val" : 5,
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "spellSchool.fire",
 					"valueType" : "BASE_NUMBER",
+					"val" : 5,
 					"updater" : "TIMES_HERO_LEVEL"
 				}
 			}

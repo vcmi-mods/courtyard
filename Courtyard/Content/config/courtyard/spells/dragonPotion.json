@@ -10,7 +10,7 @@
 		{
 			"air": false,
 			"earth": false,
-			"fire": false,
+			"fire": true,
 			"water": false
 		},
 		"level": 2,
@@ -123,7 +123,9 @@
 						"duration": "N_TURNS"
 					},
 					"potionMarkerEffect" :
-					{"type" : "SPECIFIC_SPELL_DAMAGE","subtype" : "spell.potionSupply",
+					{
+						"type" : "SPECIFIC_SPELL_DAMAGE",
+						"subtype" : "spell.potionSupply",
 						"val" : 0,
 						"duration": "N_TURNS"
 					}
@@ -165,7 +167,37 @@
 			},
 			"expert":
 			{
-				"description": "{Supreme Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame."
+				"description": "{Ultimate Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
+				"effects":
+				{
+					"breathAttack" : {
+						"type" : "TWO_HEX_ATTACK_BREATH",
+						"duration": "N_TURNS"
+					},
+					"isDragon" : {
+						"type" : "DRAGON_NATURE",
+						"duration": "N_TURNS"
+					},
+					"setAflame":{
+						"type" : "SPELL_AFTER_ATTACK",
+						"addInfo" : [2,2],
+						"subtype" : "spell.immolationCurse",
+						"val" : 30,
+						"duration": "N_TURNS"
+					},
+					"setAflameDuration" :
+					{
+						"type" : "CREATURE_ENCHANT_POWER",
+						"subtype" : "spell.immolationCurse",
+						"val" : 4,
+						"duration": "N_TURNS"
+					},
+					"potionMarkerEffect" :
+					{"type" : "SPECIFIC_SPELL_DAMAGE","subtype" : "spell.potionSupply",
+						"val" : 0,
+						"duration": "N_TURNS"
+					}
+				}
 			}
 		}
 	}

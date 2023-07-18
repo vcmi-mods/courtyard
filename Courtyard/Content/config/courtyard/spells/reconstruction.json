@@ -11,7 +11,7 @@
 			"air": false,
 			"earth": false,
 			"fire": false,
-			"water": false
+			"water": true
 		},
 		"level": 3,
 		"power": 30,

@@ -10,7 +10,7 @@
         },
         "targetType": "NO_TARGET",
         "level": 3,
-        "power": 10, //i think power is irrevelant in this case
+        "power": 10,
         "defaultGainChance": 7,
         "gainChance": {
             "rampart": 6,
@@ -43,9 +43,9 @@
         },
         "levels": {
             "base": {
-                "power": 10, //irrevelant?
+                "power": 10,
                 "aiValue": 20,
-                "range": "X", //like armageddon, death ripple, destroy undead
+                "range": "X",
                 "targetModifier": {
                     "smart": false
                 },
