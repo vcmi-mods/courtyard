@@ -1,12 +1,13 @@
 {
 	"tangleVine" : {
 		"abilities" : {
-			"flying" : {"type" : "FLYING", "subtype" : 1},
-			"binds" :
-			{
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.bind",
-				"val" : 100
+			"flying" : {	"type" :	"FLYING",	"subtype" : 1},
+			"noMorale":{	"type" :	"NO_MORALE"},
+			"mindImmunity":{"type" :	"MIND_IMMUNITY"},
+			"binds" :{
+				"type" :	"SPELL_AFTER_ATTACK",
+				"subtype" :	"spell.bind",
+				"val" : 	100
 			}
 		},
 		"advMapAmount" : { "max" : 50, "min" : 10 },
@@ -43,12 +44,13 @@
 	
 	"strangleVine" : {
 		"abilities" : {
-			"flying" : {"type" : "FLYING", "subtype" : 1},
-			"binds" :
-			{
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.bind",
-				"val" : 100
+			"flying" : {	"type" :	"FLYING",	"subtype" : 1},
+			"noMorale":{	"type" :	"NO_MORALE"},
+			"mindImmunity":{"type" :	"MIND_IMMUNITY"},
+			"binds" :{
+				"type" :	"SPELL_AFTER_ATTACK",
+				"subtype" :	"spell.bind",
+				"val" : 	100
 			}
 		},
 		"advMapAmount" : { "max" : 50, "min" : 10 },
