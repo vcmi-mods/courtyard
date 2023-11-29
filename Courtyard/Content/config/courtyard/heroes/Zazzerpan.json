@@ -22,14 +22,14 @@
 				"bonuses" : {
 			"magicVulnerability":			{
 				"type" : "NEGATE_ALL_NATURAL_IMMUNITIES",
-				"subtype" : 0,
+				"subtype" : "immunityBattleWide",
 				"val" : 0,
 				"valueType" : "BASE_NUMBER",
 				"propagator": "BATTLE_WIDE"
 					},
 			"magicVulnerability2":			{
 				"type" : "NEGATE_ALL_NATURAL_IMMUNITIES",
-				"subtype" : 1,
+				"subtype" : "immunityEnemyHero",
 				"val" : 0,
 				"valueType" : "BASE_NUMBER",
 				"propagator": "BATTLE_WIDE"

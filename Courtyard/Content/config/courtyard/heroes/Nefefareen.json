@@ -53,7 +53,7 @@
 				},
 				"salamanderEnchantDamage":{
 				"type" : "CREATURE_DAMAGE",
-				"subtype" : 0,
+				"subtype" : "creatureDamageMax",
 				"val" : 2,
 				"limiters": [  "allOf", 
 				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "fireNewt", true ] },

@@ -65,7 +65,7 @@
 					"power" :
 					{
 						"type" : "CREATURE_SPELL_POWER",
-						"subtype" : "spell.immolationDamage",
+//						"subtype" : "spell.immolationDamage",
 						"val" : 5,
 						"duration": "N_TURNS"
 					}
@@ -89,7 +89,7 @@
 					"power" :
 					{
 					"type" : "CREATURE_SPELL_POWER",
-					"subtype" : "spell.immolationDamage",
+//					"subtype" : "spell.immolationDamage",
 					"val" : 7,
 					"duration": "N_TURNS"				
 					}
@@ -112,7 +112,7 @@
 					"power" :
 					{
 					"type" : "CREATURE_SPELL_POWER",
-					"subtype" : "spell.immolationDamage",
+//					"subtype" : "spell.immolationDamage",
 					"val" : 10,
 					"duration": "N_TURNS"
 					}
@@ -135,7 +135,7 @@
 					"power" :
 					{
 					"type" : "CREATURE_SPELL_POWER",
-					"subtype" : "spell.immolationDamage",
+//					"subtype" : "spell.immolationDamage",
 					"val" : 12,
 					"duration": "N_TURNS"
 					}

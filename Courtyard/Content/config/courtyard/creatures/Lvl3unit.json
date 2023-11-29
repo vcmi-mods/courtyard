@@ -2,7 +2,7 @@
 	"fireNewt" : {
 		"abilities" : {
 			"fireImmune" :
-				{ "type" : "FIRE_IMMUNITY", "subtype" : 0 }	
+				{ "type" : "SPELL_SCHOOL_IMMUNITY", "subtype" : "fire" }	
 		},
 		"doubleWide" : true,
 		"advMapAmount" : { "max" : 24, "min" : 12 },
@@ -41,7 +41,7 @@
 	"salamander" : {
 		"abilities" : {
 			"fireImmune" :
-				{ "type" : "FIRE_IMMUNITY", "subtype" : 0 }		
+				{ "type" : "SPELL_SCHOOL_IMMUNITY", "subtype" : "fire" }	
 		},	
 		"doubleWide" : true,		
 		"advMapAmount" : { "max" : 24, "min" : 11 },

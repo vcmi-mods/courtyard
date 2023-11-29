@@ -3,7 +3,7 @@
 		"abilities" : { 
 			
 			"canFly" :
-				{ "type" : "FLYING", "subtype": 1 },
+				{ "type" : "FLYING", "subtype": "movementTeleporting" },
 			"immuneToMind" : 
 				{ "type" : "MIND_IMMUNITY" },
 			"nonLiving" : 
@@ -11,7 +11,7 @@
 			"undead" : 
 				{ "type" : "UNDEAD" },
 			"earthImmune" :
-				{ "type" : "EARTH_IMMUNITY", "subtype" : 0 },
+				{ "type" : "SPELL_SCHOOL_IMMUNITY", "subtype" : "earth" },
 			"noRevive" :
 				{ "type" : "SPELL_IMMUNITY", "subtype" : "spell.animateDead", "addInfo": 1 },
 
@@ -28,17 +28,17 @@
 			},			
 			"damageReduction1" : {
 			"type" : "GENERAL_DAMAGE_REDUCTION",
-			"subtype" : 0,
+			"subtype" : "damageTypeMelee",
 			"val" : 98
 			},
 			"damageReduction2" : {
 			"type" : "GENERAL_DAMAGE_REDUCTION",
-			"subtype" : 1,
+			"subtype" : "damageTypeRanged",
 			"val" : 98
 			},
 			"magicDamageReduction" : {
 			"type" : "SPELL_DAMAGE_REDUCTION",
-			"subtype" : -1,
+			"subtype" : "spellSchool.any",
 			"val" : 95
 			},
 			"fear" : { "type" : "FEAR" },

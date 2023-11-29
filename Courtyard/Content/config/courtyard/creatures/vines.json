@@ -1,7 +1,7 @@
 {
 	"tangleVine" : {
 		"abilities" : {
-			"flying" : {	"type" :	"FLYING",	"subtype" : 1},
+			"flying" : {	"type" :	"FLYING",	"subtype" : "movementTeleporting"},
 			"noMorale":{	"type" :	"NO_MORALE"},
 			"mindImmunity":{"type" :	"MIND_IMMUNITY"},
 			"binds" :{
@@ -44,7 +44,7 @@
 	
 	"strangleVine" : {
 		"abilities" : {
-			"flying" : {	"type" :	"FLYING",	"subtype" : 1},
+			"flying" : {	"type" :	"FLYING",	"subtype" : "movementTeleporting"},
 			"noMorale":{	"type" :	"NO_MORALE"},
 			"mindImmunity":{"type" :	"MIND_IMMUNITY"},
 			"binds" :{

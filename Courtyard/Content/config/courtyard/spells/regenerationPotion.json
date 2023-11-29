@@ -68,7 +68,6 @@
 					"regeneration" : {
 						"val" : 5,
 						"type" : "HP_REGENERATION",
-						"subtype" : 1,
 						"duration": "N_TURNS"
 					},
 					"potionMarkerEffect" :
@@ -119,7 +118,6 @@
 						"type" : "HP_REGENERATION",
 						"val" : 100000,
 						"valueType" : "ADDITIVE_VALUE",
-						"subtype" : 0,
 						"duration" : "N_TURNS"
 					},
 					"potionMarkerEffect" :

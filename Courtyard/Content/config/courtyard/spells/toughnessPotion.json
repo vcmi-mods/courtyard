@@ -66,7 +66,7 @@
 					"increaseDamage" : {
 						"val" : 15,
 						"type" : "CREATURE_DAMAGE",
-						"subtype" : 0,
+						"subtype" : "creatureDamageBoth",
 						"valueType": "PERCENT_TO_BASE",
 						"duration": "N_TURNS"
 					},
@@ -77,9 +77,9 @@
 						"duration": "N_TURNS"
 					},
 					"giant" : {
-						"val" : 40,
+//						"val" : 40,
 						"type" : "KING",
-//						"val" : 1,
+						"val" : 1,
 						"valueType" : "ADDITIVE_VALUE"
 					},
 					"potionMarkerEffect" :
@@ -96,7 +96,7 @@
 					"increaseDamage" : {
 						"val" : 20,
 						"type" : "CREATURE_DAMAGE",
-						"subtype" : 0,
+						"subtype" : "creatureDamageBoth",
 						"valueType": "PERCENT_TO_BASE",
 						"duration": "N_TURNS"
 					},
@@ -107,9 +107,9 @@
 						"duration": "N_TURNS"
 					},
 					"giant" : {
-						"val" : 40,
+//						"val" : 40,
 						"type" : "KING",
-//						"val" : 1,
+						"val" : 1,
 						"valueType" : "ADDITIVE_VALUE"
 					},
 					"potionMarkerEffect" :

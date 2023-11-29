@@ -67,7 +67,7 @@
 					"increaseDamage" : {
 						"val" : 20,
 						"type" : "CREATURE_DAMAGE",
-						"subtype" : 0,
+						"subtype" : "creatureDamageBoth",
 						"valueType": "PERCENT_TO_BASE",
 						"duration": "N_TURNS"
 					}
@@ -86,7 +86,7 @@
 					"increaseDamage" : {
 						"val" : 35,
 						"type" : "CREATURE_DAMAGE",
-						"subtype" : 0,
+						"subtype" : "creatureDamageBoth",
 						"valueType": "PERCENT_TO_BASE",
 						"duration": "N_TURNS"
 					}
@@ -100,7 +100,7 @@
 					"increaseDamage" : {
 						"val" : 50,
 						"type" : "CREATURE_DAMAGE",
-						"subtype" : 0,
+						"subtype" : "creatureDamageBoth",
 						"valueType": "PERCENT_TO_BASE",
 						"duration": "N_TURNS"
 					}

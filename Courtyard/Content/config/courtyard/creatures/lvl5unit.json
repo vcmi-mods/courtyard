@@ -54,17 +54,17 @@
 			},
 			"damageReduction1" : {
 			"type" : "GENERAL_DAMAGE_REDUCTION",
-			"subtype" : 0,
+			"subtype" : "damageTypeMelee",
 			"val" : 25
 			},
 			"damageReduction2" : {
 			"type" : "GENERAL_DAMAGE_REDUCTION",
-			"subtype" : 1,
+			"subtype" : "damageTypeRanged",
 			"val" : 25
 			},
 			"magicDamageReduction" : {
 			"type" : "SPELL_DAMAGE_REDUCTION",
-			"subtype" : -1,
+			"subtype" : "spellSchool.any",
 			"val" : 33
 			},
 			"magicDamageReductionAura" : {

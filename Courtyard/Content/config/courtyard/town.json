@@ -285,7 +285,7 @@
 				"special3" : {
 					"cost" : { "gold" : 1500, "mercury" : 3, "crystal" : 3 },
 					"description" : "The Magic Absorber decreases magic damage taken by your army during siege.",
-					"bonuses" : [ { "type": "SPELL_DAMAGE_REDUCTION", "val": 50, "subtype": -1 } ],
+					"bonuses" : [ { "type": "SPELL_DAMAGE_REDUCTION", "val": 50, "subtype": "spellSchool.any" } ],
 					"id" : 22,
 					"name" : "Magic Absorber",
 					"requires" : [ "allOf", [ "mageGuild2" ], ["citadel"] ]

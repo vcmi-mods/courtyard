@@ -69,7 +69,7 @@
 					"decreaseeDamage" : {
 						"val" : -30,
 						"type" : "CREATURE_DAMAGE",
-						"subtype" : 0,
+						"subtype" : "creatureDamageBoth",
 						"valueType": "PERCENT_TO_BASE",
 						"duration": "N_TURNS"
 
@@ -95,7 +95,7 @@
 					"decreaseeDamage" : {
 						"val" : -20,
 						"type" : "CREATURE_DAMAGE",
-						"subtype" : 0,
+						"subtype" : "creatureDamageBoth",
 						"valueType": "PERCENT_TO_BASE",
 						"duration": "N_TURNS"
 						}
@@ -110,7 +110,7 @@
 					"decreaseeDamage" : {
 						"val" : -10,
 						"type" : "CREATURE_DAMAGE",
-						"subtype" : 0,
+						"subtype" : "creatureDamageBoth",
 						"valueType": "PERCENT_TO_BASE",
 						"duration": "N_TURNS"
 					}
@@ -125,7 +125,7 @@
 					"decreaseeDamage" : {
 						"val" : -10,
 						"type" : "CREATURE_DAMAGE",
-						"subtype" : 0,
+						"subtype" : "creatureDamageBoth",
 						"valueType": "PERCENT_TO_BASE",
 						"duration": "N_TURNS"
 					}

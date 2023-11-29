@@ -1,7 +1,7 @@
 {
 	"homunculus" : {
 		"abilities" : {
-			"regeneration" : { "type" : "HP_REGENERATION", "val" : 7, "subtype" : 1 }
+			"regeneration" : { "type" : "HP_REGENERATION", "val" : 7 }
 		},
 		
 		"advMapAmount" : { "max" : 30, "min" : 12 },
@@ -39,7 +39,7 @@
 
 	"gildedHomunculus" : {
 		"abilities" : {
-			"regeneration" : { "type" : "HP_REGENERATION", "val" : 10, "subtype" : 1 },
+			"regeneration" : { "type" : "HP_REGENERATION", "val" : 10 },
 			"increasedSpellDamage" : { "type" : "SPELL_DAMAGE", "propagator" : "HERO", "val" : 15 }
 		},
 		"advMapAmount" : { "max" : 30, "min" : 12 },

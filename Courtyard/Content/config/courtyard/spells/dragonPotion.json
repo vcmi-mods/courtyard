@@ -89,7 +89,7 @@
 					"setAflameDuration" :
 					{
 						"type" : "CREATURE_ENCHANT_POWER",
-						"subtype" : "spell.immolationCurse",
+//						"subtype" : "spell.immolationCurse",
 						"val" : 2,
 						"duration": "N_TURNS"
 					}
@@ -118,7 +118,7 @@
 					"setAflameDuration" :
 					{
 						"type" : "CREATURE_ENCHANT_POWER",
-						"subtype" : "spell.immolationCurse",
+//						"subtype" : "spell.immolationCurse",
 						"val" : 2,
 						"duration": "N_TURNS"
 					},
@@ -154,7 +154,7 @@
 					"setAflameDuration" :
 					{
 						"type" : "CREATURE_ENCHANT_POWER",
-						"subtype" : "spell.immolationCurse",
+//						"subtype" : "spell.immolationCurse",
 						"val" : 3,
 						"duration": "N_TURNS"
 					},
@@ -188,7 +188,7 @@
 					"setAflameDuration" :
 					{
 						"type" : "CREATURE_ENCHANT_POWER",
-						"subtype" : "spell.immolationCurse",
+//						"subtype" : "spell.immolationCurse",
 						"val" : 4,
 						"duration": "N_TURNS"
 					},
