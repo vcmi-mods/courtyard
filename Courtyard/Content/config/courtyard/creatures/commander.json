@@ -48,12 +48,12 @@
 		"defense" : 5,
 		"damage" :
 		{
-			 "min" : 7,
-			 "max" : 15
+			 "min" : 6,
+			 "max" : 12
 		},
 		"growth" : 9,
-		"hitPoints" : 60,
-		"speed" : 5,
+		"hitPoints" : 40,
+		"speed" : 4,
 		"fightValue" : 130,
 		"aiValue" : 156,
 		"shots" : 24,
