@@ -12,16 +12,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
@@ -95,16 +95,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
@@ -171,16 +171,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
@@ -247,16 +247,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
@@ -323,16 +323,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
@@ -390,16 +390,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
@@ -450,16 +450,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
@@ -521,16 +521,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
@@ -588,16 +588,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
@@ -656,16 +656,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
@@ -724,16 +724,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
@@ -792,16 +792,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
@@ -852,16 +852,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
@@ -912,16 +912,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -972,16 +972,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -1040,16 +1040,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
@@ -1108,16 +1108,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
@@ -1176,16 +1176,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
 			},
@@ -1237,16 +1237,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
@@ -1283,16 +1283,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},

@@ -58,7 +58,7 @@
 			"canShoot" : { "type" : "SHOOTER" },
 			"defenseReduction" : { "type" : "ENEMY_DEFENCE_REDUCTION", "val" : 30 }
 		},
-		"advMapAmount" : { "max" : 20, "min" : 10 },
+		"advMapAmount" : { "max" : 16, "min" : 10 },
 		"aiValue" : 1001,
 		"attack" : 13,
 		"cost" : { "gold" : 250 },

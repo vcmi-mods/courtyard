@@ -6,10 +6,11 @@
 	"contact" : "NONE",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.10",
+	"version" : "1.11",
 	
 	"changelog" :
     {
+		"1.11"   : [ "Fixed the commander" ],
 		"1.10"   : [ "Adjusted Commanders stats" ],
 		"1.09"   : [ "Update to vcmi-1.4 format" ],
 		"1.08"   : [ "Polish translation by Dru" ],
@@ -119,8 +120,8 @@
 	],
 
 	"chinese" : {
-		"name" : "教廷",
-		"description" : "教廷",
+		"name" : "行宫",
+		"description" : "行宫",
 		"translations" : [
 			"translation/courtyard/chinese.json"
 		]

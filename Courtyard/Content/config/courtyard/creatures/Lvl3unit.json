@@ -2,7 +2,8 @@
 	"fireNewt" : {
 		"abilities" : {
 			"fireImmune" :
-				{ "type" : "SPELL_SCHOOL_IMMUNITY", "subtype" : "fire" }	
+				{ "type" : "SPELL_SCHOOL_IMMUNITY",
+					"subtype" : "fire" }	
 		},
 		"doubleWide" : true,
 		"advMapAmount" : { "max" : 24, "min" : 12 },
@@ -41,10 +42,11 @@
 	"salamander" : {
 		"abilities" : {
 			"fireImmune" :
-				{ "type" : "SPELL_SCHOOL_IMMUNITY", "subtype" : "fire" }	
+				{ "type" : "SPELL_SCHOOL_IMMUNITY",
+					"subtype" : "fire" }	
 		},	
 		"doubleWide" : true,		
-		"advMapAmount" : { "max" : 24, "min" : 11 },
+		"advMapAmount" : { "max" : 20, "min" : 11 },
 		"aiValue" : 230,
 		"attack" : 6,
 		"cost" : { "gold" : 260 },

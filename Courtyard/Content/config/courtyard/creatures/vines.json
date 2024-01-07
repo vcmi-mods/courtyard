@@ -53,7 +53,7 @@
 				"val" : 	100
 			}
 		},
-		"advMapAmount" : { "max" : 50, "min" : 10 },
+		"advMapAmount" : { "max" : 40, "min" : 10 },
 		"aiValue" : 26,
 		"attack" : 4,
 		"cost" : { "gold" : 25 },

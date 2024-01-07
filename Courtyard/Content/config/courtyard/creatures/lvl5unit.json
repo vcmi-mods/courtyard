@@ -75,7 +75,7 @@
 			"type" : "DEFENSIVE_STANCE", "val" : 5
 			}	
 		},
-		"advMapAmount" : { "max" : 16, "min" : 10 },
+		"advMapAmount" : { "max" : 12, "min" : 8 },
 		"aiValue" : 1319,
 		"attack" : 9,
 		"cost" : { "gold" : 750 },
@@ -150,7 +150,7 @@
 				]
 			}
 		},
-		"advMapAmount" : { "max" : 12, "min" : 10 },
+		"advMapAmount" : { "max" : 12, "min" : 8 },
 		"aiValue" : 1319,
 		"attack" : 17,
 		"cost" : { "gold" : 750 },

@@ -11,9 +11,11 @@
 			"undead" : 
 				{ "type" : "UNDEAD" },
 			"earthImmune" :
-				{ "type" : "SPELL_SCHOOL_IMMUNITY", "subtype" : "earth" },
+				{ "type" : "SPELL_SCHOOL_IMMUNITY",
+					"subtype" : "earth" },
 			"noRevive" :
-				{ "type" : "SPELL_IMMUNITY", "subtype" : "spell.animateDead", "addInfo": 1 },
+				{ "type" : "SPELL_IMMUNITY",
+					"subtype" : "spell.animateDead", "addInfo": 1 },
 
 			"ephemeral" :
 				{

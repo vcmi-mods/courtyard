@@ -42,7 +42,7 @@
 			"regeneration" : { "type" : "HP_REGENERATION", "val" : 10 },
 			"increasedSpellDamage" : { "type" : "SPELL_DAMAGE", "propagator" : "HERO", "val" : 15 }
 		},
-		"advMapAmount" : { "max" : 30, "min" : 12 },
+		"advMapAmount" : { "max" : 25, "min" : 12 },
 		"aiValue" : 205,
 		"attack" : 9,
 		"cost" : { "gold" : 155 },
