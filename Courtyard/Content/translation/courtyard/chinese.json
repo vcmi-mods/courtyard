@@ -286,6 +286,7 @@
 	"spell.courtyard.regenerationPotion.description.expert" : "{纯化再生药水}\n\n给予目标单位再生能力(每回合恢复全部生命值)。",
 	"spell.courtyard.regenerationPotion.description.none" : "{再生药水}\n\n给予目标单位再生能力(每回合恢复5点生命值)。",
 	"spell.courtyard.regenerationPotion.name" : "再生药水",
+	"spell.courtyard.summonApparition.name" : "召唤闪灵",
 	"spell.courtyard.stunAbility.name" : "晕击",
 	"spell.courtyard.toughnessPotion.description.advanced" : "{纯化强壮药水}\n\n选定部队生命值上限提升40%，伤害提升20%。",
 	"spell.courtyard.toughnessPotion.description.basic" : "{纯化强壮药水}\n\n选定部队生命值上限提升40%，伤害提升20%。",
@@ -297,5 +298,7 @@
 	"spell.courtyard.weaponPoisonPotion.description.basic" : "{浓缩毒液瓶}\n\n攻击时有15%的几率使对方部队中毒。",
 	"spell.courtyard.weaponPoisonPotion.description.expert" : "{纯化毒液瓶}\n\n攻击时有30%的几率使对方部队中毒。",
 	"spell.courtyard.weaponPoisonPotion.description.none" : "{毒液瓶}\n\n攻击时有10%的几率使对方部队中毒。",
-	"spell.courtyard.weaponPoisonPotion.name" : "毒液瓶"
+	"spell.courtyard.weaponPoisonPotion.name" : "毒液瓶",
+    "spell.courtyard.courtyardMoatTrigger.name" : "壕沟",
+    "spell.courtyard.courtyardMoat.name" : "壕沟",
 }
