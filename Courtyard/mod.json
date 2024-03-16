@@ -121,7 +121,7 @@
 
 	"chinese" : {
 		"name" : "行宫",
-		"description" : "行宫",
+		"description" : "行宫是一个基于炼金术的种族，采用了巴洛克艺术的美术风格。该阵营由离开布拉卡达的炼金术士建立，和塔楼可以说是对立阵营。",
 		"translations" : [
 			"translation/courtyard/chinese.json"
 		]
