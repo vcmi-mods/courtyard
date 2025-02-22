@@ -42,7 +42,7 @@
 			"agingSpellpower" : 
 			{
 				"type" : "CREATURE_ENCHANT_POWER",
-				"subtype" : "spell.ageCamera",
+//				"subtype" : "spell.ageCamera",
 				"val" : 3
 			},			
 			"ageCasting" : 

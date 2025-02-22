@@ -27,9 +27,9 @@
 		},
 		"specialty" : {
 			"bonuses" : {
-				"dimensionDoor" : {
-					"val" : 0
-				},
+//				"dimensionDoor" : {
+//					"val" : 0
+//				},
 				"rapidMarch" : {
 					"subtype" : "heroMovementLand",
 					"type" : "MOVEMENT",
