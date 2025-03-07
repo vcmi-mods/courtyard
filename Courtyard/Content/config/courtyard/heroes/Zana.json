@@ -18,23 +18,13 @@
 		[
 			"viewEarth"
 		],
-		"texts" : {
-			"specialty" : {
-				"description" :"{Rapid March}\r\n\r\nHero get an extra 300 land movement points per day.",
-				"name" : "Rapid March",
-				"tooltip" : "Special Bonus: Rapid March"
-			}
-		},
 		"specialty" : {
 			"bonuses" : {
-//				"dimensionDoor" : {
-//					"val" : 0
-//				},
-				"rapidMarch" : {
-					"subtype" : "heroMovementLand",
-					"type" : "MOVEMENT",
-					"val" : 300,
-					"valueType" : "ADDITIVE_VALUE"
+				"meteorShowerMax" : {
+					"subtype" : "spell.dimensionDoor",
+					"type" : "SPELL",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX"
 				}
 			}
 		}

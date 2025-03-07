@@ -132,12 +132,13 @@
 			"biography" : "Nobody in their sane mind would believe Zana's improbable stories of travels to places like Vori or Fiery Moon, if not for a fact that she has uncanny habit of being found whimsically treading places most unexpected, and she has extensive knowledge of many secret areas. This granted her the position of Larnia's Royal Cartographer.",
 			"name" : "Zana",
 			"specialty" : {
-				"description" :"Starts with Dimension Door.",
+				"description" :"Always casts Dimension Door at expert level.",
 				"name" : "Dimension Door",
 				"tooltip" : "Spell Bonus: Dimension Door"
 			}
 		}
 	},
+	
 	"03lumiere" : {	
 		"texts" : {
 			"biography" : "Lumiere had to abandon luxury of elven nobility and live among hunters of Tularean Forest to escape war. She quickly learned the art of guerilla warfare, impressing even experienced rangers with her elaborate traps. Despite mingling back into the high society when she left to Larnia, Lumiere still has no qualms using dirty tricks on the battlefield.",

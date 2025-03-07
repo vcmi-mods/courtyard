@@ -8,7 +8,7 @@
 	},
 
 	"homunculus" : {
-		"description" : "{green|Homunculus}\r\n\r\nHomunculi are more like animals than people. They are produced in a complex alchemical reaction and are small, disproportionate, yet strong caricatures of the proper human beings. They are usually tasked with works that need considerable strength, human-level agility and intelligence of a dog. Valuable asset on the battlefield since they regenerate wounds at impressive rate.\r\n\r\n{gold|Special Ability : Regeneration. Increased Spell Damage}\r\nHomunculus Regeneration enables the top creature of the stack to regain 7 health each combat round. The presence of Gilded Homunculi in hero army stra"
+		"description" : "{green|Homunculus}\r\n\r\nHomunculi are more like animals than people. They are produced in a complex alchemical reaction and are small, disproportionate, yet strong caricatures of the proper human beings. They are usually tasked with works that need considerable strength, human-level agility and intelligence of a dog. Valuable asset on the battlefield since they regenerate wounds at impressive rate.\r\n\r\n{gold|Special Ability : Regeneration. Increased Spell Damage}\r\nHomunculus Regeneration enables the top creature of the stack to regain 7 health each combat round."
 	},
 
 	"gildedHomunculus" : {

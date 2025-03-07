@@ -1,6 +1,4 @@
 {
-	
-	
 	"reconstruction":
 	{
 		"type": "combat", 
@@ -33,7 +31,7 @@
 		"flags" : {	"positive": true, "rising" : true},
 		"targetCondition" : {
 			"noneOf" : { "bonus.UNDEAD" : "absolute" },
-			"anyOf" : {	"bonus.NON_LIVING" : "absolute", "bonus.GARGOYLE" : "absolute" }
+			"anyOf" : {	"bonus.NON_LIVING" : "absolute", "bonus.GARGOYLE" : "absolute", "bonus.MECHANICAL" : "absolute" }
 		},
  
 		"graphics":
@@ -105,6 +103,7 @@
 				"power": 70,
 				"battleEffects":{
 					"heal":{
+						"healPower":"permanent",
 						"val" : 70
 					}
 				}
