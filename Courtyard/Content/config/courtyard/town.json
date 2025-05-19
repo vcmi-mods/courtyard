@@ -15,7 +15,7 @@
 						"gold": 1000,
 						"wood": 5
 					},
-					"description": "The Blaksmith provides your armies with Potion Cart.",
+					"description": "The Blacksmith provides your armies with Potion Carts.",
 					"id": 16,
 					"warMachine": "potionCart",
 					"name": "Blacksmith"
