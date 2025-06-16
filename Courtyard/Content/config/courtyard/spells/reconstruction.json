@@ -53,7 +53,7 @@
 				"cost": 11,
 				"range": "0",
 				"power": 30,
-				"aiValue": 70,
+//				"aiValue": 70,
 				"battleEffects":{
 					"heal":{
 						"type":"core:heal",

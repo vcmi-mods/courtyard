@@ -15,7 +15,7 @@
 		"graphics":
 		{
 			"image": "courtyard/icons/artifacts/PotCart_art01",
-			"large": "courtyard/icons/artifacts/PotCart_artBonus01.png",
+			"scenarioBonus": "courtyard/icons/artifacts/PotCart_artBonus01.png",
 			"map"  : "courtyard/map/artPotCart.def"
 		}
 	}

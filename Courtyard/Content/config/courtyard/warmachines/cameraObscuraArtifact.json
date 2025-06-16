@@ -15,7 +15,7 @@
 		"graphics":
 		{
 			"image": "courtyard/icons/artifacts/Camera_art1",
-			"large": "courtyard/icons/artifacts/Camera_artBonus01",
+			"scenarioBonus": "courtyard/icons/artifacts/Camera_artBonus01",
 			"map"  : "courtyard/map/artCamera.def"
 		}
 	}

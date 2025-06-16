@@ -29,7 +29,8 @@
 				"val" : -15,
 				"valueType" : "PERCENT_TO_BASE",
 				   "updater" : {
-					   "parameters" : [ 10 ],  //? or -10
+						"valPer20" : -10,
+						"stepSize" : 1,
 					   "type" : "GROWS_WITH_LEVEL"
 				   }
 				}

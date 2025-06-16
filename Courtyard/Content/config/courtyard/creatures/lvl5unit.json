@@ -2,12 +2,16 @@
 	"dodo" : {
 		"abilities" : {
 			"slayer" : {
-			"type" : "ENCHANTED",
-			"subtype" : "spell.slayer",
-			"val" : 2
+				"type" : "ENCHANTED",
+				"subtype" : "spell.slayer",
+				"val" : 2
 			},
-			"fearless" : {
-			"type" : "FEARLESS"
+			"fearless" :
+			{
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MAX",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			}
 		},
 		"advMapAmount" : { "max" : 16, "min" : 8 },
@@ -49,8 +53,12 @@
 			"subtype" : "spell.slayer",
 			"val" : 3
 			},
-			"fearless" : {
-			"type" : "FEARLESS"
+			"fearless" :
+			{
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MAX",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			},
 			"damageReduction1" : {
 			"type" : "GENERAL_DAMAGE_REDUCTION",
@@ -114,8 +122,12 @@
 			"subtype" : "spell.slayer",
 			"val" : 3
 			},
-			"fearless" : {
-			"type" : "FEARLESS"
+			"fearless" :
+			{
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MAX",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			},
 			"noRetaliation" : {
 			"type" : "NO_RETALIATION"

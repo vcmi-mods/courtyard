@@ -42,7 +42,7 @@
 				"cost": 10,
 				"range": "0",
 				"power": 7,
-				"aiValue": 70,
+//				"aiValue": 70,
 				"targetModifier":
 				{
 					"smart": true
@@ -193,7 +193,7 @@
 				"cost": 5,
 				"range": "0",
 				"power": 20, //base dmg
-				"aiValue": 70,
+//				"aiValue": 70,
 				"targetModifier":
 				{
 					"smart": true

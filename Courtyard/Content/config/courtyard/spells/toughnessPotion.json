@@ -52,7 +52,7 @@
 				"cost": 0,
 				"range": "0",
 				"power": 1,
-				"aiValue": 70,
+//				"aiValue": 70,
 				"targetModifier":
 				{
 					"smart": true

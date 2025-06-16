@@ -15,8 +15,8 @@
 					"subtype" : "earth" },
 			"noRevive" :
 				{ "type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.animateDead"
-//					"addInfo": 1 
+					"subtype" : "spell.animateDead",
+					"addInfo": 1 
 				},
 
 			"ephemeral" :
@@ -45,7 +45,21 @@
 				"subtype" : "spellSchool.any",
 				"val" : 95
 			},
-			"fear" : { "type" : "FEAR" },
+			"fearful" :
+			{
+				"type" : "FEARFUL",
+				"val" : 10,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "PLACEHOLDER",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", 
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [ "LIVING" ]
+					}
+				]
+			},
 			"noRetaliation" : { "type" : "NO_RETALIATION" },
 			"noSpeed": { 
 				"type": "STACKS_SPEED",

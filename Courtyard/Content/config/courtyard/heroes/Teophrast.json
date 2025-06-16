@@ -19,19 +19,21 @@
 					"subtype" : "resource.wood",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1,
-					   "updater" : {
-					   "parameters" : [ 3 ],
-					   "type" : "GROWS_WITH_LEVEL"
-						}
+					"updater" : {
+						"valPer20" : 3,
+						"stepSize" : 1,
+						"type" : "GROWS_WITH_LEVEL"
+					}
 				},
 				"ore" : {
 					"subtype" : "resource.ore",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1,
-					   "updater" : {
-					   "parameters" : [ 3 ],
+					"updater" : {
+						"valPer20" : 3,
+						"stepSize" : 1,
 					   "type" : "GROWS_WITH_LEVEL"
-						}
+					}
 				}
 			}
 		}

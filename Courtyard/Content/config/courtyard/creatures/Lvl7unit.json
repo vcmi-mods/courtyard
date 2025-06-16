@@ -41,7 +41,21 @@
 		"abilities" : {
 			"advSlayer" : { "type" : "KING", "val" : 2, "valueType" : "ADDITIVE_VALUE" },
 			"canFly" : { "type" : "FLYING", "subtype" : "movementFlying" },
-			"fear" : { "type" : "FEAR" },
+						"fearful" :
+			{
+				"type" : "FEARFUL",
+				"val" : 10,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "PLACEHOLDER",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", 
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [ "LIVING" ]
+					}
+				]
+			},
 			"decimation" : 
 			{ 
 				"type" : "DESTRUCTION",

@@ -44,7 +44,7 @@
 		"levels" : {
 			"base":{
 				"power": 10, //irrevelant?
-				"aiValue": 20,
+//				"aiValue": 20,
 				"range" : "0",
 				"targetModifier":{"smart":true},
 				"cost": 18, 
