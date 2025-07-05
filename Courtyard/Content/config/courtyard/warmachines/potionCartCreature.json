@@ -12,6 +12,7 @@
 			"gold" : 1500
 		},
 		"defense" : 0,
+		"damage" : { "max" : 0, "min" : 0 },
 		"fightValue" : 2500,
 		"graphics" :
 		{
