@@ -41,7 +41,7 @@
 		"abilities" : {
 			"advSlayer" : { "type" : "KING", "val" : 2, "valueType" : "ADDITIVE_VALUE" },
 			"canFly" : { "type" : "FLYING", "subtype" : "movementFlying" },
-						"fearful" :
+			"fearful" :
 			{
 				"type" : "FEARFUL",
 				"val" : 10,
