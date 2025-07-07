@@ -45,7 +45,7 @@
 				"subtype" : "spellSchool.any",
 				"val" : 95
 			},
-			"fearful" :
+			"fear" :
 			{
 				"type" : "FEARFUL",
 				"val" : 10,
