@@ -22,10 +22,13 @@
 				"type" : "SHOTS",
 				"val" : 5,
 				"valueType" : "ADDITIVE_VALUE",
-				"limiters": [ {
-					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "arquebusier", true ]
-				} ]
+				"limiters": [ 
+					{
+						"type":"CREATURE_TYPE_LIMITER",
+						"creature" : "arquebusier",
+						"includeUpgrades" : true
+					} 
+				]
 			}}
 		}
 	}

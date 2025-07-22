@@ -24,53 +24,83 @@
 					"type" : "CASTS",
 					"propagator" : "HERO",
 					"val" : 3,
-					"limiters": [  "allOf", 
-						{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
+					"limiters": [ 
+						{
+							"type":"CREATURE_TYPE_LIMITER",
+							"creature" : "arquebusier",
+							"includeUpgrades" : true
+						} 
+					]
 				},
 				"castMine":{
 					"addInfo" : 4,
-					"subtype" : "spell.landMine",
+					"subtype" : "landMine",
 					"type" : "ENCHANTER",
 					"propagator" : "HERO",
 					"val" : 1,
-					"limiters": [  "allOf", 
-					{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
+					"limiters": [ 
+						{
+							"type":"CREATURE_TYPE_LIMITER",
+							"creature" : "arquebusier",
+							"includeUpgrades" : true
+						} 
+					]
 				},
 				"castSand":{
 					"addInfo" : 4,
-					"subtype" : "spell.quicksand",
+					"subtype" : "quicksand",
 					"propagator" : "HERO",
 					"type" : "ENCHANTER",
 					"val" : 2,
-					"limiters": [  "allOf", 
-					{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
+					"limiters": [ 
+						{
+							"type":"CREATURE_TYPE_LIMITER",
+							"creature" : "arquebusier",
+							"includeUpgrades" : true
+						} 
+					]
 				},
 				"castSand2":{
 					"addInfo" : 3,
-					"subtype" : "spell.quicksand",
+					"subtype" : "quicksand",
 					"propagator" : "HERO",
 					"type" : "ENCHANTER",
 					"val" : 1,
-					"limiters": [  "allOf", 
-					{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
+					"limiters": [ 
+						{
+							"type":"CREATURE_TYPE_LIMITER",
+							"creature" : "arquebusier",
+							"includeUpgrades" : true
+						} 
+					]
 				},
 				"castField":{
 					"addInfo" : 3,
-					"subtype" : "spell.forceField",
+					"subtype" : "forceField",
 					"propagator" : "HERO",
 					"type" : "ENCHANTER",
 					"val" : 1,
-					"limiters": [  "allOf", 
-					{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
+					"limiters": [ 
+						{
+							"type":"CREATURE_TYPE_LIMITER",
+							"creature" : "arquebusier",
+							"includeUpgrades" : true
+						} 
+					]
 				},
 				"castField2":{
 					"addInfo" : 3,
-					"subtype" : "spell.forceField",
+					"subtype" : "forceField",
 					"propagator" : "HERO",
 					"type" : "ENCHANTER",
 					"val" : 3,
-					"limiters": [  "allOf", 
-					{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "arquebusier", true ] }]
+					"limiters": [ 
+						{
+							"type":"CREATURE_TYPE_LIMITER",
+							"creature" : "arquebusier",
+							"includeUpgrades" : true
+						} 
+					]
 				}
 			}
 		}

@@ -46,53 +46,48 @@
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"battleEffects" : {
+					"curse" : {"type":"core:timed", "cumulative": false, 
+					"bonus":  {
+						"harm" :
+						{
+							"type" : "ENCHANTED",
+							"subtype" : "immolationDamage",
+							"val" : 0,
+							"duration": "N_TURNS"
+						},
+						"power" :
+						{
+							"type" : "CREATURE_SPELL_POWER",
+							"val" : 5,
+							"duration": "N_TURNS"
+						}
+					}
+					}
+				}				
 			},
 			"none":
 			{
 				"description": "{Immolation}\n\nSets enemy unit aflame, dealing damage to it at the beginning of each {round}.",
 				//"power": 0.1,
 	 
-				"battleEffects" : {
-					"curse" : {"type":"core:timed", "cumulative": false, "bonus":  {
-					"harm" :
-					{
-						"type" : "ENCHANTED",
-						"subtype" : "spell.immolationDamage",
-						"val" : 0,
-						"duration": "N_TURNS"
-					},
-					"power" :
-					{
-						"type" : "CREATURE_SPELL_POWER",
-//						"subtype" : "spell.immolationDamage",
-						"val" : 5,
-						"duration": "N_TURNS"
-					}
-					}
-					}
-				}
 			},
 			"basic":
 			{
 				//"power": 0.2,
 				"description": "{Basic Immolation}\n\nSets enemy unit aflame, dealing damage to it at the beginning of each {round}.",
 				"battleEffects" : {
-					"curse" : {"type":"core:timed", "cumulative": false, "bonus":  {
-					"harm" :
-					{
-						"type" : "ENCHANTED",
-						"subtype" : "spell.immolationDamage",
-						"val" : 1,
-						"duration": "N_TURNS"
-					},
-					"power" :
-					{
-					"type" : "CREATURE_SPELL_POWER",
-//					"subtype" : "spell.immolationDamage",
-					"val" : 7,
-					"duration": "N_TURNS"				
-					}
+					"curse" : { 
+					"bonus":  {
+						"harm" :
+						{
+							"val" : 1
+						},
+						"power" :
+						{
+							"val" : 7
+						}
 					}
 					}
 				}
@@ -101,21 +96,16 @@
 			{	//"power": 0.25,
 				"description": "{Advanced Immolation}\n\nSets enemy unit aflame, dealing damage to it at the beginning of each {round}.",
 				"battleEffects" : {
-					"curse" : {"type":"core:timed", "cumulative": false, "bonus":  {
-					"harm" :
-					{
-						"type" : "ENCHANTED",
-						"subtype" : "spell.immolationDamage",
-						"val" : 2,
-						"duration": "N_TURNS"
-					},
-					"power" :
-					{
-					"type" : "CREATURE_SPELL_POWER",
-//					"subtype" : "spell.immolationDamage",
-					"val" : 10,
-					"duration": "N_TURNS"
-					}
+					"curse" : { 
+					"bonus":  {
+						"harm" :
+						{
+							"val" : 2
+						},
+						"power" :
+						{
+							"val" : 10
+						}
 					}
 					}
 				}
@@ -124,21 +114,16 @@
 			{	//"power": 0.5,
 				"description": "{Expert Immolation}\n\nSets enemy unit aflame, dealing damage to it at the beginning of each {round}.",
 				"battleEffects" : {
-					"curse" : {"type":"core:timed", "cumulative": false, "bonus":  {
-					"harm" :
-					{
-						"type" : "ENCHANTED",
-						"subtype" : "spell.immolationDamage",
-						"val" : 3,
-						"duration": "N_TURNS"
-					},
-					"power" :
-					{
-					"type" : "CREATURE_SPELL_POWER",
-//					"subtype" : "spell.immolationDamage",
-					"val" : 12,
-					"duration": "N_TURNS"
-					}
+					"curse" : { 
+					"bonus":  {
+						"harm" :
+						{
+							"val" : 3
+						},
+						"power" :
+						{
+							"val" : 12
+						}
 					}
 					}
 				}
@@ -190,6 +175,7 @@
 		{
 			"base":
 			{
+				"description": "IMMOLATION DAMAGE",
 				"cost": 5,
 				"range": "0",
 				"power": 20, //base dmg
@@ -197,37 +183,29 @@
 				"targetModifier":
 				{
 					"smart": true
+				},
+				"battleEffects" : {
+					"directDamage" : {
+						"type":"core:damage"
+//						"val": 1, 
+//						"valueType": 	"INDEPENDENT_MIN"
+					}
 				}
 			},
 			"none":
 			{
-				"description": "IMMOLATION DAMAGE",
-				"power": 20,
-				"battleEffects" : {
-					"directDamage" : {"type":"core:damage", "val": 1, "valueType": 	"INDEPENDENT_MIN"}
-				}
 			},
 			"basic":
 			{
-				"power": 25,
-				"description": "IMMOLATION DAMAGE",
-				"battleEffects" : {
-					"directDamage" : {"type":"core:damage", "val": 1, "valueType": 	"INDEPENDENT_MIN"}
-				}
+				"power": 25
 			},
 			"advanced":
-			{	"power": 30,
-				"description": "IMMOLATION DAMAGE",
-				"battleEffects" : {
-					"directDamage" : {"type":"core:damage", "val": 1, "valueType": 	"INDEPENDENT_MIN"}
-				}
+			{	
+				"power": 30
 			},
 			"expert":
-			{	"power": 35,
-				"description": "IMMOLATION DAMAGE",
-				"battleEffects" : {
-					"directDamage" : {"type":"core:damage", "val": 1, "valueType": 	"INDEPENDENT_MIN"}
-				}
+			{	
+				"power": 35
 			}
 		}
 	}

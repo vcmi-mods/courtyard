@@ -16,7 +16,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"wood" : {
-					"subtype" : "resource.wood",
+					"subtype" : "wood",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1,
 					"updater" : {
@@ -26,7 +26,7 @@
 					}
 				},
 				"ore" : {
-					"subtype" : "resource.ore",
+					"subtype" : "ore",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1,
 					"updater" : {

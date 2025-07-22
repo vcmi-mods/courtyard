@@ -25,7 +25,7 @@
 						"id":"courtyard:apparition",
 						"permanent":false,
 						"summonByHealth" : false,
-						"type":"core:demonSummon"
+						"type":"core:summon"
 					}
 				}
 			},

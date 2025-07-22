@@ -22,16 +22,16 @@
 					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE",
 					"limiters": [  "allOf", 
-				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters": [ "SPECIFIC_SPELL_DAMAGE", "spell.potionSupply", null ] },
-				{ "type" : "CREATURE_ALIGNMENT_LIMITER", "parameters" : [ "good" ] }]
+						{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "SPECIFIC_SPELL_DAMAGE", "bonusSubtype" : "potionSupply" },
+						{ "type" : "CREATURE_ALIGNMENT_LIMITER", "alignment" :  "good"  }]
 				},
 				"potionLuck":{
 					"type" : "LUCK",
 					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE",
 				"limiters": [  "allOf", 
-				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters": [ "SPECIFIC_SPELL_DAMAGE", "spell.potionSupply", null ] },
-				{ "type" : "CREATURE_ALIGNMENT_LIMITER", "parameters" : [ "neutral" ] }	]
+					{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "SPECIFIC_SPELL_DAMAGE", "bonusSubtype" : "potionSupply" },
+					{ "type" : "CREATURE_ALIGNMENT_LIMITER", "alignment" :  "neutral"  }	]
 				}
 			}
 		}

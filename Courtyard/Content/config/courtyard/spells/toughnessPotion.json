@@ -56,11 +56,7 @@
 				"targetModifier":
 				{
 					"smart": true
-				}
-			},
-			"none":
-			{
-				"description": "{Tonic of Toughness}\n\nIncreases unit's hit points by 25% and damage dealt by unit by 15%.",
+				},
 				"effects":
 				{
 					"increaseDamage" : {
@@ -83,10 +79,16 @@
 						"valueType" : "ADDITIVE_VALUE"
 					},
 					"potionMarkerEffect" :
-					{"type" : "SPECIFIC_SPELL_DAMAGE","subtype" : "spell.potionSupply",
+					{
+						"type" : "SPECIFIC_SPELL_DAMAGE",
+						"subtype" : "potionSupply",
 						"val" : 0
 					}
-				}
+				}				
+			},
+			"none":
+			{
+				"description": "{Tonic of Toughness}\n\nIncreases unit's hit points by 25% and damage dealt by unit by 15%.",
 			},
 			"basic":
 			{
@@ -94,41 +96,39 @@
 				"effects":
 				{
 					"increaseDamage" : {
-						"val" : 20,
-						"type" : "CREATURE_DAMAGE",
-						"subtype" : "creatureDamageBoth",
-						"valueType": "PERCENT_TO_BASE",
-						"duration": "N_TURNS"
+						"val" : 20
 					},
 					"increaseHealth" : {
-						"val" : 40,
-						"type" : "STACK_HEALTH",
-						"valueType": "PERCENT_TO_BASE",
-						"duration": "N_TURNS"
-					},
-					"giant" : {
-//						"val" : 40,
-						"type" : "KING",
-						"val" : 1,
-						"valueType" : "ADDITIVE_VALUE"
-					},
-					"potionMarkerEffect" :
-					{
-						"type" : "SPECIFIC_SPELL_DAMAGE",
-						"subtype" : "spell.potionSupply",
-						"val" : 0
+						"val" : 40
 					}
 				}	
 			},
 			"advanced":
 			{
-				"description": "{Supreme Tonic of Toughness}\n\nIncreases unit's hit points by 40% and damage dealt by unit by 20%."
+				"description": "{Supreme Tonic of Toughness}\n\nIncreases unit's hit points by 40% and damage dealt by unit by 20%.",
+				"effects":
+				{
+					"increaseDamage" : {
+						"val" : 20
+					},
+					"increaseHealth" : {
+						"val" : 40
+					}
+				}
 			},
 			"expert":
 			{
-				"description": "{Supreme Tonic of Toughness}\n\nIncreases unit's hit points by 40% and damage dealt by unit by 20%."
+				"description": "{Supreme Tonic of Toughness}\n\nIncreases unit's hit points by 40% and damage dealt by unit by 20%.",
+				"effects":
+				{
+					"increaseDamage" : {
+						"val" : 20
+					},
+					"increaseHealth" : {
+						"val" : 40
+					}
+				}				
 			}
 		}
 	}
- 
 }

@@ -59,44 +59,21 @@
                 }
             },
             "none": {
-                "description": "{Quagmire}\n\nPrevents heroes from escaping the battlefield.",
-                "effects": {
-                    "noFleeing": {
-                        "type": "BATTLE_NO_FLEEING",
-                        "duration": "N_TURNS",
-                        "propagator": "HERO"
-                    }
-                }
+                "description": "{Quagmire}\n\nPrevents heroes from escaping the battlefield."
             },
             "basic": {
                 "description": "{Basic Quagmire}\n\nPrevents heroes from escaping the battlefield.",
-                "cost": 12,
-                "effects": {
-                    "noFleeing": {
-                        "type": "BATTLE_NO_FLEEING",
-                        "duration": "N_TURNS",
-                        "propagator": "HERO"
-                    }
-                }
+                "cost": 12
             },
             "advanced": {
                 "description": "{Advanced Quagmire}\n\nPrevents heroes from escaping the battlefield.",
-                "cost": 10,
-                "effects": {
-                    "noFleeing": {
-                        "type": "BATTLE_NO_FLEEING",
-                        "duration": "N_TURNS",
-                        "propagator": "HERO"
-                    }
-                }
+                "cost": 10
             },
             "expert": {
                 "description": "{Expert Quagmire}\n\nPrevents enemy hero from escaping the battlefield.",
                 "cost": 10,
                 "effects": {
                     "noFleeing": {
-                        "type": "BATTLE_NO_FLEEING",
-                        "duration": "N_TURNS",
                         "propagator": "BATTLE_WIDE",
                         "propagationUpdater": "BONUS_OWNER_UPDATER",
                         "limiters": ["OPPOSITE_SIDE"]

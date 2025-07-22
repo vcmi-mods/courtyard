@@ -3,7 +3,7 @@
 		"abilities" : {
 			"slayer" : {
 				"type" : "ENCHANTED",
-				"subtype" : "spell.slayer",
+				"subtype" : "slayer",
 				"val" : 2
 			},
 			"fearless" :
@@ -50,7 +50,7 @@
 		"abilities" : {
 			"slayer" : {
 			"type" : "ENCHANTED",
-			"subtype" : "spell.slayer",
+			"subtype" : "slayer",
 			"val" : 3
 			},
 			"fearless" :
@@ -72,7 +72,7 @@
 			},
 			"magicDamageReduction" : {
 			"type" : "SPELL_DAMAGE_REDUCTION",
-			"subtype" : "spellSchool.any",
+			"subtype" : "any",
 			"val" : 33
 			},
 			"magicDamageReductionAura" : {
@@ -118,9 +118,9 @@
 	"greaterDodo" : {
 		"abilities" : {
 			"slayer" : {
-			"type" : "ENCHANTED",
-			"subtype" : "spell.slayer",
-			"val" : 3
+				"type" : "ENCHANTED",
+				"subtype" : "slayer",
+				"val" : 3
 			},
 			"fearless" :
 			{
@@ -145,8 +145,9 @@
 				"limiters" : [
 					"noneOf",
 					{
-					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "dodo", true ]
+						"type":"CREATURE_TYPE_LIMITER",
+						"creature" : "dodo",
+						"includeUpgrades" : true
 					}
 				]
 			},		
@@ -158,7 +159,7 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
 					[ "allOf", [ "OPPOSITE_SIDE" ] ],
-					[ "noneOf", { "type":"CREATURE_TYPE_LIMITER", "parameters": [ "dodo", true ] } ]
+					[ "noneOf", { "type":"CREATURE_TYPE_LIMITER", "creature" : "dodo", "includeUpgrades" : true } ]
 				]
 			}
 		},

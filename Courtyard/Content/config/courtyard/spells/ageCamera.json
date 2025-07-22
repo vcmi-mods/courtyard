@@ -1,6 +1,4 @@
 {
-	
-	
 	"ageCamera":
 	{
 		"type": "ability", 
@@ -48,7 +46,7 @@
 				"range" : "0",
 				"targetModifier":{"smart":true},
 				"cost": 18, 
-				"description": "UNAVAILABLE",
+				"description": "Age spell effect",
 				"battleEffects" : {
 					"spellsDamage" :
 					{

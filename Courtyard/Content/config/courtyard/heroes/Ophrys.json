@@ -22,7 +22,8 @@
 				"val" : 5,
 				"limiters": [ {
 					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "mandrake", true ]
+					"creature" : "mandrake",
+					"includeUpgrades" : true
 				} ]
 				},
 				"vinesSpeed":{
@@ -30,14 +31,16 @@
 				"val" : 1,
 				"limiters": [ {
 					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "tangleVine", true ]
+					"creature" : "tangleVine",
+					"includeUpgrades" : true
 				} ]
 				},
 				"vinesFirstStrike":{
 				"type" : "FIRST_STRIKE",
 				"limiters": [ {
 					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "tangleVine", true ]
+					"creature" : "tangleVine",
+					"includeUpgrades" : true
 				} ]
 				}
 			}

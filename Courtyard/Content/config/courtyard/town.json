@@ -16,7 +16,6 @@
 						"wood": 5
 					},
 					"description": "The Blacksmith provides your armies with Potion Carts.",
-					"id": 16,
 					"warMachine": "potionCart",
 					"name": "Blacksmith"
 				},
@@ -25,12 +24,7 @@
 						"gold": 10000
 					},
 					"description": "The Capitol earns your kingdom 4000 gold per day.",
-					"id": 13,
-					"name": "Capitol",
-					"requires": [
-						"castle"
-					],
-					"upgrades": "cityHall"
+					"name": "Capitol"
 				},
 				"castle": {
 					"cost": {
@@ -39,9 +33,7 @@
 						"wood": 10
 					},
 					"description": "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"id": 9,
-					"name": "Castle",
-					"upgrades": "citadel"
+					"name": "Castle"
 				},
 				"citadel": {
 					"cost": {
@@ -49,30 +41,14 @@
 						"ore": 5
 					},
 					"description": "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"id": 8,
-					"name": "Citadel",
-					"upgrades": "fort"
+					"name": "Citadel"
 				},
 				"cityHall": {
 					"cost": {
 						"gold": 5000
 					},
 					"description": "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"id": 12,
-					"name": "City Hall",
-					"requires": [
-						"allOf",
-						[
-							"mageGuild1"
-						],
-						[
-							"blacksmith"
-						],
-						[
-							"marketplace"
-						]
-					],
-					"upgrades": "townHall"
+					"name": "City Hall"
 				},
 				"dwellingLvl1": {
 					"cost": {
@@ -80,7 +56,6 @@
 						"ore": 10
 					},
 					"description": "The Marble Hall allows you to recruit Marble Cupids.",
-					"id": 30,
 					"name": "Marble Hall",
 					"requires": [
 						"fort"
@@ -92,7 +67,6 @@
 						"ore": 10
 					},
 					"description": "The Alchemy Tower allows you to recruit Homunculi.",
-					"id": 31,
 					"name": "Alchemy Tower",
 					"requires": [
 						"dwellingLvl1"
@@ -105,7 +79,6 @@
 						"mercury": 3
 					},
 					"description": "The Furnace allows you to recruit Salamanders.",
-					"id": 32,
 					"name": "Furnace",
 					"requires": [
 						"allOf",
@@ -126,7 +99,6 @@
 						"sulfur": 2
 					},
 					"description": "The Arsenal allows you to recruit Arquebusiers.",
-					"id": 33,
 					"name": "Arsenal",
 					"requires": [
 						"allOf",
@@ -147,7 +119,6 @@
 						"wood": 15
 					},
 					"description": "The Dodo Burgh allows you to recruit Dodos.",
-					"id": 34,
 					"name": "Dodo Burgh",
 					"requires": [
 						"dwellingLvl3"
@@ -163,7 +134,6 @@
 						"wood": 10
 					},
 					"description": "The Arbours allow you to recruit Mandrakes.",
-					"id": 35,
 					"name": "Arbours",
 					"requires": [
 						"allOf",
@@ -183,7 +153,6 @@
 						"crystal": 5
 					},
 					"description": "The Scary Cavity allows you to recruit Jabberwocks.",
-					"id": 36,
 					"name": "Scary Cavity",
 					"requires": [
 						"allOf",
@@ -200,7 +169,6 @@
 						"gold": 1400
 					},
 					"description": "The Upg. Marble Hall allows you to recruit Granite Cupids.",
-					"id": 37,
 					"name": "Upg. Marble Hall",
 					"upgrades": "dwellingLvl1"
 				},
@@ -210,7 +178,6 @@
 						"mercury": 2
 					},
 					"description": "The Upg. Alchemy Tower allows you to recruit Gilded Homunculi.",
-					"id": 38,
 					"name": "Upg. Alchemy Tower",
 					"upgrades": "dwellingLvl2",
 					"requires": [
@@ -227,7 +194,6 @@
 						"ore": 5
 					},
 					"description": "The Upg. Furnace allows you to recruit Shiny Salamanders.",
-					"id": 39,
 					"name": "Upg. Furnace",
 					"upgrades": "dwellingLvl3"
 				},
@@ -238,7 +204,6 @@
 						"ore": 5
 					},
 					"description": "The Upg. Arsenal allows you to recruit Musketeers.",
-					"id": 40,
 					"name": "Upg. Arsenal",
 					"requires": [
 						"allOf",
@@ -255,7 +220,6 @@
 						"gems": 5
 					},
 					"description": "The Upg. Dodo Burgh allows you to recruit Battle Dodos.",
-					"id": 41,
 					"name": "Upg. Dodo Burgh",
 					"requires": [
 						"allOf",
@@ -306,7 +270,6 @@
 						"mercury": 10
 					},
 					"description": "The Upg. Arbours allow you to recruite Regal Mandrakes.",
-					"id": 42,
 					"name": "Upg. Arbours",
 					"upgrades": "dwellingLvl6",
 					"requires": [
@@ -328,7 +291,6 @@
 						"wood": 5
 					},
 					"description": "The Upg. Scary Cavity allows you to recruit Monstrous Jabberwocks.",
-					"id": 43,
 					"name": "Upg. Scary Cavity",
 					"requires": [
 						"allOf",
@@ -360,18 +322,14 @@
 						"wood": 20
 					},
 					"description": "The Fort provides your town with defensive walls.",
-					"id": 7,
 					"name": "Fort"
 				},
 				"grail": {
 					"description": "The presence of the Ivory Tower increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day and increases the spell power of any Magic by 50%.",
-					"id": 26,
-					"mode": "grail",
-					"produce": { "gold": 5000 },
 					"bonuses": [
 						{
 							"type": "SPELL_DAMAGE",
-							"subtype": "spellSchool.any",
+							"subtype": "any",
 							"propagator": "PLAYER",
 							"val": 50,
 							"valueType": "BASE_NUMBER"
@@ -384,7 +342,6 @@
 						"gold": 1000
 					},
 					"description": "The Statue Garden increases Marble Cupids production by 6 per week.",
-					"id": 18,
 					"name": "Statue Garden",
 					"upgrades": "dwellingLvl1"
 				},
@@ -393,8 +350,6 @@
 						"gold": 1000
 					},
 					"description": "The Statue Garden increases Granite Cupids production by 6 per week.",
-					"id": 19,
-					"mode": "auto",
 					"name": "Statue Garden",
 					"requires": [
 						"horde1"
@@ -407,7 +362,6 @@
 						"crystal": 1
 					},
 					"description": "The Hanging Gardens increases Regal Mandrakes production by 1 per week.",
-					"id": 24,
 					"name": "Hanging Gardens",
 					"upgrades": "dwellingUpLvl6",
 					"requires": [
@@ -421,7 +375,6 @@
 						"wood": 5
 					},
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 0,
 					"name": "Mage Guild Level 1"
 				},
 				"mageGuild2": {
@@ -435,9 +388,7 @@
 						"wood": 5
 					},
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 1,
-					"name": "Mage Guild Level 2",
-					"upgrades": "mageGuild1"
+					"name": "Mage Guild Level 2"
 				},
 				"mageGuild3": {
 					"cost": {
@@ -450,9 +401,7 @@
 						"wood": 5
 					},
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 2,
-					"name": "Mage Guild Level 3",
-					"upgrades": "mageGuild2"
+					"name": "Mage Guild Level 3"
 				},
 				"mageGuild4": {
 					"cost": {
@@ -465,9 +414,7 @@
 						"wood": 5
 					},
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 3,
-					"name": "Mage Guild Level 4",
-					"upgrades": "mageGuild3"
+					"name": "Mage Guild Level 4"
 				},
 				"mageGuild5": {
 					"cost": {
@@ -480,9 +427,7 @@
 						"wood": 5
 					},
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 4,
-					"name": "Mage Guild Level 5",
-					"upgrades": "mageGuild4"
+					"name": "Mage Guild Level 5"
 				},
 				"marketplace": {
 					"cost": {
@@ -490,8 +435,6 @@
 						"wood": 5
 					},
 					"description": "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"id": 14,
-					"marketModes" : ["resource-resource", "resource-player"],
 					"name": "Marketplace"
 				},
 				"resourceSilo": {
@@ -500,20 +443,15 @@
 						"ore": 5
 					},
 					"description": "The Resource Silo provides you with an additional +1 wood and +1 ore each day.",
-					"id": 15,
 					"name": "Resource Silo",
 					"produce": {
 						"ore": 1,
 						"wood": 1
-					},
-					"requires": [
-						"marketplace"
-					]
+					}
 				},
 				"special1": {
 					"name": "Alchemy Shop",
 					"description": "The Alchemy Shop sells artifacts to visiting heroes.",
-					"id": 17,
 					"cost": {
 						"gold": 8500,
 						"ore": 10,
@@ -529,7 +467,6 @@
 						"gold": 1000
 					},
 					"description": "Magic Fountain restores all mana points of visiting hero at the beginning of next day.",
-					"id": 21,
 					"name": "Magic Fountain",
 					"requires": [
 						"mageGuild1"
@@ -558,10 +495,9 @@
 						{
 							"type": "SPELL_DAMAGE_REDUCTION",
 							"val": 50,
-							"subtype": "spellSchool.any"
+							"subtype": "any"
 						}
 					],
-					"id": 22,
 					"name": "Magic Absorber",
 					"requires": [
 						"allOf",
@@ -579,7 +515,6 @@
 						"wood": 5
 					},
 					"description": "The Tavern increases morale for troops defending the city.",
-					"id": 5,
 					"name": "Tavern"
 				},
 				"townHall": {
@@ -587,17 +522,10 @@
 						"gold": 2500
 					},
 					"description": "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"id": 11,
-					"name": "Town Hall",
-					"requires": [
-						"tavern"
-					],
-					"upgrades": "villageHall"
+					"name": "Town Hall"
 				},
 				"villageHall": {
 					"description": "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id": 10,
-					"mode": "auto",
 					"name": "Village Hall"
 				},
 				"townFountain": {

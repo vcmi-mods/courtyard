@@ -22,7 +22,7 @@
 			"bonuses" : {
 				"fireMagic" : {
 					"type" : "SPELL_DAMAGE",
-					"subtype" : "spellSchool.fire",
+					"subtype" : "fire",
 					"valueType" : "BASE_NUMBER",
 					"val" : 5,
 					"updater" : "TIMES_HERO_LEVEL"

@@ -19,18 +19,24 @@
 			"dodoSpeed":{
 				"type" : "STACKS_SPEED",
 				"val" : 1,
-				"limiters": [ {
-					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "dodo", true ]
-				} ]
+				"limiters" : [
+					"noneOf",
+					{
+						"type":"CREATURE_TYPE_LIMITER",
+						"creature" : "dodo",
+						"includeUpgrades" : true
+					}
+				]
 				},
 				"greaterDodoMorale" : {
 				"type" : "MORALE",
 				"val" : 2,
 				"limiters" : [
+					"noneOf",
 					{
-					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "greaterDodo", false ]
+						"type":"CREATURE_TYPE_LIMITER",
+						"creature" : "greaterDodo",
+						"includeUpgrades" : false
 					}
 				]
 			},
@@ -38,9 +44,11 @@
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 33,
 				"limiters" : [
+					"noneOf",
 					{
-					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "battleDodo", false ]
+						"type":"CREATURE_TYPE_LIMITER",
+						"creature" : "battleDodo",
+						"includeUpgrades" : false
 					}
 				]
 			},
@@ -48,20 +56,24 @@
 				"type" : "SPELL_RESISTANCE_AURA",
 				"val" : 20,
 				"limiters" : [
+					"noneOf",
 					{
-					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "battleDodo", false ]
+						"type":"CREATURE_TYPE_LIMITER",
+						"creature" : "battleDodo",
+						"includeUpgrades" : false
 					}
 				]
 			},
 			"battleDodoMagicReduction" : {
 			"type" : "SPELL_DAMAGE_REDUCTION",
-			"subtype" : "spellSchool.any",
+			"subtype" : "any",
 			"val" : 12,
-			"limiters" : [
+				"limiters" : [
+					"noneOf",
 					{
-					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "battleDodo", false ]
+						"type":"CREATURE_TYPE_LIMITER",
+						"creature" : "battleDodo",
+						"includeUpgrades" : false
 					}
 				]
 				}		

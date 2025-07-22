@@ -66,24 +66,6 @@
 				}
 			},
 			"none":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"duration" : [
-							"N_TURNS", "UNTIL_BEING_ATTACKED"
-						],
-						"turns": 2
-					},
-					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : ["N_TURNS"],
-						"turns": 2
-					}
-				}
 			},	
 			"basic":{
 			},	

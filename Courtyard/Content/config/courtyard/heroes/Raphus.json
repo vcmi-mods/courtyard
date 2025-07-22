@@ -25,12 +25,12 @@
 			"bonuses" : {
 				"reconstruction":{
 					"type" : "SPELL",
-					"subtype" : "spell.reconstruction",
+					"subtype" : "reconstruction",
 					"val" : 3
 				},
 				"reconstruction2":{
 					"addInfo" : 3,
-					"subtype" : "spell.reconstruction",
+					"subtype" : "reconstruction",
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}

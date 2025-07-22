@@ -53,12 +53,16 @@
 			"supply" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.potionSupply",
+				"subtype" : "potionSupply",
+				"description": "Potion Cart supplies hero spellbook with potions.",	
 				"val" : 0,
-				"limiters": [ {
-					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "potionCartCreature", false ]
-} ]
+				"limiters": [ 
+					{
+						"type":"CREATURE_TYPE_LIMITER",
+						"creature" : "potionCartCreature",
+						"includeUpgrades" : false
+					} 
+				]
 			}
 //			"automatic" : {
 //				"subtype" : "creature.plagueTentCreature",

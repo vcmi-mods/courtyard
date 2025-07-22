@@ -47,7 +47,7 @@
 				{
 					"smart": true
 				},
-				
+				"description": "Potion Cart supplies hero spellbook with potions.",				
 				"effects":
 				{
 				"addRegenerationPotion" :
@@ -55,7 +55,7 @@
 						"propagator" : 	"HERO",
 						"sourceType" : "CREATURE_ABILITY",
 						"type" : "SPELL",
-						"subtype" : "spell.regenerationPotion",
+						"subtype" : "regenerationPotion",
 						"val" : 0
 					},
 					"addWeaponPoisonPotion" :
@@ -63,54 +63,26 @@
 						"propagator" : 	"HERO",
 						"sourceType" : "CREATURE_ABILITY",
 						"type" : "SPELL",
-						"subtype" : "spell.weaponPoisonPotion",
+						"subtype" : "weaponPoisonPotion",
 						"val" : 0
 					}
 				}
 			},
 			"none":
 			{
-				"description": "",
-				"effects":
-				{
-				"addRegenerationPotion" :
-					{
-						"propagator" : 	"HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "spell.regenerationPotion",
-						"val" : 0
-					},
-					"addWeaponPoisonPotion" :
-					{
-						"propagator" : 	"HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "spell.weaponPoisonPotion",
-						"val" : 0
-					}
-				}
-				
+				"description": "{Potion Cart}\n\nSupplies hero spellbook with potions.",					
 			},
 			"basic":
-			{ 
-				"description": "", 
+			{  
+				"description": "Potion Cart supplies hero spellbook with potions.",	
 				"effects":
 				{
 					"addRegenerationPotion" :
 					{
-						"propagator" : 	"HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "spell.regenerationPotion",
 						"val" : 1
 					},
 					"addWeaponPoisonPotion" :
 					{
-						"propagator" : 	"HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "spell.weaponPoisonPotion",
 						"val" : 1
 					},
 					"addDragonPotion" :
@@ -118,30 +90,22 @@
 						"propagator" : 	"HERO",
 						"sourceType" : "CREATURE_ABILITY",
 						"type" : "SPELL",
-						"subtype" : "spell.dragonPotion",
+						"subtype" : "dragonPotion",
 						"val" : 0
 					}
 				}
 			},
 			"advanced":
 			{
-				"description": "", 
+				"description": "Potion Cart supplies hero spellbook with potions.",	
 				"effects":
 				{					
 					"addRegenerationPotion" :
 					{
-						"propagator" : 	"HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "spell.regenerationPotion",
 						"val" : 2
 					},
 					"addWeaponPoisonPotion" :
 					{
-						"propagator" : 	"HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "spell.weaponPoisonPotion",
 						"val" : 2
 					},
 					"addDragonPotion" :
@@ -149,48 +113,38 @@
 						"propagator" : 	"HERO",
 						"sourceType" : "CREATURE_ABILITY",
 						"type" : "SPELL",
-						"subtype" : "spell.dragonPotion",
+						"subtype" : "dragonPotion",
 						"val" : 1
-					},
-					
-					
+					},					
 					"addToughnessPotion" :
 					{
 						"propagator" : 	"HERO",
 						"sourceType" : "CREATURE_ABILITY",
 						"type" : "SPELL",
-						"subtype" : "spell.toughnessPotion",
+						"subtype" : "toughnessPotion",
 						"val" : 0
 					}
 				}
 			},
 			"expert":
-			{
-				"description": "", 
+			{ 
+				"description": "Potion Cart supplies hero spellbook with potions.",	
 				"effects":
 				{
 					"addRegenerationPotion" :
 					{
-						"propagator" : 	"HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "spell.regenerationPotion",
 						"val" : 3
 					},
-				"addWeaponPoisonPotion" :
+					"addWeaponPoisonPotion" :
+					{
+						"val" : 3
+					},
+					"addDragonPotion" :
 					{
 						"propagator" : 	"HERO",
 						"sourceType" : "CREATURE_ABILITY",
 						"type" : "SPELL",
-						"subtype" : "spell.weaponPoisonPotion",
-						"val" : 3
-					},
-				"addDragonPotion" :
-					{
-						"propagator" : 	"HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "spell.dragonPotion",
+						"subtype" : "dragonPotion",
 						"val" : 2
 					},
 					"addToughnessPotion" :
@@ -198,7 +152,7 @@
 						"propagator" : 	"HERO",
 						"sourceType" : "CREATURE_ABILITY",
 						"type" : "SPELL",
-						"subtype" : "spell.toughnessPotion",
+						"subtype" : "toughnessPotion",
 						"val" : 1
 					},					
 					
@@ -207,7 +161,7 @@
 						"propagator" : 	"HERO",
 						"sourceType" : "CREATURE_ABILITY",
 						"type" : "SPELL",
-						"subtype" : "spell.etheralPotion",
+						"subtype" : "etheralPotion",
 						"val" : 0
 					}
 				}

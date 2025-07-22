@@ -58,11 +58,7 @@
 				"targetModifier":
 				{
 					"smart": true
-				}
-			},
-			"none":
-			{
-				"description": "{Regeneration Potion}\n\nGrants unit regeneration ability (5 points/turn).",
+				},
 				"effects":
 				{
 					"regeneration" : {
@@ -73,24 +69,23 @@
 					"potionMarkerEffect" :
 					{
 						"type" : "SPECIFIC_SPELL_DAMAGE",
-						"subtype" : "spell.potionSupply",
+						"subtype" : "potionSupply",
 						"val" : 0, 
 						"duration" : "N_TURNS"
 					}
-				}
+				}				
+			},
+			"none":
+			{
+				"description": "{Regeneration Potion}\n\nGrants unit regeneration ability (5 points/turn)."
 			},
 			"basic":
 			{
 				"description": "{Concentrated Regeneration Potion}\n\nGrants unit regeneration ability (15 points/turn).",
 				"effects":
 				{
-					"regeneration" : { "type" : "HP_REGENERATION", "val" : 15, "duration" : "N_TURNS" },
-					"potionMarkerEffect" :
-					{
-						"type" : "SPECIFIC_SPELL_DAMAGE",
-						"subtype" : "spell.potionSupply",
-						"val" : 0, 
-						"duration" : "N_TURNS"
+					"regeneration" : {
+						"val" : 15
 					}
 				}
 			},
@@ -99,13 +94,8 @@
 				"description": "{Distilled Regeneration Potion}\n\nGrants unit regeneration ability (30 points/turn).",
 				"effects":
 				{
-					"regeneration" : { "type" : "HP_REGENERATION", "val" : 30, "duration" : "N_TURNS"},
-					"potionMarkerEffect" :
-					{
-						"type" : "SPECIFIC_SPELL_DAMAGE",
-						"subtype" : "spell.potionSupply",
-						"val" : 0, 
-						"duration" : "N_TURNS"
+					"regeneration" : {
+						"val" : 30
 					}
 				}
 			},
@@ -115,17 +105,8 @@
 				"effects":
 				{
 					"regeneration" : {
-						"type" : "HP_REGENERATION",
 						"val" : 100000,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "N_TURNS"
-					},
-					"potionMarkerEffect" :
-					{
-						"type" : "SPECIFIC_SPELL_DAMAGE",
-						"subtype" : "spell.potionSupply",
-						"val" : 0, 
-						"duration" : "N_TURNS"
+						"valueType" : "ADDITIVE_VALUE"
 					}				
 				}	
 			}

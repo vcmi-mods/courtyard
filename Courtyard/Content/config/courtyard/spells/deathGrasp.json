@@ -52,38 +52,47 @@
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"battleEffects" : {
+					"directDamage" : {
+						"type":"core:damage", 
+						"killByCount": true
+//						"val": 5, 
+//						"valueType": "INDEPENDENT_MIN"
+					}
+				}				
 			},
 			"none":
 			{
-				"description": "{Death Grasp}\n\nKills units from selected stack.",
-				"battleEffects" : {
-				"directDamage" : {"type":"core:damage", "killByCount": true, "val": 5, "valueType": "INDEPENDENT_MIN"}
-				}
+				"description": "{Death Grasp}\n\nKills units from selected stack."
 			},
 			"basic":
 			{
 				"power": 0.15,
 				"description": "{Basic Death Grasp}\n\nKills units from selected stack.",
 				"battleEffects" : {
-				"directDamage" : {"type":"core:damage", "killByCount": true, "val": 1, "valueType": "INDEPENDENT_MIN"}
+					"directDamage" : {
+//						"val": 1, 
+					}
 				}
 			},
 			"advanced":
 			{	
 				"power": 0.2,
 				"description": "{Advanced Death Grasp}\n\nKills units from selected stack.",
-	 
-	 
-			"battleEffects" : {
-				"directDamage" : {"type":"core:damage", "killByCount": true, "val": 2, "valueType": "INDEPENDENT_MIN"}
+				"battleEffects" : {
+					"directDamage" : {
+//						"val": 2, 
+					}
 				}
 			},
 			"expert":
 			{	"power": 0.25,
 				"description": "{Expert Death Grasp}\n\nKills units from selected stack.",
 				"battleEffects" : {
-				"directDamage" : {"type":"core:damage", "killByCount": true, "val": 3, "valueType": "INDEPENDENT_MIN"}
+					"directDamage" : {
+//						"val": 3, 
+					}
 				}
 			}
 		}

@@ -48,6 +48,7 @@
 		{
 			"base":
 			{
+				"description": "{Supreme Etheral Extract}\n\nGrants unit ability to fly and 20% damage reduction from spells and attacks.",
 				"cost": 0,
 				"range": "0",
 				"power": 1,
@@ -55,11 +56,7 @@
 				"targetModifier":
 				{
 					"smart": true
-				}
-			},
-			"none":
-			{
-				"description": "{Supreme Etheral Extract}\n\nGrants unit ability to fly and 20% damage reduction from spells and attacks.",
+				},
 				"effects":
 				{
 					"flying" : {
@@ -75,29 +72,35 @@
 					},
 					"magicDamageReduction" : {
 						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.any",
+						"subtype" : "any",
 						"val" : 20,
 						"duration": "N_TURNS"
 					},
 					"potionMarkerEffect" :
-					{"type" : "SPECIFIC_SPELL_DAMAGE","subtype" : "spell.potionSupply",
+					{
+						"type" : "SPECIFIC_SPELL_DAMAGE",
+						"subtype" : "potionSupply",
 						"val" : 0,
 						"duration": "N_TURNS"
 					}
 				}
 			},
+			"none":
+			{
+				
+			},
 			"basic":
 			{
-				"description": "{Supreme Etheral Extract}\n\nGrants unit ability to fly and 20% damage reduction from spells and attacks."
+				
 			},
 			"advanced":
 			{
-				"description": "{Supreme Etheral Extract}\n\nGrants unit ability to fly and 20% damage reduction from spells and attacks."
+				
 			},
 			"expert":
 			{
-				"description": "{Supreme Etheral Extract}\n\nGrants unit ability to fly and 20% damage reduction from spells and attacks."
+			
 			}
 		}
 	}
- }
+}

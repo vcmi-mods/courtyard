@@ -49,21 +49,21 @@
 				"targetModifier":
 				{
 					"smart": true
-				}
-			},
-			"none":
-			{
-				"description": "{Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (10%).", 
+				},
 				"effects":
 				{
 					"poison" :
 					{
 						"type" : "SPELL_AFTER_ATTACK",
-						"subtype" : "spell.poison",
+						"subtype" : "poison",
 						"val" : 10,
 						"duration": "N_TURNS"
 					}	
-				}
+				}				
+			},
+			"none":
+			{
+				"description": "{Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (10%).", 
 			},
 			"basic":
 			{
@@ -71,10 +71,9 @@
 				"effects":
 				{
 					"poison" :
-					{"type" : "SPELL_AFTER_ATTACK","subtype" : "spell.poison",
-						"val" : 15,
-						"duration": "N_TURNS"
-					}
+					{
+						"val" : 15
+					}	
 				}	
 			},
 			"advanced":
@@ -83,10 +82,9 @@
 				"effects":
 				{
 					"poison" :
-					{"type" : "SPELL_AFTER_ATTACK","subtype" : "spell.poison",
-						"val" : 20,
-						"duration": "N_TURNS"
-					}
+					{
+						"val" : 20
+					}	
 				}
 			},
 			"expert":
@@ -95,10 +93,9 @@
 				"effects":
 				{
 					"poison" :
-					{"type" : "SPELL_AFTER_ATTACK","subtype" : "spell.poison",
-						"val" : 30,
-						"duration": "N_TURNS"
-					}
+					{
+						"val" : 30
+					}	
 				}
 			}
 		}

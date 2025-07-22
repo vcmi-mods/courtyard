@@ -22,50 +22,51 @@
 			"bonuses" : {
 				"setAflame":{
 				"type" : "SPELL_AFTER_ATTACK",
-				"addInfo" : [1,0],
-				"subtype" : "spell.immolationCurse",
+				"addInfo" : [ 1,0 ],
+				"subtype" : "immolationCurse",
 				"val" : 33,
 				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "fireNewt", true ] },
-				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }	]
+					{ "type" : "CREATURE_TYPE_LIMITER", "creature": "fireNewt", "includeUpgrades" : true  },
+					{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "FIRE_SHIELD"  }	]
 				},
 				"setAflameDuration" :
 				{
 					"type" : "CREATURE_ENCHANT_POWER",
 					"val" : 3,
 				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "fireNewt", true ] },
-				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }	]
+					{ "type" : "CREATURE_TYPE_LIMITER", "creature": "fireNewt", "includeUpgrades" : true  },
+					{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "FIRE_SHIELD"  }	]
 				},
 				"salamanderReceptive":{
-				"type" : "RECEPTIVE",
-				"limiters": [ {
-					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "fireNewt", true ]
-				} ]
+					"type" : "RECEPTIVE",
+					"limiters": [ {
+						"type":"CREATURE_TYPE_LIMITER",
+						"creature": "fireNewt", 
+						"includeUpgrades" : true
+					} ]
 				},
 				"salamanderEnchantSpeed":{
 				"type" : "STACKS_SPEED",
 				"val" : 2,
 				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "fireNewt", true ] },
-				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }]
+					{ "type" : "CREATURE_TYPE_LIMITER", "creature": "fireNewt", "includeUpgrades" : true  },
+					{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "FIRE_SHIELD"  }	]
 				},
 				"salamanderEnchantDamage":{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageMax",
 				"val" : 2,
 				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "fireNewt", true ] },
-				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }]
+					{ "type" : "CREATURE_TYPE_LIMITER", "creature": "fireNewt", "includeUpgrades" : true  },
+					{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "FIRE_SHIELD"  }	]
 				},
 				"salamanderEnchantMorale":{
 				"type" : "MORALE",
 				"val" : 1,
 				"valueType" : "INDEPENDENT_MAX",
 				"limiters": [  "allOf", 
-				{ "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "fireNewt", true ] },
-				{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "FIRE_SHIELD" ] }]
+					{ "type" : "CREATURE_TYPE_LIMITER", "creature": "fireNewt", "includeUpgrades" : true  },
+					{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "FIRE_SHIELD"  }	]
 				}		
 			}
 		}

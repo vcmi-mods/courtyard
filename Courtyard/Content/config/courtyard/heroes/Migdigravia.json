@@ -27,30 +27,39 @@
 				"spellcasts":{
 					"type" : "CASTS",
 					"val": 3,
-					"limiters": [ {
-						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "cameraObscuraCreature", true ]
-					} ]
+					"limiters": [ 
+						{
+							"type":"CREATURE_TYPE_LIMITER",
+							"creature" : "cameraObscuraCreature",
+							"includeUpgrades" : false
+						} 
+					]
 				},
 				"apparitionSummoning": {
 					"type" : "SPELLCASTER",
-					"subtype": "spell.summonApparition",
+					"subtype": "summonApparition",
 					"val": 3,
 					"addInfo" : 30,
-					"limiters": [ {
-						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "cameraObscuraCreature", true ]
-					} ]
+					"limiters": [ 
+						{
+							"type":"CREATURE_TYPE_LIMITER",
+							"creature" : "cameraObscuraCreature",
+							"includeUpgrades" : false
+						} 
+					]
 				},
 				"summonPower" : 
 				{
 					"type" : "SPECIFIC_SPELL_POWER",
-					"subtype" : "spell.summonApparition",
+					"subtype" : "summonApparition",
 					"val" : 100,
-					"limiters": [ {
-						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "cameraObscuraCreature", true ]
-					} ]
+					"limiters": [ 
+						{
+							"type":"CREATURE_TYPE_LIMITER",
+							"creature" : "cameraObscuraCreature",
+							"includeUpgrades" : false
+						} 
+					]
 				}
 			}	
 		}

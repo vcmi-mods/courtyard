@@ -1,17 +1,19 @@
 {
 	"core:firstAid" : {
-		//"index" : 27,
 		"base" : {
 			"effects" : {
 				"potionsExtra" : {
-				"type" : "ENCHANTED",
-				"subtype" : "spell.potionSupply",
-				"val" : 0,
-				"limiters": [ {
-					"type":"CREATURE_TYPE_LIMITER",
-					"parameters": [ "potionCartCreature", false ]
-				} ]
-			}
+					"type" : "ENCHANTED",
+					"subtype" : "potionSupply",
+					"val" : 0,
+					"limiters": [ 
+						{
+							"type":"CREATURE_TYPE_LIMITER",
+							"creature" : "potionCartCreature",
+							"includeUpgrades" : false
+						} 
+					]
+				}
 			}
 		},
 		"basic" : {

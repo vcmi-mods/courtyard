@@ -55,13 +55,7 @@
 				"targetModifier":
 				{
 					"smart": true
-				}
-			},
-			"none":
-			{
-				"description": "{Enchanted Weapon}\n\nIncreases damage dealt by friendly unit by 20%.",
-	 
-	 
+				},
 				"effects":
 				{
 					"increaseDamage" : {
@@ -71,7 +65,11 @@
 						"valueType": "PERCENT_TO_BASE",
 						"duration": "N_TURNS"
 					}
-				}
+				}				
+			},
+			"none":
+			{
+				"description": "{Enchanted Weapon}\n\nIncreases damage dealt by friendly unit by 20%."
 			},
 			"basic":
 			{
@@ -84,11 +82,7 @@
 				"effects":
 				{
 					"increaseDamage" : {
-						"val" : 35,
-						"type" : "CREATURE_DAMAGE",
-						"subtype" : "creatureDamageBoth",
-						"valueType": "PERCENT_TO_BASE",
-						"duration": "N_TURNS"
+						"val" : 35
 					}
 				}
 			},
@@ -98,11 +92,7 @@
 				"effects":
 				{
 					"increaseDamage" : {
-						"val" : 50,
-						"type" : "CREATURE_DAMAGE",
-						"subtype" : "creatureDamageBoth",
-						"valueType": "PERCENT_TO_BASE",
-						"duration": "N_TURNS"
+						"val" : 50
 					}
 				}
 			}
