@@ -10,8 +10,9 @@
 			{
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
-				"description" : "PLACEHOLDER",
-				"val" : 0
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "courtyard/icons/bonuses/e_fearl.png"
 			}
 		},
 		"advMapAmount" : { "max" : 16, "min" : 8 },
@@ -57,30 +58,26 @@
 			{
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
-				"description" : "PLACEHOLDER",
-				"val" : 0
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "courtyard/icons/bonuses/e_fearl.png"
 			},
-			"damageReduction1" : {
-			"type" : "GENERAL_DAMAGE_REDUCTION",
-			"subtype" : "damageTypeMelee",
-			"val" : 25
-			},
-			"damageReduction2" : {
-			"type" : "GENERAL_DAMAGE_REDUCTION",
-			"subtype" : "damageTypeRanged",
-			"val" : 25
+			"damageReduction" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeAll",
+				"val" : 25
 			},
 			"magicDamageReduction" : {
-			"type" : "SPELL_DAMAGE_REDUCTION",
-			"subtype" : "any",
-			"val" : 33
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
+				"val" : 33
 			},
 			"magicDamageReductionAura" : {
-			"type" : "SPELL_RESISTANCE_AURA",
-			"val" : 20
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 20
 			},
-			"defensiveStance" : {
-			"type" : "DEFENSIVE_STANCE", "val" : 5
+				"defensiveStance" : {
+				"type" : "DEFENSIVE_STANCE", "val" : 5
 			}	
 		},
 		"advMapAmount" : { "max" : 12, "min" : 8 },
@@ -126,11 +123,14 @@
 			{
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
-				"description" : "PLACEHOLDER",
-				"val" : 0
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "courtyard/icons/bonuses/e_fearl.png"				
 			},
 			"noRetaliation" : {
-			"type" : "NO_RETALIATION"
+				"type" : "NO_RETALIATION",
+				"description" : "{No Retaliation}\nAffected unit will never retaliate to an attack",
+				"icon" : "courtyard/icons/bonuses/E_RETAIL.png",				
 			},	
 			"attacks" :
 			{
@@ -149,7 +149,9 @@
 						"creature" : "dodo",
 						"includeUpgrades" : true
 					}
-				]
+				],
+				"description" : "{Decreases allies morale}\nGrand Dodos decrease allies Morale by one",
+				"icon" : "courtyard/icons/bonuses/negativemorale.png",				
 			},		
 			"negateMortifyForEnemy" :
 			{
@@ -160,7 +162,8 @@
 				"limiters" : [
 					[ "allOf", [ "OPPOSITE_SIDE" ] ],
 					[ "noneOf", { "type":"CREATURE_TYPE_LIMITER", "creature" : "dodo", "includeUpgrades" : true } ]
-				]
+				],
+				"hidden" : true
 			}
 		},
 		"advMapAmount" : { "max" : 12, "min" : 8 },

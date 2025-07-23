@@ -4,7 +4,7 @@
 		"summonGuardians" :
 			{
 				"type" : "SUMMON_GUARDIANS",
-				"subtype" : "creature.tangleVine",
+				"subtype" : "tangleVine",
 				"val" : 200
 			}
 		},
@@ -49,14 +49,15 @@
 		"summonGuardians" :
 			{
 				"type" : "SUMMON_GUARDIANS",
-				"subtype" : "creature.strangleVine",
+				"subtype" : "strangleVine",
 				"val" : 400
 			},
 			"reviveVines" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.vinesRevive",
-				"val" : 0
+				"subtype" : "vinesRevive",
+				"val" : 0,
+				"description" : "{Spellcaster}\nCan cast Regrowth to revive scorched vines",
 			},
 		"casts" :
 			{

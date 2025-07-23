@@ -39,8 +39,17 @@
 
 	"gildedHomunculus" : {
 		"abilities" : {
-			"regeneration" : { "type" : "HP_REGENERATION", "val" : 10 },
-			"increasedSpellDamage" : { "type" : "SPELL_DAMAGE", "propagator" : "HERO", "val" : 15 }
+			"regeneration" : { 
+				"type" : "HP_REGENERATION", 
+				"val" : 10 
+			},
+			"increasedSpellDamage" : { 
+				"type" : "SPELL_DAMAGE", 
+				"propagator" : "HERO", 
+				"val" : 15,
+				"description" : "{Spell booster}\nIncreases hero's spells damage by 15%",
+				"icon" : "courtyard/icons/bonuses/sp_boost.png"			
+			}
 		},
 		"advMapAmount" : { "max" : 25, "min" : 12 },
 		"aiValue" : 205,

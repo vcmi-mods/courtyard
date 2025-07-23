@@ -5,7 +5,7 @@
 			"magicResistance" :
 			{
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "spellSchool.any",
+				"subtype" : "any",
 				"val" : 5
 			},
 			"castsAmount" :
@@ -26,7 +26,7 @@
 			"canCast" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.clone",
+				"subtype" : "clone",
 				"val" : 2
 			}
 		}, 
