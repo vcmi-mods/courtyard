@@ -25,9 +25,9 @@
 			"noRevive" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "animateDead",
-				"addInfo": 1,
+				"addInfo" : 1,
 				"description" : "{Animare Dead Immunity}\nApparitions can't be reanimated by Animate Dead spell",
-				"icon" : "courtyard/icons/bonuses/im_animate.png"					
+				"icon" : "courtyard/icons/bonuses/im_animate.png"
 			},
 			"ephemeral" : {
 				"type" : "ENCHANTED",
@@ -35,9 +35,8 @@
 				"val" : 3,
 				"description" : "{Ephemeral}\nApparitions live only one turn",
 				"icon" : "courtyard/icons/bonuses/ephemeral.png"
-			},	
-			"noAttacks" :
-			{
+			},
+			"noAttacks" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : -10,
 				"description" : "{Ephemeral}\nApparitions cannot attack anybody",
