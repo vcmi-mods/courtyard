@@ -6,10 +6,11 @@
 	"contact" : "NONE",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.29",
+	"version" : "1.30",
 	
 	"changelog" :
     {
+		"1.30"   : [ "Two more ability custom icons (andruids)" ],
 		"1.29"   : [ "Added some new ability custom icons (edeksumo)" ],
 		"1.28"   : [ "New fixes for vcmi-1.7 format" ],
 		"1.27"   : [ "Another fixes for vcmi-1.7 format" ],

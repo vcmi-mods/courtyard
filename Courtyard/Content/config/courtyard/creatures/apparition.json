@@ -20,7 +20,8 @@
 			"undead" : 
 			{ 
 				"type" : "UNDEAD",
-				"description" : "{Ephemeral}\nApparitions have undead and non-living abilities"				
+				"description" : "{Ephemeral}\nApparitions are treated as undead and non-living creatures",
+				"icon" : "courtyard/icons/bonuses/ephemeral.png"
 			},
 			"earthImmune" :
 			{ 
@@ -32,21 +33,23 @@
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "animateDead",
 				"addInfo": 1,
-				"description" : "{Ephemeral}\nApparitions can't be reanimated by Animate Death spell",
-				"icon" : "courtyard/icons/bonuses/placeholder.png"					
+				"description" : "{Animare Dead Immunity}\nApparitions can't be reanimated by Animate Dead spell",
+				"icon" : "courtyard/icons/bonuses/im_animate.png"					
 			},
 			"ephemeral" :
 			{
 				"type" : "ENCHANTED",
 				"subtype" : "ephemeral",
 				"val" : 3,
-				"description" : "{Ephemeral}\nApparitions live only one turn"
+				"description" : "{Ephemeral}\nApparitions live only one turn",
+				"icon" : "courtyard/icons/bonuses/ephemeral.png"
 			},	
 			"noAttacks" :
 			{
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : -10,
-				"description" : "{Ephemeral}\nApparitions cannot attack anybody"
+				"description" : "{Ephemeral}\nApparitions cannot attack anybody",
+				"icon" : "courtyard/icons/bonuses/ephemeral.png"
 			},			
 			"damageReduction1" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
@@ -76,7 +79,7 @@
 			},
 			"noRetaliation" : { "type" : "NO_RETALIATION",
 				"description" : "{No Retaliation}\nAffected unit will never retaliate to an attack",
-				"icon" : "courtyard/icons/bonuses/E_RETAIL.png"	
+				"icon" : "courtyard/icons/bonuses/ephemeral.png"	
 			},
 			"noSpeed": { 
 				"type": "STACKS_SPEED",
