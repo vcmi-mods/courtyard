@@ -1,9 +1,21 @@
 {
 	"02kanim" : {
 		"army" : [
-			{ "creature" : "cupid", "max" : 18, "min" : 10 },
-			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
-			{ "creature" : "arquebusier", "max" : 4, "min" : 2 }
+			{
+				"creature" : "cupid",
+				"max" : 18,
+				"min" : 10
+			},
+			{
+				"creature" : "homunculus",
+				"max" : 11,
+				"min" : 5
+			},
+			{
+				"creature" : "arquebusier",
+				"max" : 4,
+				"min" : 2
+			}
 		],
 		"class" : "aristocrat",
 		"female" : false,
@@ -13,23 +25,28 @@
 			"specialtyLarge" : "courtyard/heroes/Kanim/speclarge1.png",
 			"specialtySmall" : "courtyard/heroes/Kanim/specsmall1.png"
 		},
-		"skills" : [ { "level" : "advanced", "skill" : "archery" } ],
-		"specialty" : 
-		{
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "archery"
+			}
+		],
+		"specialty" : {
 			"creature" : "arquebusier",
-			"bonuses" :{
-			"arquebusierShots":{
-				"type" : "SHOTS",
-				"val" : 5,
-				"valueType" : "ADDITIVE_VALUE",
-				"limiters": [ 
-					{
-						"type":"CREATURE_TYPE_LIMITER",
-						"creature" : "arquebusier",
-						"includeUpgrades" : true
-					} 
-				]
-			}}
+			"bonuses" : {
+				"arquebusierShots" : {
+					"type" : "SHOTS",
+					"val" : 5,
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "arquebusier",
+							"includeUpgrades" : true
+						}
+					]
+				}
+			}
 		}
 	}
 }

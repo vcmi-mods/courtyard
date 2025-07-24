@@ -1,9 +1,21 @@
 {
 	"01caballe" : {
 		"army" : [
-			{ "creature" : "cupid", "max" : 18, "min" : 10 },
-			{ "creature" : "potionCartCreature", "max" : 1, "min" : 1 },
-			{ "creature" : "homunculus", "max" : 11, "min" : 5 }
+			{
+				"creature" : "cupid",
+				"max" : 18,
+				"min" : 10
+			},
+			{
+				"creature" : "potionCartCreature",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "homunculus",
+				"max" : 11,
+				"min" : 5
+			}
 		],
 		"class" : "aristocrat",
 		"female" : true,
@@ -13,25 +25,54 @@
 			"specialtyLarge" : "courtyard/heroes/Caballe/speclarge1.png",
 			"specialtySmall" : "courtyard/heroes/Caballe/specsmall1.png"
 		},
-		"skills" : [ { "level" : "basic", "skill" : "firstAid" }, { "level" : "basic", "skill" : "tactics" }],
-				"spellbook" : [ "cure" ],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		"spellbook" : [
+			"cure"
+		],
 		"specialty" : {
 			"bonuses" : {
-				"potionMorale":{
+				"potionMorale" : {
 					"type" : "MORALE",
 					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE",
-					"limiters": [  "allOf", 
-						{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "SPECIFIC_SPELL_DAMAGE", "bonusSubtype" : "potionSupply" },
-						{ "type" : "CREATURE_ALIGNMENT_LIMITER", "alignment" :  "good"  }]
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "SPECIFIC_SPELL_DAMAGE",
+							"bonusSubtype" : "potionSupply"
+						},
+						{
+							"type" : "CREATURE_ALIGNMENT_LIMITER",
+							"alignment" : "good"
+						}
+					]
 				},
-				"potionLuck":{
+				"potionLuck" : {
 					"type" : "LUCK",
 					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE",
-				"limiters": [  "allOf", 
-					{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "SPECIFIC_SPELL_DAMAGE", "bonusSubtype" : "potionSupply" },
-					{ "type" : "CREATURE_ALIGNMENT_LIMITER", "alignment" :  "neutral"  }	]
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "SPECIFIC_SPELL_DAMAGE",
+							"bonusSubtype" : "potionSupply"
+						},
+						{
+							"type" : "CREATURE_ALIGNMENT_LIMITER",
+							"alignment" : "neutral"
+						}
+					]
 				}
 			}
 		}

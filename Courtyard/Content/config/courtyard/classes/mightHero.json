@@ -1,16 +1,42 @@
 {
 	"aristocrat" : {
 		"affinity" : "might",
-		"animation" : { "battle" : { "female" : "courtyard/heroes/battleFemaleLord", "male" : "courtyard/heroes/battleMaleLord" } },
+		"animation" : {
+			"battle" : {
+				"female" : "courtyard/heroes/battleFemaleLord",
+				"male" : "courtyard/heroes/battleMaleLord"
+			}
+		},
 		"commander" : "courtCommander",
 		"defaultTavern" : 5,
 		"faction" : "courtyard",
-		"lowLevelChance" : { "attack" : 45, "defence" : 30, "knowledge" : 10, "spellpower" : 15 },
-		"highLevelChance" : { "attack" : 30, "defence" : 25, "knowledge" : 20, "spellpower" : 25 },
+		"lowLevelChance" : {
+			"attack" : 45,
+			"defence" : 30,
+			"knowledge" : 10,
+			"spellpower" : 15
+		},
+		"highLevelChance" : {
+			"attack" : 30,
+			"defence" : 25,
+			"knowledge" : 20,
+			"spellpower" : 25
+		},
 
-		"mapObject" : { "templates" : { "default" : { "animation" : "courtyard/heroes/CourtFemaleMightMap" } } },
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "courtyard/heroes/CourtFemaleMightMap"
+				}
+			}
+		},
 		"name" : "Aristocrat",
-		"primarySkills" : { "attack" : 2, "defence" : 1, "knowledge" : 1, "spellpower" : 2 },
+		"primarySkills" : {
+			"attack" : 2,
+			"defence" : 1,
+			"knowledge" : 1,
+			"spellpower" : 2
+		},
 		"secondarySkills" : {
 			"airMagic" : 3,
 			"archery" : 4,

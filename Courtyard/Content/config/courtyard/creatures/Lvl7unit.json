@@ -1,21 +1,40 @@
 {
 	"jabberwock" : {
 		"abilities" : {
-			"advSlayer" : { "type" : "KING", "val" : 2, "valueType" : "ADDITIVE_VALUE" },
-			"canFly" : { "type" : "FLYING", "subtype" : "movementFlying" }
+			"advSlayer" : {
+				"type" : "KING",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			}
 		},
-		"advMapAmount" : { "max" : 10, "min" : 4 },
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 4
+		},
 		"aiValue" : 4419,
 		"attack" : 19,
-		"cost" : { "gold" : 2000 },
-		"damage" : { "max" : 40, "min" : 30 },
+		"cost" : {
+			"gold" : 2000
+		},
+		"damage" : {
+			"max" : 40,
+			"min" : 30
+		},
 		"defense" : 15,
 		"doubleWide" : true,
 		"faction" : "courtyard",
 		"fightValue" : 3251,
 		"graphics" : {
 			"animation" : "courtyard/battle/CJabber.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "courtyard/icons/units/IcJabber101",
 			"iconSmall" : "courtyard/icons/units/IsJabber101",
 			"map" : "courtyard/map/lvl7unit.def",
@@ -24,7 +43,10 @@
 		"growth" : 1,
 		"hitPoints" : 160,
 		"level" : 7,
-		"name" : { "plural" : "Jabberwocks", "singular" : "Jabberwock" },
+		"name" : {
+			"plural" : "Jabberwocks",
+			"singular" : "Jabberwock"
+		},
 		"sound" : {
 			"attack" : "courtyard/lvl7/JabberATTK.wav",
 			"defend" : "courtyard/lvl7/JabberDFND.wav",
@@ -33,50 +55,71 @@
 			"wince" : "courtyard/lvl7/JabberWNCE.wav"
 		},
 		"speed" : 9,
-		"upgrades" : [ "monstrousJabberwock" ]
+		"upgrades" : [
+			"monstrousJabberwock"
+		]
 	},
-	
-	
+
 	"monstrousJabberwock" : {
 		"abilities" : {
-			"advSlayer" : { "type" : "KING", "val" : 2, "valueType" : "ADDITIVE_VALUE" },
-			"canFly" : { "type" : "FLYING", "subtype" : "movementFlying" },
-			"fearful" :
-			{
+			"advSlayer" : {
+				"type" : "KING",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"fearful" : {
 				"type" : "FEARFUL",
 				"val" : 10,
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ 
-					"OPPOSITE_SIDE", 
+				"limiters" : [
+					"OPPOSITE_SIDE",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [ "LIVING" ]
+						"parameters" : [
+							"LIVING"
+						]
 					}
 				],
 				"description" : "{Fearsome}\nEnemy units have a 10% chance of freezing in fear",
-				"icon" : "courtyard/icons/bonuses/e_fear.png"				
+				"icon" : "courtyard/icons/bonuses/e_fear.png"
 			},
-			"decimation" : 
-			{ 
+			"decimation" : {
 				"type" : "DESTRUCTION",
 				"subtype" : "destructionKillPercentage",
 				"val" : 25,
 				"addInfo" : 10
 			}
 		},
-		"advMapAmount" : { "max" : 8, "min" : 3 },
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
+		},
 		"aiValue" : 8076,
 		"attack" : 27,
-		"cost" : { "gold" : 4500, "mercury" : 2 },
-		"damage" : { "max" : 45, "min" : 35 },
+		"cost" : {
+			"gold" : 4500,
+			"mercury" : 2
+		},
+		"damage" : {
+			"max" : 45,
+			"min" : 35
+		},
 		"defense" : 25,
 		"doubleWide" : true,
 		"faction" : "courtyard",
 		"fightValue" : 5830,
 		"graphics" : {
 			"animation" : "courtyard/battle/CJbbrwk.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "courtyard/icons/units/IcJabber102",
 			"iconSmall" : "courtyard/icons/units/IsJabber102",
 			"map" : "courtyard/map/lvl7unitup.def",
@@ -85,7 +128,10 @@
 		"growth" : 1,
 		"hitPoints" : 245,
 		"level" : 7,
-		"name" : { "plural" : "Monstrous Jabberwocks", "singular" : "Monstrous Jabberwock" },
+		"name" : {
+			"plural" : "Monstrous Jabberwocks",
+			"singular" : "Monstrous Jabberwock"
+		},
 		"sound" : {
 			"attack" : "courtyard/lvl7/JabberATTK.wav",
 			"defend" : "courtyard/lvl7/JabberDFND.wav",

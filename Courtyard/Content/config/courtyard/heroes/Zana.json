@@ -1,9 +1,21 @@
 {
 	"14zana" : {
 		"army" : [
-			{ "creature" : "cupid", "max" : 18, "min" : 10 },
-			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
-			{ "creature" : "fireNewt", "max" : 5, "min" : 3 }
+			{
+				"creature" : "cupid",
+				"max" : 18,
+				"min" : 10
+			},
+			{
+				"creature" : "homunculus",
+				"max" : 11,
+				"min" : 5
+			},
+			{
+				"creature" : "fireNewt",
+				"max" : 5,
+				"min" : 3
+			}
 		],
 		"class" : "philosopher",
 		"female" : true,
@@ -13,9 +25,17 @@
 			"specialtyLarge" : "courtyard/heroes/Zana/speclarge1.png",
 			"specialtySmall" : "courtyard/heroes/Zana/specsmall1.png"
 		},
-		"skills" : [ { "level" : "basic", "skill" : "pathfinding" }, { "level" : "basic", "skill" : "scouting" } ],
-		"spellbook" :
-		[
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		"spellbook" : [
 			"viewEarth"
 		],
 		"specialty" : {

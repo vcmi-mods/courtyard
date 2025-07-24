@@ -1,82 +1,75 @@
 {
-	"cameraObscuraCreature":
-	{
-		"name" : { "plural" : "Camerae Obscurae", "singular" : "Camera Obscura" },
+	"cameraObscuraCreature" : {
+		"name" : {
+			"plural" : "Camerae Obscurae",
+			"singular" : "Camera Obscura"
+		},
 		"faction" : "neutral",
-		"level": 0,
+		"level" : 0,
 		"aiValue" : 2500,
 		"special" : true,
 		"attack" : 0,
-        "cost" :
-		{
+		"cost" : {
 			"gold" : 3000
 		},
-		"damage" : { "max" : 0, "min" : 0 },
+		"damage" : {
+			"max" : 0,
+			"min" : 0
+		},
 		"defense" : 0,
 		"fightValue" : 2500,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "courtyard/battle/WMCamera.def",
 			"iconSmall" : "courtyard/icons/units/SMCamra_small01",
 			"iconLarge" : "courtyard/icons/units/SMCamra1",
 			"map" : "courtyard/map/lvl1unit.def",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"sound" :
-		{
-			"killed": "CARTKILL.wav",
-			"wince": "CARTWNCE.wav",
-			"shoot": "courtyard/camera/cameraCast.wav"
+		"sound" : {
+			"killed" : "CARTKILL.wav",
+			"wince" : "CARTWNCE.wav",
+			"shoot" : "courtyard/camera/cameraCast.wav"
 		},
 		"doubleWide" : false,
 		"growth" : 0,
 		"hitPoints" : 125,
 		"speed" : 5,
-		"abilities" :
-		{	
-			"agingSpellpower" : 
-			{
+		"abilities" : {
+			"agingSpellpower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
-//				"subtype" : "spell.ageCamera",
+				//				"subtype" : "spell.ageCamera",
 				"val" : 3
-			},			
-			"ageCasting" : 
-			{
+			},
+			"ageCasting" : {
 				"type" : "SPELLCASTER",
-				"subtype": "spell.ageCamera",
-				"val": 3,
+				"subtype" : "spell.ageCamera",
+				"val" : 3,
 				"addInfo" : 100
-			},	
-			"summonSpellpower" : 
-			{
+			},
+			"summonSpellpower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.summonApparition",
 				"val" : 100
 			},
-			"summonCasting" : 
-			{
+			"summonCasting" : {
 				"type" : "SPELLCASTER",
-				"subtype": "spell.summonApparition",
-				"val": 3,
+				"subtype" : "spell.summonApparition",
+				"val" : 3,
 				"addInfo" : 100
-			},			
-			"casts" : 
-			{
+			},
+			"casts" : {
 				"type" : "CASTS",
-				"val": 5
-			},						
-		      "noRetaliation" :
-			{
+				"val" : 5
+			},
+			"noRetaliation" : {
 				"type" : "NO_RETALIATION"
 			},
-			"warmachine" :
-			{
+			"warmachine" : {
 				"type" : "SIEGE_WEAPON"
 			}
 		}

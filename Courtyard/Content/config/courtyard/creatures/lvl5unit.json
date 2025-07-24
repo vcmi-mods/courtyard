@@ -6,8 +6,7 @@
 				"subtype" : "slayer",
 				"val" : 2
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"val" : 0,
@@ -15,18 +14,30 @@
 				"icon" : "courtyard/icons/bonuses/e_fearl.png"
 			}
 		},
-		"advMapAmount" : { "max" : 16, "min" : 8 },
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 8
+		},
 		"aiValue" : 903,
 		"attack" : 9,
-		"cost" : { "gold" : 400 },
-		"damage" : { "max" : 12, "min" : 6 },
+		"cost" : {
+			"gold" : 400
+		},
+		"damage" : {
+			"max" : 12,
+			"min" : 6
+		},
 		"defense" : 9,
 		"doubleWide" : true,
 		"faction" : "courtyard",
 		"fightValue" : 888,
 		"graphics" : {
 			"animation" : "courtyard/battle/CDodo.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "courtyard/icons/units/IcDodo101",
 			"iconSmall" : "courtyard/icons/units/IsDodo101",
 			"map" : "courtyard/map/lvl5unit.def",
@@ -35,7 +46,10 @@
 		"growth" : 3,
 		"hitPoints" : 55,
 		"level" : 5,
-		"name" : { "plural" : "Dodos", "singular" : "Dodo" },
+		"name" : {
+			"plural" : "Dodos",
+			"singular" : "Dodo"
+		},
 		"sound" : {
 			"attack" : "courtyard/lvl6/DodoATTK.wav",
 			"defend" : "courtyard/lvl6/DodoDFND.wav",
@@ -44,18 +58,20 @@
 			"wince" : "courtyard/lvl6/DodoWNCE.wav"
 		},
 		"speed" : 5,
-		"upgrades" : [ "battleDodo", "greaterDodo" ]
+		"upgrades" : [
+			"battleDodo",
+			"greaterDodo"
+		]
 	},
-	
+
 	"battleDodo" : {
 		"abilities" : {
 			"slayer" : {
-			"type" : "ENCHANTED",
-			"subtype" : "slayer",
-			"val" : 3
+				"type" : "ENCHANTED",
+				"subtype" : "slayer",
+				"val" : 3
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"val" : 0,
@@ -76,22 +92,35 @@
 				"type" : "SPELL_RESISTANCE_AURA",
 				"val" : 20
 			},
-				"defensiveStance" : {
-				"type" : "DEFENSIVE_STANCE", "val" : 5
-			}	
+			"defensiveStance" : {
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 5
+			}
 		},
-		"advMapAmount" : { "max" : 12, "min" : 8 },
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 8
+		},
 		"aiValue" : 1319,
 		"attack" : 9,
-		"cost" : { "gold" : 750 },
-		"damage" : { "max" : 12, "min" : 6 },
+		"cost" : {
+			"gold" : 750
+		},
+		"damage" : {
+			"max" : 12,
+			"min" : 6
+		},
 		"defense" : 17,
 		"doubleWide" : true,
 		"faction" : "courtyard",
 		"fightValue" : 1171,
 		"graphics" : {
 			"animation" : "courtyard/battle/CPdod.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "courtyard/icons/units/IcDodo102",
 			"iconSmall" : "courtyard/icons/units/IsDodo102",
 			"map" : "courtyard/map/lvl5unitup.def",
@@ -100,7 +129,10 @@
 		"growth" : 3,
 		"hitPoints" : 70,
 		"level" : 5,
-		"name" : { "plural" : "Battle Dodos", "singular" : "Battle Dodo" },
+		"name" : {
+			"plural" : "Battle Dodos",
+			"singular" : "Battle Dodo"
+		},
 		"sound" : {
 			"attack" : "courtyard/lvl6/DodoATTK.wav",
 			"defend" : "courtyard/lvl6/UPDodoDFND.wav",
@@ -109,9 +141,11 @@
 			"wince" : "courtyard/lvl6/UPDodoWNCE.wav"
 		},
 		"speed" : 5,
-		"upgrades" : [ "greaterDodo" ]
+		"upgrades" : [
+			"greaterDodo"
+		]
 	},
-	
+
 	"greaterDodo" : {
 		"abilities" : {
 			"slayer" : {
@@ -119,65 +153,85 @@
 				"subtype" : "slayer",
 				"val" : 3
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"val" : 0,
 				"description" : "{Fearless}\nImmune to Fear ability",
-				"icon" : "courtyard/icons/bonuses/e_fearl.png"				
+				"icon" : "courtyard/icons/bonuses/e_fearl.png"
 			},
 			"noRetaliation" : {
 				"type" : "NO_RETALIATION",
 				"description" : "{No Retaliation}\nAffected unit will never retaliate to an attack",
-				"icon" : "courtyard/icons/bonuses/E_RETAIL.png",				
-			},	
-			"attacks" :
-			{
+				"icon" : "courtyard/icons/bonuses/E_RETAIL.png"
+			},
+			"attacks" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 2
-			},	
-			"mortify" :
-			{
+			},
+			"mortify" : {
 				"type" : "MORALE",
 				"val" : -1,
 				"propagator" : "BATTLE_WIDE",
 				"limiters" : [
 					"noneOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "dodo",
 						"includeUpgrades" : true
 					}
 				],
 				"description" : "{Decreases allies morale}\nGrand Dodos decrease allies Morale by one",
-				"icon" : "courtyard/icons/bonuses/negativemorale.png",				
-			},		
-			"negateMortifyForEnemy" :
-			{
+				"icon" : "courtyard/icons/bonuses/negativemorale.png"
+			},
+			"negateMortifyForEnemy" : {
 				"type" : "MORALE",
 				"val" : 1,
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
-					[ "allOf", [ "OPPOSITE_SIDE" ] ],
-					[ "noneOf", { "type":"CREATURE_TYPE_LIMITER", "creature" : "dodo", "includeUpgrades" : true } ]
+					[
+						"allOf",
+						[
+							"OPPOSITE_SIDE"
+						]
+					],
+					[
+						"noneOf",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "dodo",
+							"includeUpgrades" : true
+						}
+					]
 				],
 				"hidden" : true
 			}
 		},
-		"advMapAmount" : { "max" : 12, "min" : 8 },
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 8
+		},
 		"aiValue" : 1319,
 		"attack" : 17,
-		"cost" : { "gold" : 750 },
-		"damage" : { "max" : 18, "min" : 10 },
+		"cost" : {
+			"gold" : 750
+		},
+		"damage" : {
+			"max" : 18,
+			"min" : 10
+		},
 		"defense" : 9,
 		"doubleWide" : true,
 		"faction" : "courtyard",
 		"fightValue" : 1171,
 		"graphics" : {
 			"animation" : "courtyard/battle/CCdod.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "courtyard/icons/units/IcDodo103",
 			"iconSmall" : "courtyard/icons/units/IsDodo103",
 			"map" : "courtyard/map/lvl5unitup.def",
@@ -186,7 +240,10 @@
 		"growth" : 3,
 		"hitPoints" : 60,
 		"level" : 5,
-		"name" : { "plural" : "Grand Dodos", "singular" : "Grand Dodo" },
+		"name" : {
+			"plural" : "Grand Dodos",
+			"singular" : "Grand Dodo"
+		},
 		"sound" : {
 			"attack" : "courtyard/lvl6/DodoATTK.wav",
 			"defend" : "courtyard/lvl6/UPDodoDFND.wav",
@@ -195,6 +252,8 @@
 			"wince" : "courtyard/lvl6/UPDodoWNCE.wav"
 		},
 		"speed" : 7,
-		"upgrades" : [ "battleDodo" ]
+		"upgrades" : [
+			"battleDodo"
+		]
 	}
 }
