@@ -1,30 +1,30 @@
 {
-	"dragonPotion":
-	{
-		"type": "combat", 
-		"targetType": "CREATURE", 
-		"name": "Dragon Drought",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
+	"dragonPotion" : {
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"name" : "Dragon Drought",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 2,
-		"power": 1,
-		
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
+		"level" : 2,
+		"power" : 1,
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+		"animation" : {
+			"affect" : [
+				"courtyard/spells/Potions/Dragon/dragonPotion.def"
+			]
 		},
 
- 
-		"animation":{
-			"affect":["courtyard/spells/Potions/Dragon/dragonPotion.def"]
+		"flags" : {
+			"positive" : true,
+			"special" : true
 		},
- 
-		"flags" : { "positive": true, "special" : true },
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.NON_LIVING" : "normal",
@@ -34,105 +34,100 @@
 			}
 		},
 
-		"graphics":
-		{
-			"iconBook": "courtyard/spells/Potions/Dragon/dragonP_book1",
-			"iconEffect": "courtyard/spells/Potions/Dragon/dragonP_effect1",
-			"iconScroll": "courtyard/spells/Potions/Dragon/dragonP_scroll1",
-			"iconScenarioBonus": "courtyard/spells/Potions/Dragon/dragonP_bonus1"
+		"graphics" : {
+			"iconBook" : "courtyard/spells/Potions/Dragon/dragonP_book1",
+			"iconEffect" : "courtyard/spells/Potions/Dragon/dragonP_effect1",
+			"iconScroll" : "courtyard/spells/Potions/Dragon/dragonP_scroll1",
+			"iconScenarioBonus" : "courtyard/spells/Potions/Dragon/dragonP_bonus1"
 		},
 
-		"sounds": {
-			"cast": "courtyard/spells/DRAGONPOT.wav"
+		"sounds" : {
+			"cast" : "courtyard/spells/DRAGONPOT.wav"
 		},
- 
-		"levels":
-		{
-			"base":
-			{
-				"cost": 0,
-				"range": "0",
-				"power": 1,
-//				"aiValue": 70,
-				"targetModifier":
-				{
-					"smart": true
+
+		"levels" : {
+			"base" : {
+				"cost" : 0,
+				"range" : "0",
+				"power" : 1,
+				//				"aiValue": 70,
+				"targetModifier" : {
+					"smart" : true
 				},
-				"effects":
-				{
+				"effects" : {
 					"breathAttack" : {
 						"type" : "TWO_HEX_ATTACK_BREATH",
-						"duration": "N_TURNS"
+						"duration" : "N_TURNS"
 					},
 					"isDragon" : {
 						"type" : "DRAGON_NATURE",
-						"duration": "N_TURNS"
+						"duration" : "N_TURNS"
 					},
-					"potionMarkerEffect" :
-					{
+					"potionMarkerEffect" : {
 						"type" : "SPECIFIC_SPELL_DAMAGE",
 						"subtype" : "potionSupply",
 						"val" : 0,
-						"duration": "N_TURNS"
+						"duration" : "N_TURNS"
 					},
-					"setAflame":{
+					"setAflame" : {
 						"type" : "SPELL_AFTER_ATTACK",
-						"addInfo" : [0,2],
+						"addInfo" : [
+							0,
+							2
+						],
 						"subtype" : "spell.immolationCurse",
 						"val" : 15,
-						"duration": "N_TURNS"
+						"duration" : "N_TURNS"
 					},
-					"setAflameDuration" :
-					{
+					"setAflameDuration" : {
 						"type" : "CREATURE_ENCHANT_POWER",
 						"val" : 2,
-						"duration": "N_TURNS"
+						"duration" : "N_TURNS"
 					}
-				}				
+				}
 			},
-			
-			"none":
-			{
-				"description": "{Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
 
+			"none" : {
+				"description" : "{Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame."
 			},
-			"basic":
-			{
-				"description": "{Distilled Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
-				"effects":
-				{
-					"setAflame":{
-						"addInfo" : [1,2],
+			"basic" : {
+				"description" : "{Distilled Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
+				"effects" : {
+					"setAflame" : {
+						"addInfo" : [
+							1,
+							2
+						],
 						"val" : 20
 					}
 				}
 			},
-			"advanced":
-			{
-				"description": "{Supreme Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
-				"effects":
-				{
-					"setAflame":{
-						"addInfo" : [2,2],
+			"advanced" : {
+				"description" : "{Supreme Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
+				"effects" : {
+					"setAflame" : {
+						"addInfo" : [
+							2,
+							2
+						],
 						"val" : 25
 					},
-					"setAflameDuration" :
-					{
+					"setAflameDuration" : {
 						"val" : 3
 					}
 				}
 			},
-			"expert":
-			{
-				"description": "{Ultimate Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
-				"effects":
-				{
-					"setAflame":{
-						"addInfo" : [2,2],
+			"expert" : {
+				"description" : "{Ultimate Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
+				"effects" : {
+					"setAflame" : {
+						"addInfo" : [
+							2,
+							2
+						],
 						"val" : 30
 					},
-					"setAflameDuration" :
-					{
+					"setAflameDuration" : {
 						"val" : 4
 					}
 				}

@@ -52,33 +52,30 @@
 	},
 
 	"jabberwock" : {
-		"description" : "{green|Jabberwock}\r\n\r\nJabberwocks, despite their apperances, are not related to dragons. Those foul creatures dwell in corrupted caverns and terrorize every living beign within their reach. Scarlet ones, with scales tinted by bloodshed, can decimate a numerous army in a single sweep of their claws. It is no surprise that the mere sight of these monsters can paralyze with fear.\r\n\r\n{gold|Special Ability : Flying}\r\nJabberwocks are marked as KING2 creature, which means they are vulnerable for Advanced Slayer effect." 
+		"description" : "{green|Jabberwock}\r\n\r\nJabberwocks, despite their apperances, are not related to dragons. Those foul creatures dwell in corrupted caverns and terrorize every living beign within their reach. Scarlet ones, with scales tinted by bloodshed, can decimate a numerous army in a single sweep of their claws. It is no surprise that the mere sight of these monsters can paralyze with fear.\r\n\r\n{gold|Special Ability : Flying}\r\nJabberwocks are marked as KING2 creature, which means they are vulnerable for Advanced Slayer effect."
 	},
-	
+
 	"monstrousJabberwock" : {
-		"description" : "{green|Monstrous Jabberwock}\r\n\r\nJabberwocks, despite their apperances, are not related to dragons. Those foul creatures dwell in corrupted caverns and terrorize every living beign within their reach. Scarlet ones, with scales tinted by bloodshed, can decimate a numerous army in a single sweep of their claws. It is no surprise that the mere sight of these monsters can paralyze with fear.\r\n\r\n{gold|Special Ability : Flying. Fear. Destruction}\r\nMonstrous Jabberwocks are marked as KING2 creature, which means they are vulnerable for Advanced Slayer effect. Fear special ability is a passive ability, which means it does not require any specific action from the stack. The fear may occur only at the beginning of enemy stack's turn, causing them to freeze in fear of the Monstrous Jabberwocks and effectively lose their chance to act that combat round. Also, there is 25% chance that Monstrous Jabberwocks attack can destroy 10% of entire stack!" 
+		"description" : "{green|Monstrous Jabberwock}\r\n\r\nJabberwocks, despite their apperances, are not related to dragons. Those foul creatures dwell in corrupted caverns and terrorize every living beign within their reach. Scarlet ones, with scales tinted by bloodshed, can decimate a numerous army in a single sweep of their claws. It is no surprise that the mere sight of these monsters can paralyze with fear.\r\n\r\n{gold|Special Ability : Flying. Fear. Destruction}\r\nMonstrous Jabberwocks are marked as KING2 creature, which means they are vulnerable for Advanced Slayer effect. Fear special ability is a passive ability, which means it does not require any specific action from the stack. The fear may occur only at the beginning of enemy stack's turn, causing them to freeze in fear of the Monstrous Jabberwocks and effectively lose their chance to act that combat round. Also, there is 25% chance that Monstrous Jabberwocks attack can destroy 10% of entire stack!"
 	},
-	
+
 	"tangleVine" : {
-		"description" : "{green|Tangle Vine}\r\n\r\nTraveling through various lands, one might sometimes encounter trembling ground from which mysterious vines emerge. These enigmatic plants can paralyze any creature, binding it firmly to the ground. They have no dwellings and cannot be recruited into an army. Although they are immune to mind spells, Mandrakes' magic can make them loyal servants in battle skirmishes.\r\n\r\n{gold|Special Ability : Teleporting. No morale. Mind immunity. Casts Bind after attack}\r\nVines are unaffected by morale, meaning that their morale rating is always zero. Additionally they have 100% chance to cast Bind after attack (like Denroids)." 	
+		"description" : "{green|Tangle Vine}\r\n\r\nTraveling through various lands, one might sometimes encounter trembling ground from which mysterious vines emerge. These enigmatic plants can paralyze any creature, binding it firmly to the ground. They have no dwellings and cannot be recruited into an army. Although they are immune to mind spells, Mandrakes' magic can make them loyal servants in battle skirmishes.\r\n\r\n{gold|Special Ability : Teleporting. No morale. Mind immunity. Casts Bind after attack}\r\nVines are unaffected by morale, meaning that their morale rating is always zero. Additionally they have 100% chance to cast Bind after attack (like Denroids)."
 	},
-	
+
 	"strangleVine" : {
-		"description" : "{green|Strangle Vine}\r\n\r\nTraveling through various lands, one might sometimes encounter trembling ground from which mysterious vines emerge. These enigmatic plants can paralyze any creature, binding it firmly to the ground. They have no dwellings and cannot be recruited into an army. Although they are immune to mind spells, Mandrakes' magic can make them loyal servants in battle skirmishes.\r\n\r\n{gold|Special Ability : Teleporting. No morale. Mind immunity. Casts Bind after attack}\r\nVines are unaffected by morale, meaning that their morale rating is always zero. Additionally they have 100% chance to cast Bind after attack (like Denroids)." 
+		"description" : "{green|Strangle Vine}\r\n\r\nTraveling through various lands, one might sometimes encounter trembling ground from which mysterious vines emerge. These enigmatic plants can paralyze any creature, binding it firmly to the ground. They have no dwellings and cannot be recruited into an army. Although they are immune to mind spells, Mandrakes' magic can make them loyal servants in battle skirmishes.\r\n\r\n{gold|Special Ability : Teleporting. No morale. Mind immunity. Casts Bind after attack}\r\nVines are unaffected by morale, meaning that their morale rating is always zero. Additionally they have 100% chance to cast Bind after attack (like Denroids)."
 	},
-	
+
 	"apparition" : {
 		"description" : "{green|Ephemeral Apparition}\r\n\r\nThere is a phenomenon, when you take a picture of recently deceased you can sometimes spot something unusual. A flicker of light hovering in place where the person has passed. Clearly not an undead manifestation, this is something else entirely. Just remaining there for a time, floating gently yet spreading a bone-chilling aura, and almost impossible to dissipate prematurely with physical contact.\r\n\r\n{gold|Special Ability : Teleporting. No morale. Mind immunity. Undead. Non-living. Immune to Earth and Animate Dead spells. Ephemeral}\r\nApparitions are more ghostish even than Ghosts. They are enchanted by permanent Ephemeral spell that means they live only 1 turn, do not deal damage, don't retaliate and have no speed. But they are almost immune for physical and magical attacks (98% reduction). Presence Apparitions on the battlefield can freeze in fear enemy stacks. There is only one situation to see Apparitions - they can be summoned by Camera Obscura war machine."
 	},
 
-	"cameraObscuraCreature":
-	{
+	"cameraObscuraCreature" : {
 		"description" : "{green|Camera Obscura}\r\n\r\nThis camera was planed as second war machine available in Courtyard. This mysterious machine can cast spells 5 times per battle. Camera can cast Age spell on enemy units (duration - 3 turns) or can revive friedly dead stacks as Apparitions (mechanism similar to Pit Lord's deamon summoning). Now you have two options to have this machine in your army.\r\n- sometimes it can be found in random generated maps as 'artifact'.\r\n- Heroine Migdigravia starts with one Camera that can be transferred to other hero."
-
 	},
 
-	"potionCartCreature":
-	{
+	"potionCartCreature" : {
 		"description" : "{green|Potion Cart}\r\n\r\nPotion Cart adds potions to hero's spellbook. Cost: 1500 gold. Using potions - 0 mana points. After destroying the cart, potions vanish.\r\n\r\nPotions:\r\n{silver|Regeneration Potion:} Grants unit regeneration ability (5 points/turn).\r\n{silver|Vial of Poison:} Grants unit a chance to poison the attacked enemy (10%).\r\n\r\nHeroes with basic First Aid have additional potion:\r\n{silver|Dragon Drought:} Grants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.\r\n\r\nHeroes with advanced First Aid have additional potion:\r\n{silver|Toughness Tonic}: Increases unit's hit points by 25% and damage dealt by unit by 15%.\r\n\r\nHeroes with expert First Aid have additional potion:\r\n{silver|Etheral Extract:} Grants unit ability to fly and 20% damage reduction from spells and attacks."
 	}
 }

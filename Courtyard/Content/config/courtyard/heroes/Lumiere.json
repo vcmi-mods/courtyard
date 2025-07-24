@@ -1,9 +1,21 @@
 {
 	"03lumiere" : {
 		"army" : [
-			{ "creature" : "cupid", "max" : 18, "min" : 10 },
-			{ "creature" : "homunculus", "max" : 11, "min" : 5 },
-			{ "creature" : "arquebusier", "max" : 4, "min" : 2 }
+			{
+				"creature" : "cupid",
+				"max" : 18,
+				"min" : 10
+			},
+			{
+				"creature" : "homunculus",
+				"max" : 11,
+				"min" : 5
+			},
+			{
+				"creature" : "arquebusier",
+				"max" : 4,
+				"min" : 2
+			}
 		],
 		"class" : "aristocrat",
 		"female" : true,
@@ -13,93 +25,101 @@
 			"specialtyLarge" : "courtyard/heroes/Lumiere/speclarge1.png",
 			"specialtySmall" : "courtyard/heroes/Lumiere/specsmall1.png"
 		},
-		"skills" : [ { "level" : "basic", "skill" : "pathfinding" }, { "level" : "basic", "skill" : "archery" } ],
-		"spellbook" :
-		[
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			}
+		],
+		"spellbook" : [
 			"landMine"
 		],
 		"specialty" : {
 			"bonuses" : {
-				"casts":{
+				"casts" : {
 					"type" : "CASTS",
 					"propagator" : "HERO",
 					"val" : 3,
-					"limiters": [ 
+					"limiters" : [
 						{
-							"type":"CREATURE_TYPE_LIMITER",
+							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "arquebusier",
 							"includeUpgrades" : true
-						} 
+						}
 					]
 				},
-				"castMine":{
+				"castMine" : {
 					"addInfo" : 4,
 					"subtype" : "landMine",
 					"type" : "ENCHANTER",
 					"propagator" : "HERO",
 					"val" : 1,
-					"limiters": [ 
+					"limiters" : [
 						{
-							"type":"CREATURE_TYPE_LIMITER",
+							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "arquebusier",
 							"includeUpgrades" : true
-						} 
+						}
 					]
 				},
-				"castSand":{
+				"castSand" : {
 					"addInfo" : 4,
 					"subtype" : "quicksand",
 					"propagator" : "HERO",
 					"type" : "ENCHANTER",
 					"val" : 2,
-					"limiters": [ 
+					"limiters" : [
 						{
-							"type":"CREATURE_TYPE_LIMITER",
+							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "arquebusier",
 							"includeUpgrades" : true
-						} 
+						}
 					]
 				},
-				"castSand2":{
+				"castSand2" : {
 					"addInfo" : 3,
 					"subtype" : "quicksand",
 					"propagator" : "HERO",
 					"type" : "ENCHANTER",
 					"val" : 1,
-					"limiters": [ 
+					"limiters" : [
 						{
-							"type":"CREATURE_TYPE_LIMITER",
+							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "arquebusier",
 							"includeUpgrades" : true
-						} 
+						}
 					]
 				},
-				"castField":{
+				"castField" : {
 					"addInfo" : 3,
 					"subtype" : "forceField",
 					"propagator" : "HERO",
 					"type" : "ENCHANTER",
 					"val" : 1,
-					"limiters": [ 
+					"limiters" : [
 						{
-							"type":"CREATURE_TYPE_LIMITER",
+							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "arquebusier",
 							"includeUpgrades" : true
-						} 
+						}
 					]
 				},
-				"castField2":{
+				"castField2" : {
 					"addInfo" : 3,
 					"subtype" : "forceField",
 					"propagator" : "HERO",
 					"type" : "ENCHANTER",
 					"val" : 3,
-					"limiters": [ 
+					"limiters" : [
 						{
-							"type":"CREATURE_TYPE_LIMITER",
+							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "arquebusier",
 							"includeUpgrades" : true
-						} 
+						}
 					]
 				}
 			}

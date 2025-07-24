@@ -1,101 +1,85 @@
 {
-	"weaponPoisonPotion":
-	{
-		"type": "combat", 
-		"targetType": "CREATURE", 
-		"name": "Vial of Poison",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
+	"weaponPoisonPotion" : {
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"name" : "Vial of Poison",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 1,
-		"power": 1,
-		
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
+		"level" : 1,
+		"power" : 1,
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+		"animation" : {
+			"affect" : [
+				"courtyard/spells/Potions/Poison/poisonPotion.def"
+			]
 		},
 
- 
-		"animation":{
-			"affect":["courtyard/spells/Potions/Poison/poisonPotion.def"]
-		},
- 
-		"flags" : { "positive": true, "special" : true },
-
-		"graphics":
-		{
-			"iconBook": "courtyard/spells/Potions/Poison/poisonP_book1",
-			"iconEffect": "courtyard/spells/Potions/Poison/poisonP_effect1",
-			"iconScroll": "courtyard/spells/Potions/Poison/poisonP_scroll1",
-			"iconScenarioBonus": "courtyard/spells/Potions/Poison/poisonP_bonus1"
+		"flags" : {
+			"positive" : true,
+			"special" : true
 		},
 
-		"sounds": {
-			"cast": "courtyard/spells/POISONPOT.wav"
+		"graphics" : {
+			"iconBook" : "courtyard/spells/Potions/Poison/poisonP_book1",
+			"iconEffect" : "courtyard/spells/Potions/Poison/poisonP_effect1",
+			"iconScroll" : "courtyard/spells/Potions/Poison/poisonP_scroll1",
+			"iconScenarioBonus" : "courtyard/spells/Potions/Poison/poisonP_bonus1"
 		},
- 
-		"levels":
-		{
-			"base":
-			{
-				"cost": 0,
-				"range": "0",
-				"power": 1,
-//				"aiValue": 70,
-				"targetModifier":
-				{
-					"smart": true
+
+		"sounds" : {
+			"cast" : "courtyard/spells/POISONPOT.wav"
+		},
+
+		"levels" : {
+			"base" : {
+				"cost" : 0,
+				"range" : "0",
+				"power" : 1,
+				//				"aiValue": 70,
+				"targetModifier" : {
+					"smart" : true
 				},
-				"effects":
-				{
-					"poison" :
-					{
+				"effects" : {
+					"poison" : {
 						"type" : "SPELL_AFTER_ATTACK",
 						"subtype" : "poison",
 						"val" : 10,
-						"duration": "N_TURNS"
-					}	
-				}				
-			},
-			"none":
-			{
-				"description": "{Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (10%).", 
-			},
-			"basic":
-			{
-				"description": "{Concentrated Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (15%).", 
-				"effects":
-				{
-					"poison" :
-					{
-						"val" : 15
-					}	
-				}	
-			},
-			"advanced":
-			{
-				"description": "{Distilled Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (20%).", 
-				"effects":
-				{
-					"poison" :
-					{
-						"val" : 20
-					}	
+						"duration" : "N_TURNS"
+					}
 				}
 			},
-			"expert":
-			{
-				"description": "{Supreme Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (30%).", 
-				"effects":
-				{
-					"poison" :
-					{
+			"none" : {
+				"description" : "{Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (10%)."
+			},
+			"basic" : {
+				"description" : "{Concentrated Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (15%).",
+				"effects" : {
+					"poison" : {
+						"val" : 15
+					}
+				}
+			},
+			"advanced" : {
+				"description" : "{Distilled Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (20%).",
+				"effects" : {
+					"poison" : {
+						"val" : 20
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Supreme Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (30%).",
+				"effects" : {
+					"poison" : {
 						"val" : 30
-					}	
+					}
 				}
 			}
 		}

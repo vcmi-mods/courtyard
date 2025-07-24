@@ -1,9 +1,21 @@
 {
 	"11nefefareen" : {
 		"army" : [
-			{ "creature" : "cupid", "max" : 18, "min" : 10 },
-			{ "creature" : "fireNewt", "max" : 5, "min" : 3 },
-			{ "creature" : "fireNewt", "max" : 5, "min" : 3 }
+			{
+				"creature" : "cupid",
+				"max" : 18,
+				"min" : 10
+			},
+			{
+				"creature" : "fireNewt",
+				"max" : 5,
+				"min" : 3
+			},
+			{
+				"creature" : "fireNewt",
+				"max" : 5,
+				"min" : 3
+			}
 		],
 		"class" : "philosopher",
 		"female" : true,
@@ -13,61 +25,118 @@
 			"specialtyLarge" : "courtyard/heroes/Nefefareen/speclarge1.png",
 			"specialtySmall" : "courtyard/heroes/Nefefareen/specsmall1.png"
 		},
-		"skills" : [ { "level" : "basic", "skill" : "fireMagic" }, { "level" : "basic", "skill" : "wisdom" } ],
-		"spellbook" :
-		[
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"spellbook" : [
 			"fireShield"
 		],
 		"specialty" : {
 			"bonuses" : {
-				"setAflame":{
-				"type" : "SPELL_AFTER_ATTACK",
-				"addInfo" : [ 1,0 ],
-				"subtype" : "immolationCurse",
-				"val" : 33,
-				"limiters": [  "allOf", 
-					{ "type" : "CREATURE_TYPE_LIMITER", "creature": "fireNewt", "includeUpgrades" : true  },
-					{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "FIRE_SHIELD"  }	]
+				"setAflame" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"addInfo" : [
+						1,
+						0
+					],
+					"subtype" : "immolationCurse",
+					"val" : 33,
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireNewt",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FIRE_SHIELD"
+						}
+					]
 				},
-				"setAflameDuration" :
-				{
+				"setAflameDuration" : {
 					"type" : "CREATURE_ENCHANT_POWER",
 					"val" : 3,
-				"limiters": [  "allOf", 
-					{ "type" : "CREATURE_TYPE_LIMITER", "creature": "fireNewt", "includeUpgrades" : true  },
-					{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "FIRE_SHIELD"  }	]
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireNewt",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FIRE_SHIELD"
+						}
+					]
 				},
-				"salamanderReceptive":{
+				"salamanderReceptive" : {
 					"type" : "RECEPTIVE",
-					"limiters": [ {
-						"type":"CREATURE_TYPE_LIMITER",
-						"creature": "fireNewt", 
-						"includeUpgrades" : true
-					} ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireNewt",
+							"includeUpgrades" : true
+						}
+					]
 				},
-				"salamanderEnchantSpeed":{
-				"type" : "STACKS_SPEED",
-				"val" : 2,
-				"limiters": [  "allOf", 
-					{ "type" : "CREATURE_TYPE_LIMITER", "creature": "fireNewt", "includeUpgrades" : true  },
-					{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "FIRE_SHIELD"  }	]
+				"salamanderEnchantSpeed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 2,
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireNewt",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FIRE_SHIELD"
+						}
+					]
 				},
-				"salamanderEnchantDamage":{
-				"type" : "CREATURE_DAMAGE",
-				"subtype" : "creatureDamageMax",
-				"val" : 2,
-				"limiters": [  "allOf", 
-					{ "type" : "CREATURE_TYPE_LIMITER", "creature": "fireNewt", "includeUpgrades" : true  },
-					{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "FIRE_SHIELD"  }	]
+				"salamanderEnchantDamage" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax",
+					"val" : 2,
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireNewt",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FIRE_SHIELD"
+						}
+					]
 				},
-				"salamanderEnchantMorale":{
-				"type" : "MORALE",
-				"val" : 1,
-				"valueType" : "INDEPENDENT_MAX",
-				"limiters": [  "allOf", 
-					{ "type" : "CREATURE_TYPE_LIMITER", "creature": "fireNewt", "includeUpgrades" : true  },
-					{ "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "FIRE_SHIELD"  }	]
-				}		
+				"salamanderEnchantMorale" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"valueType" : "INDEPENDENT_MAX",
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireNewt",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FIRE_SHIELD"
+						}
+					]
+				}
 			}
 		}
 	}

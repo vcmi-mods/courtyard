@@ -1,43 +1,35 @@
 {
 	"apparition" : {
-		"abilities" : { 
-			
-			"canFly" :
-			{ 
-				"type" : "FLYING", 
-				"subtype": "movementTeleporting" 
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
 			},
-			"immuneToMind" : 
-			{ 
+			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY",
-				"hidden" : true				
+				"hidden" : true
 			},
-			"nonLiving" : 
-			{ 
+			"nonLiving" : {
 				"type" : "NON_LIVING",
 				"hidden" : true
 			},
-			"undead" : 
-			{ 
+			"undead" : {
 				"type" : "UNDEAD",
 				"description" : "{Ephemeral}\nApparitions are treated as undead and non-living creatures",
 				"icon" : "courtyard/icons/bonuses/ephemeral.png"
 			},
-			"earthImmune" :
-			{ 
+			"earthImmune" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-					"subtype" : "earth" 
+				"subtype" : "earth"
 			},
-			"noRevive" :
-			{ 
+			"noRevive" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "animateDead",
 				"addInfo": 1,
 				"description" : "{Animare Dead Immunity}\nApparitions can't be reanimated by Animate Dead spell",
 				"icon" : "courtyard/icons/bonuses/im_animate.png"					
 			},
-			"ephemeral" :
-			{
+			"ephemeral" : {
 				"type" : "ENCHANTED",
 				"subtype" : "ephemeral",
 				"val" : 3,
@@ -50,7 +42,7 @@
 				"val" : -10,
 				"description" : "{Ephemeral}\nApparitions cannot attack anybody",
 				"icon" : "courtyard/icons/bonuses/ephemeral.png"
-			},			
+			},
 			"damageReduction1" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "damageTypeAll",
@@ -61,46 +53,60 @@
 				"subtype" : "any",
 				"val" : 95
 			},
-			"fear" :
-			{
+			"fear" : {
 				"type" : "FEARFUL",
 				"val" : 10,
 				"description" : "{Fearsome}\nEnemy units have a 10% chance of freezing in fear",
-				"icon" : "courtyard/icons/bonuses/e_fear.png",				
-				"propagator": "BATTLE_WIDE",
+				"icon" : "courtyard/icons/bonuses/e_fear.png",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ 
-					"OPPOSITE_SIDE", 
+				"limiters" : [
+					"OPPOSITE_SIDE",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [ "LIVING" ]
+						"parameters" : [
+							"LIVING"
+						]
 					}
 				]
 			},
-			"noRetaliation" : { "type" : "NO_RETALIATION",
+			"noRetaliation" : {
+				"type" : "NO_RETALIATION",
 				"description" : "{No Retaliation}\nAffected unit will never retaliate to an attack",
-				"icon" : "courtyard/icons/bonuses/ephemeral.png"	
+				"icon" : "courtyard/icons/bonuses/ephemeral.png"
 			},
-			"noSpeed": { 
-				"type": "STACKS_SPEED",
+			"noSpeed" : {
+				"type" : "STACKS_SPEED",
 				"val" : 0,
-				"valueType": "INDEPENDENT_MIN",
+				"valueType" : "INDEPENDENT_MIN",
 				"description" : "{No Speed}\nApparitions are unable to move",
 				"icon" : "courtyard/icons/bonuses/sticky.png"
 			}
 		},
-		"special": true,
-		"advMapAmount" : { "max" : 12, "min" : 6 },
+		"special" : true,
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 6
+		},
 		"aiValue" : 200,
 		"attack" : 5,
-		"cost" : { "gold" : 150 },
-		"damage" : { "max" : 0, "min" : 0 },
+		"cost" : {
+			"gold" : 150
+		},
+		"damage" : {
+			"max" : 0,
+			"min" : 0
+		},
 		"defense" : 0,
 		"faction" : "courtyard",
 		"fightValue" : 120,
 		"graphics" : {
 			"animation" : "courtyard/battle/CApparition.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "courtyard/icons/units/IcApparition",
 			"iconSmall" : "courtyard/icons/units/IsApparition",
 			"map" : "courtyard/map/MApparition.def",
@@ -110,14 +116,16 @@
 		"hasDoubleWeek" : false,
 		"hitPoints" : 3,
 		"level" : 3,
-		"name" : { "plural" : "Ephemeral Apparitions", "singular" : "Ephemeral Apparition" },
-		"sound" :
-		{
-			"attack": "WGHTATTK.wav",
-			"defend": "WGHTDFND.wav",
-			"killed": "WGHTKILL.wav",
-			"move": "WGHTMOVE.wav",
-			"wince": "WGHTWNCE.wav"
+		"name" : {
+			"plural" : "Ephemeral Apparitions",
+			"singular" : "Ephemeral Apparition"
+		},
+		"sound" : {
+			"attack" : "WGHTATTK.wav",
+			"defend" : "WGHTDFND.wav",
+			"killed" : "WGHTKILL.wav",
+			"move" : "WGHTMOVE.wav",
+			"wince" : "WGHTWNCE.wav"
 		},
 		"speed" : 0
 	}

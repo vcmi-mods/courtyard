@@ -1,16 +1,42 @@
 {
 	"philosopher" : {
 		"affinity" : "magic",
-		"animation" : { "battle" : { "female" : "courtyard/heroes/battleFemalePhilosopher", "male" : "courtyard/heroes/battleMalePhilosopher" } },
+		"animation" : {
+			"battle" : {
+				"female" : "courtyard/heroes/battleFemalePhilosopher",
+				"male" : "courtyard/heroes/battleMalePhilosopher"
+			}
+		},
 		"commander" : "courtCommander",
 		"defaultTavern" : 4,
 		"faction" : "courtyard",
-		"lowLevelChance" : { "attack" : 30, "defence" : 10, "knowledge" : 20, "spellpower" : 40 },
-		"highLevelChance" : { "attack" : 15, "defence" : 20, "knowledge" : 30, "spellpower" : 35 },
+		"lowLevelChance" : {
+			"attack" : 30,
+			"defence" : 10,
+			"knowledge" : 20,
+			"spellpower" : 40
+		},
+		"highLevelChance" : {
+			"attack" : 15,
+			"defence" : 20,
+			"knowledge" : 30,
+			"spellpower" : 35
+		},
 
-		"mapObject" : { "templates" : { "default" : { "animation" : "courtyard/heroes/CourtMaleMagicMap" } } },
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "courtyard/heroes/CourtMaleMagicMap"
+				}
+			}
+		},
 		"name" : "Philosopher",
-		"primarySkills" : { "attack" : 1, "defence" : 0, "knowledge" : 1, "spellpower" : 3 },
+		"primarySkills" : {
+			"attack" : 1,
+			"defence" : 0,
+			"knowledge" : 1,
+			"spellpower" : 3
+		},
 		"secondarySkills" : {
 			"airMagic" : 4,
 			"archery" : 1,
