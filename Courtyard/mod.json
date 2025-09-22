@@ -6,8 +6,11 @@
 	"contact" : "NONE",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.30",
+	"version" : "1.31",
 	"changelog" : {
+		"1.31" : [
+			"Added flagport frames (Kingdom Overwiev window)"
+		],
 		"1.30" : [
 			"Two more ability custom icons (andruids)"
 		],

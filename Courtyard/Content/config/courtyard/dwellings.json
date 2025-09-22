@@ -22,7 +22,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "courtyard/map/flagports/ACrtDw1.def"
 			},
 			"alchemyTower" : {
 				"name" : "Alchemy Tower",
@@ -46,7 +47,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "courtyard/map/flagports/ACrtDw2.def"
 			},
 			"furnace" : {
 				"name" : "Furnace",
@@ -69,7 +71,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "courtyard/map/flagports/ACrtDw3.def"
 			},
 			"arsenal" : {
 				"name" : "Arsenal",
@@ -92,7 +95,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "courtyard/map/flagports/ACrtDw4.def"
 			},
 			"dodoBurgh" : {
 				"name" : "Dodo Burgh",
@@ -116,7 +120,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "courtyard/map/flagports/ACrtDw5.def"
 			},
 			"arbours" : {
 				"name" : "Arbours",
@@ -140,7 +145,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "courtyard/map/flagports/ACrtDw6.def"
 			},
 			"scaryCavity" : {
 				"name" : "Scary Cavity",
@@ -165,7 +171,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "courtyard/map/flagports/ACrtDw7.def"
 			}
 		}
 	}
