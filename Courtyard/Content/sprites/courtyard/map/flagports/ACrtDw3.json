@@ -2,9 +2,9 @@
 	"basepath" : "courtyard/map/flagports/",
 	"images" : [
 		{
-			"group": 0,
+			"group" : 0,
 			"frame" : 0,
 			"file" : "ACrtDw3"
-		}		
+		}
 	]
 }
