@@ -30,8 +30,9 @@
 				"icon" : "courtyard/icons/bonuses/im_animate.png"
 			},
 			"ephemeral" : {
-				"type" : "ENCHANTED",
-				"subtype" : "ephemeral",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "ephemeral" },
 				"val" : 3,
 				"description" : "{Ephemeral}\nApparitions live only one turn",
 				"icon" : "courtyard/icons/bonuses/ephemeral.png"

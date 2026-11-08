@@ -3,8 +3,9 @@
 		"base" : {
 			"effects" : {
 				"potionsExtra" : {
-					"type" : "ENCHANTED",
-					"subtype" : "potionSupply",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "potionSupply" },
 					"val" : 0,
 					"limiters" : [
 						{

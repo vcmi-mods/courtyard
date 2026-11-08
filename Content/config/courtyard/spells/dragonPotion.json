@@ -54,35 +54,40 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"breathAttack" : {
-						"type" : "TWO_HEX_ATTACK_BREATH",
-						"duration" : "N_TURNS"
-					},
-					"isDragon" : {
-						"type" : "DRAGON_NATURE",
-						"duration" : "N_TURNS"
-					},
-					"potionMarkerEffect" : {
-						"type" : "SPECIFIC_SPELL_DAMAGE",
-						"subtype" : "potionSupply",
-						"val" : 0,
-						"duration" : "N_TURNS"
-					},
-					"setAflame" : {
-						"type" : "SPELL_AFTER_ATTACK",
-						"addInfo" : [
-							0,
-							2
-						],
-						"subtype" : "spell.immolationCurse",
-						"val" : 15,
-						"duration" : "N_TURNS"
-					},
-					"setAflameDuration" : {
-						"type" : "CREATURE_ENCHANT_POWER",
-						"val" : 2,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"potionEffects" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"breathAttack" : {
+								"type" : "TWO_HEX_ATTACK_BREATH",
+								"duration" : "N_TURNS"
+							},
+							"isDragon" : {
+								"type" : "DRAGON_NATURE",
+								"duration" : "N_TURNS"
+							},
+							"potionMarkerEffect" : {
+								"type" : "SPECIFIC_SPELL_DAMAGE",
+								"subtype" : "potionSupply",
+								"val" : 0,
+								"duration" : "N_TURNS"
+							},
+							"setAflame" : {
+								"type" : "SPELL_AFTER_ATTACK",
+								"addInfo" : [
+									0,
+									2
+								],
+								"subtype" : "immolationCurse",
+								"val" : 15,
+								"duration" : "N_TURNS"
+							},
+							"setAflameDuration" : {
+								"type" : "CREATURE_ENCHANT_POWER",
+								"val" : 2,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -92,43 +97,55 @@
 			},
 			"basic" : {
 				"description" : "{Distilled Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
-				"effects" : {
-					"setAflame" : {
-						"addInfo" : [
-							1,
-							2
-						],
-						"val" : 20
+				"battleEffects" : {
+					"potionEffects" : {
+						"bonus" : {					
+							"setAflame" : {
+								"addInfo" : [
+									1,
+									2
+								],
+								"val" : 20
+							}
+						}
 					}
 				}
 			},
 			"advanced" : {
 				"description" : "{Supreme Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
-				"effects" : {
-					"setAflame" : {
-						"addInfo" : [
-							2,
-							2
-						],
-						"val" : 25
-					},
-					"setAflameDuration" : {
-						"val" : 3
+				"battleEffects" : {
+					"potionEffects" : {
+						"bonus" : {					
+							"setAflame" : {
+								"addInfo" : [
+									2,
+									2
+								],
+								"val" : 25
+							},
+							"setAflameDuration" : {
+								"val" : 3
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Ultimate Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
-				"effects" : {
-					"setAflame" : {
-						"addInfo" : [
-							2,
-							2
-						],
-						"val" : 30
-					},
-					"setAflameDuration" : {
-						"val" : 4
+				"battleEffects" : {
+					"potionEffects" : {
+						"bonus" : {					
+							"setAflame" : {
+								"addInfo" : [
+									2,
+									2
+								],
+								"val" : 30
+							},
+							"setAflameDuration" : {
+								"val" : 4
+							}
+						}
 					}
 				}
 			}

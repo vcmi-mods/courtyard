@@ -89,10 +89,10 @@
 				"icon" : "courtyard/icons/bonuses/e_fear.png"
 			},
 			"decimation" : {
-				"type" : "DESTRUCTION",
-				"subtype" : "destructionKillPercentage",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "destruction",
 				"val" : 25,
-				"addInfo" : 10
+				"addInfo" : { "killBy" : "percentage", "amount" : 10 }
 			}
 		},
 		"advMapAmount" : {

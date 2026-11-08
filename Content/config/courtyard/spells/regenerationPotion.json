@@ -53,7 +53,10 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
+				"battleEffects" : {
+					"regenerationPotion" : {
+						"type" : "core:timed",
+						"bonus" : {
 					"regeneration" : {
 						"val" : 5,
 						"type" : "HP_REGENERATION",
@@ -65,6 +68,8 @@
 						"val" : 0,
 						"duration" : "N_TURNS"
 					}
+						}
+					}
 				}
 			},
 			"none" : {
@@ -72,26 +77,38 @@
 			},
 			"basic" : {
 				"description" : "{Concentrated Regeneration Potion}\n\nGrants unit regeneration ability (15 points/turn).",
-				"effects" : {
+				"battleEffects" : {
+					"regenerationPotion" : {
+						"bonus" : {
 					"regeneration" : {
 						"val" : 15
+					}
+				}
 					}
 				}
 			},
 			"advanced" : {
 				"description" : "{Distilled Regeneration Potion}\n\nGrants unit regeneration ability (30 points/turn).",
-				"effects" : {
+				"battleEffects" : {
+					"regenerationPotion" : {
+						"bonus" : {
 					"regeneration" : {
 						"val" : 30
+					}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Supreme Regeneration Potion}\n\nGrants unit complete regeneration ability.",
-				"effects" : {
+				"battleEffects" : {
+					"regenerationPotion" : {
+						"bonus" : {
 					"regeneration" : {
 						"val" : 100000,
 						"valueType" : "ADDITIVE_VALUE"
+					}
+				}
 					}
 				}
 			}

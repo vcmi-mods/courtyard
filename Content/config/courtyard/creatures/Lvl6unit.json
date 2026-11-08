@@ -2,12 +2,12 @@
 	"mandrake" : {
 		"abilities" : {
 			"summonGuardians" : {
-				"type" : "SUMMON_GUARDIANS",
-				"subtype" : "tangleVine",
-				"val" : 200
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "summonGuardians",
+				"val" : 200,
+				"addInfo" : { "creature" : "tangleVine" }
 			}
 		},
-
 		"advMapAmount" : {
 			"max" : 10,
 			"min" : 4
@@ -61,9 +61,10 @@
 	"regalMandrake" : {
 		"abilities" : {
 			"summonGuardians" : {
-				"type" : "SUMMON_GUARDIANS",
-				"subtype" : "strangleVine",
-				"val" : 400
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "summonGuardians",
+				"val" : 400,
+				"addInfo" : { "creature" : "strangleVine" }
 			},
 			"reviveVines" : {
 				"type" : "SPELLCASTER",

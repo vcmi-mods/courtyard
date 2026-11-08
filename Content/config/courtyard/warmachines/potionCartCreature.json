@@ -49,8 +49,9 @@
 				"type" : "SIEGE_WEAPON"
 			},
 			"supply" : {
-				"type" : "ENCHANTED",
-				"subtype" : "potionSupply",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "potionSupply" },
 				"description" : "Potion Cart supplies hero spellbook with potions.",
 				"val" : 0,
 				"limiters" : [

@@ -52,7 +52,10 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
+				"battleEffects" : {
+					"stun" : {
+						"type" : "core:timed",
+						"bonus" : {
 					"notActive" : {
 						"val" : 0,
 						"type" : "NOT_ACTIVE",
@@ -70,6 +73,8 @@
 							"UNTIL_BEING_ATTACKED"
 						],
 						"turns" : 2
+					}
+						}
 					}
 				}
 			},

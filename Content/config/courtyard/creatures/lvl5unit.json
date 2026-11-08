@@ -2,8 +2,9 @@
 	"dodo" : {
 		"abilities" : {
 			"slayer" : {
-				"type" : "ENCHANTED",
-				"subtype" : "slayer",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "slayer" },
 				"val" : 2
 			},
 			"fearless" : {
@@ -67,8 +68,9 @@
 	"battleDodo" : {
 		"abilities" : {
 			"slayer" : {
-				"type" : "ENCHANTED",
-				"subtype" : "slayer",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "slayer" },
 				"val" : 3
 			},
 			"fearless" : {
@@ -149,8 +151,9 @@
 	"greaterDodo" : {
 		"abilities" : {
 			"slayer" : {
-				"type" : "ENCHANTED",
-				"subtype" : "slayer",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "slayer" },
 				"val" : 3
 			},
 			"fearless" : {

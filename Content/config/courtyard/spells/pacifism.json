@@ -65,7 +65,10 @@
 					"smart" : false
 				},
 
-				"effects" : {
+				"battleEffects" : {
+					"pacifism" : {
+						"type" : "core:timed",
+						"bonus" : {
 					"noRetaliation" : {
 						"type" : "NO_RETALIATION",
 						"duration" : [
@@ -91,6 +94,8 @@
 						"duration" : [
 							"N_TURNS"
 						]
+					}
+						}
 					}
 				}
 			},

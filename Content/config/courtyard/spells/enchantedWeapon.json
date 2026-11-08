@@ -50,13 +50,18 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"increaseDamage" : {
-						"val" : 20,
-						"type" : "CREATURE_DAMAGE",
-						"subtype" : "creatureDamageBoth",
-						"valueType" : "PERCENT_TO_BASE",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"damageBoost" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"increaseDamage" : {
+								"val" : 20,
+								"type" : "CREATURE_DAMAGE",
+								"subtype" : "creatureDamageBoth",
+								"valueType" : "PERCENT_TO_BASE",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -69,17 +74,25 @@
 			},
 			"advanced" : {
 				"description" : "{Advanced Enchanted Weapon}\n\nIncreases damage dealt by friendly unit by 35%.",
-				"effects" : {
-					"increaseDamage" : {
-						"val" : 35
+				"battleEffects" : {
+					"damageBoost" : {
+						"bonus" : {
+							"increaseDamage" : {
+							"val" : 35
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Expert Enchanted Weapon}\n\nIncreases damage dealt by friendly unit by 50%.",
-				"effects" : {
-					"increaseDamage" : {
-						"val" : 50
+				"battleEffects" : {
+					"damageBoost" : {
+						"bonus" : {
+							"increaseDamage" : {
+							"val" : 50
+							}
+						}
 					}
 				}
 			}

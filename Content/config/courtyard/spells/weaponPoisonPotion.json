@@ -46,12 +46,17 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
+				"battleEffects" : {
+					"poisonPotion" : {
+						"type" : "core:timed",
+						"bonus" : {
 					"poison" : {
 						"type" : "SPELL_AFTER_ATTACK",
 						"subtype" : "poison",
 						"val" : 10,
 						"duration" : "N_TURNS"
+					}
+				}
 					}
 				}
 			},
@@ -60,25 +65,37 @@
 			},
 			"basic" : {
 				"description" : "{Concentrated Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (15%).",
-				"effects" : {
+				"battleEffects" : {
+					"poisonPotion" : {
+						"bonus" : {
 					"poison" : {
 						"val" : 15
+					}
+				}
 					}
 				}
 			},
 			"advanced" : {
 				"description" : "{Distilled Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (20%).",
-				"effects" : {
+				"battleEffects" : {
+					"poisonPotion" : {
+						"bonus" : {
 					"poison" : {
 						"val" : 20
+					}
+				}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Supreme Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (30%).",
-				"effects" : {
+				"battleEffects" : {
+					"poisonPotion" : {
+						"bonus" : {
 					"poison" : {
 						"val" : 30
+					}
+				}
 					}
 				}
 			}

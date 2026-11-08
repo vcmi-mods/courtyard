@@ -41,7 +41,10 @@
 					"smart" : true
 				},
 				"description" : "Potion Cart supplies hero spellbook with potions.",
-				"effects" : {
+				"battleEffects" : {
+					"potionSupply" : {
+						"type" : "core:timed",
+						"bonus" : {
 					"addRegenerationPotion" : {
 						"propagator" : "HERO",
 						"sourceType" : "CREATURE_ABILITY",
@@ -56,6 +59,8 @@
 						"subtype" : "weaponPoisonPotion",
 						"val" : 0
 					}
+						}
+					}
 				}
 			},
 			"none" : {
@@ -63,7 +68,9 @@
 			},
 			"basic" : {
 				"description" : "Potion Cart supplies hero spellbook with potions.",
-				"effects" : {
+				"battleEffects" : {
+					"potionSupply" : {
+						"bonus" : {
 					"addRegenerationPotion" : {
 						"val" : 1
 					},
@@ -77,11 +84,15 @@
 						"subtype" : "dragonPotion",
 						"val" : 0
 					}
+						}
+					}
 				}
 			},
 			"advanced" : {
 				"description" : "Potion Cart supplies hero spellbook with potions.",
-				"effects" : {
+				"battleEffects" : {
+					"potionSupply" : {
+						"bonus" : {
 					"addRegenerationPotion" : {
 						"val" : 2
 					},
@@ -102,11 +113,15 @@
 						"subtype" : "toughnessPotion",
 						"val" : 0
 					}
+						}
+					}
 				}
 			},
 			"expert" : {
 				"description" : "Potion Cart supplies hero spellbook with potions.",
-				"effects" : {
+				"battleEffects" : {
+					"potionSupply" : {
+						"bonus" : {
 					"addRegenerationPotion" : {
 						"val" : 3
 					},
@@ -134,6 +149,8 @@
 						"type" : "SPELL",
 						"subtype" : "etheralPotion",
 						"val" : 0
+					}
+						}
 					}
 				}
 			}

@@ -52,11 +52,21 @@
 					"smart" : false
 				},
 				"cost" : 13,
-				"effects" : {
-					"noFleeing" : {
-						"type" : "BATTLE_NO_FLEEING",
-						"duration" : "N_TURNS",
-						"propagator" : "HERO"
+				"battleEffects" : {
+					"shackles" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"noRetreat" : {
+								"type" : "BATTLE_CAN_FLEE",
+								"val" : -100,
+								"propagator": "BATTLE_WIDE"
+							},
+							"noSurrender" : {
+							"type" : "BATTLE_CAN_SURRENDER",
+							"val" : -100,
+							"propagator": "BATTLE_WIDE"
+							}
+						}
 					}
 				}
 			},
@@ -74,13 +84,24 @@
 			"expert" : {
 				"description" : "{Expert Quagmire}\n\nPrevents enemy hero from escaping the battlefield.",
 				"cost" : 10,
-				"effects" : {
-					"noFleeing" : {
-						"propagator" : "BATTLE_WIDE",
-						"propagationUpdater" : "BONUS_OWNER_UPDATER",
-						"limiters" : [
-							"OPPOSITE_SIDE"
-						]
+				"battleEffects" : {
+					"shackles" : {
+						"bonus" : {
+							"noRetreat" : {
+								"propagator" : "BATTLE_WIDE",
+								"propagationUpdater" : "BONUS_OWNER_UPDATER",
+								"limiters" : [
+									"OPPOSITE_SIDE"
+								]
+							},
+							"noSurrender" : {
+								"propagator" : "BATTLE_WIDE",
+								"propagationUpdater" : "BONUS_OWNER_UPDATER",
+								"limiters" : [
+									"OPPOSITE_SIDE"
+								]
+							}
+						}
 					}
 				}
 			}

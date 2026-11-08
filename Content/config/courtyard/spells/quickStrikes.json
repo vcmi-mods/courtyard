@@ -51,7 +51,10 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
+				"battleEffects" : {
+					"quickStrike" : {
+						"type" : "core:timed",
+						"bonus" : {
 					"decreaseeDamage" : {
 						"val" : -30,
 						"type" : "CREATURE_DAMAGE",
@@ -71,6 +74,8 @@
 						"type" : "FIRST_STRIKE",
 						"duration" : "N_TURNS"
 					}
+						}
+					}
 				}
 			},
 			"none" : {
@@ -79,28 +84,42 @@
 			"basic" : {
 				"cost" : 9,
 				"description" : "{Basic Flurry of Strikes}\n\nGrants unit additional attack and Preemptive Retaliation, but decreases unit's damage by 20%.",
-				"effects" : {
+				"battleEffects" : {
+					"quickStrike" : {
+						"type" : "core:timed",
+						"bonus" : {
 					"decreaseeDamage" : {
 						"val" : -20
+					}
+				}
 					}
 				}
 			},
 			"advanced" : {
 				"description" : "{Advanced Flurry of Strikes}\n\nGrants unit additional attack and Preemptive Retaliation, but decreases unit's damage by 10%.",
-
-				"effects" : {
+				"battleEffects" : {
+					"quickStrike" : {
+						"type" : "core:timed",
+						"bonus" : {
 					"decreaseeDamage" : {
 						"val" : -10
+					}
+				}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Expert Flurry of Strikes}\n\nGrants units additional attack and Preemptive Retaliation, but decreases units' damage by 10%.",
 				"cost" : 8,
-				"effects" : {
+				"battleEffects" : {
+					"quickStrike" : {
+						"type" : "core:timed",
+						"bonus" : {
 					"decreaseeDamage" : {
 						"val" : -10
 					}
+				}
+				}
 				}
 			}
 		}
