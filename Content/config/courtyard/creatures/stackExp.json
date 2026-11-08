@@ -809,7 +809,7 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "fireShield",
-//					"val" : 20,
+					//					"val" : 20,
 					"stacking" : "fireShield"
 				},
 				"values" : [
@@ -958,7 +958,7 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "fireShield",
-//					"val" : 20,
+					//					"val" : 20,
 					"stacking" : "fireShield"
 				},
 				"values" : [
@@ -1399,7 +1399,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "slayer" },
+					"addInfo" : {
+						"spell" : "slayer"
+					}
 				},
 				"values" : [
 					2,
@@ -2243,9 +2245,9 @@
 			},
 			{
 				"bonus" : {
-						"type" : "SPELL_AFTER_ATTACK",
-						"subtype" : "acidBreathDamage"
-//						"val" : 20
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "acidBreathDamage"
+					//						"val" : 20
 				},
 				"values" : [
 					5,
@@ -2262,9 +2264,9 @@
 			},
 			{
 				"bonus" : {
-						"type" : "SPECIFIC_SPELL_POWER",
-						"subtype" : "acidBreathDamage"
-						//    "val" : 25
+					"type" : "SPECIFIC_SPELL_POWER",
+					"subtype" : "acidBreathDamage"
+					//    "val" : 25
 				},
 				"values" : [
 					5,
@@ -2877,7 +2879,7 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "fireShield",
-//					"val" : 20,
+					//					"val" : 20,
 					"stacking" : "fireShield"
 				},
 				"values" : [

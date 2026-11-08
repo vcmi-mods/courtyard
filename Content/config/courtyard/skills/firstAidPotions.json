@@ -5,7 +5,9 @@
 				"potionsExtra" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "potionSupply" },
+					"addInfo" : {
+						"spell" : "potionSupply"
+					},
 					"val" : 0,
 					"limiters" : [
 						{

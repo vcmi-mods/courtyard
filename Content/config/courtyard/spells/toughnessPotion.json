@@ -54,35 +54,35 @@
 					"smart" : true
 				},
 				"battleEffects" : {
-				"toughness" : {
-					"type" : "core:timed",
-					"bonus" : {
-					"increaseDamage" : {
-						"val" : 15,
-						"type" : "CREATURE_DAMAGE",
-						"subtype" : "creatureDamageBoth",
-						"valueType" : "PERCENT_TO_BASE",
-						"duration" : "N_TURNS"
-					},
-					"increaseHealth" : {
-						"val" : 25,
-						"type" : "STACK_HEALTH",
-						"valueType" : "PERCENT_TO_BASE",
-						"duration" : "N_TURNS"
-					},
-					"giant" : {
-						//						"val" : 40,
-						"type" : "KING",
-						"val" : 1,
-						"valueType" : "ADDITIVE_VALUE"
-					},
-					"potionMarkerEffect" : {
-						"type" : "SPECIFIC_SPELL_DAMAGE",
-						"subtype" : "potionSupply",
-						"val" : 0
+					"toughness" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"increaseDamage" : {
+								"val" : 15,
+								"type" : "CREATURE_DAMAGE",
+								"subtype" : "creatureDamageBoth",
+								"valueType" : "PERCENT_TO_BASE",
+								"duration" : "N_TURNS"
+							},
+							"increaseHealth" : {
+								"val" : 25,
+								"type" : "STACK_HEALTH",
+								"valueType" : "PERCENT_TO_BASE",
+								"duration" : "N_TURNS"
+							},
+							"giant" : {
+								//						"val" : 40,
+								"type" : "KING",
+								"val" : 1,
+								"valueType" : "ADDITIVE_VALUE"
+							},
+							"potionMarkerEffect" : {
+								"type" : "SPECIFIC_SPELL_DAMAGE",
+								"subtype" : "potionSupply",
+								"val" : 0
+							}
+						}
 					}
-					}
-				}
 				}
 			},
 			"none" : {
@@ -91,46 +91,46 @@
 			"basic" : {
 				"description" : "{Supreme Tonic of Toughness}\n\nIncreases unit's hit points by 40% and damage dealt by unit by 20%.",
 				"battleEffects" : {
-				"toughness" : {
-					"bonus" : {
-					"increaseDamage" : {
-						"val" : 20
-					},
-					"increaseHealth" : {
-						"val" : 40
+					"toughness" : {
+						"bonus" : {
+							"increaseDamage" : {
+								"val" : 20
+							},
+							"increaseHealth" : {
+								"val" : 40
+							}
+						}
 					}
-				}
-				}
 				}
 			},
 			"advanced" : {
 				"description" : "{Supreme Tonic of Toughness}\n\nIncreases unit's hit points by 40% and damage dealt by unit by 20%.",
 				"battleEffects" : {
-				"toughness" : {
-					"bonus" : {
-					"increaseDamage" : {
-						"val" : 20
-					},
-					"increaseHealth" : {
-						"val" : 40
+					"toughness" : {
+						"bonus" : {
+							"increaseDamage" : {
+								"val" : 20
+							},
+							"increaseHealth" : {
+								"val" : 40
+							}
+						}
 					}
-				}
-				}
 				}
 			},
 			"expert" : {
 				"description" : "{Supreme Tonic of Toughness}\n\nIncreases unit's hit points by 40% and damage dealt by unit by 20%.",
 				"battleEffects" : {
-				"toughness" : {
-					"bonus" : {
-					"increaseDamage" : {
-						"val" : 20
-					},
-					"increaseHealth" : {
-						"val" : 40
+					"toughness" : {
+						"bonus" : {
+							"increaseDamage" : {
+								"val" : 20
+							},
+							"increaseHealth" : {
+								"val" : 40
+							}
+						}
 					}
-				}
-				}
 				}
 			}
 		}

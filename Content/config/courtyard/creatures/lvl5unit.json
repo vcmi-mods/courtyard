@@ -4,7 +4,9 @@
 			"slayer" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "slayer" },
+				"addInfo" : {
+					"spell" : "slayer"
+				},
 				"val" : 2
 			},
 			"fearless" : {
@@ -70,7 +72,9 @@
 			"slayer" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "slayer" },
+				"addInfo" : {
+					"spell" : "slayer"
+				},
 				"val" : 3
 			},
 			"fearless" : {
@@ -153,7 +157,9 @@
 			"slayer" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "slayer" },
+				"addInfo" : {
+					"spell" : "slayer"
+				},
 				"val" : 3
 			},
 			"fearless" : {

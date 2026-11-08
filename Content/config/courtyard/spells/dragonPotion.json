@@ -99,7 +99,7 @@
 				"description" : "{Distilled Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
 				"battleEffects" : {
 					"potionEffects" : {
-						"bonus" : {					
+						"bonus" : {
 							"setAflame" : {
 								"addInfo" : [
 									1,
@@ -115,7 +115,7 @@
 				"description" : "{Supreme Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
 				"battleEffects" : {
 					"potionEffects" : {
-						"bonus" : {					
+						"bonus" : {
 							"setAflame" : {
 								"addInfo" : [
 									2,
@@ -134,7 +134,7 @@
 				"description" : "{Ultimate Dragon Drought}\n\nGrants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.",
 				"battleEffects" : {
 					"potionEffects" : {
-						"bonus" : {					
+						"bonus" : {
 							"setAflame" : {
 								"addInfo" : [
 									2,

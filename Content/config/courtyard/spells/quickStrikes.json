@@ -55,25 +55,25 @@
 					"quickStrike" : {
 						"type" : "core:timed",
 						"bonus" : {
-					"decreaseeDamage" : {
-						"val" : -30,
-						"type" : "CREATURE_DAMAGE",
-						"subtype" : "creatureDamageBoth",
-						"valueType" : "PERCENT_TO_BASE",
-						"duration" : "N_TURNS"
-					},
-					"additionalAttack" : {
-						"type" : "ADDITIONAL_ATTACK",
-						"val" : 1,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : [
-							"N_TURNS"
-						]
-					},
-					"firstStrike" : {
-						"type" : "FIRST_STRIKE",
-						"duration" : "N_TURNS"
-					}
+							"decreaseeDamage" : {
+								"val" : -30,
+								"type" : "CREATURE_DAMAGE",
+								"subtype" : "creatureDamageBoth",
+								"valueType" : "PERCENT_TO_BASE",
+								"duration" : "N_TURNS"
+							},
+							"additionalAttack" : {
+								"type" : "ADDITIONAL_ATTACK",
+								"val" : 1,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : [
+									"N_TURNS"
+								]
+							},
+							"firstStrike" : {
+								"type" : "FIRST_STRIKE",
+								"duration" : "N_TURNS"
+							}
 						}
 					}
 				}
@@ -88,10 +88,10 @@
 					"quickStrike" : {
 						"type" : "core:timed",
 						"bonus" : {
-					"decreaseeDamage" : {
-						"val" : -20
-					}
-				}
+							"decreaseeDamage" : {
+								"val" : -20
+							}
+						}
 					}
 				}
 			},
@@ -101,10 +101,10 @@
 					"quickStrike" : {
 						"type" : "core:timed",
 						"bonus" : {
-					"decreaseeDamage" : {
-						"val" : -10
-					}
-				}
+							"decreaseeDamage" : {
+								"val" : -10
+							}
+						}
 					}
 				}
 			},
@@ -115,11 +115,11 @@
 					"quickStrike" : {
 						"type" : "core:timed",
 						"bonus" : {
-					"decreaseeDamage" : {
-						"val" : -10
+							"decreaseeDamage" : {
+								"val" : -10
+							}
+						}
 					}
-				}
-				}
 				}
 			}
 		}

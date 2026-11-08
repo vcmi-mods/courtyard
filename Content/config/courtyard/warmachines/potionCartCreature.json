@@ -51,7 +51,9 @@
 			"supply" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "potionSupply" },
+				"addInfo" : {
+					"spell" : "potionSupply"
+				},
 				"description" : "Potion Cart supplies hero spellbook with potions.",
 				"val" : 0,
 				"limiters" : [

@@ -45,20 +45,20 @@
 					"potionSupply" : {
 						"type" : "core:timed",
 						"bonus" : {
-					"addRegenerationPotion" : {
-						"propagator" : "HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "regenerationPotion",
-						"val" : 0
-					},
-					"addWeaponPoisonPotion" : {
-						"propagator" : "HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "weaponPoisonPotion",
-						"val" : 0
-					}
+							"addRegenerationPotion" : {
+								"propagator" : "HERO",
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "regenerationPotion",
+								"val" : 0
+							},
+							"addWeaponPoisonPotion" : {
+								"propagator" : "HERO",
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "weaponPoisonPotion",
+								"val" : 0
+							}
 						}
 					}
 				}
@@ -71,19 +71,19 @@
 				"battleEffects" : {
 					"potionSupply" : {
 						"bonus" : {
-					"addRegenerationPotion" : {
-						"val" : 1
-					},
-					"addWeaponPoisonPotion" : {
-						"val" : 1
-					},
-					"addDragonPotion" : {
-						"propagator" : "HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "dragonPotion",
-						"val" : 0
-					}
+							"addRegenerationPotion" : {
+								"val" : 1
+							},
+							"addWeaponPoisonPotion" : {
+								"val" : 1
+							},
+							"addDragonPotion" : {
+								"propagator" : "HERO",
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "dragonPotion",
+								"val" : 0
+							}
 						}
 					}
 				}
@@ -93,26 +93,26 @@
 				"battleEffects" : {
 					"potionSupply" : {
 						"bonus" : {
-					"addRegenerationPotion" : {
-						"val" : 2
-					},
-					"addWeaponPoisonPotion" : {
-						"val" : 2
-					},
-					"addDragonPotion" : {
-						"propagator" : "HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "dragonPotion",
-						"val" : 1
-					},
-					"addToughnessPotion" : {
-						"propagator" : "HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "toughnessPotion",
-						"val" : 0
-					}
+							"addRegenerationPotion" : {
+								"val" : 2
+							},
+							"addWeaponPoisonPotion" : {
+								"val" : 2
+							},
+							"addDragonPotion" : {
+								"propagator" : "HERO",
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "dragonPotion",
+								"val" : 1
+							},
+							"addToughnessPotion" : {
+								"propagator" : "HERO",
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "toughnessPotion",
+								"val" : 0
+							}
 						}
 					}
 				}
@@ -122,34 +122,34 @@
 				"battleEffects" : {
 					"potionSupply" : {
 						"bonus" : {
-					"addRegenerationPotion" : {
-						"val" : 3
-					},
-					"addWeaponPoisonPotion" : {
-						"val" : 3
-					},
-					"addDragonPotion" : {
-						"propagator" : "HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "dragonPotion",
-						"val" : 2
-					},
-					"addToughnessPotion" : {
-						"propagator" : "HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "toughnessPotion",
-						"val" : 1
-					},
+							"addRegenerationPotion" : {
+								"val" : 3
+							},
+							"addWeaponPoisonPotion" : {
+								"val" : 3
+							},
+							"addDragonPotion" : {
+								"propagator" : "HERO",
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "dragonPotion",
+								"val" : 2
+							},
+							"addToughnessPotion" : {
+								"propagator" : "HERO",
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "toughnessPotion",
+								"val" : 1
+							},
 
-					"addEtheralPotion" : {
-						"propagator" : "HERO",
-						"sourceType" : "CREATURE_ABILITY",
-						"type" : "SPELL",
-						"subtype" : "etheralPotion",
-						"val" : 0
-					}
+							"addEtheralPotion" : {
+								"propagator" : "HERO",
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "etheralPotion",
+								"val" : 0
+							}
 						}
 					}
 				}

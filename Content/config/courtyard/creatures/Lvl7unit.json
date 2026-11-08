@@ -92,7 +92,10 @@
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "destruction",
 				"val" : 25,
-				"addInfo" : { "killBy" : "percentage", "amount" : 10 }
+				"addInfo" : {
+					"killBy" : "percentage",
+					"amount" : 10
+				}
 			}
 		},
 		"advMapAmount" : {

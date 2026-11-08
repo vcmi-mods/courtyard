@@ -5,7 +5,9 @@
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "summonGuardians",
 				"val" : 200,
-				"addInfo" : { "creature" : "tangleVine" }
+				"addInfo" : {
+					"creature" : "tangleVine"
+				}
 			}
 		},
 		"advMapAmount" : {
@@ -64,7 +66,9 @@
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "summonGuardians",
 				"val" : 400,
-				"addInfo" : { "creature" : "strangleVine" }
+				"addInfo" : {
+					"creature" : "strangleVine"
+				}
 			},
 			"reviveVines" : {
 				"type" : "SPELLCASTER",

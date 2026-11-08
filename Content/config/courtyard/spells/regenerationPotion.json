@@ -57,17 +57,17 @@
 					"regenerationPotion" : {
 						"type" : "core:timed",
 						"bonus" : {
-					"regeneration" : {
-						"val" : 5,
-						"type" : "HP_REGENERATION",
-						"duration" : "N_TURNS"
-					},
-					"potionMarkerEffect" : {
-						"type" : "SPECIFIC_SPELL_DAMAGE",
-						"subtype" : "potionSupply",
-						"val" : 0,
-						"duration" : "N_TURNS"
-					}
+							"regeneration" : {
+								"val" : 5,
+								"type" : "HP_REGENERATION",
+								"duration" : "N_TURNS"
+							},
+							"potionMarkerEffect" : {
+								"type" : "SPECIFIC_SPELL_DAMAGE",
+								"subtype" : "potionSupply",
+								"val" : 0,
+								"duration" : "N_TURNS"
+							}
 						}
 					}
 				}
@@ -80,10 +80,10 @@
 				"battleEffects" : {
 					"regenerationPotion" : {
 						"bonus" : {
-					"regeneration" : {
-						"val" : 15
-					}
-				}
+							"regeneration" : {
+								"val" : 15
+							}
+						}
 					}
 				}
 			},
@@ -92,9 +92,9 @@
 				"battleEffects" : {
 					"regenerationPotion" : {
 						"bonus" : {
-					"regeneration" : {
-						"val" : 30
-					}
+							"regeneration" : {
+								"val" : 30
+							}
 						}
 					}
 				}
@@ -104,11 +104,11 @@
 				"battleEffects" : {
 					"regenerationPotion" : {
 						"bonus" : {
-					"regeneration" : {
-						"val" : 100000,
-						"valueType" : "ADDITIVE_VALUE"
-					}
-				}
+							"regeneration" : {
+								"val" : 100000,
+								"valueType" : "ADDITIVE_VALUE"
+							}
+						}
 					}
 				}
 			}

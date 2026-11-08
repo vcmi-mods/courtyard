@@ -68,19 +68,19 @@
 								"subtype" : "damageTypeAll",
 								"val" : 20,
 								"duration" : "N_TURNS"
-						},
-					"magicDamageReduction" : {
-						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "any",
-						"val" : 20,
-						"duration" : "N_TURNS"
-					},
-					"potionMarkerEffect" : {
-						"type" : "SPECIFIC_SPELL_DAMAGE",
-						"subtype" : "potionSupply",
-						"val" : 0,
-						"duration" : "N_TURNS"
-					}
+							},
+							"magicDamageReduction" : {
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "any",
+								"val" : 20,
+								"duration" : "N_TURNS"
+							},
+							"potionMarkerEffect" : {
+								"type" : "SPECIFIC_SPELL_DAMAGE",
+								"subtype" : "potionSupply",
+								"val" : 0,
+								"duration" : "N_TURNS"
+							}
 						}
 					}
 				}

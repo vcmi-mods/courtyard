@@ -53,11 +53,13 @@
 						"cumulative" : false,
 						"bonus" : {
 							"harm" : {
-								   "type" : "COMBAT_EVENT_TRIGGER",
-									"subtype" : "enchanted",
-									"addInfo" : { "spell" : "immolationDamage" },
-									"val" : 0,
-									"duration" : "N_TURNS"
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : {
+									"spell" : "immolationDamage"
+								},
+								"val" : 0,
+								"duration" : "N_TURNS"
 							},
 							"power" : {
 								"type" : "CREATURE_SPELL_POWER",

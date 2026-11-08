@@ -69,32 +69,32 @@
 					"pacifism" : {
 						"type" : "core:timed",
 						"bonus" : {
-					"noRetaliation" : {
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"N_TURNS"
-						]
-					},
-					"noAttacks" : {
-						"type" : "ADDITIONAL_ATTACK",
-						"val" : -5,
-						"duration" : [
-							"N_TURNS"
-						]
-					},
-					"noShooting" : {
-						"type" : "FORGETFULL",
-						"val" : 3,
-						"duration" : [
-							"N_TURNS"
-						]
-					},
-					"cowardice" : {
-						"type" : "ATTACKS_NEAREST_CREATURE",
-						"duration" : [
-							"N_TURNS"
-						]
-					}
+							"noRetaliation" : {
+								"type" : "NO_RETALIATION",
+								"duration" : [
+									"N_TURNS"
+								]
+							},
+							"noAttacks" : {
+								"type" : "ADDITIONAL_ATTACK",
+								"val" : -5,
+								"duration" : [
+									"N_TURNS"
+								]
+							},
+							"noShooting" : {
+								"type" : "FORGETFULL",
+								"val" : 3,
+								"duration" : [
+									"N_TURNS"
+								]
+							},
+							"cowardice" : {
+								"type" : "ATTACKS_NEAREST_CREATURE",
+								"duration" : [
+									"N_TURNS"
+								]
+							}
 						}
 					}
 				}

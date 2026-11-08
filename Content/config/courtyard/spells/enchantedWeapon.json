@@ -78,7 +78,7 @@
 					"damageBoost" : {
 						"bonus" : {
 							"increaseDamage" : {
-							"val" : 35
+								"val" : 35
 							}
 						}
 					}
@@ -90,7 +90,7 @@
 					"damageBoost" : {
 						"bonus" : {
 							"increaseDamage" : {
-							"val" : 50
+								"val" : 50
 							}
 						}
 					}
