@@ -6,8 +6,11 @@
 	"contact" : "NONE",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.31",
+	"version" : "1.32",
 	"changelog" : {
+		"1.32" : [
+			"Updated to VCMI 1.8 format"
+		],
 		"1.31" : [
 			"Added flagport frames (Kingdom Overwiev window)"
 		],
