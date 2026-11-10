@@ -84,7 +84,7 @@
 							},
 							"noShooting" : {
 								"type" : "FORGETFULL",
-								"val" : 3,
+								"val" : 100,
 								"duration" : [
 									"N_TURNS"
 								]
@@ -117,13 +117,13 @@
 	},
 	"core:berserk" : {
 		"counters" : {
-			"spell.hypnotize" : true,
+			"hypnotize" : true,
 			"courtyard:spell.pacifism" : true
 		}
 	},
 	"core:hypnotize" : {
 		"counters" : {
-			"spell.berserk" : true,
+			"berserk" : true,
 			"courtyard:spell.pacifism" : true
 		}
 	}
