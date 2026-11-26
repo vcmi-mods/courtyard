@@ -1,111 +1,123 @@
 {
-	"modType" : "Town",
-	"name" : "Courtyard town",
-	"description" : "New faction based on alchemy-baroque climax",
-	"author" : "Trith, special thanks to: avatar, Kammer, Andruids, Hobbicus and MDT team",
-	"contact" : "NONE",
-	"licenseName" : "Creative Commons Attribution-ShareAlike",
-	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.32",
-	"changelog" : {
-		"1.32" : [
+	"modType": "Town",
+	"name": "Courtyard town",
+	"description": "New faction based on alchemy-baroque climax",
+	"author": "Trith, special thanks to: avatar, Kammer, Andruids, Hobbicus and MDT team",
+	"contact": "NONE",
+	"licenseName": "Creative Commons Attribution-ShareAlike",
+	"licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version": "1.40",
+	"changelog": {
+		"1.40": [
+			"Updated for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.",
+			"Recalibrated AI Value and Fight Value for all 15 town creatures using native CombatValue and OH3/HotA references.",
+			"Redesigned Stack Experience for all 15 town creatures, giving veteran basic forms distinct roles and preserving shared stat progression.",
+			"Rebalanced recruitment prices for Arquebusier (350), Musketeer (450), Mandrake (900) and Regal Mandrake (1200); other base stats and growth retained.",
+			"Audited all 16 hero specialties; fixed Hanester level scaling, Lumiere Force Field placement, Dizheel Diplomacy and corrected inconsistent descriptions.",
+			"Reworked Camera Obscura and temporary Apparitions: both spells available to any owner, mobile non-attacking Apparitions, corrected lifetime and Migdigravia scaling.",
+			"Fixed Potion Cart supply, First Aid progression and Caballe potion effects; corrected Immolation damage and duration, Regrowth descriptions and Dodo/Auk bonus interactions.",
+			"Fixed daily Magic Fountain visits, Magic Absorber protection for defending heroes, Grail descriptions and Journal/Letter object flags.",
+			"Added Camera Obscura to the standard War Machine Factory and optional Hirki New Ranged compatibility without replacing HotA Cannon Yard inventory.",
+			"Updated creature wiki and English/Polish descriptions to match RC1 mechanics, including potion mastery, fear, regeneration and rank thresholds; restored missing multimedia resources."
+		],
+		"1.32": [
 			"Updated to VCMI 1.8 format"
 		],
-		"1.31" : [
+		"1.31": [
 			"Added flagport frames (Kingdom Overwiev window)"
 		],
-		"1.30" : [
+		"1.30": [
 			"Two more ability custom icons (andruids)"
 		],
-		"1.29" : [
+		"1.29": [
 			"Added some new ability custom icons (edeksumo)"
 		],
-		"1.28" : [
+		"1.28": [
 			"New fixes for vcmi-1.7 format"
 		],
-		"1.27" : [
+		"1.27": [
 			"Another fixes for vcmi-1.7 format"
 		],
-		"1.26" : [
+		"1.26": [
 			"Update to vcmi-1.7 format"
 		],
-		"1.25" : [
+		"1.25": [
 			"Bugs fixes reported by Lord Hawk"
 		],
-		"1.24" : [
+		"1.24": [
 			"kdmcser bugfixes"
 		],
-		"1.23" : [
+		"1.23": [
 			"Fix Grail not to produce gold"
 		],
-		"1.22" : [
+		"1.22": [
 			"Added wikipedia",
 			"Added new screenshots"
 		],
-		"1.21" : [
+		"1.21": [
 			"Czech translation by George King"
 		],
-		"1.20" : [
+		"1.20": [
 			"Update to vcmi-1.6 format"
 		],
-		"1.16" : [
+		"1.16": [
 			"Updated russian translation"
 		],
-		"1.15" : [
+		"1.15": [
 			"Added effects to buildings that do not currently have effects implemented. Grail included (by Dark Imagine)"
 		],
-		"1.14" : [
+		"1.14": [
 			"Updated chinese translation"
 		],
-		"1.13" : [
+		"1.13": [
 			"Updated russian translation"
 		],
-		"1.12" : [
+		"1.12": [
 			"Russian translation by Anton Sergeew"
 		],
-		"1.11" : [
+		"1.11": [
 			"Fixed the commander"
 		],
-		"1.10" : [
+		"1.10": [
 			"Adjusted Commanders stats"
 		],
-		"1.09" : [
+		"1.09": [
 			"Update to vcmi-1.4 format"
 		],
-		"1.08" : [
+		"1.08": [
 			"Polish translation by Dru"
 		],
-		"1.07" : [
+		"1.07": [
 			"Update to vcmi-1.3",
 			"some fixes in spells"
 		],
-		"1.06" : [
+		"1.06": [
 			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
 		],
-		"1.05" : [
+		"1.05": [
 			"New bonus system format"
 		],
-		"1.04" : [
+		"1.04": [
 			"Delete DAEMON_SUMMONIG bonus"
 		],
-		"1.03" : [
+		"1.03": [
 			"Added Arrow Tower icons",
 			"Fixed buildmenu graphic"
 		],
-		"1.02" : [
+		"1.02": [
 			"Tweaks"
 		],
-		"1.01" : [
+		"1.01": [
 			"Special buildings support"
 		],
-		"1.00" : [
+		"1.00": [
 			"Initian release"
 		]
 	},
-	"compatibility" : {
-		"min" : "1.7.0"
+	"compatibility": {
+		"min": "1.8.0"
 	},
-	"spells" : [
+	"spells": [
 		"config/courtyard/spells/reconstruction",
 		"config/courtyard/spells/deathGrasp",
 		"config/courtyard/spells/enchantedWeapon",
@@ -124,40 +136,44 @@
 		"config/courtyard/spells/weaponPoisonPotion",
 		"config/courtyard/spells/dragonPotion",
 		"config/courtyard/spells/summonApparition",
-		"config/courtyard/spells/moat"
+		"config/courtyard/spells/moat",
+		"config/courtyard/spells/lumiereForceField"
 	],
-	"creatures" : [
+	"creatures": [
 		"config/courtyard/creatures/stackExp",
 		"config/courtyard/creatures/wiki",
-		"config/courtyard/creatures/lvl1unit",
+		"config/courtyard/creatures/Lvl1unit",
 		"config/courtyard/creatures/lvl2unit",
-		"config/courtyard/creatures/lvl3unit",
+		"config/courtyard/creatures/Lvl3unit",
 		"config/courtyard/creatures/lvl4unit",
 		"config/courtyard/creatures/lvl5unit",
-		"config/courtyard/creatures/lvl6unit",
-		"config/courtyard/creatures/lvl7unit",
+		"config/courtyard/creatures/Lvl6unit",
+		"config/courtyard/creatures/Lvl7unit",
 		"config/courtyard/creatures/vines",
 		"config/courtyard/creatures/apparition",
 		"config/courtyard/warmachines/potionCartCreature",
 		"config/courtyard/warmachines/cameraObscuraCreature",
 		"config/courtyard/creatures/commander"
 	],
-	"artifacts" : [
+	"artifacts": [
 		"config/courtyard/warmachines/potionCartArtifact",
 		"config/courtyard/warmachines/cameraObscuraArtifact"
 	],
-	"skills" : [
+	"skills": [
 		"config/courtyard/skills/firstAidPotions"
 	],
-	"factions" : [
+	"factions": [
 		"config/courtyard/town",
 		"config/courtyard/courtyardPuzzle"
 	],
-	"heroClasses" : [
+	"scripts": [
+		"config/courtyard/scripts"
+	],
+	"heroClasses": [
 		"config/courtyard/classes/mightHero",
 		"config/courtyard/classes/magicHero"
 	],
-	"heroes" : [
+	"heroes": [
 		"config/courtyard/heroes/Nefefareen",
 		"config/courtyard/heroes/Auk",
 		"config/courtyard/heroes/Dizheel",
@@ -176,48 +192,46 @@
 		"config/courtyard/heroes/Kanim",
 		"config/courtyard/heroes/heroTexts"
 	],
-	"objects" : [
+	"objects": [
 		"config/courtyard/dwellings",
 		"config/courtyard/otherObjects"
 	],
-	"chinese" : {
-		"name" : "行宫",
-		"description" : "行宫是一个基于炼金术的种族，采用了巴洛克艺术的美术风格。该阵营由离开布拉卡达的炼金术士建立，和塔楼可以说是对立阵营。",
-		"translations" : [
+	"chinese": {
+		"name": "行宫",
+		"description": "行宫是一个基于炼金术的种族，采用了巴洛克艺术的美术风格。该阵营由离开布拉卡达的炼金术士建立，和塔楼可以说是对立阵营。",
+		"translations": [
 			"translation/chinese.json"
 		]
 	},
-	"german" : {
-		"name" : "Hof",
-		"description" : "Hof Stadt",
-		"translations" : [
+	"german": {
+		"name": "Hof",
+		"description": "Hof Stadt",
+		"translations": [
 			"translation/german.json"
 		]
 	},
-	"polish" : {
-		"name" : "Dwór",
-		"description" : "Dodaje Miasto Dwór",
-		"translations" : [
+	"polish": {
+		"name": "Dwór",
+		"description": "Dodaje Miasto Dwór",
+		"translations": [
 			"translation/polish.json"
 		]
 	},
-	"russian" : {
-		"name" : "Двор",
-		"description" : "Новый город алхимиков и аристократов - Двор",
-		"translations" : [
+	"russian": {
+		"name": "Двор",
+		"description": "Новый город алхимиков и аристократов - Двор",
+		"translations": [
 			"translation/russian.json"
 		]
 	},
-	"czech" : {
-		"name" : "Nádvoří",
-		"description" : "Nové město alchymistů a aristokratů – Nádvoří",
-		"translations" : [
+	"czech": {
+		"name": "Nádvoří",
+		"description": "Nové město alchymistů a aristokratů – Nádvoří",
+		"translations": [
 			"translation/czech.json"
 		]
 	},
-	"french" : {
-		"translations" : [
-			"translation/french.json"
-		]
-	}
+	"translations": [
+		"translation/immolationEnglish.json"
+	]
 }

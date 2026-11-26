@@ -1,116 +1,121 @@
 {
-	"homunculus" : {
-		"abilities" : {
-			"regeneration" : {
-				"type" : "HP_REGENERATION",
-				"val" : 7
+	"homunculus": {
+		"abilities": {
+			"regeneration": {
+				"type": "HP_REGENERATION",
+				"val": 7,
+				"stacking": "courtyard.homunculusRegeneration",
+				"valueType": "BASE_NUMBER"
 			}
 		},
-
-		"advMapAmount" : {
-			"max" : 30,
-			"min" : 12
+		"advMapAmount": {
+			"max": 30,
+			"min": 12
 		},
-		"aiValue" : 127,
-		"attack" : 8,
-		"cost" : {
-			"gold" : 100
+		"aiValue": 152,
+		"attack": 8,
+		"cost": {
+			"gold": 100
 		},
-		"damage" : {
-			"max" : 4,
-			"min" : 1
+		"damage": {
+			"max": 4,
+			"min": 1
 		},
-		"defense" : 4,
-		"faction" : "courtyard",
-		"fightValue" : 135,
-		"graphics" : {
-			"animation" : "courtyard/battle/CHomunculus.def",
-			"animationTime" : {
-				"attack" : 1,
-				"idle" : 10,
-				"walk" : 1.25
+		"defense": 4,
+		"faction": "courtyard",
+		"fightValue": 151,
+		"graphics": {
+			"animation": "courtyard/battle/CHomunculus.def",
+			"animationTime": {
+				"attack": 1,
+				"idle": 10,
+				"walk": 1.25
 			},
-			"iconLarge" : "courtyard/icons/units/IcHomun101",
-			"iconSmall" : "courtyard/icons/units/IsHomun101",
-			"map" : "courtyard/map/lvl6unit.def",
-			"timeBetweenFidgets" : 1
+			"iconLarge": "courtyard/icons/units/IcHomun101",
+			"iconSmall": "courtyard/icons/units/IsHomun101",
+			"map": "courtyard/map/lvl6unit.def",
+			"timeBetweenFidgets": 1
 		},
-		"growth" : 8,
-		"hitPoints" : 16,
-		"level" : 2,
-		"name" : {
-			"plural" : "Homunculi",
-			"singular" : "Homunculus"
+		"growth": 8,
+		"hitPoints": 16,
+		"level": 2,
+		"name": {
+			"plural": "Homunculi",
+			"singular": "Homunculus"
 		},
-		"sound" : {
-			"attack" : "courtyard/lvl5/HomunATTK.wav",
-			"defend" : "courtyard/lvl5/HomunDFND.wav",
-			"killed" : "courtyard/lvl5/HomunDEAD.wav",
-			"move" : "courtyard/lvl5/HomunMOVE.wav",
-			"wince" : "courtyard/lvl5/HomunWNCE.wav"
+		"sound": {
+			"attack": "courtyard/lvl5/HomunATTK.wav",
+			"defend": "courtyard/lvl5/HomunDFND.wav",
+			"killed": "courtyard/lvl5/HomunDEAD.wav",
+			"move": "courtyard/lvl5/HomunMOVE.wav",
+			"wince": "courtyard/lvl5/HomunWNCE.wav"
 		},
-		"speed" : 5,
-		"upgrades" : [
+		"speed": 5,
+		"upgrades": [
 			"gildedHomunculus"
 		]
 	},
-
-	"gildedHomunculus" : {
-		"abilities" : {
-			"regeneration" : {
-				"type" : "HP_REGENERATION",
-				"val" : 10
+	"gildedHomunculus": {
+		"abilities": {
+			"regeneration": {
+				"type": "HP_REGENERATION",
+				"val": 10,
+				"stacking": "courtyard.gildedHomunculusRegeneration",
+				"valueType": "BASE_NUMBER"
 			},
-			"increasedSpellDamage" : {
-				"type" : "SPELL_DAMAGE",
-				"propagator" : "HERO",
-				"val" : 15,
-				"description" : "{Spell booster}\nIncreases hero's spells damage by 15%",
-				"icon" : "courtyard/icons/bonuses/sp_boost.png"
+			"increasedSpellDamage": {
+				"type": "SPELL_DAMAGE",
+				"subtype": "any",
+				"propagator": "HERO",
+				"val": 15,
+				"description": "{Spell booster}\nIncreases hero's spells damage by 15%",
+				"icon": "courtyard/icons/bonuses/sp_boost.png",
+				"stacking": "courtyard.gildedHomunculusSpellDamage",
+				"valueType": "BASE_NUMBER"
 			}
 		},
-		"advMapAmount" : {
-			"max" : 25,
-			"min" : 12
+		"advMapAmount": {
+			"max": 25,
+			"min": 12
 		},
-		"aiValue" : 205,
-		"attack" : 9,
-		"cost" : {
-			"gold" : 155
+		"aiValue": 233,
+		"attack": 9,
+		"cost": {
+			"gold": 155
 		},
-		"damage" : {
-			"max" : 4,
-			"min" : 3
+		"damage": {
+			"max": 4,
+			"min": 3
 		},
-		"defense" : 6,
-		"faction" : "courtyard",
-		"fightValue" : 182,
-		"graphics" : {
-			"animation" : "courtyard/battle/CSHomuncul.def",
-			"animationTime" : {
-				"attack" : 1,
-				"idle" : 10,
-				"walk" : 1.25
+		"defense": 6,
+		"faction": "courtyard",
+		"fightValue": 213,
+		"graphics": {
+			"animation": "courtyard/battle/CSHomuncul.def",
+			"animationTime": {
+				"attack": 1,
+				"idle": 10,
+				"walk": 1.25
 			},
-			"iconLarge" : "courtyard/icons/units/IcHomun102",
-			"iconSmall" : "courtyard/icons/units/IsHomun102",
-			"map" : "courtyard/map/lvl6unitup.def",
-			"timeBetweenFidgets" : 1
+			"iconLarge": "courtyard/icons/units/IcHomun102",
+			"iconSmall": "courtyard/icons/units/IsHomun102",
+			"map": "courtyard/map/lvl6unitup.def",
+			"timeBetweenFidgets": 1
 		},
-		"growth" : 8,
-		"hitPoints" : 20,
-		"level" : 2,
-		"name" : {
-			"plural" : "Gilded Homunculi",
-			"singular" : "Gilded Homunculi"
+		"growth": 8,
+		"hitPoints": 20,
+		"level": 2,
+		"name": {
+			"plural": "Gilded Homunculi",
+			"singular": "Gilded Homunculus"
 		},
-		"sound" : {
-			"attack" : "courtyard/lvl5/HomunATTK.wav",
-			"defend" : "courtyard/lvl5/HomunDFND.wav",
-			"killed" : "courtyard/lvl5/HomunDEAD.wav",
-			"move" : "courtyard/lvl5/HomunMOVE.wav",
-			"wince" : "courtyard/lvl5/HomunWNCE.wav"
+		"sound": {
+			"attack": "courtyard/lvl5/HomunATTK.wav",
+			"defend": "courtyard/lvl5/HomunDFND.wav",
+			"killed": "courtyard/lvl5/HomunDEAD.wav",
+			"move": "courtyard/lvl5/HomunMOVE.wav",
+			"wince": "courtyard/lvl5/HomunWNCE.wav"
 		},
-		"speed" : 5
+		"speed": 5
 	}
 }

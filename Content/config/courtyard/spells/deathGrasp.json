@@ -58,7 +58,7 @@
 						"type" : "core:damage",
 						"killByCount" : true
 						//						"val": 5,
-						//						"valueType": "INDEPENDENT_MIN"
+						//						"valueType": "AT_MOST"
 					}
 				}
 			},

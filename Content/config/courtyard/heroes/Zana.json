@@ -44,7 +44,7 @@
 					"subtype" : "dimensionDoor",
 					"type" : "SPELL",
 					"val" : 3,
-					"valueType" : "INDEPENDENT_MAX"
+					"valueType" : "AT_LEAST"
 				}
 			}
 		}
