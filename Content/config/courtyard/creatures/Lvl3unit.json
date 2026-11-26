@@ -11,7 +11,7 @@
 			"max" : 24,
 			"min" : 12
 		},
-		"aiValue" : 230,
+		"aiValue" : 219,
 		"attack" : 6,
 		"cost" : {
 			"gold" : 210
@@ -22,7 +22,7 @@
 		},
 		"defense" : 6,
 		"faction" : "courtyard",
-		"fightValue" : 235,
+		"fightValue" : 194,
 		"graphics" : {
 			"animation" : "courtyard/battle/CSalamander.def",
 			"animationTime" : {
@@ -67,7 +67,7 @@
 			"max" : 20,
 			"min" : 11
 		},
-		"aiValue" : 230,
+		"aiValue" : 353,
 		"attack" : 6,
 		"cost" : {
 			"gold" : 260
@@ -78,7 +78,7 @@
 		},
 		"defense" : 8,
 		"faction" : "courtyard",
-		"fightValue" : 260,
+		"fightValue" : 309,
 		"graphics" : {
 			"animation" : "courtyard/battle/CTrSalamand.def",
 			"animationTime" : {

@@ -1,42 +1,206 @@
 {
-	"core:firstAid" : {
-		"base" : {
-			"effects" : {
-				"potionsExtra" : {
-					"type" : "COMBAT_EVENT_TRIGGER",
-					"subtype" : "enchanted",
-					"addInfo" : {
-						"spell" : "potionSupply"
-					},
-					"val" : 0,
-					"limiters" : [
+	"core:firstAid": {
+		"basic": {
+			"effects": {
+				"courtyardPotion_regenerationPotion": {
+					"type": "SPELL",
+					"subtype": "courtyard:regenerationPotion",
+					"val": 1,
+					"valueType": "AT_LEAST",
+					"hidden": true,
+					"limiters": [
 						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "potionCartCreature",
-							"includeUpgrades" : false
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "SPELL_DURATION",
+							"bonusSubtype": "courtyard:potionSupply",
+							"bonusSourceType": "ARTIFACT",
+							"bonusSourceID": "courtyard:potionCart"
+						}
+					]
+				},
+				"courtyardPotion_weaponPoisonPotion": {
+					"type": "SPELL",
+					"subtype": "courtyard:weaponPoisonPotion",
+					"val": 1,
+					"valueType": "AT_LEAST",
+					"hidden": true,
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "SPELL_DURATION",
+							"bonusSubtype": "courtyard:potionSupply",
+							"bonusSourceType": "ARTIFACT",
+							"bonusSourceID": "courtyard:potionCart"
+						}
+					]
+				},
+				"courtyardPotion_dragonPotion": {
+					"type": "SPELL",
+					"subtype": "courtyard:dragonPotion",
+					"val": 0,
+					"valueType": "AT_LEAST",
+					"hidden": true,
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "SPELL_DURATION",
+							"bonusSubtype": "courtyard:potionSupply",
+							"bonusSourceType": "ARTIFACT",
+							"bonusSourceID": "courtyard:potionCart"
 						}
 					]
 				}
 			}
 		},
-		"basic" : {
-			"effects" : {
-				"potionsExtra" : {
-					"val" : 1
+		"advanced": {
+			"effects": {
+				"courtyardPotion_regenerationPotion": {
+					"type": "SPELL",
+					"subtype": "courtyard:regenerationPotion",
+					"val": 2,
+					"valueType": "AT_LEAST",
+					"hidden": true,
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "SPELL_DURATION",
+							"bonusSubtype": "courtyard:potionSupply",
+							"bonusSourceType": "ARTIFACT",
+							"bonusSourceID": "courtyard:potionCart"
+						}
+					]
+				},
+				"courtyardPotion_weaponPoisonPotion": {
+					"type": "SPELL",
+					"subtype": "courtyard:weaponPoisonPotion",
+					"val": 2,
+					"valueType": "AT_LEAST",
+					"hidden": true,
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "SPELL_DURATION",
+							"bonusSubtype": "courtyard:potionSupply",
+							"bonusSourceType": "ARTIFACT",
+							"bonusSourceID": "courtyard:potionCart"
+						}
+					]
+				},
+				"courtyardPotion_dragonPotion": {
+					"type": "SPELL",
+					"subtype": "courtyard:dragonPotion",
+					"val": 1,
+					"valueType": "AT_LEAST",
+					"hidden": true,
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "SPELL_DURATION",
+							"bonusSubtype": "courtyard:potionSupply",
+							"bonusSourceType": "ARTIFACT",
+							"bonusSourceID": "courtyard:potionCart"
+						}
+					]
+				},
+				"courtyardPotion_toughnessPotion": {
+					"type": "SPELL",
+					"subtype": "courtyard:toughnessPotion",
+					"val": 0,
+					"valueType": "AT_LEAST",
+					"hidden": true,
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "SPELL_DURATION",
+							"bonusSubtype": "courtyard:potionSupply",
+							"bonusSourceType": "ARTIFACT",
+							"bonusSourceID": "courtyard:potionCart"
+						}
+					]
 				}
 			}
 		},
-		"advanced" : {
-			"effects" : {
-				"potionsExtra" : {
-					"val" : 2
-				}
-			}
-		},
-		"expert" : {
-			"effects" : {
-				"potionsExtra" : {
-					"val" : 3
+		"expert": {
+			"effects": {
+				"courtyardPotion_regenerationPotion": {
+					"type": "SPELL",
+					"subtype": "courtyard:regenerationPotion",
+					"val": 3,
+					"valueType": "AT_LEAST",
+					"hidden": true,
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "SPELL_DURATION",
+							"bonusSubtype": "courtyard:potionSupply",
+							"bonusSourceType": "ARTIFACT",
+							"bonusSourceID": "courtyard:potionCart"
+						}
+					]
+				},
+				"courtyardPotion_weaponPoisonPotion": {
+					"type": "SPELL",
+					"subtype": "courtyard:weaponPoisonPotion",
+					"val": 3,
+					"valueType": "AT_LEAST",
+					"hidden": true,
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "SPELL_DURATION",
+							"bonusSubtype": "courtyard:potionSupply",
+							"bonusSourceType": "ARTIFACT",
+							"bonusSourceID": "courtyard:potionCart"
+						}
+					]
+				},
+				"courtyardPotion_dragonPotion": {
+					"type": "SPELL",
+					"subtype": "courtyard:dragonPotion",
+					"val": 2,
+					"valueType": "AT_LEAST",
+					"hidden": true,
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "SPELL_DURATION",
+							"bonusSubtype": "courtyard:potionSupply",
+							"bonusSourceType": "ARTIFACT",
+							"bonusSourceID": "courtyard:potionCart"
+						}
+					]
+				},
+				"courtyardPotion_toughnessPotion": {
+					"type": "SPELL",
+					"subtype": "courtyard:toughnessPotion",
+					"val": 1,
+					"valueType": "AT_LEAST",
+					"hidden": true,
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "SPELL_DURATION",
+							"bonusSubtype": "courtyard:potionSupply",
+							"bonusSourceType": "ARTIFACT",
+							"bonusSourceID": "courtyard:potionCart"
+						}
+					]
+				},
+				"courtyardPotion_etheralPotion": {
+					"type": "SPELL",
+					"subtype": "courtyard:etheralPotion",
+					"val": 0,
+					"valueType": "AT_LEAST",
+					"hidden": true,
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "SPELL_DURATION",
+							"bonusSubtype": "courtyard:potionSupply",
+							"bonusSourceType": "ARTIFACT",
+							"bonusSourceID": "courtyard:potionCart"
+						}
+					]
 				}
 			}
 		}
