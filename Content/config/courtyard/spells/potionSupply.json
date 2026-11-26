@@ -1,164 +1,164 @@
 {
-	"potionSupply": {
-		"type": "ability",
-		"targetType": "CREATURE",
-		"name": "Potion Supply",
-		"school": {
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
+	"potionSupply" : {
+		"type" : "ability",
+		"targetType" : "CREATURE",
+		"name" : "Potion Supply",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 0,
-		"power": 0,
-		"defaultGainChance": 0,
-		"gainChance": {},
-		"animation": {},
-		"flags": {
-			"positive": true,
-			"special": true
+		"level" : 0,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {},
+		"flags" : {
+			"positive" : true,
+			"special" : true
 		},
-		"graphics": {
-			"iconBook": "courtyard/spells/Potions/potSupply1",
-			"iconEffect": "courtyard/spells/Potions/potSupply1",
-			"iconScroll": "courtyard/spells/Potions/potSupply1",
-			"iconScenarioBonus": "courtyard/spells/Potions/potSupply1"
+		"graphics" : {
+			"iconBook" : "courtyard/spells/Potions/potSupply1",
+			"iconEffect" : "courtyard/spells/Potions/potSupply1",
+			"iconScroll" : "courtyard/spells/Potions/potSupply1",
+			"iconScenarioBonus" : "courtyard/spells/Potions/potSupply1"
 		},
-		"sounds": {
-			"cast": null
+		"sounds" : {
+			"cast" : null
 		},
-		"levels": {
-			"base": {
-				"cost": 0,
-				"range": "0",
-				"power": 10,
-				"targetModifier": {
-					"smart": true
+		"levels" : {
+			"base" : {
+				"cost" : 0,
+				"range" : "0",
+				"power" : 10,
+				"targetModifier" : {
+					"smart" : true
 				},
-				"description": "Potion Cart supplies hero spellbook with potions.",
-				"battleEffects": {
-					"potionSupply": {
-						"type": "core:timed",
-						"bonus": {
-							"addRegenerationPotion": {
-								"propagator": "HERO",
-								"type": "SPELL",
-								"subtype": "regenerationPotion",
-								"val": 0,
-								"duration": "ONE_BATTLE",
-								"valueType": "AT_LEAST",
-								"hidden": true
+				"description" : "Potion Cart supplies hero spellbook with potions.",
+				"battleEffects" : {
+					"potionSupply" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"addRegenerationPotion" : {
+								"propagator" : "HERO",
+								"type" : "SPELL",
+								"subtype" : "regenerationPotion",
+								"val" : 0,
+								"duration" : "ONE_BATTLE",
+								"valueType" : "AT_LEAST",
+								"hidden" : true
 							},
-							"addWeaponPoisonPotion": {
-								"propagator": "HERO",
-								"type": "SPELL",
-								"subtype": "weaponPoisonPotion",
-								"val": 0,
-								"duration": "ONE_BATTLE",
-								"valueType": "AT_LEAST",
-								"hidden": true
+							"addWeaponPoisonPotion" : {
+								"propagator" : "HERO",
+								"type" : "SPELL",
+								"subtype" : "weaponPoisonPotion",
+								"val" : 0,
+								"duration" : "ONE_BATTLE",
+								"valueType" : "AT_LEAST",
+								"hidden" : true
 							}
 						}
 					}
 				}
 			},
-			"none": {
-				"description": "{Potion Cart}\n\nSupplies hero spellbook with potions."
+			"none" : {
+				"description" : "{Potion Cart}\n\nSupplies hero spellbook with potions."
 			},
-			"basic": {
-				"description": "Potion Cart supplies hero spellbook with potions.",
-				"battleEffects": {
-					"potionSupply": {
-						"bonus": {
-							"addRegenerationPotion": {
-								"val": 1
+			"basic" : {
+				"description" : "Potion Cart supplies hero spellbook with potions.",
+				"battleEffects" : {
+					"potionSupply" : {
+						"bonus" : {
+							"addRegenerationPotion" : {
+								"val" : 1
 							},
-							"addWeaponPoisonPotion": {
-								"val": 1
+							"addWeaponPoisonPotion" : {
+								"val" : 1
 							},
-							"addDragonPotion": {
-								"propagator": "HERO",
-								"type": "SPELL",
-								"subtype": "dragonPotion",
-								"val": 0,
-								"duration": "ONE_BATTLE",
-								"valueType": "AT_LEAST",
-								"hidden": true
+							"addDragonPotion" : {
+								"propagator" : "HERO",
+								"type" : "SPELL",
+								"subtype" : "dragonPotion",
+								"val" : 0,
+								"duration" : "ONE_BATTLE",
+								"valueType" : "AT_LEAST",
+								"hidden" : true
 							}
 						}
 					}
 				}
 			},
-			"advanced": {
-				"description": "Potion Cart supplies hero spellbook with potions.",
-				"battleEffects": {
-					"potionSupply": {
-						"bonus": {
-							"addRegenerationPotion": {
-								"val": 2
+			"advanced" : {
+				"description" : "Potion Cart supplies hero spellbook with potions.",
+				"battleEffects" : {
+					"potionSupply" : {
+						"bonus" : {
+							"addRegenerationPotion" : {
+								"val" : 2
 							},
-							"addWeaponPoisonPotion": {
-								"val": 2
+							"addWeaponPoisonPotion" : {
+								"val" : 2
 							},
-							"addDragonPotion": {
-								"propagator": "HERO",
-								"type": "SPELL",
-								"subtype": "dragonPotion",
-								"val": 1,
-								"duration": "ONE_BATTLE",
-								"valueType": "AT_LEAST",
-								"hidden": true
+							"addDragonPotion" : {
+								"propagator" : "HERO",
+								"type" : "SPELL",
+								"subtype" : "dragonPotion",
+								"val" : 1,
+								"duration" : "ONE_BATTLE",
+								"valueType" : "AT_LEAST",
+								"hidden" : true
 							},
-							"addToughnessPotion": {
-								"propagator": "HERO",
-								"type": "SPELL",
-								"subtype": "toughnessPotion",
-								"val": 0,
-								"duration": "ONE_BATTLE",
-								"valueType": "AT_LEAST",
-								"hidden": true
+							"addToughnessPotion" : {
+								"propagator" : "HERO",
+								"type" : "SPELL",
+								"subtype" : "toughnessPotion",
+								"val" : 0,
+								"duration" : "ONE_BATTLE",
+								"valueType" : "AT_LEAST",
+								"hidden" : true
 							}
 						}
 					}
 				}
 			},
-			"expert": {
-				"description": "Potion Cart supplies hero spellbook with potions.",
-				"battleEffects": {
-					"potionSupply": {
-						"bonus": {
-							"addRegenerationPotion": {
-								"val": 3
+			"expert" : {
+				"description" : "Potion Cart supplies hero spellbook with potions.",
+				"battleEffects" : {
+					"potionSupply" : {
+						"bonus" : {
+							"addRegenerationPotion" : {
+								"val" : 3
 							},
-							"addWeaponPoisonPotion": {
-								"val": 3
+							"addWeaponPoisonPotion" : {
+								"val" : 3
 							},
-							"addDragonPotion": {
-								"propagator": "HERO",
-								"type": "SPELL",
-								"subtype": "dragonPotion",
-								"val": 2,
-								"duration": "ONE_BATTLE",
-								"valueType": "AT_LEAST",
-								"hidden": true
+							"addDragonPotion" : {
+								"propagator" : "HERO",
+								"type" : "SPELL",
+								"subtype" : "dragonPotion",
+								"val" : 2,
+								"duration" : "ONE_BATTLE",
+								"valueType" : "AT_LEAST",
+								"hidden" : true
 							},
-							"addToughnessPotion": {
-								"propagator": "HERO",
-								"type": "SPELL",
-								"subtype": "toughnessPotion",
-								"val": 1,
-								"duration": "ONE_BATTLE",
-								"valueType": "AT_LEAST",
-								"hidden": true
+							"addToughnessPotion" : {
+								"propagator" : "HERO",
+								"type" : "SPELL",
+								"subtype" : "toughnessPotion",
+								"val" : 1,
+								"duration" : "ONE_BATTLE",
+								"valueType" : "AT_LEAST",
+								"hidden" : true
 							},
-							"addEtheralPotion": {
-								"propagator": "HERO",
-								"type": "SPELL",
-								"subtype": "etheralPotion",
-								"val": 0,
-								"duration": "ONE_BATTLE",
-								"valueType": "AT_LEAST",
-								"hidden": true
+							"addEtheralPotion" : {
+								"propagator" : "HERO",
+								"type" : "SPELL",
+								"subtype" : "etheralPotion",
+								"val" : 0,
+								"duration" : "ONE_BATTLE",
+								"valueType" : "AT_LEAST",
+								"hidden" : true
 							}
 						}
 					}

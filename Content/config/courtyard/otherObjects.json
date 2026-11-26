@@ -1,76 +1,76 @@
 {
-	"core:oceanBottle": {
-		"types": {
-			"courtyardJournal": {
-				"name": "Journal",
-				"sounds": {
-					"visit": [
+	"core:oceanBottle" : {
+		"types" : {
+			"courtyardJournal" : {
+				"name" : "Journal",
+				"sounds" : {
+					"visit" : [
 						"STORE"
 					]
 				},
-				"tags": [
+				"tags" : [
 					"sign",
 					"journal",
 					"book",
 					"letter"
 				],
-				"aiValue": 0,
-				"templates": {
-					"journal": {
-						"animation": "courtyard/map/other/AJournal",
-						"mask": [
+				"aiValue" : 0,
+				"templates" : {
+					"journal" : {
+						"animation" : "courtyard/map/other/AJournal",
+						"mask" : [
 							"VV",
 							"VA"
 						],
-						"visitableFrom": [
+						"visitableFrom" : [
 							"---",
 							"+-+",
 							"+++"
 						]
 					}
 				},
-				"visitableFromTop": false,
-				"blockVisit": true,
-				"removable": true
+				"visitableFromTop" : false,
+				"blockVisit" : true,
+				"removable" : true
 			},
-			"courtyardLetter": {
-				"name": "Letter",
-				"sounds": {
-					"visit": [
+			"courtyardLetter" : {
+				"name" : "Letter",
+				"sounds" : {
+					"visit" : [
 						"STORE"
 					]
 				},
-				"tags": [
+				"tags" : [
 					"sign",
 					"journal",
 					"book",
 					"letter"
 				],
-				"aiValue": 0,
-				"templates": {
-					"letter": {
-						"animation": "courtyard/map/other/ALetter",
-						"mask": [
+				"aiValue" : 0,
+				"templates" : {
+					"letter" : {
+						"animation" : "courtyard/map/other/ALetter",
+						"mask" : [
 							"VV",
 							"VA"
 						],
-						"visitableFrom": [
+						"visitableFrom" : [
 							"---",
 							"+-+",
 							"+++"
 						]
 					}
 				},
-				"visitableFromTop": false,
-				"blockVisit": true,
-				"removable": true
+				"visitableFromTop" : false,
+				"blockVisit" : true,
+				"removable" : true
 			}
 		}
 	},
-	"core:warMachineFactory": {
-		"base": {
-			"creatures": {
-				"append": [
+	"core:warMachineFactory" : {
+		"base" : {
+			"creatures" : {
+				"append" : [
 					"courtyard:cameraObscuraCreature"
 				]
 			}

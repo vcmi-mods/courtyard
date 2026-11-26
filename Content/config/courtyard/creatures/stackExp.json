@@ -1,11 +1,11 @@
 {
-	"cupid": {
-		"stackExperience": [
+	"cupid" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					1,
@@ -19,11 +19,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -37,11 +37,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					1,
@@ -55,11 +55,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					1,
@@ -73,11 +73,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -91,11 +91,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -109,10 +109,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "MAGIC_RESISTANCE"
+				"bonus" : {
+					"type" : "MAGIC_RESISTANCE"
 				},
-				"values": [
+				"values" : [
 					3,
 					6,
 					9,
@@ -126,10 +126,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "RETURN_AFTER_STRIKE"
+				"bonus" : {
+					"type" : "RETURN_AFTER_STRIKE"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					false,
@@ -143,10 +143,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "BLOCKS_RETALIATION"
+				"bonus" : {
+					"type" : "BLOCKS_RETALIATION"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					false,
@@ -161,13 +161,13 @@
 			}
 		]
 	},
-	"graniteCupid": {
-		"stackExperience": [
+	"graniteCupid" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					1,
@@ -181,11 +181,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -199,11 +199,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					1,
@@ -217,11 +217,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					1,
@@ -235,11 +235,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -253,11 +253,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -271,10 +271,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "MAGIC_RESISTANCE"
+				"bonus" : {
+					"type" : "MAGIC_RESISTANCE"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -288,17 +288,17 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.stunAbility",
-					"addInfo": [
+				"bonus" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.stunAbility",
+					"addInfo" : [
 						2,
 						2
 					],
-					"stacking": "courtyard.graniteCupidStun",
-					"valueType": "BASE_NUMBER"
+					"stacking" : "courtyard.graniteCupidStun",
+					"valueType" : "BASE_NUMBER"
 				},
-				"values": [
+				"values" : [
 					20,
 					20,
 					25,
@@ -313,14 +313,14 @@
 			}
 		]
 	},
-	"homunculus": {
-		"stackExperience": [
+	"homunculus" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -334,11 +334,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					1,
@@ -352,11 +352,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -370,11 +370,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					1,
@@ -388,11 +388,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -406,10 +406,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -423,11 +423,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "JOUSTING",
-					"val": 5
+				"bonus" : {
+					"type" : "JOUSTING",
+					"val" : 5
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					false,
@@ -441,11 +441,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "DEFENSIVE_STANCE",
-					"val": 5
+				"bonus" : {
+					"type" : "DEFENSIVE_STANCE",
+					"val" : 5
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					false,
@@ -459,15 +459,15 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "SPELL_BEFORE_ATTACK",
-					"subtype": "spell.disruptingRay",
-					"addInfo": [
+				"bonus" : {
+					"type" : "SPELL_BEFORE_ATTACK",
+					"subtype" : "spell.disruptingRay",
+					"addInfo" : [
 						3,
 						2
 					]
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -481,12 +481,12 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "HP_REGENERATION",
-					"stacking": "courtyard.homunculusRegeneration",
-					"valueType": "BASE_NUMBER"
+				"bonus" : {
+					"type" : "HP_REGENERATION",
+					"stacking" : "courtyard.homunculusRegeneration",
+					"valueType" : "BASE_NUMBER"
 				},
-				"values": [
+				"values" : [
 					8,
 					9,
 					10,
@@ -501,14 +501,14 @@
 			}
 		]
 	},
-	"gildedHomunculus": {
-		"stackExperience": [
+	"gildedHomunculus" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -522,11 +522,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					1,
@@ -540,11 +540,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -558,11 +558,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					1,
@@ -576,11 +576,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -594,10 +594,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -611,11 +611,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "DEFENSIVE_STANCE",
-					"val": 5
+				"bonus" : {
+					"type" : "DEFENSIVE_STANCE",
+					"val" : 5
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					false,
@@ -629,11 +629,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "GENERAL_DAMAGE_REDUCTION",
-					"subtype": "damageTypeMelee"
+				"bonus" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeMelee"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					5,
@@ -647,12 +647,12 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "HP_REGENERATION",
-					"stacking": "courtyard.gildedHomunculusRegeneration",
-					"valueType": "BASE_NUMBER"
+				"bonus" : {
+					"type" : "HP_REGENERATION",
+					"stacking" : "courtyard.gildedHomunculusRegeneration",
+					"valueType" : "BASE_NUMBER"
 				},
-				"values": [
+				"values" : [
 					10,
 					11,
 					11,
@@ -667,14 +667,14 @@
 			}
 		]
 	},
-	"fireNewt": {
-		"stackExperience": [
+	"fireNewt" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					2,
@@ -688,11 +688,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					2,
@@ -706,11 +706,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -724,11 +724,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -742,11 +742,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -760,10 +760,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -777,12 +777,12 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "COMBAT_EVENT_TRIGGER",
-					"subtype": "fireShield",
-					"stacking": "fireShield"
+				"bonus" : {
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "fireShield",
+					"stacking" : "fireShield"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -796,10 +796,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "RECEPTIVE"
+				"bonus" : {
+					"type" : "RECEPTIVE"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					false,
@@ -814,14 +814,14 @@
 			}
 		]
 	},
-	"salamander": {
-		"stackExperience": [
+	"salamander" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					2,
@@ -835,11 +835,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					2,
@@ -853,11 +853,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -871,11 +871,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -889,11 +889,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -907,10 +907,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -924,12 +924,12 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "COMBAT_EVENT_TRIGGER",
-					"subtype": "fireShield",
-					"stacking": "fireShield"
+				"bonus" : {
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "fireShield",
+					"stacking" : "fireShield"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					5,
@@ -943,17 +943,17 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "immolationCurse",
-					"addInfo": [
+				"bonus" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "immolationCurse",
+					"addInfo" : [
 						1,
 						0
 					],
-					"stacking": "courtyard.salamanderImmolation",
-					"valueType": "BASE_NUMBER"
+					"stacking" : "courtyard.salamanderImmolation",
+					"valueType" : "BASE_NUMBER"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -968,14 +968,14 @@
 			}
 		]
 	},
-	"arquebusier": {
-		"stackExperience": [
+	"arquebusier" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					2,
@@ -989,11 +989,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					2,
@@ -1007,11 +1007,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -1025,11 +1025,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -1043,11 +1043,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -1061,10 +1061,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -1078,10 +1078,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "DOUBLE_DAMAGE_CHANCE"
+				"bonus" : {
+					"type" : "DOUBLE_DAMAGE_CHANCE"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -1095,12 +1095,12 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "ENEMY_DEFENCE_REDUCTION",
-					"stacking": "courtyard.arquebusierPenetration",
-					"valueType": "BASE_NUMBER"
+				"bonus" : {
+					"type" : "ENEMY_DEFENCE_REDUCTION",
+					"stacking" : "courtyard.arquebusierPenetration",
+					"valueType" : "BASE_NUMBER"
 				},
-				"values": [
+				"values" : [
 					15,
 					15,
 					20,
@@ -1114,10 +1114,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "FREE_SHOOTING"
+				"bonus" : {
+					"type" : "FREE_SHOOTING"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					false,
@@ -1131,10 +1131,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "NO_DISTANCE_PENALTY"
+				"bonus" : {
+					"type" : "NO_DISTANCE_PENALTY"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					false,
@@ -1149,14 +1149,14 @@
 			}
 		]
 	},
-	"musketeer": {
-		"stackExperience": [
+	"musketeer" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					2,
@@ -1170,11 +1170,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					2,
@@ -1188,11 +1188,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -1206,11 +1206,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -1224,11 +1224,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -1242,10 +1242,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -1259,10 +1259,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "DOUBLE_DAMAGE_CHANCE"
+				"bonus" : {
+					"type" : "DOUBLE_DAMAGE_CHANCE"
 				},
-				"values": [
+				"values" : [
 					0,
 					5,
 					5,
@@ -1276,12 +1276,12 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "ENEMY_DEFENCE_REDUCTION",
-					"stacking": "courtyard.musketeerPenetration",
-					"valueType": "BASE_NUMBER"
+				"bonus" : {
+					"type" : "ENEMY_DEFENCE_REDUCTION",
+					"stacking" : "courtyard.musketeerPenetration",
+					"valueType" : "BASE_NUMBER"
 				},
-				"values": [
+				"values" : [
 					30,
 					30,
 					30,
@@ -1296,14 +1296,14 @@
 			}
 		]
 	},
-	"dodo": {
-		"stackExperience": [
+	"dodo" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					2,
@@ -1317,11 +1317,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -1335,11 +1335,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					2,
@@ -1353,11 +1353,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					2,
@@ -1371,11 +1371,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -1389,10 +1389,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -1406,16 +1406,16 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "COMBAT_EVENT_TRIGGER",
-					"subtype": "enchanted",
-					"addInfo": {
-						"spell": "slayer"
+				"bonus" : {
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "slayer"
 					},
-					"stacking": "courtyard.dodoSlayer",
-					"valueType": "BASE_NUMBER"
+					"stacking" : "courtyard.dodoSlayer",
+					"valueType" : "BASE_NUMBER"
 				},
-				"values": [
+				"values" : [
 					2,
 					2,
 					2,
@@ -1429,10 +1429,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "MAGIC_MIRROR"
+				"bonus" : {
+					"type" : "MAGIC_MIRROR"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -1446,10 +1446,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "ADDITIONAL_RETALIATION"
+				"bonus" : {
+					"type" : "ADDITIONAL_RETALIATION"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -1463,11 +1463,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "FIRST_STRIKE",
-					"subtype": "damageTypeMelee"
+				"bonus" : {
+					"type" : "FIRST_STRIKE",
+					"subtype" : "damageTypeMelee"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					false,
@@ -1482,14 +1482,14 @@
 			}
 		]
 	},
-	"battleDodo": {
-		"stackExperience": [
+	"battleDodo" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					2,
@@ -1503,11 +1503,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -1521,11 +1521,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					2,
@@ -1539,11 +1539,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					2,
@@ -1557,11 +1557,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -1575,10 +1575,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -1592,12 +1592,12 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "SPELL_RESISTANCE_AURA",
-					"stacking": "courtyard.battleDodoAura",
-					"valueType": "BASE_NUMBER"
+				"bonus" : {
+					"type" : "SPELL_RESISTANCE_AURA",
+					"stacking" : "courtyard.battleDodoAura",
+					"valueType" : "BASE_NUMBER"
 				},
-				"values": [
+				"values" : [
 					20,
 					20,
 					20,
@@ -1611,11 +1611,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "GENERAL_DAMAGE_REDUCTION",
-					"subtype": "damageTypeMelee"
+				"bonus" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeMelee"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					5,
@@ -1629,12 +1629,12 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "MAGIC_RESISTANCE",
-					"stacking": "courtyard.battleDodoSelfResistance",
-					"valueType": "BASE_NUMBER"
+				"bonus" : {
+					"type" : "MAGIC_RESISTANCE",
+					"stacking" : "courtyard.battleDodoSelfResistance",
+					"valueType" : "BASE_NUMBER"
 				},
-				"values": [
+				"values" : [
 					20,
 					20,
 					20,
@@ -1649,14 +1649,14 @@
 			}
 		]
 	},
-	"greaterDodo": {
-		"stackExperience": [
+	"greaterDodo" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					2,
@@ -1670,11 +1670,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -1688,11 +1688,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					2,
@@ -1706,11 +1706,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					2,
@@ -1724,11 +1724,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -1742,10 +1742,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -1759,10 +1759,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "ENEMY_DEFENCE_REDUCTION"
+				"bonus" : {
+					"type" : "ENEMY_DEFENCE_REDUCTION"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -1776,11 +1776,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "GENERAL_DAMAGE_REDUCTION",
-					"subtype": "damageTypeRanged"
+				"bonus" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeRanged"
 				},
-				"values": [
+				"values" : [
 					0,
 					10,
 					10,
@@ -1795,14 +1795,14 @@
 			}
 		]
 	},
-	"mandrake": {
-		"stackExperience": [
+	"mandrake" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -1816,11 +1816,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					1,
@@ -1834,11 +1834,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -1852,11 +1852,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					2,
@@ -1870,11 +1870,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -1888,10 +1888,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					1,
@@ -1905,10 +1905,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "CHANGES_SPELL_COST_FOR_ENEMY"
+				"bonus" : {
+					"type" : "CHANGES_SPELL_COST_FOR_ENEMY"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -1922,15 +1922,15 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.weakness",
-					"addInfo": [
+				"bonus" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.weakness",
+					"addInfo" : [
 						1,
 						2
 					]
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -1944,10 +1944,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "BLOCKS_RETALIATION"
+				"bonus" : {
+					"type" : "BLOCKS_RETALIATION"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					false,
@@ -1961,11 +1961,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.bind"
+				"bonus" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.bind"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -1979,10 +1979,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "HP_REGENERATION"
+				"bonus" : {
+					"type" : "HP_REGENERATION"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -1997,14 +1997,14 @@
 			}
 		]
 	},
-	"regalMandrake": {
-		"stackExperience": [
+	"regalMandrake" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -2018,11 +2018,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					2,
@@ -2036,11 +2036,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -2054,11 +2054,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					2,
@@ -2072,11 +2072,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -2090,10 +2090,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					1,
@@ -2107,10 +2107,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "CHANGES_SPELL_COST_FOR_ENEMY"
+				"bonus" : {
+					"type" : "CHANGES_SPELL_COST_FOR_ENEMY"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					1,
@@ -2124,13 +2124,13 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "SPELLCASTER",
-					"subtype": "vinesRevive",
-					"stacking": "courtyard.regrowthMastery",
-					"valueType": "BASE_NUMBER"
+				"bonus" : {
+					"type" : "SPELLCASTER",
+					"subtype" : "vinesRevive",
+					"stacking" : "courtyard.regrowthMastery",
+					"valueType" : "BASE_NUMBER"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -2144,12 +2144,12 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "CREATURE_SPELL_POWER",
-					"icon": "courtyard/icons/bonuses/sp_boost.png",
-					"description": "{Regrowth Power}\nIncreases Regrowth spell power by the listed % of the stack size."
+				"bonus" : {
+					"type" : "CREATURE_SPELL_POWER",
+					"icon" : "courtyard/icons/bonuses/sp_boost.png",
+					"description" : "{Regrowth Power}\nIncreases Regrowth spell power by the listed % of the stack size."
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					25,
@@ -2164,14 +2164,14 @@
 			}
 		]
 	},
-	"jabberwock": {
-		"stackExperience": [
+	"jabberwock" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -2185,11 +2185,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -2203,11 +2203,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -2221,11 +2221,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -2239,11 +2239,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -2257,10 +2257,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -2274,10 +2274,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "UNLIMITED_RETALIATIONS"
+				"bonus" : {
+					"type" : "UNLIMITED_RETALIATIONS"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					false,
@@ -2291,11 +2291,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "GENERAL_DAMAGE_REDUCTION",
-					"subtype": "damageTypeAll"
+				"bonus" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll"
 				},
-				"values": [
+				"values" : [
 					0,
 					5,
 					5,
@@ -2309,10 +2309,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "MAGIC_RESISTANCE"
+				"bonus" : {
+					"type" : "MAGIC_RESISTANCE"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					10,
@@ -2326,11 +2326,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "FIRST_STRIKE",
-					"subtype": "damageTypeMelee"
+				"bonus" : {
+					"type" : "FIRST_STRIKE",
+					"subtype" : "damageTypeMelee"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					false,
@@ -2344,10 +2344,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "HP_REGENERATION"
+				"bonus" : {
+					"type" : "HP_REGENERATION"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -2362,14 +2362,14 @@
 			}
 		]
 	},
-	"monstrousJabberwock": {
-		"stackExperience": [
+	"monstrousJabberwock" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -2383,11 +2383,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -2401,11 +2401,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -2419,11 +2419,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					3,
@@ -2437,11 +2437,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -2455,10 +2455,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -2472,10 +2472,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "MIND_IMMUNITY"
+				"bonus" : {
+					"type" : "MIND_IMMUNITY"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					true,
@@ -2489,11 +2489,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "acidBreathDamage"
+				"bonus" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "acidBreathDamage"
 				},
-				"values": [
+				"values" : [
 					5,
 					5,
 					5,
@@ -2507,13 +2507,13 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "SPECIFIC_SPELL_POWER",
-					"subtype": "acidBreathDamage",
-					"icon": "courtyard/icons/bonuses/sp_boost.png",
-					"description": "{Acid Breath Damage}\nThe listed amount is the additional acid damage per creature when Acid Breath triggers."
+				"bonus" : {
+					"type" : "SPECIFIC_SPELL_POWER",
+					"subtype" : "acidBreathDamage",
+					"icon" : "courtyard/icons/bonuses/sp_boost.png",
+					"description" : "{Acid Breath Damage}\nThe listed amount is the additional acid damage per creature when Acid Breath triggers."
 				},
-				"values": [
+				"values" : [
 					5,
 					5,
 					5,
@@ -2528,14 +2528,14 @@
 			}
 		]
 	},
-	"tangleVine": {
-		"stackExperience": [
+	"tangleVine" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -2549,11 +2549,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					1,
@@ -2567,11 +2567,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					1,
@@ -2585,11 +2585,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -2603,11 +2603,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -2621,10 +2621,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -2638,10 +2638,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "CHARGE_IMMUNITY"
+				"bonus" : {
+					"type" : "CHARGE_IMMUNITY"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					true,
@@ -2655,11 +2655,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "SPELL_IMMUNITY",
-					"subtype": "spell.slow"
+				"bonus" : {
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : "spell.slow"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					false,
@@ -2674,14 +2674,14 @@
 			}
 		]
 	},
-	"strangleVine": {
-		"stackExperience": [
+	"strangleVine" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -2695,11 +2695,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					1,
@@ -2713,11 +2713,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					1,
@@ -2731,11 +2731,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -2749,11 +2749,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -2767,10 +2767,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -2784,10 +2784,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "CHARGE_IMMUNITY"
+				"bonus" : {
+					"type" : "CHARGE_IMMUNITY"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					true,
@@ -2801,11 +2801,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "SPELL_IMMUNITY",
-					"subtype": "spell.magicArrow"
+				"bonus" : {
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : "spell.magicArrow"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					false,
@@ -2820,14 +2820,14 @@
 			}
 		]
 	},
-	"apparition": {
-		"stackExperience": [
+	"apparition" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					1,
@@ -2841,11 +2841,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					1,
@@ -2859,11 +2859,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMax",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -2877,11 +2877,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageMin",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					1,
 					1,
@@ -2895,10 +2895,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					1,
 					2,
 					4,
@@ -2912,10 +2912,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					1,
@@ -2929,11 +2929,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "SPELL_IMMUNITY",
-					"subtype": "spell.armageddon"
+				"bonus" : {
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : "spell.armageddon"
 				},
-				"values": [
+				"values" : [
 					false,
 					false,
 					true,
@@ -2948,14 +2948,14 @@
 			}
 		]
 	},
-	"cameraObscuraCreature": {
-		"stackExperience": [
+	"cameraObscuraCreature" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -2969,11 +2969,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					1,
@@ -2987,11 +2987,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageBoth",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -3005,11 +3005,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -3023,10 +3023,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "MANA_CHANNELING"
+				"bonus" : {
+					"type" : "MANA_CHANNELING"
 				},
-				"values": [
+				"values" : [
 					5,
 					5,
 					5,
@@ -3041,14 +3041,14 @@
 			}
 		]
 	},
-	"potionCartCreature": {
-		"stackExperience": [
+	"potionCartCreature" : {
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -3062,11 +3062,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
 				},
-				"values": [
+				"values" : [
 					1,
 					1,
 					1,
@@ -3080,11 +3080,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"subtype": "creatureDamageBoth",
-					"type": "CREATURE_DAMAGE"
+				"bonus" : {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -3098,11 +3098,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					5,
 					10,
 					15,
@@ -3116,12 +3116,12 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "COMBAT_EVENT_TRIGGER",
-					"subtype": "fireShield",
-					"stacking": "fireShield"
+				"bonus" : {
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "fireShield",
+					"stacking" : "fireShield"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					5,

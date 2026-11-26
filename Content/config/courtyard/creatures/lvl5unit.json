@@ -1,258 +1,258 @@
 {
-	"dodo": {
-		"abilities": {
-			"slayer": {
-				"type": "COMBAT_EVENT_TRIGGER",
-				"subtype": "enchanted",
-				"addInfo": {
-					"spell": "slayer"
+	"dodo" : {
+		"abilities" : {
+			"slayer" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : {
+					"spell" : "slayer"
 				},
-				"val": 2,
-				"stacking": "courtyard.dodoSlayer",
-				"valueType": "BASE_NUMBER"
+				"val" : 2,
+				"stacking" : "courtyard.dodoSlayer",
+				"valueType" : "BASE_NUMBER"
 			},
-			"fearless": {
-				"type": "FEARFUL",
-				"valueType": "AT_MOST",
-				"val": 0,
-				"description": "{Fearless}\nImmune to Fear ability",
-				"icon": "courtyard/icons/bonuses/e_fearl.png"
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "AT_MOST",
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "courtyard/icons/bonuses/e_fearl.png"
 			}
 		},
-		"advMapAmount": {
-			"max": 16,
-			"min": 8
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 8
 		},
-		"aiValue": 731,
-		"attack": 9,
-		"cost": {
-			"gold": 400
+		"aiValue" : 731,
+		"attack" : 9,
+		"cost" : {
+			"gold" : 400
 		},
-		"damage": {
-			"max": 12,
-			"min": 6
+		"damage" : {
+			"max" : 12,
+			"min" : 6
 		},
-		"defense": 9,
-		"doubleWide": true,
-		"faction": "courtyard",
-		"fightValue": 628,
-		"graphics": {
-			"animation": "courtyard/battle/CDodo.def",
-			"animationTime": {
-				"attack": 1,
-				"idle": 10,
-				"walk": 1
+		"defense" : 9,
+		"doubleWide" : true,
+		"faction" : "courtyard",
+		"fightValue" : 628,
+		"graphics" : {
+			"animation" : "courtyard/battle/CDodo.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
 			},
-			"iconLarge": "courtyard/icons/units/IcDodo101",
-			"iconSmall": "courtyard/icons/units/IsDodo101",
-			"map": "courtyard/map/lvl5unit.def",
-			"timeBetweenFidgets": 1
+			"iconLarge" : "courtyard/icons/units/IcDodo101",
+			"iconSmall" : "courtyard/icons/units/IsDodo101",
+			"map" : "courtyard/map/lvl5unit.def",
+			"timeBetweenFidgets" : 1
 		},
-		"growth": 3,
-		"hitPoints": 55,
-		"level": 5,
-		"name": {
-			"plural": "Dodos",
-			"singular": "Dodo"
+		"growth" : 3,
+		"hitPoints" : 55,
+		"level" : 5,
+		"name" : {
+			"plural" : "Dodos",
+			"singular" : "Dodo"
 		},
-		"sound": {
-			"attack": "courtyard/lvl6/DodoATTK.wav",
-			"defend": "courtyard/lvl6/DodoDFND.wav",
-			"killed": "courtyard/lvl6/DodoDEAD.wav",
-			"move": "courtyard/lvl6/DodoMOVE.wav",
-			"wince": "courtyard/lvl6/DodoWNCE.wav"
+		"sound" : {
+			"attack" : "courtyard/lvl6/DodoATTK.wav",
+			"defend" : "courtyard/lvl6/DodoDFND.wav",
+			"killed" : "courtyard/lvl6/DodoDEAD.wav",
+			"move" : "courtyard/lvl6/DodoMOVE.wav",
+			"wince" : "courtyard/lvl6/DodoWNCE.wav"
 		},
-		"speed": 5,
-		"upgrades": [
+		"speed" : 5,
+		"upgrades" : [
 			"battleDodo",
 			"greaterDodo"
 		]
 	},
-	"battleDodo": {
-		"abilities": {
-			"slayer": {
-				"type": "COMBAT_EVENT_TRIGGER",
-				"subtype": "enchanted",
-				"addInfo": {
-					"spell": "slayer"
+	"battleDodo" : {
+		"abilities" : {
+			"slayer" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : {
+					"spell" : "slayer"
 				},
-				"val": 3,
-				"stacking": "courtyard.dodoSlayer",
-				"valueType": "BASE_NUMBER"
+				"val" : 3,
+				"stacking" : "courtyard.dodoSlayer",
+				"valueType" : "BASE_NUMBER"
 			},
-			"fearless": {
-				"type": "FEARFUL",
-				"valueType": "AT_MOST",
-				"val": 0,
-				"description": "{Fearless}\nImmune to Fear ability",
-				"icon": "courtyard/icons/bonuses/e_fearl.png"
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "AT_MOST",
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "courtyard/icons/bonuses/e_fearl.png"
 			},
-			"damageReduction": {
-				"type": "GENERAL_DAMAGE_REDUCTION",
-				"subtype": "damageTypeAll",
-				"val": 25
+			"damageReduction" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeAll",
+				"val" : 25
 			},
-			"magicDamageReduction": {
-				"type": "SPELL_DAMAGE_REDUCTION",
-				"subtype": "any",
-				"val": 33
+			"magicDamageReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
+				"val" : 33
 			},
-			"magicDamageReductionAura": {
-				"type": "SPELL_RESISTANCE_AURA",
-				"val": 20,
-				"stacking": "courtyard.battleDodoAura",
-				"valueType": "BASE_NUMBER"
+			"magicDamageReductionAura" : {
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 20,
+				"stacking" : "courtyard.battleDodoAura",
+				"valueType" : "BASE_NUMBER"
 			},
-			"defensiveStance": {
-				"type": "DEFENSIVE_STANCE",
-				"val": 5
+			"defensiveStance" : {
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 5
 			},
-			"selfResistance": {
-				"type": "MAGIC_RESISTANCE",
-				"val": 20,
-				"stacking": "courtyard.battleDodoSelfResistance",
-				"valueType": "BASE_NUMBER"
+			"selfResistance" : {
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 20,
+				"stacking" : "courtyard.battleDodoSelfResistance",
+				"valueType" : "BASE_NUMBER"
 			}
 		},
-		"advMapAmount": {
-			"max": 12,
-			"min": 8
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 8
 		},
-		"aiValue": 1219,
-		"attack": 9,
-		"cost": {
-			"gold": 750
+		"aiValue" : 1219,
+		"attack" : 9,
+		"cost" : {
+			"gold" : 750
 		},
-		"damage": {
-			"max": 12,
-			"min": 6
+		"damage" : {
+			"max" : 12,
+			"min" : 6
 		},
-		"defense": 17,
-		"doubleWide": true,
-		"faction": "courtyard",
-		"fightValue": 1009,
-		"graphics": {
-			"animation": "courtyard/battle/CPdod.def",
-			"animationTime": {
-				"attack": 1,
-				"idle": 10,
-				"walk": 1
+		"defense" : 17,
+		"doubleWide" : true,
+		"faction" : "courtyard",
+		"fightValue" : 1009,
+		"graphics" : {
+			"animation" : "courtyard/battle/CPdod.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
 			},
-			"iconLarge": "courtyard/icons/units/IcDodo102",
-			"iconSmall": "courtyard/icons/units/IsDodo102",
-			"map": "courtyard/map/lvl5unitup.def",
-			"timeBetweenFidgets": 1
+			"iconLarge" : "courtyard/icons/units/IcDodo102",
+			"iconSmall" : "courtyard/icons/units/IsDodo102",
+			"map" : "courtyard/map/lvl5unitup.def",
+			"timeBetweenFidgets" : 1
 		},
-		"growth": 3,
-		"hitPoints": 70,
-		"level": 5,
-		"name": {
-			"plural": "Battle Dodos",
-			"singular": "Battle Dodo"
+		"growth" : 3,
+		"hitPoints" : 70,
+		"level" : 5,
+		"name" : {
+			"plural" : "Battle Dodos",
+			"singular" : "Battle Dodo"
 		},
-		"sound": {
-			"attack": "courtyard/lvl6/DodoATTK.wav",
-			"defend": "courtyard/lvl6/UPDodoDFND.wav",
-			"killed": "courtyard/lvl6/UPDodoDEAD.wav",
-			"move": "courtyard/lvl6/DodoMOVE.wav",
-			"wince": "courtyard/lvl6/UPDodoWNCE.wav"
+		"sound" : {
+			"attack" : "courtyard/lvl6/DodoATTK.wav",
+			"defend" : "courtyard/lvl6/UPDodoDFND.wav",
+			"killed" : "courtyard/lvl6/UPDodoDEAD.wav",
+			"move" : "courtyard/lvl6/DodoMOVE.wav",
+			"wince" : "courtyard/lvl6/UPDodoWNCE.wav"
 		},
-		"speed": 5,
-		"upgrades": [
+		"speed" : 5,
+		"upgrades" : [
 			"greaterDodo"
 		]
 	},
-	"greaterDodo": {
-		"abilities": {
-			"slayer": {
-				"type": "COMBAT_EVENT_TRIGGER",
-				"subtype": "enchanted",
-				"addInfo": {
-					"spell": "slayer"
+	"greaterDodo" : {
+		"abilities" : {
+			"slayer" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : {
+					"spell" : "slayer"
 				},
-				"val": 3,
-				"stacking": "courtyard.dodoSlayer",
-				"valueType": "BASE_NUMBER"
+				"val" : 3,
+				"stacking" : "courtyard.dodoSlayer",
+				"valueType" : "BASE_NUMBER"
 			},
-			"fearless": {
-				"type": "FEARFUL",
-				"valueType": "AT_MOST",
-				"val": 0,
-				"description": "{Fearless}\nImmune to Fear ability",
-				"icon": "courtyard/icons/bonuses/e_fearl.png"
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "AT_MOST",
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "courtyard/icons/bonuses/e_fearl.png"
 			},
-			"noRetaliation": {
-				"type": "NO_RETALIATION",
-				"description": "{No Retaliation}\nAffected unit will never retaliate to an attack",
-				"icon": "courtyard/icons/bonuses/E_RETAIL.png"
+			"noRetaliation" : {
+				"type" : "NO_RETALIATION",
+				"description" : "{No Retaliation}\nAffected unit will never retaliate to an attack",
+				"icon" : "courtyard/icons/bonuses/E_RETAIL.png"
 			},
-			"attacks": {
-				"type": "ADDITIONAL_ATTACK",
-				"val": 2
+			"attacks" : {
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 2
 			},
-			"mortify": {
-				"type": "MORALE",
-				"val": -1,
-				"propagator": "BATTLE_WIDE",
-				"limiters": [
+			"mortify" : {
+				"type" : "MORALE",
+				"val" : -1,
+				"propagator" : "BATTLE_WIDE",
+				"limiters" : [
 					"noneOf",
 					"OPPOSITE_SIDE",
 					{
-						"type": "CREATURE_TYPE_LIMITER",
-						"creature": "dodo",
-						"includeUpgrades": true
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "dodo",
+						"includeUpgrades" : true
 					}
 				],
-				"description": "{Decreases allies morale}\nGrand Dodos decrease the morale of allied non-Dodo creatures by one.",
-				"icon": "courtyard/icons/bonuses/negativemorale.png",
-				"propagationUpdater": "BONUS_OWNER_UPDATER"
+				"description" : "{Decreases allies morale}\nGrand Dodos decrease the morale of allied non-Dodo creatures by one.",
+				"icon" : "courtyard/icons/bonuses/negativemorale.png",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER"
 			}
 		},
-		"advMapAmount": {
-			"max": 12,
-			"min": 8
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 8
 		},
-		"aiValue": 1445,
-		"attack": 17,
-		"cost": {
-			"gold": 750
+		"aiValue" : 1445,
+		"attack" : 17,
+		"cost" : {
+			"gold" : 750
 		},
-		"damage": {
-			"max": 18,
-			"min": 10
+		"damage" : {
+			"max" : 18,
+			"min" : 10
 		},
-		"defense": 9,
-		"doubleWide": true,
-		"faction": "courtyard",
-		"fightValue": 1234,
-		"graphics": {
-			"animation": "courtyard/battle/CCdod.def",
-			"animationTime": {
-				"attack": 1,
-				"idle": 10,
-				"walk": 1
+		"defense" : 9,
+		"doubleWide" : true,
+		"faction" : "courtyard",
+		"fightValue" : 1234,
+		"graphics" : {
+			"animation" : "courtyard/battle/CCdod.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
 			},
-			"iconLarge": "courtyard/icons/units/IcDodo103",
-			"iconSmall": "courtyard/icons/units/IsDodo103",
-			"map": "courtyard/map/lvl5unitup.def",
-			"timeBetweenFidgets": 1
+			"iconLarge" : "courtyard/icons/units/IcDodo103",
+			"iconSmall" : "courtyard/icons/units/IsDodo103",
+			"map" : "courtyard/map/lvl5unitup.def",
+			"timeBetweenFidgets" : 1
 		},
-		"growth": 3,
-		"hitPoints": 60,
-		"level": 5,
-		"name": {
-			"plural": "Grand Dodos",
-			"singular": "Grand Dodo"
+		"growth" : 3,
+		"hitPoints" : 60,
+		"level" : 5,
+		"name" : {
+			"plural" : "Grand Dodos",
+			"singular" : "Grand Dodo"
 		},
-		"sound": {
-			"attack": "courtyard/lvl6/DodoATTK.wav",
-			"defend": "courtyard/lvl6/UPDodoDFND.wav",
-			"killed": "courtyard/lvl6/UPDodoDEAD.wav",
-			"move": "courtyard/lvl6/DodoMOVE.wav",
-			"wince": "courtyard/lvl6/UPDodoWNCE.wav"
+		"sound" : {
+			"attack" : "courtyard/lvl6/DodoATTK.wav",
+			"defend" : "courtyard/lvl6/UPDodoDFND.wav",
+			"killed" : "courtyard/lvl6/UPDodoDEAD.wav",
+			"move" : "courtyard/lvl6/DodoMOVE.wav",
+			"wince" : "courtyard/lvl6/UPDodoWNCE.wav"
 		},
-		"speed": 7,
-		"upgrades": [
+		"speed" : 7,
+		"upgrades" : [
 			"battleDodo"
 		]
 	}

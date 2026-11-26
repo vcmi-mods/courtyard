@@ -1,82 +1,82 @@
 {
-	"vinesRevive": {
-		"type": "ability",
-		"name": "Regrowth",
-		"school": {
-			"air": false,
-			"earth": true,
-			"fire": false,
-			"water": false
+	"vinesRevive" : {
+		"type" : "ability",
+		"name" : "Regrowth",
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
 		},
-		"targetType": "CREATURE",
-		"level": 5,
-		"power": 1,
-		"defaultGainChance": 0,
-		"gainChance": {},
-		"animation": {
-			"affect": [
+		"targetType" : "CREATURE",
+		"level" : 5,
+		"power" : 1,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"affect" : [
 				"courtyard/spells/vinesRevive/SP_SYMBIOSIS.def"
 			]
 		},
-		"flags": {
-			"positive": true,
-			"rising": true
+		"flags" : {
+			"positive" : true,
+			"rising" : true
 		},
-		"targetCondition": {
-			"anyOf": {
-				"courtyard:creature.tangleVine": "absolute",
-				"courtyard:creature.strangleVine": "absolute"
+		"targetCondition" : {
+			"anyOf" : {
+				"courtyard:creature.tangleVine" : "absolute",
+				"courtyard:creature.strangleVine" : "absolute"
 			}
 		},
-		"sounds": {
-			"cast": "RESURECT"
+		"sounds" : {
+			"cast" : "RESURECT"
 		},
-		"graphics": {
-			"iconBook": "courtyard/spells/Pacifism/Pacifism_book1",
-			"iconEffect": "courtyard/spells/Pacifism/Pacifism_effect1",
-			"iconScroll": "courtyard/spells/Pacifism/Pacifism_scroll1",
-			"iconScenarioBonus": "courtyard/spells/Pacifism/Pacifism_bonus1"
+		"graphics" : {
+			"iconBook" : "courtyard/spells/Pacifism/Pacifism_book1",
+			"iconEffect" : "courtyard/spells/Pacifism/Pacifism_effect1",
+			"iconScroll" : "courtyard/spells/Pacifism/Pacifism_scroll1",
+			"iconScenarioBonus" : "courtyard/spells/Pacifism/Pacifism_bonus1"
 		},
-		"levels": {
-			"base": {
-				"range": "X",
-				"targetModifier": {
-					"smart": true
+		"levels" : {
+			"base" : {
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : true
 				},
-				"cost": 0,
-				"description": "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
-				"power": 8,
-				"battleEffects": {
-					"heal": {
-						"type": "core:heal",
-						"healLevel": "resurrect",
-						"healPower": "oneBattle",
-						"minFullUnits": 1
+				"cost" : 0,
+				"description" : "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
+				"power" : 8,
+				"battleEffects" : {
+					"heal" : {
+						"type" : "core:heal",
+						"healLevel" : "resurrect",
+						"healPower" : "oneBattle",
+						"minFullUnits" : 1
 					},
-					"cure": {
-						"type": "core:dispel",
-						"indirect": true,
-						"optional": true,
-						"dispelNegative": true,
-						"dispelNeutral": false,
-						"dispelPositive": false
+					"cure" : {
+						"type" : "core:dispel",
+						"indirect" : true,
+						"optional" : true,
+						"dispelNegative" : true,
+						"dispelNeutral" : false,
+						"dispelPositive" : false
 					}
 				}
 			},
-			"none": {
-				"cost": 0
+			"none" : {
+				"cost" : 0
 			},
-			"basic": {
-				"description": "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
-				"power": 10
+			"basic" : {
+				"description" : "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
+				"power" : 10
 			},
-			"advanced": {
-				"description": "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
-				"power": 12
+			"advanced" : {
+				"description" : "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
+				"power" : 12
 			},
-			"expert": {
-				"description": "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
-				"power": 14
+			"expert" : {
+				"description" : "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
+				"power" : 14
 			}
 		}
 	}

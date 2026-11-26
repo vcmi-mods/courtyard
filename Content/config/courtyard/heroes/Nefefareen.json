@@ -1,137 +1,137 @@
 {
-	"11nefefareen": {
-		"army": [
+	"11nefefareen" : {
+		"army" : [
 			{
-				"creature": "cupid",
-				"max": 18,
-				"min": 10
+				"creature" : "cupid",
+				"max" : 18,
+				"min" : 10
 			},
 			{
-				"creature": "fireNewt",
-				"max": 5,
-				"min": 3
+				"creature" : "fireNewt",
+				"max" : 5,
+				"min" : 3
 			},
 			{
-				"creature": "fireNewt",
-				"max": 5,
-				"min": 3
+				"creature" : "fireNewt",
+				"max" : 5,
+				"min" : 3
 			}
 		],
-		"class": "philosopher",
-		"female": true,
-		"images": {
-			"large": "courtyard/heroes/Nefefareen/portraitlarge.png",
-			"small": "courtyard/heroes/Nefefareen/portraitsmall.png",
-			"specialtyLarge": "courtyard/heroes/Nefefareen/speclarge1.png",
-			"specialtySmall": "courtyard/heroes/Nefefareen/specsmall1.png"
+		"class" : "philosopher",
+		"female" : true,
+		"images" : {
+			"large" : "courtyard/heroes/Nefefareen/portraitlarge.png",
+			"small" : "courtyard/heroes/Nefefareen/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Nefefareen/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Nefefareen/specsmall1.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "fireMagic"
+				"level" : "basic",
+				"skill" : "fireMagic"
 			},
 			{
-				"level": "basic",
-				"skill": "wisdom"
+				"level" : "basic",
+				"skill" : "wisdom"
 			}
 		],
-		"spellbook": [
+		"spellbook" : [
 			"fireShield"
 		],
-		"specialty": {
-			"bonuses": {
-				"setAflame": {
-					"type": "SPELL_AFTER_ATTACK",
-					"addInfo": [
+		"specialty" : {
+			"bonuses" : {
+				"setAflame" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"addInfo" : [
 						1,
 						0
 					],
-					"subtype": "immolationCurse",
-					"val": 33,
-					"limiters": [
+					"subtype" : "immolationCurse",
+					"val" : 33,
+					"limiters" : [
 						"allOf",
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "fireNewt",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireNewt",
+							"includeUpgrades" : true
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "COMBAT_EVENT_TRIGGER",
-							"bonusSubtype": "fireShield",
-							"bonusSourceType": "SPELL_EFFECT",
-							"bonusSourceID": "core:fireShield"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "COMBAT_EVENT_TRIGGER",
+							"bonusSubtype" : "fireShield",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "core:fireShield"
 						}
 					],
-					"stacking": "courtyard.salamanderImmolation",
-					"valueType": "BASE_NUMBER"
+					"stacking" : "courtyard.salamanderImmolation",
+					"valueType" : "BASE_NUMBER"
 				},
-				"salamanderReceptive": {
-					"type": "RECEPTIVE",
-					"limiters": [
+				"salamanderReceptive" : {
+					"type" : "RECEPTIVE",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "fireNewt",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireNewt",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"salamanderEnchantSpeed": {
-					"type": "STACKS_SPEED",
-					"val": 2,
-					"limiters": [
+				"salamanderEnchantSpeed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 2,
+					"limiters" : [
 						"allOf",
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "fireNewt",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireNewt",
+							"includeUpgrades" : true
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "COMBAT_EVENT_TRIGGER",
-							"bonusSubtype": "fireShield",
-							"bonusSourceType": "SPELL_EFFECT",
-							"bonusSourceID": "core:fireShield"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "COMBAT_EVENT_TRIGGER",
+							"bonusSubtype" : "fireShield",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "core:fireShield"
 						}
 					]
 				},
-				"salamanderEnchantDamage": {
-					"type": "CREATURE_DAMAGE",
-					"subtype": "creatureDamageBoth",
-					"val": 2,
-					"limiters": [
+				"salamanderEnchantDamage" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth",
+					"val" : 2,
+					"limiters" : [
 						"allOf",
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "fireNewt",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireNewt",
+							"includeUpgrades" : true
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "COMBAT_EVENT_TRIGGER",
-							"bonusSubtype": "fireShield",
-							"bonusSourceType": "SPELL_EFFECT",
-							"bonusSourceID": "core:fireShield"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "COMBAT_EVENT_TRIGGER",
+							"bonusSubtype" : "fireShield",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "core:fireShield"
 						}
 					]
 				},
-				"salamanderEnchantMorale": {
-					"type": "MORALE",
-					"val": 1,
-					"valueType": "AT_LEAST",
-					"limiters": [
+				"salamanderEnchantMorale" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"valueType" : "AT_LEAST",
+					"limiters" : [
 						"allOf",
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "fireNewt",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireNewt",
+							"includeUpgrades" : true
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "COMBAT_EVENT_TRIGGER",
-							"bonusSubtype": "fireShield",
-							"bonusSourceType": "SPELL_EFFECT",
-							"bonusSourceID": "core:fireShield"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "COMBAT_EVENT_TRIGGER",
+							"bonusSubtype" : "fireShield",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "core:fireShield"
 						}
 					]
 				}

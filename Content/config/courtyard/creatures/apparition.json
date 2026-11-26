@@ -1,127 +1,127 @@
 {
-	"apparition": {
-		"abilities": {
-			"canFly": {
-				"type": "FLYING",
-				"subtype": "movementTeleporting"
+	"apparition" : {
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
 			},
-			"immuneToMind": {
-				"type": "MIND_IMMUNITY",
-				"hidden": true
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY",
+				"hidden" : true
 			},
-			"nonLiving": {
-				"type": "NON_LIVING",
-				"hidden": true
+			"nonLiving" : {
+				"type" : "NON_LIVING",
+				"hidden" : true
 			},
-			"undead": {
-				"type": "UNDEAD",
-				"description": "{Ephemeral}\nApparitions are treated as undead and non-living creatures",
-				"icon": "courtyard/icons/bonuses/ephemeral.png"
+			"undead" : {
+				"type" : "UNDEAD",
+				"description" : "{Ephemeral}\nApparitions are treated as undead and non-living creatures",
+				"icon" : "courtyard/icons/bonuses/ephemeral.png"
 			},
-			"earthImmune": {
-				"type": "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "earth"
+			"earthImmune" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "earth"
 			},
-			"noRevive": {
-				"type": "SPELL_IMMUNITY",
-				"subtype": "animateDead",
-				"addInfo": 1,
-				"description": "{Animate Dead Immunity}\nApparitions can't be reanimated by Animate Dead spell",
-				"icon": "courtyard/icons/bonuses/im_animate.png"
+			"noRevive" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "animateDead",
+				"addInfo" : 1,
+				"description" : "{Animate Dead Immunity}\nApparitions can't be reanimated by Animate Dead spell",
+				"icon" : "courtyard/icons/bonuses/im_animate.png"
 			},
-			"ephemeral": {
-				"type": "COMBAT_EVENT_TRIGGER",
-				"subtype": "courtyard:apparitionLifetime",
-				"val": 2,
-				"description": "{Ephemeral}\nApparitions disappear at the start of the second round boundary after appearing (third with Migdigravia).",
-				"icon": "courtyard/icons/bonuses/ephemeral.png",
-				"stacking": "courtyard.apparition.lifetime"
+			"ephemeral" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "courtyard:apparitionLifetime",
+				"val" : 2,
+				"description" : "{Ephemeral}\nApparitions disappear at the start of the second round boundary after appearing (third with Migdigravia).",
+				"icon" : "courtyard/icons/bonuses/ephemeral.png",
+				"stacking" : "courtyard.apparition.lifetime"
 			},
-			"noAttacks": {
-				"type": "ADDITIONAL_ATTACK",
-				"val": -1,
-				"valueType": "AT_MOST",
-				"description": "{No Attacks}\nApparitions can teleport, but perform no attacks or retaliations.",
-				"icon": "courtyard/icons/bonuses/ephemeral.png"
+			"noAttacks" : {
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : -1,
+				"valueType" : "AT_MOST",
+				"description" : "{No Attacks}\nApparitions can teleport, but perform no attacks or retaliations.",
+				"icon" : "courtyard/icons/bonuses/ephemeral.png"
 			},
-			"damageReduction1": {
-				"type": "GENERAL_DAMAGE_REDUCTION",
-				"subtype": "damageTypeAll",
-				"val": 98
+			"damageReduction1" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeAll",
+				"val" : 98
 			},
-			"magicDamageReduction": {
-				"type": "SPELL_DAMAGE_REDUCTION",
-				"subtype": "any",
-				"val": 98
+			"magicDamageReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
+				"val" : 98
 			},
-			"fear": {
-				"type": "FEARFUL",
-				"val": 10,
-				"description": "{Fearsome}\nEnemy units have a 10% chance of freezing in fear",
-				"icon": "courtyard/icons/bonuses/e_fear.png",
-				"propagator": "BATTLE_WIDE",
-				"propagationUpdater": "BONUS_OWNER_UPDATER",
-				"limiters": [
+			"fear" : {
+				"type" : "FEARFUL",
+				"val" : 10,
+				"description" : "{Fearsome}\nEnemy units have a 10% chance of freezing in fear",
+				"icon" : "courtyard/icons/bonuses/e_fear.png",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
 					"OPPOSITE_SIDE",
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters": [
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
 							"LIVING"
 						]
 					}
 				],
-				"stacking": "courtyard.apparition.fear"
+				"stacking" : "courtyard.apparition.fear"
 			},
-			"noRetaliation": {
-				"type": "NO_RETALIATION",
-				"description": "{No Retaliation}\nAffected unit will never retaliate to an attack",
-				"icon": "courtyard/icons/bonuses/ephemeral.png"
+			"noRetaliation" : {
+				"type" : "NO_RETALIATION",
+				"description" : "{No Retaliation}\nAffected unit will never retaliate to an attack",
+				"icon" : "courtyard/icons/bonuses/ephemeral.png"
 			}
 		},
-		"special": true,
-		"advMapAmount": {
-			"max": 12,
-			"min": 6
+		"special" : true,
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 6
 		},
-		"aiValue": 200,
-		"attack": 5,
-		"cost": {
-			"gold": 150
+		"aiValue" : 200,
+		"attack" : 5,
+		"cost" : {
+			"gold" : 150
 		},
-		"damage": {
-			"max": 0,
-			"min": 0
+		"damage" : {
+			"max" : 0,
+			"min" : 0
 		},
-		"defense": 0,
-		"faction": "courtyard",
-		"fightValue": 120,
-		"graphics": {
-			"animation": "courtyard/battle/CApparition.def",
-			"animationTime": {
-				"attack": 1,
-				"idle": 10,
-				"walk": 1
+		"defense" : 0,
+		"faction" : "courtyard",
+		"fightValue" : 120,
+		"graphics" : {
+			"animation" : "courtyard/battle/CApparition.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
 			},
-			"iconLarge": "courtyard/icons/units/IcApparition",
-			"iconSmall": "courtyard/icons/units/IsApparition",
-			"map": "courtyard/map/MApparition.def",
-			"timeBetweenFidgets": 1
+			"iconLarge" : "courtyard/icons/units/IcApparition",
+			"iconSmall" : "courtyard/icons/units/IsApparition",
+			"map" : "courtyard/map/MApparition.def",
+			"timeBetweenFidgets" : 1
 		},
-		"growth": 1,
-		"hasDoubleWeek": false,
-		"hitPoints": 3,
-		"level": 3,
-		"name": {
-			"plural": "Ephemeral Apparitions",
-			"singular": "Ephemeral Apparition"
+		"growth" : 1,
+		"hasDoubleWeek" : false,
+		"hitPoints" : 3,
+		"level" : 3,
+		"name" : {
+			"plural" : "Ephemeral Apparitions",
+			"singular" : "Ephemeral Apparition"
 		},
-		"sound": {
-			"attack": "WGHTATTK.wav",
-			"defend": "WGHTDFND.wav",
-			"killed": "WGHTKILL.wav",
-			"move": "WGHTMOVE.wav",
-			"wince": "WGHTWNCE.wav"
+		"sound" : {
+			"attack" : "WGHTATTK.wav",
+			"defend" : "WGHTDFND.wav",
+			"killed" : "WGHTKILL.wav",
+			"move" : "WGHTMOVE.wav",
+			"wince" : "WGHTWNCE.wav"
 		},
-		"speed": 5
+		"speed" : 5
 	}
 }

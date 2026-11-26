@@ -1,73 +1,73 @@
 {
-	"04dizheel": {
-		"army": [
+	"04dizheel" : {
+		"army" : [
 			{
-				"creature": "cupid",
-				"max": 18,
-				"min": 10
+				"creature" : "cupid",
+				"max" : 18,
+				"min" : 10
 			},
 			{
-				"creature": "homunculus",
-				"max": 11,
-				"min": 5
+				"creature" : "homunculus",
+				"max" : 11,
+				"min" : 5
 			},
 			{
-				"creature": "fireNewt",
-				"max": 5,
-				"min": 3
+				"creature" : "fireNewt",
+				"max" : 5,
+				"min" : 3
 			}
 		],
-		"class": "aristocrat",
-		"female": true,
-		"images": {
-			"large": "courtyard/heroes/Dizheel/portraitlarge.png",
-			"small": "courtyard/heroes/Dizheel/portraitsmall.png",
-			"specialtyLarge": "courtyard/heroes/Dizheel/speclarge1.png",
-			"specialtySmall": "courtyard/heroes/Dizheel/specsmall1.png"
+		"class" : "aristocrat",
+		"female" : true,
+		"images" : {
+			"large" : "courtyard/heroes/Dizheel/portraitlarge.png",
+			"small" : "courtyard/heroes/Dizheel/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Dizheel/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Dizheel/specsmall1.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "diplomacy"
+				"level" : "basic",
+				"skill" : "diplomacy"
 			},
 			{
-				"level": "basic",
-				"skill": "logistics"
+				"level" : "basic",
+				"skill" : "logistics"
 			}
 		],
-		"specialty": {
-			"bonuses": {
-				"diplomacy": {
-					"type": "WANDERING_CREATURES_JOIN_BONUS",
-					"val": 1,
-					"valueType": "ADDITIVE_VALUE",
-					"updater": {
-						"type": "TIMES_HERO_LEVEL",
-						"stepSize": 12
+		"specialty" : {
+			"bonuses" : {
+				"diplomacy" : {
+					"type" : "WANDERING_CREATURES_JOIN_BONUS",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 12
 					},
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "WANDERING_CREATURES_JOIN_BONUS",
-							"bonusSourceType": "SECONDARY_SKILL",
-							"bonusSourceID": "core:diplomacy"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "WANDERING_CREATURES_JOIN_BONUS",
+							"bonusSourceType" : "SECONDARY_SKILL",
+							"bonusSourceID" : "core:diplomacy"
 						}
 					]
 				},
-				"surrender": {
-					"type": "SURRENDER_DISCOUNT",
-					"val": 1,
-					"valueType": "ADDITIVE_VALUE",
-					"updater": {
-						"type": "TIMES_HERO_LEVEL",
-						"stepSize": 4
+				"surrender" : {
+					"type" : "SURRENDER_DISCOUNT",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 4
 					},
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "SURRENDER_DISCOUNT",
-							"bonusSourceType": "SECONDARY_SKILL",
-							"bonusSourceID": "core:diplomacy"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "SURRENDER_DISCOUNT",
+							"bonusSourceType" : "SECONDARY_SKILL",
+							"bonusSourceID" : "core:diplomacy"
 						}
 					]
 				}

@@ -1,84 +1,84 @@
 {
-	"09migdigravia": {
-		"army": [
+	"09migdigravia" : {
+		"army" : [
 			{
-				"creature": "cupid",
-				"max": 18,
-				"min": 10
+				"creature" : "cupid",
+				"max" : 18,
+				"min" : 10
 			},
 			{
-				"creature": "cameraObscuraCreature",
-				"max": 1,
-				"min": 1
+				"creature" : "cameraObscuraCreature",
+				"max" : 1,
+				"min" : 1
 			},
 			{
-				"creature": "homunculus",
-				"max": 11,
-				"min": 5
+				"creature" : "homunculus",
+				"max" : 11,
+				"min" : 5
 			}
 		],
-		"class": "philosopher",
-		"female": true,
-		"images": {
-			"large": "courtyard/heroes/Migdigravia/portraitlarge.png",
-			"small": "courtyard/heroes/Migdigravia/portraitsmall.png",
-			"specialtyLarge": "courtyard/heroes/Migdigravia/speclarge1.png",
-			"specialtySmall": "courtyard/heroes/Migdigravia/specsmall1.png"
+		"class" : "philosopher",
+		"female" : true,
+		"images" : {
+			"large" : "courtyard/heroes/Migdigravia/portraitlarge.png",
+			"small" : "courtyard/heroes/Migdigravia/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Migdigravia/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Migdigravia/specsmall1.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "wisdom"
+				"level" : "basic",
+				"skill" : "wisdom"
 			},
 			{
-				"level": "basic",
-				"skill": "sorcery"
+				"level" : "basic",
+				"skill" : "sorcery"
 			}
 		],
-		"spellbook": [
+		"spellbook" : [
 			"blind"
 		],
-		"specialty": {
-			"bonuses": {
-				"spellcasts": {
-					"type": "CASTS",
-					"val": 3,
-					"limiters": [
+		"specialty" : {
+			"bonuses" : {
+				"spellcasts" : {
+					"type" : "CASTS",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "cameraObscuraCreature",
-							"includeUpgrades": false
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "cameraObscuraCreature",
+							"includeUpgrades" : false
 						}
 					]
 				},
-				"summonPower": {
-					"type": "SPECIFIC_SPELL_POWER",
-					"subtype": "summonApparition",
-					"val": 10,
-					"limiters": [
+				"summonPower" : {
+					"type" : "SPECIFIC_SPELL_POWER",
+					"subtype" : "summonApparition",
+					"val" : 10,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "cameraObscuraCreature",
-							"includeUpgrades": false
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "cameraObscuraCreature",
+							"includeUpgrades" : false
 						}
 					],
-					"updater": {
-						"type": "TIMES_HERO_LEVEL",
-						"stepSize": 5
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
 					}
 				},
-				"apparitionLifetime": {
-					"type": "COMBAT_EVENT_TRIGGER",
-					"subtype": "apparitionLifetime",
-					"val": 3,
-					"stacking": "courtyard.apparition.lifetime",
-					"limiters": [
+				"apparitionLifetime" : {
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "apparitionLifetime",
+					"val" : 3,
+					"stacking" : "courtyard.apparition.lifetime",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "apparition"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "apparition"
 						}
 					],
-					"hidden": true
+					"hidden" : true
 				}
 			}
 		}

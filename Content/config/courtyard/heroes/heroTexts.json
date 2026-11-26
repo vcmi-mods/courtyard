@@ -1,177 +1,177 @@
 {
-	"01caballe": {
-		"texts": {
-			"biography": "In her slumbersome dreams, young lady Caballe often finds herself at a feast with beverages of fantastical properties. Although she never tasted any of them herself, she always wakes up with precise knowledge of how to create such drinks.",
-			"name": "Caballe",
-			"specialty": {
-				"description": "Allied creatures of good alignment gain +1 morale while affected by at least one potion. Allied creatures of neutral alignment gain +1 luck instead. These specialty bonuses do not stack with additional potions.",
-				"name": "Potion Benefits",
-				"tooltip": "Passive Bonus: Potion Benefits"
+	"01caballe" : {
+		"texts" : {
+			"biography" : "In her slumbersome dreams, young lady Caballe often finds herself at a feast with beverages of fantastical properties. Although she never tasted any of them herself, she always wakes up with precise knowledge of how to create such drinks.",
+			"name" : "Caballe",
+			"specialty" : {
+				"description" : "Allied creatures of good alignment gain +1 morale while affected by at least one potion. Allied creatures of neutral alignment gain +1 luck instead. These specialty bonuses do not stack with additional potions.",
+				"name" : "Potion Benefits",
+				"tooltip" : "Passive Bonus: Potion Benefits"
 			}
 		}
 	},
-	"04dizheel": {
-		"texts": {
-			"biography": "The noblewoman known as Dizheel is a charismatic leader. Wherever she appears, it is not rare for common folk, mercenaries and even lesser lords to join her cause whatever it might be.",
-			"name": "Dizheel",
-			"specialty": {
-				"description": "With Diplomacy learned, gains one additional point of diplomatic disposition per 12 completed hero levels (the normal Expert Diplomacy cap still applies) and an additional 1 percentage point of surrender discount per 4 completed levels.",
-				"name": "Diplomacy",
-				"tooltip": "Secondary Skill Bonus: Diplomacy"
+	"04dizheel" : {
+		"texts" : {
+			"biography" : "The noblewoman known as Dizheel is a charismatic leader. Wherever she appears, it is not rare for common folk, mercenaries and even lesser lords to join her cause whatever it might be.",
+			"name" : "Dizheel",
+			"specialty" : {
+				"description" : "With Diplomacy learned, gains one additional point of diplomatic disposition per 12 completed hero levels (the normal Expert Diplomacy cap still applies) and an additional 1 percentage point of surrender discount per 4 completed levels.",
+				"name" : "Diplomacy",
+				"tooltip" : "Secondary Skill Bonus: Diplomacy"
 			}
 		}
 	},
-	"15zazzerpan": {
-		"texts": {
-			"biography": "The only thing more legendary than Zazzerpan's magic skill was his complacency. When he was defeated by a student in a magic duel, he revoked all his academic titles, and fled Bracada abruptly in shame. Among Larnians he still insists not to be called professor, as he has not yet recovered from his sense of failure.",
-			"name": "Zazzerpan",
-			"specialty": {
-				"description": "Negates ordinary natural spell immunities of creatures on both sides of the battlefield. Absolute immunities and non-magical effects are unaffected.",
-				"name": "Negate Immunities",
-				"tooltip": "Passive Bonus: Negate Immunities"
+	"15zazzerpan" : {
+		"texts" : {
+			"biography" : "The only thing more legendary than Zazzerpan's magic skill was his complacency. When he was defeated by a student in a magic duel, he revoked all his academic titles, and fled Bracada abruptly in shame. Among Larnians he still insists not to be called professor, as he has not yet recovered from his sense of failure.",
+			"name" : "Zazzerpan",
+			"specialty" : {
+				"description" : "Negates ordinary natural spell immunities of creatures on both sides of the battlefield. Absolute immunities and non-magical effects are unaffected.",
+				"name" : "Negate Immunities",
+				"tooltip" : "Passive Bonus: Negate Immunities"
 			}
 		}
 	},
-	"08audred": {
-		"texts": {
-			"biography": "This prodigy alchemist, while still too young to even attend magical university, turned to research in artifical creation of life prohibited in Bracada. After one horrible accident he blames on having to work in secrecy, he fled to Larnia to be quickly accepted as the lead Homunculi researcher.",
-			"name": "Audred",
-			"specialty": {
-				"description": "Increases the speed of Homunculi and Gilded Homunculi by 1 and their base Attack and Defense by 5% for every 2 full hero levels.",
-				"name": "Homunculi",
-				"tooltip": "Creature Bonus: Homunculi"
+	"08audred" : {
+		"texts" : {
+			"biography" : "This prodigy alchemist, while still too young to even attend magical university, turned to research in artifical creation of life prohibited in Bracada. After one horrible accident he blames on having to work in secrecy, he fled to Larnia to be quickly accepted as the lead Homunculi researcher.",
+			"name" : "Audred",
+			"specialty" : {
+				"description" : "Increases the speed of Homunculi and Gilded Homunculi by 1 and their base Attack and Defense by 5% for every 2 full hero levels.",
+				"name" : "Homunculi",
+				"tooltip" : "Creature Bonus: Homunculi"
 			}
 		}
 	},
-	"00auk": {
-		"texts": {
-			"biography": "Governor Auk likes pies.",
-			"name": "Auk",
-			"specialty": {
-				"description": "Increases the speed of all Dodos by 1. Doubles Battle Dodos’ Magic Resistance Aura for adjacent allies (40–80%, depending on experience), grants them at least 33% innate Magic Resistance and increases their general spell damage reduction from 33% to 45%. Increases Grand Dodos’ morale by 2.",
-				"name": "Dodos",
-				"tooltip": "Creature Bonus: Dodos"
+	"00auk" : {
+		"texts" : {
+			"biography" : "Governor Auk likes pies.",
+			"name" : "Auk",
+			"specialty" : {
+				"description" : "Increases the speed of all Dodos by 1. Doubles Battle Dodos’ Magic Resistance Aura for adjacent allies (40–80%, depending on experience), grants them at least 33% innate Magic Resistance and increases their general spell damage reduction from 33% to 45%. Increases Grand Dodos’ morale by 2.",
+				"name" : "Dodos",
+				"tooltip" : "Creature Bonus: Dodos"
 			}
 		}
 	},
-	"13dictamnus": {
-		"texts": {
-			"biography": "When asked why plantfolk would use conjured flames, Dictamnus always asks in return if fire is any less deadly to humans and if it ever stopped them from wielding it. He had sworn to his clan to fight any invasive species threatening Larnia, especially floral ones. And for that, fire is especially useful.",
-			"name": "Dictamnus",
-			"specialty": {
-				"description": "Receives a 5% per level bonus to offensive Fire Magic spells.",
-				"name": "Offensive Fire Magic",
-				"tooltip": "Spell Damage Bonus: Fire Magic"
+	"13dictamnus" : {
+		"texts" : {
+			"biography" : "When asked why plantfolk would use conjured flames, Dictamnus always asks in return if fire is any less deadly to humans and if it ever stopped them from wielding it. He had sworn to his clan to fight any invasive species threatening Larnia, especially floral ones. And for that, fire is especially useful.",
+			"name" : "Dictamnus",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to offensive Fire Magic spells.",
+				"name" : "Offensive Fire Magic",
+				"tooltip" : "Spell Damage Bonus: Fire Magic"
 			}
 		}
 	},
-	"02kanim": {
-		"texts": {
-			"biography": "Kanim once was a highwayman robbing elves on the contested lands of Harmondale, excusing himself with abhorrent humanist ideology. This changed when he was ambushed by Kreegans only to be saved by despised elves, an event that changed his outlook. Today many reformed fugitives from Jadame join his mercenary company.",
-			"name": "Kanim",
-			"specialty": {
-				"description": "Increases the speed of Arquebusiers and Musketeers by 1, their shots by 5, and their base Attack and Defense by 5% for every 4 full hero levels.",
-				"name": "Arquebusiers",
-				"tooltip": "Creature Bonus: Arquebusiers"
+	"02kanim" : {
+		"texts" : {
+			"biography" : "Kanim once was a highwayman robbing elves on the contested lands of Harmondale, excusing himself with abhorrent humanist ideology. This changed when he was ambushed by Kreegans only to be saved by despised elves, an event that changed his outlook. Today many reformed fugitives from Jadame join his mercenary company.",
+			"name" : "Kanim",
+			"specialty" : {
+				"description" : "Increases the speed of Arquebusiers and Musketeers by 1, their shots by 5, and their base Attack and Defense by 5% for every 4 full hero levels.",
+				"name" : "Arquebusiers",
+				"tooltip" : "Creature Bonus: Arquebusiers"
 			}
 		}
 	},
-	"11nefefareen": {
-		"texts": {
-			"biography": "Given her old age even for an efreet, it was surprising that Nefefareen travelled beyond the Plane of Fire, especially that she wasn't interested in wars waged by Devils. It is not known what is the purpose of her meddling in Larnia, but she's the one who popularized keeping Salamanders as pets and servants.",
-			"name": "Nefefareen",
-			"specialty": {
-				"description": "Salamanders and Shiny Salamanders can receive beneficial fire spells despite their normal fire immunity. While affected by the Fire Shield spell (not merely the innate or experience-based Fire Shield ability), they gain +2 speed, +2 minimum and maximum damage, at least +1 morale and a 33% chance to cast Basic Immolation after attacking. This chance does not stack with the experience bonus.",
-				"name": "Salamander Synergy",
-				"tooltip": "Creature Bonus: Salamander Synergy"
+	"11nefefareen" : {
+		"texts" : {
+			"biography" : "Given her old age even for an efreet, it was surprising that Nefefareen travelled beyond the Plane of Fire, especially that she wasn't interested in wars waged by Devils. It is not known what is the purpose of her meddling in Larnia, but she's the one who popularized keeping Salamanders as pets and servants.",
+			"name" : "Nefefareen",
+			"specialty" : {
+				"description" : "Salamanders and Shiny Salamanders can receive beneficial fire spells despite their normal fire immunity. While affected by the Fire Shield spell (not merely the innate or experience-based Fire Shield ability), they gain +2 speed, +2 minimum and maximum damage, at least +1 morale and a 33% chance to cast Basic Immolation after attacking. This chance does not stack with the experience bonus.",
+				"name" : "Salamander Synergy",
+				"tooltip" : "Creature Bonus: Salamander Synergy"
 			}
 		}
 	},
-	"06ophrys": {
-		"texts": {
-			"biography": "Other mandrakes consider Ophrys' voice to be quiet and weak and they do not regard her highly. This however makes her voice bearable to human ears, allowing her to coordinate efforts between them and her capricious kin.",
-			"name": "Ophrys",
-			"specialty": {
-				"description": "Increases the health of Mandrakes and Regal Mandrakes by 5 per creature. Increases the speed of Tangle Vines and Strangle Vines by 1 and grants both types of Vines preemptive retaliation in melee combat.",
-				"name": "Mandrakes",
-				"tooltip": "Creature Bonus: Mandrakes"
+	"06ophrys" : {
+		"texts" : {
+			"biography" : "Other mandrakes consider Ophrys' voice to be quiet and weak and they do not regard her highly. This however makes her voice bearable to human ears, allowing her to coordinate efforts between them and her capricious kin.",
+			"name" : "Ophrys",
+			"specialty" : {
+				"description" : "Increases the health of Mandrakes and Regal Mandrakes by 5 per creature. Increases the speed of Tangle Vines and Strangle Vines by 1 and grants both types of Vines preemptive retaliation in melee combat.",
+				"name" : "Mandrakes",
+				"tooltip" : "Creature Bonus: Mandrakes"
 			}
 		}
 	},
-	"05raphus": {
-		"texts": {
-			"biography": "Upon finding himself unsuccessful in The School of Sorcery in Bracada, Raphus abandoned his formal education. However the practical skill in golem enchanting and his creativity made him a renowned mage-artist in Larnia, popular for the expressive living statues he sculpts.",
-			"name": "Raphus",
-			"specialty": {
-				"description": "Increases the speed of Marble and Granite Cupids by 1 and their base Attack and Defense by 5% per hero level. Casts Reconstruction at expert mastery.",
-				"name": "Cupids",
-				"tooltip": "Creature Bonus: Marble Cupids"
+	"05raphus" : {
+		"texts" : {
+			"biography" : "Upon finding himself unsuccessful in The School of Sorcery in Bracada, Raphus abandoned his formal education. However the practical skill in golem enchanting and his creativity made him a renowned mage-artist in Larnia, popular for the expressive living statues he sculpts.",
+			"name" : "Raphus",
+			"specialty" : {
+				"description" : "Increases the speed of Marble and Granite Cupids by 1 and their base Attack and Defense by 5% per hero level. Casts Reconstruction at expert mastery.",
+				"name" : "Cupids",
+				"tooltip" : "Creature Bonus: Marble Cupids"
 			}
 		}
 	},
-	"10vogundessi": {
-		"texts": {
-			"biography": "When alchemists were unsuccessful prying out secrets of Vogundessi's craft from him, they announced him a fraud to ruin his reputation and sentenced to shameful execution. He escaped this sordid fate supposedly by striking a deal with devils, but barely anyone believe these accusations in Larnia.",
-			"name": "Vogundessi",
-			"specialty": {
-				"description": "Increases kingdom's income by 50 gold per level per day.",
-				"name": "Gold",
-				"tooltip": "Resource Bonus: Gold"
+	"10vogundessi" : {
+		"texts" : {
+			"biography" : "When alchemists were unsuccessful prying out secrets of Vogundessi's craft from him, they announced him a fraud to ruin his reputation and sentenced to shameful execution. He escaped this sordid fate supposedly by striking a deal with devils, but barely anyone believe these accusations in Larnia.",
+			"name" : "Vogundessi",
+			"specialty" : {
+				"description" : "Increases kingdom's income by 50 gold per level per day.",
+				"name" : "Gold",
+				"tooltip" : "Resource Bonus: Gold"
 			}
 		}
 	},
-	"14zana": {
-		"texts": {
-			"biography": "Nobody in their sane mind would believe Zana's improbable stories of travels to places like Vori or Fiery Moon, if not for a fact that she has uncanny habit of being found whimsically treading places most unexpected, and she has extensive knowledge of many secret areas. This granted her the position of Larnia's Royal Cartographer.",
-			"name": "Zana",
-			"specialty": {
-				"description": "Always casts Dimension Door at expert level.",
-				"name": "Dimension Door",
-				"tooltip": "Spell Bonus: Dimension Door"
+	"14zana" : {
+		"texts" : {
+			"biography" : "Nobody in their sane mind would believe Zana's improbable stories of travels to places like Vori or Fiery Moon, if not for a fact that she has uncanny habit of being found whimsically treading places most unexpected, and she has extensive knowledge of many secret areas. This granted her the position of Larnia's Royal Cartographer.",
+			"name" : "Zana",
+			"specialty" : {
+				"description" : "Always casts Dimension Door at expert level.",
+				"name" : "Dimension Door",
+				"tooltip" : "Spell Bonus: Dimension Door"
 			}
 		}
 	},
-	"03lumiere": {
-		"texts": {
-			"biography": "Lumiere had to abandon luxury of elven nobility and live among hunters of Tularean Forest to escape war. She quickly learned the art of guerilla warfare, impressing even experienced rangers with her elaborate traps. Despite mingling back into the high society when she left to Larnia, Lumiere still has no qualms using dirty tricks on the battlefield.",
-			"name": "Lumiere",
-			"specialty": {
-				"description": "Arquebusiers and Musketeers can automatically place Land Mines, Quicksand or Force Fields at random before their turns, with a shared cooldown of 3–4 rounds and up to 3 casts per stack per battle.",
-				"name": "Battlefield Impediments",
-				"tooltip": "Creature Bonus: Battlefield Impediments"
+	"03lumiere" : {
+		"texts" : {
+			"biography" : "Lumiere had to abandon luxury of elven nobility and live among hunters of Tularean Forest to escape war. She quickly learned the art of guerilla warfare, impressing even experienced rangers with her elaborate traps. Despite mingling back into the high society when she left to Larnia, Lumiere still has no qualms using dirty tricks on the battlefield.",
+			"name" : "Lumiere",
+			"specialty" : {
+				"description" : "Arquebusiers and Musketeers can automatically place Land Mines, Quicksand or Force Fields at random before their turns, with a shared cooldown of 3–4 rounds and up to 3 casts per stack per battle.",
+				"name" : "Battlefield Impediments",
+				"tooltip" : "Creature Bonus: Battlefield Impediments"
 			}
 		}
 	},
-	"09migdigravia": {
-		"texts": {
-			"biography": "Despite her gentle and warm perosnality, Migdigvarvia's pasttime involves designing contraptions of horrid curses. When she was denied a Warlock title in Nighon, she simply left in disapproval of its culture. In Larnia she is admired for her carefree attitude, even if at the same time feared for her dreadful devices.",
-			"name": "Migdigravia",
-			"specialty": {
-				"description": "The Camera Obscura gains three additional shared casts per battle (eight total) and +10 summoning power per five completed hero levels. Apparitions in Migdigravia’s army disappear at the start of the third subsequent round rather than the second.",
-				"name": "Camera Obscura",
-				"tooltip": "Creature Bonus: Camera Obscura"
+	"09migdigravia" : {
+		"texts" : {
+			"biography" : "Despite her gentle and warm perosnality, Migdigvarvia's pasttime involves designing contraptions of horrid curses. When she was denied a Warlock title in Nighon, she simply left in disapproval of its culture. In Larnia she is admired for her carefree attitude, even if at the same time feared for her dreadful devices.",
+			"name" : "Migdigravia",
+			"specialty" : {
+				"description" : "The Camera Obscura gains three additional shared casts per battle (eight total) and +10 summoning power per five completed hero levels. Apparitions in Migdigravia’s army disappear at the start of the third subsequent round rather than the second.",
+				"name" : "Camera Obscura",
+				"tooltip" : "Creature Bonus: Camera Obscura"
 			}
 		}
 	},
-	"12hanester": {
-		"texts": {
-			"biography": "Hanester initially was not interested in much beside researching philosopher stone in peace, until she realized how easily it can bring out the worst qualities of people. Seeing the increading greed and madness over this precius mineral, this bright scientist decided to intervene.",
-			"name": "Hanester",
-			"specialty": {
-				"description": "Reduces the enemy hero’s base Spell Power by 15%, plus 1 percentage point for every 2 full levels of Hanester.",
-				"name": "Disruption",
-				"tooltip": "Special Bonus: Disruption"
+	"12hanester" : {
+		"texts" : {
+			"biography" : "Hanester initially was not interested in much beside researching philosopher stone in peace, until she realized how easily it can bring out the worst qualities of people. Seeing the increading greed and madness over this precius mineral, this bright scientist decided to intervene.",
+			"name" : "Hanester",
+			"specialty" : {
+				"description" : "Reduces the enemy hero’s base Spell Power by 15%, plus 1 percentage point for every 2 full levels of Hanester.",
+				"name" : "Disruption",
+				"tooltip" : "Special Bonus: Disruption"
 			}
 		}
 	},
-	"07teophrast": {
-		"texts": {
-			"biography": "Unlike most of the dark elves of Jadame Theophrast didn't arrive as a refugee or exile. This industrious man sees Larnia for what it is, growing settlements that need to be built and expanded, and he is the one who can provide the building materials cheap thanks to his trade contacts.",
-			"name": "Teophrast",
-			"specialty": {
-				"tooltip": "Resource Bonus: Wood and Ore",
-				"name": "Wood and Ore",
-				"description": "Increases kingdom's wood and ore production by +1 Wood and Ore per day for every 7 levels."
+	"07teophrast" : {
+		"texts" : {
+			"biography" : "Unlike most of the dark elves of Jadame Theophrast didn't arrive as a refugee or exile. This industrious man sees Larnia for what it is, growing settlements that need to be built and expanded, and he is the one who can provide the building materials cheap thanks to his trade contacts.",
+			"name" : "Teophrast",
+			"specialty" : {
+				"tooltip" : "Resource Bonus: Wood and Ore",
+				"name" : "Wood and Ore",
+				"description" : "Increases kingdom's wood and ore production by +1 Wood and Ore per day for every 7 levels."
 			}
 		}
 	}

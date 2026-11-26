@@ -1,72 +1,72 @@
 {
-	"12hanester": {
-		"army": [
+	"12hanester" : {
+		"army" : [
 			{
-				"creature": "cupid",
-				"max": 25,
-				"min": 12
+				"creature" : "cupid",
+				"max" : 25,
+				"min" : 12
 			},
 			{
-				"creature": "homunculus",
-				"max": 11,
-				"min": 5
+				"creature" : "homunculus",
+				"max" : 11,
+				"min" : 5
 			},
 			{
-				"creature": "fireNewt",
-				"max": 5,
-				"min": 3
+				"creature" : "fireNewt",
+				"max" : 5,
+				"min" : 3
 			}
 		],
-		"class": "philosopher",
-		"female": true,
-		"images": {
-			"large": "courtyard/heroes/Hanester/portraitlarge.png",
-			"small": "courtyard/heroes/Hanester/portraitsmall.png",
-			"specialtyLarge": "courtyard/heroes/Hanester/speclarge1.png",
-			"specialtySmall": "courtyard/heroes/Hanester/specsmall1.png"
+		"class" : "philosopher",
+		"female" : true,
+		"images" : {
+			"large" : "courtyard/heroes/Hanester/portraitlarge.png",
+			"small" : "courtyard/heroes/Hanester/portraitsmall.png",
+			"specialtyLarge" : "courtyard/heroes/Hanester/speclarge1.png",
+			"specialtySmall" : "courtyard/heroes/Hanester/specsmall1.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "resistance"
+				"level" : "basic",
+				"skill" : "resistance"
 			},
 			{
-				"level": "basic",
-				"skill": "intelligence"
+				"level" : "basic",
+				"skill" : "intelligence"
 			}
 		],
-		"spellbook": [
+		"spellbook" : [
 			"antiMagic"
 		],
-		"specialty": {
-			"bonuses": {
-				"reducePower": {
-					"propagator": "BATTLE_WIDE",
-					"propagationUpdater": "BONUS_OWNER_UPDATER",
-					"limiters": [
+		"specialty" : {
+			"bonuses" : {
+				"reducePower" : {
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
 						"OPPOSITE_SIDE"
 					],
-					"subtype": "spellpower",
-					"type": "PRIMARY_SKILL",
-					"val": -15,
-					"valueType": "PERCENT_TO_BASE"
+					"subtype" : "spellpower",
+					"type" : "PRIMARY_SKILL",
+					"val" : -15,
+					"valueType" : "PERCENT_TO_BASE"
 				},
-				"reducePowerScaling": {
-					"propagator": "BATTLE_WIDE",
-					"propagationUpdater": [
+				"reducePowerScaling" : {
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : [
 						"BONUS_OWNER_UPDATER",
 						{
-							"type": "TIMES_HERO_LEVEL",
-							"stepSize": 2
+							"type" : "TIMES_HERO_LEVEL",
+							"stepSize" : 2
 						}
 					],
-					"limiters": [
+					"limiters" : [
 						"OPPOSITE_SIDE"
 					],
-					"subtype": "spellpower",
-					"type": "PRIMARY_SKILL",
-					"val": -1,
-					"valueType": "PERCENT_TO_BASE"
+					"subtype" : "spellpower",
+					"type" : "PRIMARY_SKILL",
+					"val" : -1,
+					"valueType" : "PERCENT_TO_BASE"
 				}
 			}
 		}
