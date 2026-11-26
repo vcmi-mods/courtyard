@@ -9,7 +9,11 @@
 		"slot" : "MACH1",
 		"text" : {
 			"name" : "Camera Obscura",
+<<<<<<< HEAD
 			"description" : "{Camera Obscura}\n\nAllows the use of Age and Summon Apparition in battle. Five shared casts per battle.",
+=======
+			"description" : "{Camera Obscura}\r\n\r\nThe Camera Obscura allows it to cast {Age} on enemy units.",
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			"event" : "You stumble upon a bizarre and mortifying scenery: A bunch of dried up corpses donning fashionable outfits, posed up as in for a family portrait. The painter is nowhere to be seen, and instead of canvas there is a small wooden box with a lens on the easel. You decide to take the device and leave quickly, feeling stares of the dead upon you."
 		},
 		"graphics" : {

@@ -58,6 +58,7 @@
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
 							"bonusType" : "COMBAT_EVENT_TRIGGER",
+<<<<<<< HEAD
 							"bonusSubtype" : "fireShield",
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "core:fireShield"
@@ -79,6 +80,15 @@
 				"salamanderEnchantSpeed" : {
 					"type" : "STACKS_SPEED",
 					"val" : 2,
+=======
+							"bonusSubtype" : "fireShield"
+						}
+					]
+				},
+				"setAflameDuration" : {
+					"type" : "CREATURE_ENCHANT_POWER",
+					"val" : 3,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					"limiters" : [
 						"allOf",
 						{
@@ -89,6 +99,7 @@
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
 							"bonusType" : "COMBAT_EVENT_TRIGGER",
+<<<<<<< HEAD
 							"bonusSubtype" : "fireShield",
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "core:fireShield"
@@ -101,10 +112,20 @@
 					"val" : 2,
 					"limiters" : [
 						"allOf",
+=======
+							"bonusSubtype" : "fireShield"
+						}
+					]
+				},
+				"salamanderReceptive" : {
+					"type" : "RECEPTIVE",
+					"limiters" : [
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "fireNewt",
 							"includeUpgrades" : true
+<<<<<<< HEAD
 						},
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
@@ -119,6 +140,14 @@
 					"type" : "MORALE",
 					"val" : 1,
 					"valueType" : "AT_LEAST",
+=======
+						}
+					]
+				},
+				"salamanderEnchantSpeed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 2,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					"limiters" : [
 						"allOf",
 						{
@@ -129,9 +158,49 @@
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
 							"bonusType" : "COMBAT_EVENT_TRIGGER",
+<<<<<<< HEAD
 							"bonusSubtype" : "fireShield",
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "core:fireShield"
+=======
+							"bonusSubtype" : "fireShield"
+						}
+					]
+				},
+				"salamanderEnchantDamage" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax",
+					"val" : 2,
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireNewt",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "COMBAT_EVENT_TRIGGER",
+							"bonusSubtype" : "fireShield"
+						}
+					]
+				},
+				"salamanderEnchantMorale" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"valueType" : "INDEPENDENT_MAX",
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireNewt",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "COMBAT_EVENT_TRIGGER",
+							"bonusSubtype" : "fireShield"
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 						}
 					]
 				}

@@ -327,7 +327,11 @@
 					"name" : "Fort"
 				},
 				"grail" : {
+<<<<<<< HEAD
 					"description" : "The Ivory Tower increases weekly creature growth in this town by 50%, provides your kingdom with an additional 5000 gold each day, and increases magical spell damage dealt by your heroes by 50%.",
+=======
+					"description" : "The presence of the Ivory Tower increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day and increases the spell power of any Magic by 50%.",
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					"bonuses" : [
 						{
 							"type" : "SPELL_DAMAGE",
@@ -471,13 +475,21 @@
 					"cost" : {
 						"gold" : 1000
 					},
+<<<<<<< HEAD
 					"description" : "The Magic Fountain immediately restores a visiting hero’s spell points to their normal maximum, once per day.",
+=======
+					"description" : "Magic Fountain restores all mana points of visiting hero at the beginning of next day.",
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					"name" : "Magic Fountain",
 					"requires" : [
 						"mageGuild1"
 					],
 					"configuration" : {
+<<<<<<< HEAD
 						"visitMode" : "bonus",
+=======
+						"visitMode" : "hero",
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 						"rewards" : [
 							{
 								"limiter" : {
@@ -496,8 +508,12 @@
 								"message" : "{Magic Fountain}\r\n\r\nA drink from the fountain has restored your spell points to maximum.",
 								"manaPercentage" : 100
 							}
+<<<<<<< HEAD
 						],
 						"selectMode" : "selectFirst"
+=======
+						]
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					}
 				},
 				"special3" : {
@@ -506,11 +522,16 @@
 						"mercury" : 3,
 						"crystal" : 3
 					},
+<<<<<<< HEAD
 					"description" : "The Magic Absorber grants troops defending this town an additional 50 percentage points of general magical damage reduction, up to a total of 100%.",
+=======
+					"description" : "The Magic Absorber decreases magic damage taken by your army during siege.",
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					"bonuses" : [
 						{
 							"type" : "SPELL_DAMAGE_REDUCTION",
 							"val" : 50,
+<<<<<<< HEAD
 							"subtype" : "any",
 							"propagator" : "TOWN_AND_VISITOR",
 							"valueType" : "BASE_NUMBER"
@@ -521,6 +542,9 @@
 							"val" : 100,
 							"valueType" : "AT_MOST",
 							"propagator" : "TOWN_AND_VISITOR"
+=======
+							"subtype" : "any"
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 						}
 					],
 					"name" : "Magic Absorber",
@@ -559,7 +583,11 @@
 						"cityHall"
 					],
 					"name" : "Magic Fountain",
+<<<<<<< HEAD
 					"description" : "A decorative fountain that appears when the City Hall is built.",
+=======
+					"description" : "Magic Fountain restores all mana points of visiting hero at the beginning of next day.",
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					"mode" : "auto"
 				}
 			},

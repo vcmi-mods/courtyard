@@ -11,13 +11,24 @@
 		},
 		"level" : 0,
 		"power" : 30,
+<<<<<<< HEAD
 		"defaultGainChance" : 0,
 		"gainChance" : {},
+=======
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"animation" : {
 			"affect" : [
 				"SP01_"
 			]
 		},
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"flags" : {
 			"negative" : true,
 			"special" : true
@@ -29,6 +40,7 @@
 				"bonus.NON_LIVING" : "absolute"
 			}
 		},
+<<<<<<< HEAD
 		"graphics" : {
 			"iconEffect" : "courtyard/spells/Age/Age_effect"
 		},
@@ -38,29 +50,59 @@
 		"levels" : {
 			"base" : {
 				"power" : 10,
+=======
+
+		"graphics" : {
+			"iconEffect" : "courtyard/spells/Age/Age_effect"
+		},
+
+		"sounds" : {
+			"cast" : "AGE"
+		},
+
+		"levels" : {
+			"base" : {
+				"power" : 10, //irrevelant?
+				//				"aiValue": 20,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
 				},
 				"cost" : 18,
+<<<<<<< HEAD
 				"description" : "Reduces the maximum health of an enemy creature by 33% for 3 battle rounds.",
 				"battleEffects" : {
 					"spellsDamage" : {
 						"type" : "core:timed",
 						"battleLogSingular" : "@core.genrltxt.551",
 						"battleLogPlural" : "@core.genrltxt.552",
+=======
+				"description" : "Age spell effect",
+				"battleEffects" : {
+					"spellsDamage" : {
+						"type" : "core:timed",
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 						"bonus" : {
 							"reduceHEALTH" : {
 								"type" : "STACK_HEALTH",
 								"val" : -33,
 								"valueType" : "PERCENT_TO_ALL",
 								"duration" : "N_TURNS",
+<<<<<<< HEAD
 								"turns" : 3
+=======
+								"turns" : 5
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 							}
 						}
 					}
 				}
 			},
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			"none" : {},
 			"basic" : {},
 			"advanced" : {},

@@ -11,9 +11,17 @@
 		},
 		"level" : 0,
 		"power" : 0,
+<<<<<<< HEAD
 		"defaultGainChance" : 0,
 		"gainChance" : {},
 		"animation" : {},
+=======
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {},
+
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"flags" : {
 			"positive" : true,
 			"special" : true
@@ -24,14 +32,26 @@
 			"iconScroll" : "courtyard/spells/Potions/potSupply1",
 			"iconScenarioBonus" : "courtyard/spells/Potions/potSupply1"
 		},
+<<<<<<< HEAD
 		"sounds" : {
 			"cast" : null
 		},
+=======
+
+		"sounds" : {
+			"cast" : null
+		},
+
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"levels" : {
 			"base" : {
 				"cost" : 0,
 				"range" : "0",
 				"power" : 10,
+<<<<<<< HEAD
+=======
+				//				"aiValue": 70,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				"targetModifier" : {
 					"smart" : true
 				},
@@ -42,6 +62,7 @@
 						"bonus" : {
 							"addRegenerationPotion" : {
 								"propagator" : "HERO",
+<<<<<<< HEAD
 								"type" : "SPELL",
 								"subtype" : "regenerationPotion",
 								"val" : 0,
@@ -57,6 +78,19 @@
 								"duration" : "ONE_BATTLE",
 								"valueType" : "AT_LEAST",
 								"hidden" : true
+=======
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "regenerationPotion",
+								"val" : 0
+							},
+							"addWeaponPoisonPotion" : {
+								"propagator" : "HERO",
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "weaponPoisonPotion",
+								"val" : 0
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 							}
 						}
 					}
@@ -78,12 +112,19 @@
 							},
 							"addDragonPotion" : {
 								"propagator" : "HERO",
+<<<<<<< HEAD
 								"type" : "SPELL",
 								"subtype" : "dragonPotion",
 								"val" : 0,
 								"duration" : "ONE_BATTLE",
 								"valueType" : "AT_LEAST",
 								"hidden" : true
+=======
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "dragonPotion",
+								"val" : 0
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 							}
 						}
 					}
@@ -102,6 +143,7 @@
 							},
 							"addDragonPotion" : {
 								"propagator" : "HERO",
+<<<<<<< HEAD
 								"type" : "SPELL",
 								"subtype" : "dragonPotion",
 								"val" : 1,
@@ -117,6 +159,19 @@
 								"duration" : "ONE_BATTLE",
 								"valueType" : "AT_LEAST",
 								"hidden" : true
+=======
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "dragonPotion",
+								"val" : 1
+							},
+							"addToughnessPotion" : {
+								"propagator" : "HERO",
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "toughnessPotion",
+								"val" : 0
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 							}
 						}
 					}
@@ -135,6 +190,7 @@
 							},
 							"addDragonPotion" : {
 								"propagator" : "HERO",
+<<<<<<< HEAD
 								"type" : "SPELL",
 								"subtype" : "dragonPotion",
 								"val" : 2,
@@ -159,6 +215,27 @@
 								"duration" : "ONE_BATTLE",
 								"valueType" : "AT_LEAST",
 								"hidden" : true
+=======
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "dragonPotion",
+								"val" : 2
+							},
+							"addToughnessPotion" : {
+								"propagator" : "HERO",
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "toughnessPotion",
+								"val" : 1
+							},
+
+							"addEtheralPotion" : {
+								"propagator" : "HERO",
+								"sourceType" : "CREATURE_ABILITY",
+								"type" : "SPELL",
+								"subtype" : "etheralPotion",
+								"val" : 0
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 							}
 						}
 					}

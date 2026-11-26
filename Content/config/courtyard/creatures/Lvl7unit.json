@@ -15,7 +15,7 @@
 			"max" : 10,
 			"min" : 4
 		},
-		"aiValue" : 3788,
+		"aiValue" : 4419,
 		"attack" : 19,
 		"cost" : {
 			"gold" : 2000
@@ -27,7 +27,7 @@
 		"defense" : 15,
 		"doubleWide" : true,
 		"faction" : "courtyard",
-		"fightValue" : 3120,
+		"fightValue" : 3251,
 		"graphics" : {
 			"animation" : "courtyard/battle/CJabber.def",
 			"animationTime" : {
@@ -73,8 +73,6 @@
 			},
 			"fearful" : {
 				"type" : "FEARFUL",
-				"stacking" : "courtyard.jabberwockFear",
-				"valueType" : "BASE_NUMBER",
 				"val" : 10,
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
@@ -104,7 +102,7 @@
 			"max" : 8,
 			"min" : 3
 		},
-		"aiValue" : 7865,
+		"aiValue" : 8076,
 		"attack" : 27,
 		"cost" : {
 			"gold" : 4500,
@@ -117,7 +115,7 @@
 		"defense" : 25,
 		"doubleWide" : true,
 		"faction" : "courtyard",
-		"fightValue" : 6030,
+		"fightValue" : 5830,
 		"graphics" : {
 			"animation" : "courtyard/battle/CJbbrwk.def",
 			"animationTime" : {

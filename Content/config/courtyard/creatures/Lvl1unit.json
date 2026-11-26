@@ -15,7 +15,7 @@
 			"max" : 40,
 			"min" : 15
 		},
-		"aiValue" : 90,
+		"aiValue" : 75,
 		"attack" : 3,
 		"cost" : {
 			"gold" : 70
@@ -26,7 +26,7 @@
 		},
 		"defense" : 6,
 		"faction" : "courtyard",
-		"fightValue" : 84,
+		"fightValue" : 70,
 		"graphics" : {
 			"animation" : "courtyard/battle/CCupid.def",
 			"animationTime" : {
@@ -75,8 +75,6 @@
 			"stun" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.stunAbility",
-				"stacking" : "courtyard.graniteCupidStun",
-				"valueType" : "BASE_NUMBER",
 				"val" : 20,
 				"addInfo" : [
 					2,
@@ -88,7 +86,7 @@
 			"max" : 35,
 			"min" : 15
 		},
-		"aiValue" : 150,
+		"aiValue" : 110,
 		"attack" : 3,
 		"cost" : {
 			"gold" : 95
@@ -99,7 +97,7 @@
 		},
 		"defense" : 10,
 		"faction" : "courtyard",
-		"fightValue" : 138,
+		"fightValue" : 110,
 		"graphics" : {
 			"animation" : "courtyard/battle/CAmor.def",
 			"animationTime" : {

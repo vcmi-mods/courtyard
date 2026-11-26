@@ -110,15 +110,79 @@
 			},
 			{
 				"bonus" : {
+<<<<<<< HEAD
 					"type" : "MAGIC_RESISTANCE"
 				},
 				"values" : [
 					3,
+=======
+					"type" : "HATE",
+					"subtype" : "creature.skeleton"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "HATE",
+					"subtype" : "creature.skeletonWarrior"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "RETURN_AFTER_STRIKE"
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "MAGIC_RESISTANCE"
+				},
+				"values" : [
+					2,
+					4,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					6,
-					9,
+					8,
+					10,
 					12,
-					15,
+					14,
+					16,
 					18,
+<<<<<<< HEAD
 					21,
 					24,
 					27,
@@ -157,10 +221,17 @@
 					true,
 					true,
 					true
+=======
+					20
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				]
 			}
 		]
 	},
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"graniteCupid" : {
 		"stackExperience" : [
 			{
@@ -272,9 +343,68 @@
 			},
 			{
 				"bonus" : {
+<<<<<<< HEAD
 					"type" : "MAGIC_RESISTANCE"
 				},
 				"values" : [
+=======
+					"type" : "HATE",
+					"subtype" : "creature.skeleton"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "HATE",
+					"subtype" : "creature.skeletonWarrior"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "RETURN_AFTER_STRIKE"
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "MAGIC_RESISTANCE"
+				},
+				"values" : [
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					0,
 					0,
 					0,
@@ -286,6 +416,7 @@
 					15,
 					15
 				]
+<<<<<<< HEAD
 			},
 			{
 				"bonus" : {
@@ -313,6 +444,12 @@
 			}
 		]
 	},
+=======
+			}
+		]
+	},
+
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"homunculus" : {
 		"stackExperience" : [
 			{
@@ -424,8 +561,12 @@
 			},
 			{
 				"bonus" : {
+<<<<<<< HEAD
 					"type" : "JOUSTING",
 					"val" : 5
+=======
+					"type" : "JOUSTING"
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				},
 				"values" : [
 					false,
@@ -442,8 +583,12 @@
 			},
 			{
 				"bonus" : {
+<<<<<<< HEAD
 					"type" : "DEFENSIVE_STANCE",
 					"val" : 5
+=======
+					"type" : "DEFENSIVE_STANCE"
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				},
 				"values" : [
 					false,
@@ -468,6 +613,8 @@
 					]
 				},
 				"values" : [
+<<<<<<< HEAD
+=======
 					5,
 					10,
 					15,
@@ -479,28 +626,10 @@
 					45,
 					50
 				]
-			},
-			{
-				"bonus" : {
-					"type" : "HP_REGENERATION",
-					"stacking" : "courtyard.homunculusRegeneration",
-					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [
-					8,
-					9,
-					10,
-					11,
-					12,
-					13,
-					14,
-					15,
-					100000,
-					100000
-				]
 			}
 		]
 	},
+
 	"gildedHomunculus" : {
 		"stackExperience" : [
 			{
@@ -581,6 +710,237 @@
 					"type" : "STACK_HEALTH"
 				},
 				"values" : [
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+<<<<<<< HEAD
+					"type" : "HP_REGENERATION",
+					"stacking" : "courtyard.homunculusRegeneration",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [
+					8,
+					9,
+					10,
+					11,
+					12,
+					13,
+					14,
+					15,
+=======
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "JOUSTING"
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "DEFENSIVE_STANCE"
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "HP_REGENERATION",
+					"val" : 100000,
+					"valueType" : "ADDITIVE_VALUE"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					100000,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
+					100000,
+					100000
+				]
+			}
+		]
+	},
+<<<<<<< HEAD
+	"gildedHomunculus" : {
+=======
+
+	"fireNewt" : {
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+<<<<<<< HEAD
+					0,
+=======
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
+					1,
+					1,
+					2,
+					2,
+<<<<<<< HEAD
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+=======
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
+			{
+				"bonus" : {
+<<<<<<< HEAD
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+=======
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
+			{
+				"bonus" : {
+<<<<<<< HEAD
+					"subtype" : "creatureDamageMin",
+=======
+					"subtype" : "creatureDamageMax",
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+<<<<<<< HEAD
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+=======
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					5,
 					10,
 					15,
@@ -598,6 +958,7 @@
 					"type" : "STACKS_SPEED"
 				},
 				"values" : [
+<<<<<<< HEAD
 					0,
 					0,
 					0,
@@ -764,6 +1125,8 @@
 					"type" : "STACKS_SPEED"
 				},
 				"values" : [
+=======
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					0,
 					0,
 					0,
@@ -780,6 +1143,7 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "fireShield",
+<<<<<<< HEAD
 					"stacking" : "fireShield"
 				},
 				"values" : [
@@ -932,10 +1296,17 @@
 				"values" : [
 					0,
 					0,
+=======
+					//					"val" : 20,
+					"stacking" : "fireShield"
+				},
+				"values" : [
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					5,
 					5,
 					10,
 					10,
+<<<<<<< HEAD
 					15,
 					15,
 					20,
@@ -957,12 +1328,12 @@
 					0,
 					0,
 					0,
+=======
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					10,
-					10,
-					15,
-					15,
 					20,
 					20,
+<<<<<<< HEAD
 					25
 				]
 			}
@@ -2521,13 +2892,1790 @@
 					10,
 					15,
 					15,
+=======
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					20,
 					25,
 					30
 				]
+			},
+			{
+				"bonus" : {
+					"type" : "RECEPTIVE"
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			}
 		]
 	},
+<<<<<<< HEAD
+	"tangleVine" : {
+=======
+
+	"salamander" : {
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+<<<<<<< HEAD
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+=======
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
+					5,
+					5
+				]
+			},
+			{
+				"bonus" : {
+<<<<<<< HEAD
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CHARGE_IMMUNITY"
+				},
+				"values" : [
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : "spell.slow"
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
+			}
+		]
+	},
+	"strangleVine" : {
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+=======
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
+					5,
+					5
+				]
+			},
+			{
+				"bonus" : {
+<<<<<<< HEAD
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CHARGE_IMMUNITY"
+				},
+				"values" : [
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : "spell.magicArrow"
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
+			}
+		]
+	},
+	"apparition" : {
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+=======
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+<<<<<<< HEAD
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+=======
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "fireShield",
+					//					"val" : 20,
+					"stacking" : "fireShield"
+				},
+				"values" : [
+					0,
+					0,
+					5,
+					5,
+					5,
+					10,
+					10,
+					10,
+					15,
+					20
+				]
+			}
+		]
+	},
+
+	"arquebusier" : {
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "DOUBLE_DAMAGE_CHANCE"
+				},
+				"values" : [
+					4,
+					8,
+					12,
+					16,
+					20,
+					24,
+					28,
+					32,
+					36,
+					40
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "ENEMY_DEFENCE_REDUCTION"
+				},
+				"values" : [
+					15,
+					15,
+					15,
+					20,
+					20,
+					20,
+					25,
+					25,
+					30,
+					30
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "FREE_SHOOTING"
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true
+				]
+			}
+		]
+	},
+
+	"musketeer" : {
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "DOUBLE_DAMAGE_CHANCE"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "ENEMY_DEFENCE_REDUCTION"
+				},
+				"values" : [
+					30,
+					30,
+					30,
+					35,
+					35,
+					35,
+					40,
+					40,
+					45,
+					50
+				]
+			}
+		]
+	},
+
+	"dodo" : {
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "slayer"
+					}
+				},
+				"values" : [
+					2,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					3,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "MAGIC_MIRROR"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		]
+	},
+
+	"battleDodo" : {
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "SPELL_RESISTANCE_AURA"
+				},
+				"values" : [
+					20,
+					20,
+					20,
+					25,
+					25,
+					30,
+					30,
+					35,
+					40,
+					40
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeMelee"
+				},
+				"values" : [
+					30,
+					30,
+					35,
+					35,
+					35,
+					40,
+					40,
+					45,
+					45,
+					50
+				]
+			}
+		]
+	},
+
+	"greaterDodo" : {
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "SPELL_RESISTANCE_AURA"
+				},
+				"values" : [
+					20,
+					20,
+					20,
+					25,
+					25,
+					30,
+					30,
+					35,
+					40,
+					40
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeRanged"
+				},
+				"values" : [
+					30,
+					35,
+					35,
+					40,
+					45,
+					50,
+					50,
+					55,
+					60,
+					65
+				]
+			}
+		]
+	},
+
+	"mandrake" : {
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CHANGES_SPELL_COST_FOR_ENEMY"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
+			}
+		]
+	},
+
+	"regalMandrake" : {
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CHANGES_SPELL_COST_FOR_ENEMY"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			}
+		]
+	},
+
+	"jabberwock" : {
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					3,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "UNLIMITED_RETALIATIONS"
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
+			}
+		]
+	},
+
+	"monstrousJabberwock" : {
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "MIND_IMMUNITY"
+				},
+				"values" : [
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "acidBreathDamage"
+					//						"val" : 20
+				},
+				"values" : [
+					5,
+					5,
+					5,
+					10,
+					10,
+					10,
+					15,
+					15,
+					15,
+					20
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "SPECIFIC_SPELL_POWER",
+					"subtype" : "acidBreathDamage"
+					//    "val" : 25
+				},
+				"values" : [
+					5,
+					5,
+					5,
+					10,
+					10,
+					10,
+					15,
+					15,
+					15,
+					20
+				]
+			}
+		]
+	},
+
 	"tangleVine" : {
 		"stackExperience" : [
 			{
@@ -2674,6 +4822,7 @@
 			}
 		]
 	},
+
 	"strangleVine" : {
 		"stackExperience" : [
 			{
@@ -2820,6 +4969,7 @@
 			}
 		]
 	},
+
 	"apparition" : {
 		"stackExperience" : [
 			{
@@ -2899,6 +5049,7 @@
 					"type" : "STACK_HEALTH"
 				},
 				"values" : [
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					1,
 					2,
 					4,
@@ -2948,6 +5099,10 @@
 			}
 		]
 	},
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"cameraObscuraCreature" : {
 		"stackExperience" : [
 			{
@@ -3041,6 +5196,10 @@
 			}
 		]
 	},
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"potionCartCreature" : {
 		"stackExperience" : [
 			{
@@ -3119,6 +5278,10 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "fireShield",
+<<<<<<< HEAD
+=======
+					//					"val" : 20,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					"stacking" : "fireShield"
 				},
 				"values" : [

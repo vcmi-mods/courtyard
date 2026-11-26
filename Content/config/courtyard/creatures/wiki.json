@@ -1,5 +1,6 @@
 {
 	"cupid" : {
+<<<<<<< HEAD
 		"description" : "{green|Cupid}\r\n\r\nCupids are magically animated sculptures, much like Gargoyles and Golems. While the aristocracy indeed fancies them as guards of their estates, many Cupids are comissioned just to show off owner's wealth or serve as companions.\r\n\r\n{gold|Special Ability : Flying. Gargoyle. Mind Immunity.}\r\n\r\n{gold|Stack Experience:} Magic resistance increases by 3 percentage points per rank (up to 30%). Returns to its original hex after striking from rank 5 and prevents enemy retaliation from rank 8."
 	},
 	"graniteCupid" : {
@@ -58,5 +59,84 @@
 	},
 	"potionCartCreature" : {
 		"description" : "{green|Potion Cart}\n\nThe Potion Cart supplies the hero's spellbook with potions for the battle. Cost: 1500 gold; 125 HP. Potions cost no mana and require a living allied Potion Cart. Existing potion effects keep their normal duration after the Cart is destroyed.\n\n{gold|Potions and First Aid:}\n{silver|Regeneration Potion:} Restores 5/15/30 HP of the wounded creature per turn, or full regeneration at Expert First Aid. Does not resurrect fallen creatures.\n{silver|Vial of Poison:} 10/15/20/30% chance to poison the attacked enemy (no skill/Basic/Advanced/Expert First Aid).\n{silver|Dragon Drought:} Unlocked at Basic First Aid. Grants dragon nature and breath attack with a 15/20/25% chance of Immolation at Basic/Advanced/Expert First Aid.\n{silver|Toughness Tonic:} Unlocked at Advanced First Aid: +25% HP and +15% damage; at Expert, +40% HP and +20% damage.\n{silver|Etheral Extract:} Unlocked at Expert First Aid. Grants teleportation and 20% physical and magical damage reduction.\n\nCaballe grants +1 Morale to good and +1 Luck to neutral creatures affected by a potion."
+=======
+		"description" : "{green|Cupid}\r\n\r\nCupids are magically animated sculptures, much like Gargoyles and Golems. While the aristocracy indeed fancies them as guards of their estates, many Cupids are comissioned just to show off owner's wealth or serve as companions.\r\n\r\n{gold|Special Ability : Flying. Gargoyle. Mind Immunity.}"
+	},
+
+	"graniteCupid" : {
+		"description" : "{green|Granite Cupid}\r\n\r\nCupids are magically animated sculptures, much like Gargoyles and Golems. While the aristocracy indeed fancies them as guards of their estates, many Cupids are comissioned just to show off owner's wealth or serve as companions. Despite their graceful movements, Granite Cupids' strikes are heavy enough to render their targets unconscious.\r\n\r\n{gold|Special Ability : Flying. Gargoyle. Mind Immunity. 20% chance to cast Stun after attack}\r\nStunned creatures can't retaliate for 2 turns. Undead, Gargoyle, Non-living and immune to mind creatures are immune to Stun attack."
+	},
+
+	"homunculus" : {
+		"description" : "{green|Homunculus}\r\n\r\nHomunculi are more like animals than people. They are produced in a complex alchemical reaction and are small, disproportionate, yet strong caricatures of the proper human beings. They are usually tasked with works that need considerable strength, human-level agility and intelligence of a dog. Valuable asset on the battlefield since they regenerate wounds at impressive rate.\r\n\r\n{gold|Special Ability : Regeneration. Increased Spell Damage}\r\nHomunculus Regeneration enables the top creature of the stack to regain 7 health each combat round."
+	},
+
+	"gildedHomunculus" : {
+		"description" : "{green|Gilded Homunculus}\r\n\r\nHomunculi are more like animals than people. They are produced in a complex alchemical reaction and are small, disproportionate, yet strong caricatures of the proper human beings. They are usually tasked with works that need considerable strength, human-level agility and intelligence of a dog. Valuable asset on the battlefield since they not only regenerate wounds at impressive rate, the presence of Gilded Homunculi slightly amplifies power of damaging spells.\r\n\r\n{gold|Special Ability : Regeneration. Damage spells power increasing}\r\nHomunculus Regeneration enables the top creature of the stack to regain 10 health each combat round. Additionally, the presence in the hero's army strengthens the power of damaging spells by 15% (not shown in creature window)."
+	},
+
+	"fireNewt" : {
+		"description" : "{green|Salamander}\r\n\r\nSalamander is a name applied to a wide range of non-elemental creatures originating from the Elemental Plane of Fire. Due to thei elemental affinity they cannot be affected by fire spells. Thanks to that, many alchemists emloy them to tend to furnaces or other works involving sustained exposition to fire or heat.\r\n\r\n{gold|Special Ability : Immune to Fire}\r\nAlthough Salamanders are immune to fire magic, they are not unaffected by fire-based creature attacks. For example Magogs' fireball attack or Dragons' breath attacks are not considered to be magical and therefore they do harm Salamanders."
+	},
+
+	"salamander" : {
+		"description" : "{green|Shiny Salamander}\r\n\r\nSalamander is a name applied to a wide range of non-elemental creatures originating from the Elemental Plane of Fire. Due to thei elemental affinity they cannot be affected by fire spells. Thanks to that, many alchemists emloy them to tend to furnaces or other works involving sustained exposition to fire or heat.\r\n\r\n{gold|Special Ability : Immune to Fire}\r\nAlthough Salamanders are immune to fire magic, they are not unaffected by fire-based creature attacks. For example Magogs' fireball attack or Dragons' breath attacks are not considered to be magical and therefore they do harm Salamanders."
+	},
+
+	"arquebusier" : {
+		"description" : "{green|Arquebusier}\r\n\r\nArquebusiers and Musketeers, armed with dangerous novelty weapons, are feared by their enemies during battles. While the muskets fueled with explosive powder are subject to range penalties, their projectiles are devastating even to well armored targets.\r\n\r\n{gold|Special Ability : Shooter. Ignore Defense 15%}\r\nAquebusier's shoot reduces enemy's defense by 15%."
+	},
+
+	"musketeer" : {
+		"description" : "{green|Musketeer}\r\n\r\nArquebusiers and Musketeers, armed with dangerous novelty weapons, are feared by their enemies during battles. While the muskets fueled with explosive powder are subject to range penalties, their projectiles are devastating even to well armored targets.\r\n\r\n{gold|Special Ability : Shooter. Ignore Defense 30%}\r\nMusketeer's shoot reduces enemy's defense by 30%."
+	},
+
+	"dodo" : {
+		"description" : "{green|Dodo}\r\n\r\nThe exotic Dodo birds that were discovered recently are a weird folk. They feared no death nor adversity and fight with even greated dedication when the opponent is imposing. Some of these huge birds embrace imported culture and don iron armors to become immovable bulwarks inspired by the tales of knights slaying great beasts, while others stick to their traditions and fight with such ferocity, that they mortify their non-dodo allies.\r\n\r\n{gold|Special Ability : Fearless. Affected by permanent Slayer spell}\r\nDodos are immune to Fear and enchanted with permanent Advanced Slayer."
+	},
+
+	"battleDodo" : {
+		"description" : "{green|Battle Dodo}\r\n\r\nThe exotic Dodo birds that were discovered recently are a weird folk. They feared no death nor adversity and fight with even greated dedication when the opponent is imposing. Some of these huge birds embrace imported culture and don iron armors to become immovable bulwarks inspired by the tales of knights slaying great beasts, while others stick to their traditions and fight with such ferocity, that they mortify their non-dodo allies.\r\n\r\n{gold|Special Ability : Fearless. Affected by permanent Slayer spell. Spell Resistance Aura. General Damage Reduction 25%. Spell Damage Reduction 25%. Defensive stance}\r\nDodos are immune to Fear and enchanted with permanent Expert Slayer. They reduce physical damage from melee and ranged attacks by 25%. Battle Dodos project a magic resistant aura which gives adjacent units a 20% chance to ignore the effects of hostile spells (including themselves) and get +5 Defense when they are in defending state."
+	},
+
+	"greaterDodo" : {
+		"description" : "{green|Greater Dodo}\r\n\r\nThe exotic Dodo birds that were discovered recently are a weird folk. They feared no death nor adversity and fight with even greated dedication when the opponent is imposing. Some of these huge birds embrace imported culture and don iron armors to become immovable bulwarks inspired by the tales of knights slaying great beasts, while others stick to their traditions and fight with such ferocity, that they mortify their non-dodo allies.\r\n\r\n{gold|Special Ability : Fearless. Affected by permanent Slayer spell. Triple strike}\r\nDodos are immune to Fear and enchanted with Expert Slayer. They can attack three times per round but they have lost ability of retaliation. Although Greater Dodos are not undead birds, their precence in hero army lowers morale by 1."
+	},
+
+	"mandrake" : {
+		"description" : "{green|Mandrake}\r\n\r\nMandrakes are violent and whimsical creatures, while at the same time highly cultured. Their singing voices can cause an agonizing death and to make things worse for their victims, they spread the vines around the battlefield to entagle anyone who dares approach them.\r\n\r\n{gold|Special Ability : Summon Guardians}\r\nAt the beginning of each battle, Mandrakes summon guardians — Tangle Vines. The Vines occupy every slot surrounding the unit. Their number depends on the number of Mandrakes in the army. But beware! At the beginning, the Tangle Vines block the Mandrakes, preventing them from moving. Mandrakes should be positioned wisely within the army (not in the corners) to keep as many free hexes as possible for vine summoning."
+	},
+
+	"regalMandrake" : {
+		"description" : "{green|Regal Mandrake}\r\n\r\nMandrakes are violent and whimsical creatures, while at the same time highly cultured. Their singing voices can cause an agonizing death and to make things worse for their victims, they spread the vines around the battlefield to entagle anyone who dares approach them.\r\n\r\n{gold|Special Ability : Summon Guardians. Can revive Vines}\r\nAt the beginning of each battle, Mandrakes summon guardians — Strangle Vines. The Vines occupy every slot surrounding the unit. Their number depends on the number of Mandrakes in the army. But beware! At the beginning, the Strangle Vines block the Mandrakes, preventing them from moving. Mandrakes should be positioned wisely within the army (not in the corners) to keep as many free hexes as possible for vine summoning. Besides Regal Mandrakes can cast six times per battle Revive spell at Vines. Revive spell works similar like Archangel's Ressurection spell."
+	},
+
+	"jabberwock" : {
+		"description" : "{green|Jabberwock}\r\n\r\nJabberwocks, despite their apperances, are not related to dragons. Those foul creatures dwell in corrupted caverns and terrorize every living beign within their reach. Scarlet ones, with scales tinted by bloodshed, can decimate a numerous army in a single sweep of their claws. It is no surprise that the mere sight of these monsters can paralyze with fear.\r\n\r\n{gold|Special Ability : Flying}\r\nJabberwocks are marked as KING2 creature, which means they are vulnerable for Advanced Slayer effect."
+	},
+
+	"monstrousJabberwock" : {
+		"description" : "{green|Monstrous Jabberwock}\r\n\r\nJabberwocks, despite their apperances, are not related to dragons. Those foul creatures dwell in corrupted caverns and terrorize every living beign within their reach. Scarlet ones, with scales tinted by bloodshed, can decimate a numerous army in a single sweep of their claws. It is no surprise that the mere sight of these monsters can paralyze with fear.\r\n\r\n{gold|Special Ability : Flying. Fear. Destruction}\r\nMonstrous Jabberwocks are marked as KING2 creature, which means they are vulnerable for Advanced Slayer effect. Fear special ability is a passive ability, which means it does not require any specific action from the stack. The fear may occur only at the beginning of enemy stack's turn, causing them to freeze in fear of the Monstrous Jabberwocks and effectively lose their chance to act that combat round. Also, there is 25% chance that Monstrous Jabberwocks attack can destroy 10% of entire stack!"
+	},
+
+	"tangleVine" : {
+		"description" : "{green|Tangle Vine}\r\n\r\nTraveling through various lands, one might sometimes encounter trembling ground from which mysterious vines emerge. These enigmatic plants can paralyze any creature, binding it firmly to the ground. They have no dwellings and cannot be recruited into an army. Although they are immune to mind spells, Mandrakes' magic can make them loyal servants in battle skirmishes.\r\n\r\n{gold|Special Ability : Teleporting. No morale. Mind immunity. Casts Bind after attack}\r\nVines are unaffected by morale, meaning that their morale rating is always zero. Additionally they have 100% chance to cast Bind after attack (like Denroids)."
+	},
+
+	"strangleVine" : {
+		"description" : "{green|Strangle Vine}\r\n\r\nTraveling through various lands, one might sometimes encounter trembling ground from which mysterious vines emerge. These enigmatic plants can paralyze any creature, binding it firmly to the ground. They have no dwellings and cannot be recruited into an army. Although they are immune to mind spells, Mandrakes' magic can make them loyal servants in battle skirmishes.\r\n\r\n{gold|Special Ability : Teleporting. No morale. Mind immunity. Casts Bind after attack}\r\nVines are unaffected by morale, meaning that their morale rating is always zero. Additionally they have 100% chance to cast Bind after attack (like Denroids)."
+	},
+
+	"apparition" : {
+		"description" : "{green|Ephemeral Apparition}\r\n\r\nThere is a phenomenon, when you take a picture of recently deceased you can sometimes spot something unusual. A flicker of light hovering in place where the person has passed. Clearly not an undead manifestation, this is something else entirely. Just remaining there for a time, floating gently yet spreading a bone-chilling aura, and almost impossible to dissipate prematurely with physical contact.\r\n\r\n{gold|Special Ability : Teleporting. No morale. Mind immunity. Undead. Non-living. Immune to Earth and Animate Dead spells. Ephemeral}\r\nApparitions are more ghostish even than Ghosts. They are enchanted by permanent Ephemeral spell that means they live only 1 turn, do not deal damage, don't retaliate and have no speed. But they are almost immune for physical and magical attacks (98% reduction). Presence Apparitions on the battlefield can freeze in fear enemy stacks. There is only one situation to see Apparitions - they can be summoned by Camera Obscura war machine."
+	},
+
+	"cameraObscuraCreature" : {
+		"description" : "{green|Camera Obscura}\r\n\r\nThis camera was planed as second war machine available in Courtyard. This mysterious machine can cast spells 5 times per battle. Camera can cast Age spell on enemy units (duration - 3 turns) or can revive friedly dead stacks as Apparitions (mechanism similar to Pit Lord's deamon summoning). Now you have two options to have this machine in your army.\r\n- sometimes it can be found in random generated maps as 'artifact'.\r\n- Heroine Migdigravia starts with one Camera that can be transferred to other hero."
+	},
+
+	"potionCartCreature" : {
+		"description" : "{green|Potion Cart}\r\n\r\nPotion Cart adds potions to hero's spellbook. Cost: 1500 gold. Using potions - 0 mana points. After destroying the cart, potions vanish.\r\n\r\nPotions:\r\n{silver|Regeneration Potion:} Grants unit regeneration ability (5 points/turn).\r\n{silver|Vial of Poison:} Grants unit a chance to poison the attacked enemy (10%).\r\n\r\nHeroes with basic First Aid have additional potion:\r\n{silver|Dragon Drought:} Grants unit dragon nature and dragon breath attack, which has a chance of setting enemy unit aflame.\r\n\r\nHeroes with advanced First Aid have additional potion:\r\n{silver|Toughness Tonic}: Increases unit's hit points by 25% and damage dealt by unit by 15%.\r\n\r\nHeroes with expert First Aid have additional potion:\r\n{silver|Etheral Extract:} Grants unit ability to fly and 20% damage reduction from spells and attacks."
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	}
 }

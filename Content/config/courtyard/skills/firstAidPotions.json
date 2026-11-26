@@ -1,5 +1,6 @@
 {
 	"core:firstAid" : {
+<<<<<<< HEAD
 		"basic" : {
 			"effects" : {
 				"courtyardPotion_regenerationPotion" : {
@@ -47,11 +48,28 @@
 							"bonusSubtype" : "courtyard:potionSupply",
 							"bonusSourceType" : "ARTIFACT",
 							"bonusSourceID" : "courtyard:potionCart"
+=======
+		"base" : {
+			"effects" : {
+				"potionsExtra" : {
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "potionSupply"
+					},
+					"val" : 0,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "potionCartCreature",
+							"includeUpgrades" : false
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 						}
 					]
 				}
 			}
 		},
+<<<<<<< HEAD
 		"advanced" : {
 			"effects" : {
 				"courtyardPotion_regenerationPotion" : {
@@ -201,6 +219,26 @@
 							"bonusSourceID" : "courtyard:potionCart"
 						}
 					]
+=======
+		"basic" : {
+			"effects" : {
+				"potionsExtra" : {
+					"val" : 1
+				}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"potionsExtra" : {
+					"val" : 2
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"potionsExtra" : {
+					"val" : 3
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				}
 			}
 		}

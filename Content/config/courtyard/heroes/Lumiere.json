@@ -96,7 +96,11 @@
 				},
 				"castField" : {
 					"addInfo" : 3,
+<<<<<<< HEAD
 					"subtype" : "lumiereForceField",
+=======
+					"subtype" : "forceField",
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					"propagator" : "HERO",
 					"type" : "ENCHANTER",
 					"val" : 1,
@@ -110,7 +114,11 @@
 				},
 				"castField2" : {
 					"addInfo" : 3,
+<<<<<<< HEAD
 					"subtype" : "lumiereForceField",
+=======
+					"subtype" : "forceField",
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					"propagator" : "HERO",
 					"type" : "ENCHANTER",
 					"val" : 3,

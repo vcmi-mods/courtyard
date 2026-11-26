@@ -11,13 +11,24 @@
 		},
 		"level" : 3,
 		"power" : 1,
+<<<<<<< HEAD
 		"defaultGainChance" : 0,
 		"gainChance" : {},
+=======
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"animation" : {
 			"affect" : [
 				"courtyard/spells/Potions/Toughness/toughnessPotion.def"
 			]
 		},
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"flags" : {
 			"positive" : true,
 			"special" : true
@@ -36,20 +47,36 @@
 			"iconScroll" : "courtyard/spells/Potions/Toughness/toughnessP_scroll1",
 			"iconScenarioBonus" : "courtyard/spells/Potions/Toughness/toughnessP_bonus1"
 		},
+<<<<<<< HEAD
 		"sounds" : {
 			"cast" : "courtyard/spells/TOUGHNESSPOT.wav"
 		},
+=======
+
+		"sounds" : {
+			"cast" : "courtyard/spells/TOUGHNESSPOT.wav"
+		},
+
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"levels" : {
 			"base" : {
 				"cost" : 0,
 				"range" : "0",
 				"power" : 1,
+<<<<<<< HEAD
+=======
+				//				"aiValue": 70,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				"targetModifier" : {
 					"smart" : true
 				},
 				"battleEffects" : {
 					"toughness" : {
+<<<<<<< HEAD
 						"type" : "potionTimed",
+=======
+						"type" : "core:timed",
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 						"bonus" : {
 							"increaseDamage" : {
 								"val" : 15,
@@ -65,17 +92,28 @@
 								"duration" : "N_TURNS"
 							},
 							"giant" : {
+<<<<<<< HEAD
 								"type" : "KING",
 								"val" : 1,
 								"valueType" : "ADDITIVE_VALUE",
 								"duration" : "N_TURNS"
+=======
+								//						"val" : 40,
+								"type" : "KING",
+								"val" : 1,
+								"valueType" : "ADDITIVE_VALUE"
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 							},
 							"potionMarkerEffect" : {
 								"type" : "SPECIFIC_SPELL_DAMAGE",
 								"subtype" : "potionSupply",
+<<<<<<< HEAD
 								"val" : 0,
 								"duration" : "N_TURNS",
 								"hidden" : true
+=======
+								"val" : 0
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 							}
 						}
 					}

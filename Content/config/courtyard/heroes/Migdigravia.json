@@ -51,16 +51,25 @@
 						}
 					]
 				},
+<<<<<<< HEAD
 				"summonPower" : {
 					"type" : "SPECIFIC_SPELL_POWER",
 					"subtype" : "summonApparition",
 					"val" : 10,
+=======
+				"apparitionSummoning" : {
+					"type" : "SPELLCASTER",
+					"subtype" : "summonApparition",
+					"val" : 3,
+					"addInfo" : 30,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "cameraObscuraCreature",
 							"includeUpgrades" : false
 						}
+<<<<<<< HEAD
 					],
 					"updater" : {
 						"type" : "TIMES_HERO_LEVEL",
@@ -79,6 +88,21 @@
 						}
 					],
 					"hidden" : true
+=======
+					]
+				},
+				"summonPower" : {
+					"type" : "SPECIFIC_SPELL_POWER",
+					"subtype" : "summonApparition",
+					"val" : 100,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "cameraObscuraCreature",
+							"includeUpgrades" : false
+						}
+					]
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				}
 			}
 		}

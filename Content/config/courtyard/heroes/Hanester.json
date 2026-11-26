@@ -49,6 +49,7 @@
 					"subtype" : "spellpower",
 					"type" : "PRIMARY_SKILL",
 					"val" : -15,
+<<<<<<< HEAD
 					"valueType" : "PERCENT_TO_BASE"
 				},
 				"reducePowerScaling" : {
@@ -67,6 +68,14 @@
 					"type" : "PRIMARY_SKILL",
 					"val" : -1,
 					"valueType" : "PERCENT_TO_BASE"
+=======
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : {
+						"valPer20" : -10,
+						"stepSize" : 1,
+						"type" : "GROWS_WITH_LEVEL"
+					}
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				}
 			}
 		}

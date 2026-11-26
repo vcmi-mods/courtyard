@@ -47,7 +47,33 @@
 			},
 			"warmachine" : {
 				"type" : "SIEGE_WEAPON"
+<<<<<<< HEAD
+=======
+			},
+			"supply" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : {
+					"spell" : "potionSupply"
+				},
+				"description" : "Potion Cart supplies hero spellbook with potions.",
+				"val" : 0,
+				"limiters" : [
+					{
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "potionCartCreature",
+						"includeUpgrades" : false
+					}
+				]
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			}
+			//			"automatic" : {
+			//				"subtype" : "creature.plagueTentCreature",
+			//				"type" : "MANUAL_CONTROL",
+			//				"val" : 0,
+			//				"valueType" : "BASE_NUMBER",
+			//				"propagator" : "HERO"
+			//			}
 		}
 	}
 }

@@ -6,6 +6,7 @@
 	"contact" : "NONE",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+<<<<<<< HEAD
 	"version" : "1.40",
 	"changelog" : {
 		"1.40" : [
@@ -20,6 +21,10 @@
 			"Added Camera Obscura to the standard War Machine Factory and optional Hirki New Ranged compatibility without replacing HotA Cannon Yard inventory.",
 			"Updated creature wiki and English/Polish descriptions to match RC1 mechanics, including potion mastery, fear, regeneration and rank thresholds; restored missing multimedia resources."
 		],
+=======
+	"version" : "1.32",
+	"changelog" : {
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"1.32" : [
 			"Updated to VCMI 1.8 format"
 		],
@@ -115,7 +120,11 @@
 		]
 	},
 	"compatibility" : {
+<<<<<<< HEAD
 		"min" : "1.8.0"
+=======
+		"min" : "1.7.0"
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	},
 	"spells" : [
 		"config/courtyard/spells/reconstruction",
@@ -136,19 +145,18 @@
 		"config/courtyard/spells/weaponPoisonPotion",
 		"config/courtyard/spells/dragonPotion",
 		"config/courtyard/spells/summonApparition",
-		"config/courtyard/spells/moat",
-		"config/courtyard/spells/lumiereForceField"
+		"config/courtyard/spells/moat"
 	],
 	"creatures" : [
 		"config/courtyard/creatures/stackExp",
 		"config/courtyard/creatures/wiki",
-		"config/courtyard/creatures/Lvl1unit",
+		"config/courtyard/creatures/lvl1unit",
 		"config/courtyard/creatures/lvl2unit",
-		"config/courtyard/creatures/Lvl3unit",
+		"config/courtyard/creatures/lvl3unit",
 		"config/courtyard/creatures/lvl4unit",
 		"config/courtyard/creatures/lvl5unit",
-		"config/courtyard/creatures/Lvl6unit",
-		"config/courtyard/creatures/Lvl7unit",
+		"config/courtyard/creatures/lvl6unit",
+		"config/courtyard/creatures/lvl7unit",
 		"config/courtyard/creatures/vines",
 		"config/courtyard/creatures/apparition",
 		"config/courtyard/warmachines/potionCartCreature",
@@ -166,9 +174,12 @@
 		"config/courtyard/town",
 		"config/courtyard/courtyardPuzzle"
 	],
+<<<<<<< HEAD
 	"scripts" : [
 		"config/courtyard/scripts"
 	],
+=======
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"heroClasses" : [
 		"config/courtyard/classes/mightHero",
 		"config/courtyard/classes/magicHero"
@@ -231,9 +242,12 @@
 			"translation/czech.json"
 		]
 	},
+<<<<<<< HEAD
 	"translations" : [
 		"translation/immolationEnglish.json"
 	],
+=======
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"french" : {
 		"translations" : [
 			"translation/french.json"

@@ -3,16 +3,27 @@
 		"abilities" : {
 			"regeneration" : {
 				"type" : "HP_REGENERATION",
+<<<<<<< HEAD
 				"val" : 7,
 				"stacking" : "courtyard.homunculusRegeneration",
 				"valueType" : "BASE_NUMBER"
 			}
 		},
+=======
+				"val" : 7
+			}
+		},
+
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"advMapAmount" : {
 			"max" : 30,
 			"min" : 12
 		},
+<<<<<<< HEAD
 		"aiValue" : 152,
+=======
+		"aiValue" : 127,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"attack" : 8,
 		"cost" : {
 			"gold" : 100
@@ -23,7 +34,11 @@
 		},
 		"defense" : 4,
 		"faction" : "courtyard",
+<<<<<<< HEAD
 		"fightValue" : 151,
+=======
+		"fightValue" : 135,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"graphics" : {
 			"animation" : "courtyard/battle/CHomunculus.def",
 			"animationTime" : {
@@ -55,10 +70,15 @@
 			"gildedHomunculus"
 		]
 	},
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"gildedHomunculus" : {
 		"abilities" : {
 			"regeneration" : {
 				"type" : "HP_REGENERATION",
+<<<<<<< HEAD
 				"val" : 10,
 				"stacking" : "courtyard.gildedHomunculusRegeneration",
 				"valueType" : "BASE_NUMBER"
@@ -72,13 +92,27 @@
 				"icon" : "courtyard/icons/bonuses/sp_boost.png",
 				"stacking" : "courtyard.gildedHomunculusSpellDamage",
 				"valueType" : "BASE_NUMBER"
+=======
+				"val" : 10
+			},
+			"increasedSpellDamage" : {
+				"type" : "SPELL_DAMAGE",
+				"propagator" : "HERO",
+				"val" : 15,
+				"description" : "{Spell booster}\nIncreases hero's spells damage by 15%",
+				"icon" : "courtyard/icons/bonuses/sp_boost.png"
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			}
 		},
 		"advMapAmount" : {
 			"max" : 25,
 			"min" : 12
 		},
+<<<<<<< HEAD
 		"aiValue" : 233,
+=======
+		"aiValue" : 205,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"attack" : 9,
 		"cost" : {
 			"gold" : 155
@@ -89,7 +123,11 @@
 		},
 		"defense" : 6,
 		"faction" : "courtyard",
+<<<<<<< HEAD
 		"fightValue" : 213,
+=======
+		"fightValue" : 182,
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"graphics" : {
 			"animation" : "courtyard/battle/CSHomuncul.def",
 			"animationTime" : {
@@ -107,7 +145,11 @@
 		"level" : 2,
 		"name" : {
 			"plural" : "Gilded Homunculi",
+<<<<<<< HEAD
 			"singular" : "Gilded Homunculus"
+=======
+			"singular" : "Gilded Homunculi"
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		},
 		"sound" : {
 			"attack" : "courtyard/lvl5/HomunATTK.wav",

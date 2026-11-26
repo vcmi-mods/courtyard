@@ -67,8 +67,12 @@
 							"creature" : "tangleVine",
 							"includeUpgrades" : true
 						}
+<<<<<<< HEAD
 					],
 					"subtype" : "damageTypeMelee"
+=======
+					]
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				}
 			}
 		}

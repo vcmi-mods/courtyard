@@ -40,6 +40,7 @@
 		"hitPoints" : 125,
 		"speed" : 5,
 		"abilities" : {
+<<<<<<< HEAD
 			"ageCasting" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.ageCamera",
@@ -66,6 +67,39 @@
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "summonApparition",
 				"val" : 100
+=======
+			"agingSpellpower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				//				"subtype" : "spell.ageCamera",
+				"val" : 3
+			},
+			"ageCasting" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.ageCamera",
+				"val" : 3,
+				"addInfo" : 100
+			},
+			"summonSpellpower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.summonApparition",
+				"val" : 100
+			},
+			"summonCasting" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.summonApparition",
+				"val" : 3,
+				"addInfo" : 100
+			},
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 5
+			},
+			"noRetaliation" : {
+				"type" : "NO_RETALIATION"
+			},
+			"warmachine" : {
+				"type" : "SIEGE_WEAPON"
+>>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			}
 		}
 	}
