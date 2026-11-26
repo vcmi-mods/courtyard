@@ -6,30 +6,17 @@
 			},
 			"defenseReduction" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
-<<<<<<< HEAD
-				"val" : 15,
-				"stacking" : "courtyard.arquebusierPenetration",
-				"valueType" : "BASE_NUMBER"
-=======
 				"val" : 15
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			}
 		},
 		"advMapAmount" : {
 			"max" : 20,
 			"min" : 10
 		},
-<<<<<<< HEAD
-		"aiValue" : 573,
-		"attack" : 10,
-		"cost" : {
-			"gold" : 350
-=======
 		"aiValue" : 690,
 		"attack" : 10,
 		"cost" : {
 			"gold" : 200
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		},
 		"damage" : {
 			"max" : 11,
@@ -37,11 +24,7 @@
 		},
 		"defense" : 8,
 		"faction" : "courtyard",
-<<<<<<< HEAD
-		"fightValue" : 429,
-=======
 		"fightValue" : 807,
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"graphics" : {
 			"animation" : "courtyard/battle/CMusketeer.def",
 			"animationTime" : {
@@ -99,10 +82,7 @@
 			"musketeer"
 		]
 	},
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"musketeer" : {
 		"abilities" : {
 			"canShoot" : {
@@ -110,30 +90,17 @@
 			},
 			"defenseReduction" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
-<<<<<<< HEAD
-				"val" : 30,
-				"stacking" : "courtyard.musketeerPenetration",
-				"valueType" : "BASE_NUMBER"
-=======
 				"val" : 30
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			}
 		},
 		"advMapAmount" : {
 			"max" : 16,
 			"min" : 10
 		},
-<<<<<<< HEAD
-		"aiValue" : 814,
-		"attack" : 13,
-		"cost" : {
-			"gold" : 450
-=======
 		"aiValue" : 1001,
 		"attack" : 13,
 		"cost" : {
 			"gold" : 250
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		},
 		"damage" : {
 			"max" : 11,
@@ -141,11 +108,7 @@
 		},
 		"defense" : 9,
 		"faction" : "courtyard",
-<<<<<<< HEAD
-		"fightValue" : 613,
-=======
 		"fightValue" : 990,
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"graphics" : {
 			"animation" : "courtyard/battle/CEMusketeer.def",
 			"animationTime" : {
@@ -179,10 +142,7 @@
 				},
 				"projectile" : "courtyard/battle/projectile/PMusket.def"
 			},
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 5,

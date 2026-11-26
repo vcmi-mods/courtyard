@@ -18,22 +18,6 @@
 				"templates" : {
 					"journal" : {
 						"animation" : "courtyard/map/other/AJournal",
-<<<<<<< HEAD
-						"mask" : [
-							"VV",
-							"VA"
-						],
-						"visitableFrom" : [
-							"---",
-							"+-+",
-							"+++"
-						]
-					}
-				},
-				"visitableFromTop" : false,
-				"blockVisit" : true,
-				"removable" : true
-=======
 						"visitableFrom" : [
 							"---",
 							"+++",
@@ -45,7 +29,6 @@
 						]
 					}
 				}
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			},
 			"courtyardLetter" : {
 				"name" : "Letter",
@@ -64,31 +47,6 @@
 				"templates" : {
 					"letter" : {
 						"animation" : "courtyard/map/other/ALetter",
-<<<<<<< HEAD
-						"mask" : [
-							"VV",
-							"VA"
-						],
-						"visitableFrom" : [
-							"---",
-							"+-+",
-							"+++"
-						]
-					}
-				},
-				"visitableFromTop" : false,
-				"blockVisit" : true,
-				"removable" : true
-			}
-		}
-	},
-	"core:warMachineFactory" : {
-		"base" : {
-			"creatures" : {
-				"append" : [
-					"courtyard:cameraObscuraCreature"
-				]
-=======
 						"visitableFrom" : [
 							"---",
 							"+++",
@@ -100,7 +58,6 @@
 						]
 					}
 				}
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			}
 		}
 	}

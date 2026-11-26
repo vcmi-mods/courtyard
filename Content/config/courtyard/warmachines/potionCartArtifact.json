@@ -16,31 +16,6 @@
 			"image" : "courtyard/icons/artifacts/PotCart_art01",
 			"scenarioBonus" : "courtyard/icons/artifacts/PotCart_artBonus01.png",
 			"map" : "courtyard/map/artPotCart.def"
-<<<<<<< HEAD
-		},
-		"bonuses" : {
-			"regenerationPotion" : {
-				"type" : "SPELL",
-				"subtype" : "courtyard:regenerationPotion",
-				"val" : 0,
-				"valueType" : "AT_LEAST",
-				"hidden" : true
-			},
-			"weaponPoisonPotion" : {
-				"type" : "SPELL",
-				"subtype" : "courtyard:weaponPoisonPotion",
-				"val" : 0,
-				"valueType" : "AT_LEAST",
-				"hidden" : true
-			},
-			"potionCartEquipped" : {
-				"type" : "SPELL_DURATION",
-				"subtype" : "courtyard:potionSupply",
-				"val" : 0,
-				"hidden" : true
-			}
-=======
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		}
 	}
 }

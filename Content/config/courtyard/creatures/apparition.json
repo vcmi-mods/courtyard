@@ -26,28 +26,11 @@
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "animateDead",
 				"addInfo" : 1,
-<<<<<<< HEAD
-				"description" : "{Animate Dead Immunity}\nApparitions can't be reanimated by Animate Dead spell",
-=======
 				"description" : "{Animare Dead Immunity}\nApparitions can't be reanimated by Animate Dead spell",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				"icon" : "courtyard/icons/bonuses/im_animate.png"
 			},
 			"ephemeral" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
-<<<<<<< HEAD
-				"subtype" : "courtyard:apparitionLifetime",
-				"val" : 2,
-				"description" : "{Ephemeral}\nApparitions disappear at the start of the second round boundary after appearing (third with Migdigravia).",
-				"icon" : "courtyard/icons/bonuses/ephemeral.png",
-				"stacking" : "courtyard.apparition.lifetime"
-			},
-			"noAttacks" : {
-				"type" : "ADDITIONAL_ATTACK",
-				"val" : -1,
-				"valueType" : "AT_MOST",
-				"description" : "{No Attacks}\nApparitions can teleport, but perform no attacks or retaliations.",
-=======
 				"subtype" : "enchanted",
 				"addInfo" : {
 					"spell" : "ephemeral"
@@ -60,7 +43,6 @@
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : -10,
 				"description" : "{Ephemeral}\nApparitions cannot attack anybody",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				"icon" : "courtyard/icons/bonuses/ephemeral.png"
 			},
 			"damageReduction1" : {
@@ -71,11 +53,7 @@
 			"magicDamageReduction" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
-<<<<<<< HEAD
-				"val" : 98
-=======
 				"val" : 95
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			},
 			"fear" : {
 				"type" : "FEARFUL",
@@ -92,19 +70,12 @@
 							"LIVING"
 						]
 					}
-<<<<<<< HEAD
-				],
-				"stacking" : "courtyard.apparition.fear"
-=======
 				]
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			},
 			"noRetaliation" : {
 				"type" : "NO_RETALIATION",
 				"description" : "{No Retaliation}\nAffected unit will never retaliate to an attack",
 				"icon" : "courtyard/icons/bonuses/ephemeral.png"
-<<<<<<< HEAD
-=======
 			},
 			"noSpeed" : {
 				"type" : "STACKS_SPEED",
@@ -112,7 +83,6 @@
 				"valueType" : "INDEPENDENT_MIN",
 				"description" : "{No Speed}\nApparitions are unable to move",
 				"icon" : "courtyard/icons/bonuses/sticky.png"
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			}
 		},
 		"special" : true,
@@ -159,10 +129,6 @@
 			"move" : "WGHTMOVE.wav",
 			"wince" : "WGHTWNCE.wav"
 		},
-<<<<<<< HEAD
-		"speed" : 5
-=======
 		"speed" : 0
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	}
 }

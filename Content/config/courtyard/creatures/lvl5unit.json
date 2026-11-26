@@ -7,21 +7,11 @@
 				"addInfo" : {
 					"spell" : "slayer"
 				},
-<<<<<<< HEAD
-				"val" : 2,
-				"stacking" : "courtyard.dodoSlayer",
-				"valueType" : "BASE_NUMBER"
-			},
-			"fearless" : {
-				"type" : "FEARFUL",
-				"valueType" : "AT_MOST",
-=======
 				"val" : 2
 			},
 			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				"val" : 0,
 				"description" : "{Fearless}\nImmune to Fear ability",
 				"icon" : "courtyard/icons/bonuses/e_fearl.png"
@@ -31,11 +21,7 @@
 			"max" : 16,
 			"min" : 8
 		},
-<<<<<<< HEAD
-		"aiValue" : 731,
-=======
 		"aiValue" : 903,
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"attack" : 9,
 		"cost" : {
 			"gold" : 400
@@ -47,11 +33,7 @@
 		"defense" : 9,
 		"doubleWide" : true,
 		"faction" : "courtyard",
-<<<<<<< HEAD
-		"fightValue" : 628,
-=======
 		"fightValue" : 888,
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"graphics" : {
 			"animation" : "courtyard/battle/CDodo.def",
 			"animationTime" : {
@@ -84,10 +66,7 @@
 			"greaterDodo"
 		]
 	},
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"battleDodo" : {
 		"abilities" : {
 			"slayer" : {
@@ -96,21 +75,11 @@
 				"addInfo" : {
 					"spell" : "slayer"
 				},
-<<<<<<< HEAD
-				"val" : 3,
-				"stacking" : "courtyard.dodoSlayer",
-				"valueType" : "BASE_NUMBER"
-			},
-			"fearless" : {
-				"type" : "FEARFUL",
-				"valueType" : "AT_MOST",
-=======
 				"val" : 3
 			},
 			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				"val" : 0,
 				"description" : "{Fearless}\nImmune to Fear ability",
 				"icon" : "courtyard/icons/bonuses/e_fearl.png"
@@ -127,37 +96,18 @@
 			},
 			"magicDamageReductionAura" : {
 				"type" : "SPELL_RESISTANCE_AURA",
-<<<<<<< HEAD
-				"val" : 20,
-				"stacking" : "courtyard.battleDodoAura",
-				"valueType" : "BASE_NUMBER"
-=======
 				"val" : 20
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			},
 			"defensiveStance" : {
 				"type" : "DEFENSIVE_STANCE",
 				"val" : 5
-<<<<<<< HEAD
-			},
-			"selfResistance" : {
-				"type" : "MAGIC_RESISTANCE",
-				"val" : 20,
-				"stacking" : "courtyard.battleDodoSelfResistance",
-				"valueType" : "BASE_NUMBER"
-=======
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			}
 		},
 		"advMapAmount" : {
 			"max" : 12,
 			"min" : 8
 		},
-<<<<<<< HEAD
-		"aiValue" : 1219,
-=======
 		"aiValue" : 1319,
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"attack" : 9,
 		"cost" : {
 			"gold" : 750
@@ -169,11 +119,7 @@
 		"defense" : 17,
 		"doubleWide" : true,
 		"faction" : "courtyard",
-<<<<<<< HEAD
-		"fightValue" : 1009,
-=======
 		"fightValue" : 1171,
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"graphics" : {
 			"animation" : "courtyard/battle/CPdod.def",
 			"animationTime" : {
@@ -205,10 +151,7 @@
 			"greaterDodo"
 		]
 	},
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"greaterDodo" : {
 		"abilities" : {
 			"slayer" : {
@@ -217,21 +160,11 @@
 				"addInfo" : {
 					"spell" : "slayer"
 				},
-<<<<<<< HEAD
-				"val" : 3,
-				"stacking" : "courtyard.dodoSlayer",
-				"valueType" : "BASE_NUMBER"
-			},
-			"fearless" : {
-				"type" : "FEARFUL",
-				"valueType" : "AT_MOST",
-=======
 				"val" : 3
 			},
 			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				"val" : 0,
 				"description" : "{Fearless}\nImmune to Fear ability",
 				"icon" : "courtyard/icons/bonuses/e_fearl.png"
@@ -257,11 +190,6 @@
 						"includeUpgrades" : true
 					}
 				],
-<<<<<<< HEAD
-				"description" : "{Decreases allies morale}\nGrand Dodos decrease the morale of allied non-Dodo creatures by one.",
-				"icon" : "courtyard/icons/bonuses/negativemorale.png",
-				"propagationUpdater" : "BONUS_OWNER_UPDATER"
-=======
 				"description" : "{Decreases allies morale}\nGrand Dodos decrease allies Morale by one",
 				"icon" : "courtyard/icons/bonuses/negativemorale.png"
 			},
@@ -287,18 +215,13 @@
 					]
 				],
 				"hidden" : true
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			}
 		},
 		"advMapAmount" : {
 			"max" : 12,
 			"min" : 8
 		},
-<<<<<<< HEAD
-		"aiValue" : 1445,
-=======
 		"aiValue" : 1319,
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"attack" : 17,
 		"cost" : {
 			"gold" : 750
@@ -310,11 +233,7 @@
 		"defense" : 9,
 		"doubleWide" : true,
 		"faction" : "courtyard",
-<<<<<<< HEAD
-		"fightValue" : 1234,
-=======
 		"fightValue" : 1171,
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"graphics" : {
 			"animation" : "courtyard/battle/CCdod.def",
 			"animationTime" : {

@@ -6,25 +6,8 @@
 	"contact" : "NONE",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-<<<<<<< HEAD
-	"version" : "1.40",
-	"changelog" : {
-		"1.40" : [
-			"Updated for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.",
-			"Recalibrated AI Value and Fight Value for all 15 town creatures using native CombatValue and OH3/HotA references.",
-			"Redesigned Stack Experience for all 15 town creatures, giving veteran basic forms distinct roles and preserving shared stat progression.",
-			"Rebalanced recruitment prices for Arquebusier (350), Musketeer (450), Mandrake (900) and Regal Mandrake (1200); other base stats and growth retained.",
-			"Audited all 16 hero specialties; fixed Hanester level scaling, Lumiere Force Field placement, Dizheel Diplomacy and corrected inconsistent descriptions.",
-			"Reworked Camera Obscura and temporary Apparitions: both spells available to any owner, mobile non-attacking Apparitions, corrected lifetime and Migdigravia scaling.",
-			"Fixed Potion Cart supply, First Aid progression and Caballe potion effects; corrected Immolation damage and duration, Regrowth descriptions and Dodo/Auk bonus interactions.",
-			"Fixed daily Magic Fountain visits, Magic Absorber protection for defending heroes, Grail descriptions and Journal/Letter object flags.",
-			"Added Camera Obscura to the standard War Machine Factory and optional Hirki New Ranged compatibility without replacing HotA Cannon Yard inventory.",
-			"Updated creature wiki and English/Polish descriptions to match RC1 mechanics, including potion mastery, fear, regeneration and rank thresholds; restored missing multimedia resources."
-		],
-=======
 	"version" : "1.32",
 	"changelog" : {
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"1.32" : [
 			"Updated to VCMI 1.8 format"
 		],
@@ -120,11 +103,7 @@
 		]
 	},
 	"compatibility" : {
-<<<<<<< HEAD
-		"min" : "1.8.0"
-=======
 		"min" : "1.7.0"
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	},
 	"spells" : [
 		"config/courtyard/spells/reconstruction",
@@ -174,12 +153,6 @@
 		"config/courtyard/town",
 		"config/courtyard/courtyardPuzzle"
 	],
-<<<<<<< HEAD
-	"scripts" : [
-		"config/courtyard/scripts"
-	],
-=======
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"heroClasses" : [
 		"config/courtyard/classes/mightHero",
 		"config/courtyard/classes/magicHero"
@@ -242,12 +215,6 @@
 			"translation/czech.json"
 		]
 	},
-<<<<<<< HEAD
-	"translations" : [
-		"translation/immolationEnglish.json"
-	],
-=======
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"french" : {
 		"translations" : [
 			"translation/french.json"

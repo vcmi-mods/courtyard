@@ -14,17 +14,10 @@
 			"max" : 10,
 			"min" : 4
 		},
-<<<<<<< HEAD
-		"aiValue" : 1602,
-		"attack" : 20,
-		"cost" : {
-			"gold" : 900
-=======
 		"aiValue" : 1840,
 		"attack" : 20,
 		"cost" : {
 			"gold" : 850
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		},
 		"damage" : {
 			"max" : 30,
@@ -32,11 +25,7 @@
 		},
 		"defense" : 8,
 		"faction" : "courtyard",
-<<<<<<< HEAD
-		"fightValue" : 1409,
-=======
 		"fightValue" : 1654,
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"graphics" : {
 			"animation" : "courtyard/battle/CMndrak.def",
 			"animationTime" : {
@@ -70,10 +59,7 @@
 			"regalMandrake"
 		]
 	},
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"regalMandrake" : {
 		"abilities" : {
 			"summonGuardians" : {
@@ -88,13 +74,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "vinesRevive",
 				"val" : 0,
-<<<<<<< HEAD
-				"description" : "{Spellcaster}\nCan cast Regrowth to revive scorched vines",
-				"stacking" : "courtyard.regrowthMastery",
-				"valueType" : "BASE_NUMBER"
-=======
 				"description" : "{Spellcaster}\nCan cast Regrowth to revive scorched vines"
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			},
 			"casts" : {
 				"type" : "CASTS",
@@ -105,25 +85,15 @@
 				"val" : 100
 			}
 		},
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"advMapAmount" : {
 			"max" : 9,
 			"min" : 4
 		},
-<<<<<<< HEAD
-		"aiValue" : 2380,
-		"attack" : 22,
-		"cost" : {
-			"gold" : 1200
-=======
 		"aiValue" : 2422,
 		"attack" : 22,
 		"cost" : {
 			"gold" : 1000
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		},
 		"damage" : {
 			"max" : 35,
@@ -131,11 +101,7 @@
 		},
 		"defense" : 9,
 		"faction" : "courtyard",
-<<<<<<< HEAD
-		"fightValue" : 2004,
-=======
 		"fightValue" : 1852,
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"graphics" : {
 			"animation" : "courtyard/battle/CRMndrk.def",
 			"animationTime" : {
