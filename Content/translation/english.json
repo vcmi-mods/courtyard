@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-	"artifact.courtyard.cameraObscura.description" : "{Camera Obscura}\n\nAllows the use of Age and Summon Apparition in battle. Five shared casts per battle.",
-=======
 	"artifact.courtyard.cameraObscura.description" : "{Camera Obscura}\r\n\r\nThe Camera Obscura allows it to cast {Age} on enemy units.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"artifact.courtyard.cameraObscura.event" : "You stumble upon a bizarre and mortifying scenery: A bunch of dried up corpses donning fashionable outfits, posed up as in for a family portrait. The painter is nowhere to be seen, and instead of canvas there is a small wooden box with a lens on the easel. You decide to take the device and leave quickly, feeling stares of the dead upon you.",
 	"artifact.courtyard.cameraObscura.name" : "Camera Obscura",
 	"artifact.courtyard.potionCart.description" : "{Potion Cart}\r\n\r\nThe Potion Cart provides your army with benefical elixirs.",
@@ -51,11 +47,7 @@
 	"building.courtyard.courtyard.dwellingUpLvl7.name" : "Upg. Scary Cavity",
 	"building.courtyard.courtyard.fort.description" : "The Fort provides your town with defensive walls.",
 	"building.courtyard.courtyard.fort.name" : "Fort",
-<<<<<<< HEAD
-	"building.courtyard.courtyard.grail.description" : "The Ivory Tower increases weekly creature growth in this town by 50%, provides your kingdom with an additional 5000 gold each day, and increases magical spell damage dealt by your heroes by 50%.",
-=======
 	"building.courtyard.courtyard.grail.description" : "The presence of the Ivory Tower increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day and increases the spell power of any Magic by 50%.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"building.courtyard.courtyard.grail.name" : "Ivory Tower",
 	"building.courtyard.courtyard.horde1.description" : "The Statue Garden increases Marble Cupids production by 6 per week.",
 	"building.courtyard.courtyard.horde1.name" : "Statue Garden",
@@ -79,16 +71,6 @@
 	"building.courtyard.courtyard.resourceSilo.name" : "Resource Silo",
 	"building.courtyard.courtyard.special1.description" : "The Alchemy Shop sells artifacts to visiting heroes.",
 	"building.courtyard.courtyard.special1.name" : "Alchemy Shop",
-<<<<<<< HEAD
-	"building.courtyard.courtyard.special2.description" : "The Magic Fountain immediately restores a visiting hero’s spell points to their normal maximum, once per day.",
-	"building.courtyard.courtyard.special2.name" : "Magic Fountain",
-	"building.courtyard.courtyard.special2.rewards.0" : "{Magic Fountain}\r\n\r\nA drink from the fountain has restored your spell points to maximum.",
-	"building.courtyard.courtyard.special3.description" : "The Magic Absorber grants troops defending this town an additional 50 percentage points of general magical damage reduction, up to a total of 100%.",
-	"building.courtyard.courtyard.special3.name" : "Magic Absorber",
-	"building.courtyard.courtyard.tavern.description" : "The Tavern increases morale for troops defending the city.",
-	"building.courtyard.courtyard.tavern.name" : "Tavern",
-	"building.courtyard.courtyard.townFountain.description" : "A decorative fountain that appears when the City Hall is built.",
-=======
 	"building.courtyard.courtyard.special2.description" : "Magic Fountain restores all mana points of visiting hero at the beginning of next day.",
 	"building.courtyard.courtyard.special2.name" : "Magic Fountain",
 	"building.courtyard.courtyard.special2.rewards.0" : "{Magic Fountain}\r\n\r\nA drink from the fountain has restored your spell points to maximum.",
@@ -97,35 +79,11 @@
 	"building.courtyard.courtyard.tavern.description" : "The Tavern increases morale for troops defending the city.",
 	"building.courtyard.courtyard.tavern.name" : "Tavern",
 	"building.courtyard.courtyard.townFountain.description" : "Magic Fountain restores all mana points of visiting hero at the beginning of next day.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"building.courtyard.courtyard.townFountain.name" : "Magic Fountain",
 	"building.courtyard.courtyard.townHall.description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 	"building.courtyard.courtyard.townHall.name" : "Town Hall",
 	"building.courtyard.courtyard.villageHall.description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
 	"building.courtyard.courtyard.villageHall.name" : "Village Hall",
-<<<<<<< HEAD
-	"courtyard.battleLog.immolation.plural" : "%s burn and suffer %d damage.",
-	"courtyard.battleLog.immolation.singular" : "%s burns and suffers %d damage.",
-	"courtyard.script.apparitionLifetime.description" : "{Ephemeral}\nApparitions disappear at the start of the second round boundary after appearing (third with Migdigravia).",
-	"courtyard.script.immolationTick.description" : "{Immolation}\nThe stack burns at the beginning of each round.",
-	"creatures.courtyard.apparition.bonus.ephemeral" : "{Ephemeral}\nApparitions disappear at the start of the second round boundary after appearing (third with Migdigravia).",
-	"creatures.courtyard.apparition.bonus.fear" : "{Fearsome}\nEnemy units have a 10% chance of freezing in fear",
-	"creatures.courtyard.apparition.bonus.noAttacks" : "{No Attacks}\nApparitions can teleport, but perform no attacks or retaliations.",
-	"creatures.courtyard.apparition.bonus.noRetaliation" : "{No Retaliation}\nAffected unit will never retaliate to an attack",
-	"creatures.courtyard.apparition.bonus.noRevive" : "{Animate Dead Immunity}\nApparitions can't be reanimated by Animate Dead spell",
-	"creatures.courtyard.apparition.bonus.undead" : "{Ephemeral}\nApparitions are treated as undead and non-living creatures",
-	"creatures.courtyard.apparition.description" : "{green|Ephemeral Apparition}\r\n\r\nThere is a phenomenon, when you take a picture of recently deceased you can sometimes spot something unusual. A flicker of light hovering in place where the person has passed. Clearly not an undead manifestation, this is something else entirely. Just remaining there for a time, floating gently yet spreading a bone-chilling aura, and almost impossible to dissipate prematurely with physical contact.\r\n\r\n{gold|Special Ability : Teleporting. No morale. Mind immunity. Undead. Non-living. Immune to Earth and Animate Dead spells. Ephemeral}\r\nApparitions are more ghostish even than Ghosts. They disappear at the beginning of the second subsequent round (third with Migdigravia). They can teleport at speed 5, but perform no attacks or retaliations. But they are almost immune for physical and magical attacks (98% reduction). Their presence gives living enemy stacks a 10% chance of losing their turn to Fear, subject to fear immunity. Several Apparition stacks do not multiply this chance. There is only one situation to see Apparitions - they can be summoned by Camera Obscura war machine.\n\n{gold|Stack Experience:} Immune to Armageddon from rank 3, if the stack has the required experience.",
-	"creatures.courtyard.apparition.name.plural" : "Ephemeral Apparitions",
-	"creatures.courtyard.apparition.name.singular" : "Ephemeral Apparition",
-	"creatures.courtyard.arquebusier.description" : "{green|Arquebusier}\r\n\r\nArquebusiers and Musketeers, armed with dangerous novelty weapons, are feared by their enemies during battles. While the muskets fueled with explosive powder are normally subject to range penalties, their projectiles are devastating even to well armored targets.\r\n\r\n{gold|Special Ability: Shooter. Ignore Defense 15%}\r\nAttacks ignore 15% of enemy Defense.\r\n\r\n{gold|Stack Experience:}\r\nDouble damage chance increases by 5 percentage points per rank (50% at rank 10). Ignore Defense reaches 20/25/30/35/40% at ranks 3/5/7/9/10. From rank 6 can shoot while blocked; from rank 9 suffers no distance penalty.\n\nThe ranked defense penetration values are totals and do not stack with the innate bonus.",
-	"creatures.courtyard.arquebusier.name.plural" : "Arquebusiers",
-	"creatures.courtyard.arquebusier.name.singular" : "Arquebusier",
-	"creatures.courtyard.battleDodo.bonus.fearless" : "{Fearless}\nImmune to Fear ability",
-	"creatures.courtyard.battleDodo.description" : "{green|Battle Dodo}\r\n\r\nThe exotic Dodo birds that were discovered recently are a weird folk. They feared no death nor adversity and fight with even greated dedication when the opponent is imposing. Some of these huge birds embrace imported culture and don iron armors to become immovable bulwarks inspired by the tales of knights slaying great beasts, while others stick to their traditions and fight with such ferocity, that they mortify their non-dodo allies.\r\n\r\n{gold|Special Ability : Fearless. Affected by permanent Slayer spell. Spell Resistance Aura. General Damage Reduction 25%. Spell Damage Reduction 33%. Defensive stance}\r\nDodos are immune to Fear and enchanted with permanent Expert Slayer. They reduce physical damage from melee and ranged attacks by 25%. Battle Dodos have 20% innate Magic Resistance and grant adjacent allied units a 20% Magic Resistance Aura. Both increase with stack experience. They reduce spell damage by 33% and gain +5 Defense while defending.\r\n\r\n{gold|Stack Experience:}\r\nInnate Magic Resistance and resistance aura reach 25/30/35/40% at ranks 4/6/8/9. Additional melee damage reduction reaches 5/10/15/20/25% at ranks 3/5/7/9/10, applied separately from the innate 25% physical damage reduction (43.75% combined at rank 10, before other modifiers).\n\nUnder Auk, the aura is doubled (40–80%), innate Magic Resistance is at least 33%, and spell damage reduction rises to 45%.",
-	"creatures.courtyard.battleDodo.name.plural" : "Battle Dodos",
-	"creatures.courtyard.battleDodo.name.singular" : "Battle Dodo",
-	"creatures.courtyard.cameraObscuraCreature.description" : "{green|Camera Obscura}\n\nThis mysterious war machine shares five casts per battle between Age (reduces maximum health by 33% for three rounds) and Summon Apparition (raises temporary Apparitions from fallen friendly living stacks, consuming their corpses). Migdigravia grants three additional casts, +10 summoning power per five hero levels and one extra round of Apparition lifetime.\n\nThe Camera costs 3000 gold at an adventure-map War Machine Factory and can also be found as an artifact. Migdigravia starts with one Camera.\n\nBoth spells are available to any owner. Summon Apparition requires an eligible fallen friendly living stack; undead, non-living, Gargoyles, mechanical creatures and war machines cannot be used. The Camera has 125 HP and cannot retaliate.",
-=======
 	"creatures.courtyard.apparition.bonus.ephemeral" : "{Ephemeral}\nApparitions live only one turn",
 	"creatures.courtyard.apparition.bonus.fear" : "{Fearsome}\nEnemy units have a 10% chance of freezing in fear",
 	"creatures.courtyard.apparition.bonus.noAttacks" : "{Ephemeral}\nApparitions cannot attack anybody",
@@ -144,68 +102,10 @@
 	"creatures.courtyard.battleDodo.name.plural" : "Battle Dodos",
 	"creatures.courtyard.battleDodo.name.singular" : "Battle Dodo",
 	"creatures.courtyard.cameraObscuraCreature.description" : "{green|Camera Obscura}\r\n\r\nThis camera was planed as second war machine available in Courtyard. This mysterious machine can cast spells 5 times per battle. Camera can cast Age spell on enemy units (duration - 3 turns) or can revive friedly dead stacks as Apparitions (mechanism similar to Pit Lord's deamon summoning). Now you have two options to have this machine in your army.\r\n- sometimes it can be found in random generated maps as 'artifact'.\r\n- Heroine Migdigravia starts with one Camera that can be transferred to other hero.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"creatures.courtyard.cameraObscuraCreature.name.plural" : "Camerae Obscurae",
 	"creatures.courtyard.cameraObscuraCreature.name.singular" : "Camera Obscura",
 	"creatures.courtyard.courtCommander.name.plural" : "Hackbutters",
 	"creatures.courtyard.courtCommander.name.singular" : "Hackbutter",
-<<<<<<< HEAD
-	"creatures.courtyard.cupid.description" : "{green|Cupid}\r\n\r\nCupids are magically animated sculptures, much like Gargoyles and Golems. While the aristocracy indeed fancies them as guards of their estates, many Cupids are comissioned just to show off owner's wealth or serve as companions.\r\n\r\n{gold|Special Ability : Flying. Gargoyle. Mind Immunity.}\r\n\r\n{gold|Stack Experience:} Magic resistance increases by 3 percentage points per rank (up to 30%). Returns to its original hex after striking from rank 5 and prevents enemy retaliation from rank 8.",
-	"creatures.courtyard.cupid.name.plural" : "Marble Cupids",
-	"creatures.courtyard.cupid.name.singular" : "Marble Cupid",
-	"creatures.courtyard.dodo.bonus.fearless" : "{Fearless}\nImmune to Fear ability",
-	"creatures.courtyard.dodo.description" : "{green|Dodo}\r\n\r\nThe exotic Dodo birds that were discovered recently are a weird folk. They feared no death nor adversity and fight with even greated dedication when the opponent is imposing. Some of these huge birds embrace imported culture and don iron armors to become immovable bulwarks inspired by the tales of knights slaying great beasts, while others stick to their traditions and fight with such ferocity, that they mortify their non-dodo allies.\r\n\r\n{gold|Special Ability : Fearless. Affected by permanent Slayer spell}\r\nDodos are immune to Fear and enchanted with permanent Advanced Slayer.\r\n\r\n{gold|Stack Experience:}\r\nMagic Mirror increases by 5 percentage points per rank (50% at rank 10). Advanced Slayer becomes Expert at rank 5. One additional retaliation from rank 5, two from rank 9. From rank 8, strikes first when retaliating against melee attacks, if retaliation is possible.\n\nThe rank-based Slayer mastery replaces the innate mastery rather than adding a second spell effect.",
-	"creatures.courtyard.dodo.name.plural" : "Dodos",
-	"creatures.courtyard.dodo.name.singular" : "Dodo",
-	"creatures.courtyard.fireNewt.description" : "{green|Salamander}\r\n\r\nSalamander is a name applied to a wide range of non-elemental creatures originating from the Elemental Plane of Fire. Due to their elemental affinity they cannot be affected by fire spells. Thanks to that, many alchemists employ them to tend to furnaces or other works involving sustained exposition to fire or heat.\r\n\r\n{gold|Special Ability : Immune to Fire}\r\nAlthough Salamanders are immune to fire magic, they are not unaffected by fire-based creature attacks. For example Magogs' fireball attack or Dragons' breath attacks are not considered to be magical and therefore they do harm Salamanders.\r\n\r\n{gold|Stack Experience:}\r\nFire Shield reflects 5 percentage points more damage per rank, up to 50%. From rank 4, positive spells can bypass natural spell immunity (Receptive).\n\nInnate and cast Fire Shield do not stack; the stronger effect applies. Nefefareen grants Receptive to both Salamanders and, while under an actual Fire Shield spell, +2 Speed, +2 minimum and maximum damage, at least 1 Morale and a 33% chance of Immolation after attacking.",
-	"creatures.courtyard.fireNewt.name.plural" : "Salamanders",
-	"creatures.courtyard.fireNewt.name.singular" : "Salamander",
-	"creatures.courtyard.gildedHomunculus.bonus.increasedSpellDamage" : "{Spell booster}\nIncreases hero's spells damage by 15%",
-	"creatures.courtyard.gildedHomunculus.description" : "{green|Gilded Homunculus}\r\n\r\nHomunculi are more like animals than people. They are produced in a complex alchemical reaction and are small, disproportionate, yet strong caricatures of the proper human beings. They are usually tasked with works that need considerable strength, human-level agility and intelligence of a dog. Valuable asset on the battlefield since they not only regenerate wounds at impressive rate, the presence of Gilded Homunculi slightly amplifies power of damaging spells.\r\n\r\n{gold|Special Ability : Regeneration. Damage spells power increasing}\r\nHomunculus Regeneration enables the top creature of the stack to regain 10 health each combat round. Additionally, the presence in the hero's army increases the hero's spell damage by 15% for all magic schools (not Spell Power). Splitting the stack does not multiply this bonus.\r\n\r\n{gold|Stack Experience:}\nRegeneration reaches 11/12/13/14/15 HP at ranks 2/4/6/8/10. Defensive Stance from rank 5 (+5 Defense when defending); melee damage reduction reaches 5/10/15/20% at ranks 3/5/7/9. Hero spell damage bonus remains 15%.",
-	"creatures.courtyard.gildedHomunculus.name.plural" : "Gilded Homunculi",
-	"creatures.courtyard.gildedHomunculus.name.singular" : "Gilded Homunculus",
-	"creatures.courtyard.graniteCupid.description" : "{green|Granite Cupid}\r\n\r\nCupids are magically animated sculptures, much like Gargoyles and Golems. While the aristocracy indeed fancies them as guards of their estates, many Cupids are comissioned just to show off owner's wealth or serve as companions. Despite their graceful movements, Granite Cupids' strikes are heavy enough to render their targets unconscious.\r\n\r\n{gold|Special Ability : Flying. Gargoyle. Mind Immunity. 20% chance to cast Stun after attack}\r\nStunned creatures cannot act or retaliate for up to two turns; being attacked ends the stun. Undead, Gargoyle, Non-living and immune to mind creatures are immune to Stun attack.\r\n\r\n{gold|Stack Experience:}\nStun chance reaches 25/30/35/40% at ranks 3/5/7/9 (total chance, not added to the base 20%). Magic resistance reaches 5/10/15% at ranks 5/7/9.",
-	"creatures.courtyard.graniteCupid.name.plural" : "Granite Cupids",
-	"creatures.courtyard.graniteCupid.name.singular" : "Granite Cupid",
-	"creatures.courtyard.greaterDodo.bonus.fearless" : "{Fearless}\nImmune to Fear ability",
-	"creatures.courtyard.greaterDodo.bonus.mortify" : "{Decreases allies morale}\nGrand Dodos decrease the morale of allied non-Dodo creatures by one.",
-	"creatures.courtyard.greaterDodo.bonus.noRetaliation" : "{No Retaliation}\nAffected unit will never retaliate to an attack",
-	"creatures.courtyard.greaterDodo.description" : "{green|Grand Dodo}\r\n\r\nThe exotic Dodo birds that were discovered recently are a weird folk. They feared no death nor adversity and fight with even greated dedication when the opponent is imposing. Some of these huge birds embrace imported culture and don iron armors to become immovable bulwarks inspired by the tales of knights slaying great beasts, while others stick to their traditions and fight with such ferocity, that they mortify their non-dodo allies.\r\n\r\n{gold|Special Ability : Fearless. Affected by permanent Slayer spell. Triple strike}\r\nDodos are immune to Fear and enchanted with Expert Slayer. They can attack three times per attack but they never retaliate to enemy attacks (this does not prevent enemies from retaliating). Grand Dodos reduce the morale of allied non-Dodo creatures by 1.\r\n\r\n{gold|Stack Experience:}\r\nRanged damage reduction reaches 10/15/20/25/30/35% at ranks 2/4/6/7/9/10. Attacks ignore 5/10/15/20% of enemy Defense at ranks 4/6/8/10. No resistance aura.",
-	"creatures.courtyard.greaterDodo.name.plural" : "Grand Dodos",
-	"creatures.courtyard.greaterDodo.name.singular" : "Grand Dodo",
-	"creatures.courtyard.homunculus.description" : "{green|Homunculus}\r\n\r\nHomunculi are more like animals than people. They are produced in a complex alchemical reaction and are small, disproportionate, yet strong caricatures of the proper human beings. They are usually tasked with works that need considerable strength, human-level agility and intelligence of a dog. Valuable asset on the battlefield since they regenerate wounds at impressive rate.\r\n\r\n{gold|Special Ability : Regeneration}\r\nHomunculus Regeneration enables the top creature of the stack to regain 7 health each combat round.\r\n\r\n{gold|Stack Experience:}\nRegeneration restores 8–15 HP at ranks 1–8 and fully heals the wounded creature from rank 9; it never resurrects fallen creatures. Jousting from rank 4 (+5% damage per hex travelled); Defensive Stance from rank 6 (+5 Defense when defending). Chance to cast Disrupting Ray before an attack increases by 5 percentage points per rank, up to 50%.",
-	"creatures.courtyard.homunculus.name.plural" : "Homunculi",
-	"creatures.courtyard.homunculus.name.singular" : "Homunculus",
-	"creatures.courtyard.jabberwock.description" : "{green|Jabberwock}\r\n\r\nJabberwocks, despite their appearances, are not related to dragons. Those foul creatures dwell in corrupted caverns and terrorize every living being within their reach. Scarlet ones, with scales tinted by bloodshed, can decimate a numerous army in a single sweep of their claws. It is no surprise that the mere sight of these monsters can paralyze with fear.\r\n\r\n{gold|Special Ability : Flying}\r\nJabberwocks are susceptible to Advanced and Expert Slayer (KING2).\r\n\r\n{gold|Stack Experience:}\r\nPhysical damage reduction reaches 5/10/15/20/25/30/35% at ranks 2/4/6/7/8/9/10. Magic Resistance reaches 10/15/20/25/30/35% at ranks 3/5/7/8/9/10. Unlimited retaliations from rank 5. From rank 7, retaliates before enemy melee attacks when retaliation is possible. Regenerates up to 40/60/80 HP of the wounded creature each round at ranks 8/9/10 (does not resurrect).",
-	"creatures.courtyard.jabberwock.name.plural" : "Jabberwocks",
-	"creatures.courtyard.jabberwock.name.singular" : "Jabberwock",
-	"creatures.courtyard.mandrake.description" : "{green|Mandrake}\r\n\r\nMandrakes are violent and whimsical creatures, while at the same time highly cultured. Their singing voices can cause an agonizing death and to make things worse for their victims, they spread the vines around the battlefield to entangle anyone who dares approach them.\r\n\r\n{gold|Special Ability : Summon Guardians}\r\nAt the beginning of each battle, Mandrakes summon guardians — Tangle Vines. Vines occupy accessible hexes surrounding the stack. Each summoned stack contains twice as many Vines as the summoning stack contains Mandrakes. But beware! At the beginning, the Tangle Vines block the Mandrakes, preventing them from moving. Mandrakes should be positioned wisely within the army (not in the corners) to keep as many free hexes as possible for vine summoning.\r\n\r\n{gold|Stack Experience:}\r\nEnemy hero spells cost 1/2/3/4/5 extra mana from ranks 2/4/6/8/10 (only the strongest stack applies). From ranks 4/6/8/10, has a 20/30/40/50% chance to cast Basic Weakness after a melee attack. Blocks retaliation from rank 5, binds enemies after melee attacks from rank 7, and fully regenerates the surviving top creature at the start of its turn from rank 10.\n\nOphrys grants both Mandrakes +5 HP and both vine types +1 Speed and melee First Strike.",
-	"creatures.courtyard.mandrake.name.plural" : "Mandrakes",
-	"creatures.courtyard.mandrake.name.singular" : "Mandrake",
-	"creatures.courtyard.monstrousJabberwock.bonus.fearful" : "{Fearsome}\nEnemy units have a 10% chance of freezing in fear",
-	"creatures.courtyard.monstrousJabberwock.bonus.stackExperience8" : "{Acid Breath Damage}\nThe listed amount is the additional acid damage per creature when Acid Breath triggers.",
-	"creatures.courtyard.monstrousJabberwock.description" : "{green|Monstrous Jabberwock}\r\n\r\nJabberwocks, despite their appearances, are not related to dragons. Those foul creatures dwell in corrupted caverns and terrorize every living being within their reach. Scarlet ones, with scales tinted by bloodshed, can decimate a numerous army in a single sweep of their claws. It is no surprise that the mere sight of these monsters can paralyze with fear.\r\n\r\n{gold|Special Ability : Flying. Fear. Destruction}\r\nMonstrous Jabberwocks are susceptible to Advanced and Expert Slayer (KING2). Living enemy stacks have a 10% chance of losing their turn to Fear (subject to fear immunity); splitting Monstrous Jabberwocks into several stacks does not multiply this chance. Decimation has a 25% chance after an attack to kill 10% of the remaining creatures in the target stack, rounded down.\n\n{gold|Stack Experience:}\r\nMind immunity from rank 3. Acid damage after attacks: 5/10/15/20/25% chance at ranks 1/4/6/8/10; deals 5/10/15/20/25/30 damage per creature at ranks 1/4/6/8/9/10.",
-	"creatures.courtyard.monstrousJabberwock.name.plural" : "Monstrous Jabberwocks",
-	"creatures.courtyard.monstrousJabberwock.name.singular" : "Monstrous Jabberwock",
-	"creatures.courtyard.musketeer.description" : "{green|Musketeer}\r\n\r\nArquebusiers and Musketeers, armed with dangerous novelty weapons, are feared by their enemies during battles. While the muskets fueled with explosive powder are normally subject to range penalties, their projectiles are devastating even to well armored targets.\r\n\r\n{gold|Special Ability: Shooter. Ignore Defense 30%}\r\nAttacks ignore 30% of enemy Defense.\r\n\r\n{gold|Stack Experience:}\r\nDouble damage chance reaches 5/10/15/20/25/30/35% at ranks 2/4/6/7/8/9/10. Ignore Defense reaches 35/40/45/50% at ranks 4/6/8/10.\n\nThe ranked defense penetration values are totals and do not stack with the innate bonus.",
-	"creatures.courtyard.musketeer.name.plural" : "Musketeers",
-	"creatures.courtyard.musketeer.name.singular" : "Musketeer",
-	"creatures.courtyard.potionCartCreature.description" : "{green|Potion Cart}\n\nThe Potion Cart supplies the hero's spellbook with potions for the battle. Cost: 1500 gold; 125 HP. Potions cost no mana and require a living allied Potion Cart. Existing potion effects keep their normal duration after the Cart is destroyed.\n\n{gold|Potions and First Aid:}\n{silver|Regeneration Potion:} Restores 5/15/30 HP of the wounded creature per turn, or full regeneration at Expert First Aid. Does not resurrect fallen creatures.\n{silver|Vial of Poison:} 10/15/20/30% chance to poison the attacked enemy (no skill/Basic/Advanced/Expert First Aid).\n{silver|Dragon Drought:} Unlocked at Basic First Aid. Grants dragon nature and breath attack with a 15/20/25% chance of Immolation at Basic/Advanced/Expert First Aid.\n{silver|Toughness Tonic:} Unlocked at Advanced First Aid: +25% HP and +15% damage; at Expert, +40% HP and +20% damage.\n{silver|Etheral Extract:} Unlocked at Expert First Aid. Grants teleportation and 20% physical and magical damage reduction.\n\nCaballe grants +1 Morale to good and +1 Luck to neutral creatures affected by a potion.",
-	"creatures.courtyard.potionCartCreature.name.plural" : "Potion Carts",
-	"creatures.courtyard.potionCartCreature.name.singular" : "Potion Cart",
-	"creatures.courtyard.regalMandrake.bonus.reviveVines" : "{Spellcaster}\nCan cast Regrowth to revive scorched vines",
-	"creatures.courtyard.regalMandrake.bonus.stackExperience8" : "{Regrowth Power}\nIncreases Regrowth spell power by the listed % of the stack size.",
-	"creatures.courtyard.regalMandrake.description" : "{green|Regal Mandrake}\r\n\r\nMandrakes are violent and whimsical creatures, while at the same time highly cultured. Their singing voices can cause an agonizing death and to make things worse for their victims, they spread the vines around the battlefield to entangle anyone who dares approach them.\r\n\r\n{gold|Special Ability : Summon Guardians. Can revive Vines}\r\nAt the beginning of each battle, Mandrakes summon guardians — Strangle Vines. Vines occupy accessible hexes surrounding the stack. Each summoned stack contains four times as many Vines as the summoning stack contains Mandrakes. But beware! At the beginning, the Strangle Vines block the Mandrakes, preventing them from moving. Mandrakes should be positioned wisely within the army (not in the corners) to keep as many free hexes as possible for vine summoning. Regal Mandrakes can cast Regrowth six times per battle to resurrect allied Vines for the duration of the battle and remove negative spells.\r\n\r\n{gold|Stack Experience:}\r\nEnemy hero spells cost 1/2/3 extra mana from ranks 3/6/10. Regrowth reaches Basic/Advanced/Expert at ranks 4/7/10; spell power per creature increases from 1 to 1.25/1.5/1.75/2 at ranks 3/5/7/9 (total rounded down). Six casts per battle; guardian count unchanged.\n\nOphrys grants both Mandrakes +5 HP and both vine types +1 Speed and melee First Strike.",
-	"creatures.courtyard.regalMandrake.name.plural" : "Regal Mandrakes",
-	"creatures.courtyard.regalMandrake.name.singular" : "Regal Mandrake",
-	"creatures.courtyard.salamander.description" : "{green|Shiny Salamander}\r\n\r\nSalamander is a name applied to a wide range of non-elemental creatures originating from the Elemental Plane of Fire. Due to their elemental affinity they cannot be affected by fire spells. Thanks to that, many alchemists employ them to tend to furnaces or other works involving sustained exposition to fire or heat.\r\n\r\n{gold|Special Ability : Immune to Fire}\r\nAlthough Salamanders are immune to fire magic, they are not unaffected by fire-based creature attacks. For example Magogs' fireball attack or Dragons' breath attacks are not considered to be magical and therefore they do harm Salamanders.\r\n\r\n{gold|Stack Experience:}\r\nFire Shield reaches 5/10/15/20% at ranks 3/5/7/9. At ranks 4/6/8/10, gains a 10/15/20/25% chance to cast Basic Immolation after attacking. With Nefefareen and an active Fire Shield spell, the chance is 33%, not cumulative.\n\nInnate and cast Fire Shield do not stack; the stronger effect applies. Nefefareen grants Receptive to both Salamanders and, while under an actual Fire Shield spell, +2 Speed, +2 minimum and maximum damage, at least 1 Morale and a 33% chance of Immolation after attacking.",
-	"creatures.courtyard.salamander.name.plural" : "Shiny Salamanders",
-	"creatures.courtyard.salamander.name.singular" : "Shiny Salamander",
-	"creatures.courtyard.strangleVine.description" : "{green|Strangle Vine}\r\n\r\nTraveling through various lands, one might sometimes encounter trembling ground from which mysterious vines emerge. These enigmatic plants can paralyze any creature, binding it firmly to the ground. They have no dwellings and cannot be recruited into an army. Although they are immune to mind spells, Mandrakes' magic can make them loyal servants in battle skirmishes.\r\n\r\n{gold|Special Ability : Teleporting. No morale. Mind immunity. Casts Bind after attack}\r\nVines are unaffected by morale, meaning that their morale rating is always zero. Additionally they have 100% chance to cast Bind after attack (like Denroids).\n\n{gold|Stack Experience:}\nImmune to Jousting from rank 3 and to Magic Arrow from rank 6, if the stack has the required experience. Summoned stacks do not automatically gain these ranks.",
-	"creatures.courtyard.strangleVine.name.plural" : "Strangle Vines",
-	"creatures.courtyard.strangleVine.name.singular" : "Strangle Vine",
-	"creatures.courtyard.tangleVine.description" : "{green|Tangle Vine}\r\n\r\nTraveling through various lands, one might sometimes encounter trembling ground from which mysterious vines emerge. These enigmatic plants can paralyze any creature, binding it firmly to the ground. They have no dwellings and cannot be recruited into an army. Although they are immune to mind spells, Mandrakes' magic can make them loyal servants in battle skirmishes.\r\n\r\n{gold|Special Ability : Teleporting. No morale. Mind immunity. Casts Bind after attack}\r\nVines are unaffected by morale, meaning that their morale rating is always zero. Additionally they have 100% chance to cast Bind after attack (like Denroids).\n\n{gold|Stack Experience:}\nImmune to Jousting from rank 3 and to Slow from rank 5, if the stack has the required experience. Summoned stacks do not automatically gain these ranks.",
-=======
 	"creatures.courtyard.cupid.description" : "{green|Cupid}\r\n\r\nCupids are magically animated sculptures, much like Gargoyles and Golems. While the aristocracy indeed fancies them as guards of their estates, many Cupids are comissioned just to show off owner's wealth or serve as companions.\r\n\r\n{gold|Special Ability : Flying. Gargoyle. Mind Immunity.}",
 	"creatures.courtyard.cupid.name.plural" : "Marble Cupids",
 	"creatures.courtyard.cupid.name.singular" : "Marble Cupid",
@@ -260,7 +160,6 @@
 	"creatures.courtyard.strangleVine.name.plural" : "Strangle Vines",
 	"creatures.courtyard.strangleVine.name.singular" : "Strangle Vine",
 	"creatures.courtyard.tangleVine.description" : "{green|Tangle Vine}\r\n\r\nTraveling through various lands, one might sometimes encounter trembling ground from which mysterious vines emerge. These enigmatic plants can paralyze any creature, binding it firmly to the ground. They have no dwellings and cannot be recruited into an army. Although they are immune to mind spells, Mandrakes' magic can make them loyal servants in battle skirmishes.\r\n\r\n{gold|Special Ability : Teleporting. No morale. Mind immunity. Casts Bind after attack}\r\nVines are unaffected by morale, meaning that their morale rating is always zero. Additionally they have 100% chance to cast Bind after attack (like Denroids).",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"creatures.courtyard.tangleVine.name.plural" : "Tangle Vines",
 	"creatures.courtyard.tangleVine.name.singular" : "Tangle Vine",
 	"faction.courtyard.courtyard.description" : "Courtyard became a refuge for aristocrats and philosophers. Its location on the prison island of Larnia, far from civilization, provided the former inhabitants of Ravenshore with an opportunity to develop alchemical research. The city is home to golem-like Cupids and Homunculi, resistant to mind spells, gunpowder-wielding Musketeers, and terrifying representatives of the local fauna. The faction is rather slow, but new spells, war machines, and the extraordinary abilities of its creatures create opportunities for employing innovative tactics.",
@@ -284,65 +183,37 @@
 	"faction.courtyard.courtyard.randomName.9" : "Red Stone",
 	"hero.courtyard.00auk.biography" : "Governor Auk likes pies.",
 	"hero.courtyard.00auk.name" : "Auk",
-<<<<<<< HEAD
-	"hero.courtyard.00auk.specialty.description" : "Increases the speed of all Dodos by 1. Doubles Battle Dodos’ Magic Resistance Aura for adjacent allies (40–80%, depending on experience), grants them at least 33% innate Magic Resistance and increases their general spell damage reduction from 33% to 45%. Increases Grand Dodos’ morale by 2.",
-=======
 	"hero.courtyard.00auk.specialty.description" : "Increases the speed of Dodos, Battle Dodos, or Greater Dodos by 1. Doubles the efficiency of Battle Dodos' Magic Resistance Aura and they gain a 33% chance to resist hostile spells. Increases the morale of Grand Dodos by 2.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"hero.courtyard.00auk.specialty.name" : "Dodos",
 	"hero.courtyard.00auk.specialty.tooltip" : "Creature Bonus: Dodos",
 	"hero.courtyard.01caballe.biography" : "In her slumbersome dreams, young lady Caballe often finds herself at a feast with beverages of fantastical properties. Although she never tasted any of them herself, she always wakes up with precise knowledge of how to create such drinks.",
 	"hero.courtyard.01caballe.name" : "Caballe",
-<<<<<<< HEAD
-	"hero.courtyard.01caballe.specialty.description" : "Allied creatures of good alignment gain +1 morale while affected by at least one potion. Allied creatures of neutral alignment gain +1 luck instead. These specialty bonuses do not stack with additional potions.",
-=======
 	"hero.courtyard.01caballe.specialty.description" : "Creatures of good alignment gain +1 morale when under the effect of potions. Creatures of neutral alignment gain +1 luck instead.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"hero.courtyard.01caballe.specialty.name" : "Potion Benefits",
 	"hero.courtyard.01caballe.specialty.tooltip" : "Passive Bonus: Potion Benefits",
 	"hero.courtyard.02kanim.biography" : "Kanim once was a highwayman robbing elves on the contested lands of Harmondale, excusing himself with abhorrent humanist ideology. This changed when he was ambushed by Kreegans only to be saved by despised elves, an event that changed his outlook. Today many reformed fugitives from Jadame join his mercenary company.",
 	"hero.courtyard.02kanim.name" : "Kanim",
-<<<<<<< HEAD
-	"hero.courtyard.02kanim.specialty.description" : "Increases the speed of Arquebusiers and Musketeers by 1, their shots by 5, and their base Attack and Defense by 5% for every 4 full hero levels.",
-=======
 	"hero.courtyard.02kanim.specialty.description" : "Increases the speed of Arquebusiers or Musketeers by 1, their shots by 5, and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"hero.courtyard.02kanim.specialty.name" : "Arquebusiers",
 	"hero.courtyard.02kanim.specialty.tooltip" : "Creature Bonus: Arquebusiers",
 	"hero.courtyard.03lumiere.biography" : "Lumiere had to abandon luxury of elven nobility and live among hunters of Tularean Forest to escape war. She quickly learned the art of guerilla warfare, impressing even experienced rangers with her elaborate traps. Despite mingling back into the high society when she left to Larnia, Lumiere still has no qualms using dirty tricks on the battlefield.",
 	"hero.courtyard.03lumiere.name" : "Lumiere",
-<<<<<<< HEAD
-	"hero.courtyard.03lumiere.specialty.description" : "Arquebusiers and Musketeers can automatically place Land Mines, Quicksand or Force Fields at random before their turns, with a shared cooldown of 3–4 rounds and up to 3 casts per stack per battle.",
-=======
 	"hero.courtyard.03lumiere.specialty.description" : "Arquebusiers and Musketeers randomly place Land Mines, Quicksand, or Force Fields upon the battlefield every few rounds.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"hero.courtyard.03lumiere.specialty.name" : "Battlefield Impediments",
 	"hero.courtyard.03lumiere.specialty.tooltip" : "Creature Bonus: Battlefield Impediments",
 	"hero.courtyard.04dizheel.biography" : "The noblewoman known as Dizheel is a charismatic leader. Wherever she appears, it is not rare for common folk, mercenaries and even lesser lords to join her cause whatever it might be.",
 	"hero.courtyard.04dizheel.name" : "Dizheel",
-<<<<<<< HEAD
-	"hero.courtyard.04dizheel.specialty.description" : "With Diplomacy learned, gains one additional point of diplomatic disposition per 12 completed hero levels (the normal Expert Diplomacy cap still applies) and an additional 1 percentage point of surrender discount per 4 completed levels.",
-=======
 	"hero.courtyard.04dizheel.specialty.description" : "Receives a 1% bonus to Diplomacy skill percentage for every 4 levels.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"hero.courtyard.04dizheel.specialty.name" : "Diplomacy",
 	"hero.courtyard.04dizheel.specialty.tooltip" : "Secondary Skill Bonus: Diplomacy",
 	"hero.courtyard.05raphus.biography" : "Upon finding himself unsuccessful in The School of Sorcery in Bracada, Raphus abandoned his formal education. However the practical skill in golem enchanting and his creativity made him a renowned mage-artist in Larnia, popular for the expressive living statues he sculpts.",
 	"hero.courtyard.05raphus.name" : "Raphus",
-<<<<<<< HEAD
-	"hero.courtyard.05raphus.specialty.description" : "Increases the speed of Marble and Granite Cupids by 1 and their base Attack and Defense by 5% per hero level. Casts Reconstruction at expert mastery.",
-=======
 	"hero.courtyard.05raphus.specialty.description" : "Increases the speed of Marble and Granite Cupids by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up). Casts Expert Reconstruction.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"hero.courtyard.05raphus.specialty.name" : "Cupids",
 	"hero.courtyard.05raphus.specialty.tooltip" : "Creature Bonus: Marble Cupids",
 	"hero.courtyard.06ophrys.biography" : "Other mandrakes consider Ophrys' voice to be quiet and weak and they do not regard her highly. This however makes her voice bearable to human ears, allowing her to coordinate efforts between them and her capricious kin.",
 	"hero.courtyard.06ophrys.name" : "Ophrys",
-<<<<<<< HEAD
-	"hero.courtyard.06ophrys.specialty.description" : "Increases the health of Mandrakes and Regal Mandrakes by 5 per creature. Increases the speed of Tangle Vines and Strangle Vines by 1 and grants both types of Vines preemptive retaliation in melee combat.",
-=======
 	"hero.courtyard.06ophrys.specialty.description" : "Increases the health of Mandrakes and Regal Mandrakes by 5. Increases the speed of Vines by 1 and grants them Preemptive Retaliation.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"hero.courtyard.06ophrys.specialty.name" : "Mandrakes",
 	"hero.courtyard.06ophrys.specialty.tooltip" : "Creature Bonus: Mandrakes",
 	"hero.courtyard.07teophrast.biography" : "Unlike most of the dark elves of Jadame Theophrast didn't arrive as a refugee or exile. This industrious man sees Larnia for what it is, growing settlements that need to be built and expanded, and he is the one who can provide the building materials cheap thanks to his trade contacts.",
@@ -352,20 +223,12 @@
 	"hero.courtyard.07teophrast.specialty.tooltip" : "Resource Bonus: Wood and Ore",
 	"hero.courtyard.08audred.biography" : "This prodigy alchemist, while still too young to even attend magical university, turned to research in artifical creation of life prohibited in Bracada. After one horrible accident he blames on having to work in secrecy, he fled to Larnia to be quickly accepted as the lead Homunculi researcher.",
 	"hero.courtyard.08audred.name" : "Audred",
-<<<<<<< HEAD
-	"hero.courtyard.08audred.specialty.description" : "Increases the speed of Homunculi and Gilded Homunculi by 1 and their base Attack and Defense by 5% for every 2 full hero levels.",
-=======
 	"hero.courtyard.08audred.specialty.description" : "Increases the speed of Homunculi or Gilded Homunculi by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"hero.courtyard.08audred.specialty.name" : "Homunculi",
 	"hero.courtyard.08audred.specialty.tooltip" : "Creature Bonus: Homunculi",
 	"hero.courtyard.09migdigravia.biography" : "Despite her gentle and warm perosnality, Migdigvarvia's pasttime involves designing contraptions of horrid curses. When she was denied a Warlock title in Nighon, she simply left in disapproval of its culture. In Larnia she is admired for her carefree attitude, even if at the same time feared for her dreadful devices.",
 	"hero.courtyard.09migdigravia.name" : "Migdigravia",
-<<<<<<< HEAD
-	"hero.courtyard.09migdigravia.specialty.description" : "The Camera Obscura gains three additional shared casts per battle (eight total) and +10 summoning power per five completed hero levels. Apparitions in Migdigravia’s army disappear at the start of the third subsequent round rather than the second.",
-=======
 	"hero.courtyard.09migdigravia.specialty.description" : "The Camera Obscura gains 3 additional spell casts and can revive dead units as Ephemeral Apparitions.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"hero.courtyard.09migdigravia.specialty.name" : "Camera Obscura",
 	"hero.courtyard.09migdigravia.specialty.tooltip" : "Creature Bonus: Camera Obscura",
 	"hero.courtyard.10vogundessi.biography" : "When alchemists were unsuccessful prying out secrets of Vogundessi's craft from him, they announced him a fraud to ruin his reputation and sentenced to shameful execution. He escaped this sordid fate supposedly by striking a deal with devils, but barely anyone believe these accusations in Larnia.",
@@ -375,20 +238,12 @@
 	"hero.courtyard.10vogundessi.specialty.tooltip" : "Resource Bonus: Gold",
 	"hero.courtyard.11nefefareen.biography" : "Given her old age even for an efreet, it was surprising that Nefefareen travelled beyond the Plane of Fire, especially that she wasn't interested in wars waged by Devils. It is not known what is the purpose of her meddling in Larnia, but she's the one who popularized keeping Salamanders as pets and servants.",
 	"hero.courtyard.11nefefareen.name" : "Nefefareen",
-<<<<<<< HEAD
-	"hero.courtyard.11nefefareen.specialty.description" : "Salamanders and Shiny Salamanders can receive beneficial fire spells despite their normal fire immunity. While affected by the Fire Shield spell (not merely the innate or experience-based Fire Shield ability), they gain +2 speed, +2 minimum and maximum damage, at least +1 morale and a 33% chance to cast Basic Immolation after attacking. This chance does not stack with the experience bonus.",
-=======
 	"hero.courtyard.11nefefareen.specialty.description" : "Salamanders and Shiny Salamanders are susceptible to positive fire spells. When under effect of Fire Shield they gain +2 speed and damage, positive morale, and a 33% chance to cast Immolation after attack.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"hero.courtyard.11nefefareen.specialty.name" : "Salamander Synergy",
 	"hero.courtyard.11nefefareen.specialty.tooltip" : "Creature Bonus: Salamander Synergy",
 	"hero.courtyard.12hanester.biography" : "Hanester initially was not interested in much beside researching philosopher stone in peace, until she realized how easily it can bring out the worst qualities of people. Seeing the increading greed and madness over this precius mineral, this bright scientist decided to intervene.",
 	"hero.courtyard.12hanester.name" : "Hanester",
-<<<<<<< HEAD
-	"hero.courtyard.12hanester.specialty.description" : "Reduces the enemy hero’s base Spell Power by 15%, plus 1 percentage point for every 2 full levels of Hanester.",
-=======
 	"hero.courtyard.12hanester.specialty.description" : "Lowers the power skill of the enemy hero by 15%, and by an additional 1% for every 2 levels.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"hero.courtyard.12hanester.specialty.name" : "Disruption",
 	"hero.courtyard.12hanester.specialty.tooltip" : "Special Bonus: Disruption",
 	"hero.courtyard.13dictamnus.biography" : "When asked why plantfolk would use conjured flames, Dictamnus always asks in return if fire is any less deadly to humans and if it ever stopped them from wielding it. He had sworn to his clan to fight any invasive species threatening Larnia, especially floral ones. And for that, fire is especially useful.",
@@ -403,11 +258,7 @@
 	"hero.courtyard.14zana.specialty.tooltip" : "Spell Bonus: Dimension Door",
 	"hero.courtyard.15zazzerpan.biography" : "The only thing more legendary than Zazzerpan's magic skill was his complacency. When he was defeated by a student in a magic duel, he revoked all his academic titles, and fled Bracada abruptly in shame. Among Larnians he still insists not to be called professor, as he has not yet recovered from his sense of failure.",
 	"hero.courtyard.15zazzerpan.name" : "Zazzerpan",
-<<<<<<< HEAD
-	"hero.courtyard.15zazzerpan.specialty.description" : "Negates ordinary natural spell immunities of creatures on both sides of the battlefield. Absolute immunities and non-magical effects are unaffected.",
-=======
 	"hero.courtyard.15zazzerpan.specialty.description" : "Negates the natural spell immunities of all creatures in combat.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"hero.courtyard.15zazzerpan.specialty.name" : "Negate Immunities",
 	"hero.courtyard.15zazzerpan.specialty.tooltip" : "Passive Bonus: Negate Immunities",
 	"heroClass.courtyard.aristocrat.name" : "Aristocrat",
@@ -419,17 +270,10 @@
 	"mapObject.courtyard.creatureGeneratorCommon.furnace.name" : "Furnace",
 	"mapObject.courtyard.creatureGeneratorCommon.marbleHall.name" : "Marble Hall",
 	"mapObject.courtyard.creatureGeneratorCommon.scaryCavity.name" : "Scary Cavity",
-<<<<<<< HEAD
-	"spell.courtyard.ageCamera.description.advanced" : "Reduces the maximum health of an enemy creature by 33% for 3 battle rounds.",
-	"spell.courtyard.ageCamera.description.basic" : "Reduces the maximum health of an enemy creature by 33% for 3 battle rounds.",
-	"spell.courtyard.ageCamera.description.expert" : "Reduces the maximum health of an enemy creature by 33% for 3 battle rounds.",
-	"spell.courtyard.ageCamera.description.none" : "Reduces the maximum health of an enemy creature by 33% for 3 battle rounds.",
-=======
 	"spell.courtyard.ageCamera.description.advanced" : "Age spell effect",
 	"spell.courtyard.ageCamera.description.basic" : "Age spell effect",
 	"spell.courtyard.ageCamera.description.expert" : "Age spell effect",
 	"spell.courtyard.ageCamera.description.none" : "Age spell effect",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"spell.courtyard.ageCamera.name" : "Age",
 	"spell.courtyard.courtyardMoat.name" : "Ditch",
 	"spell.courtyard.courtyardMoatTrigger.name" : "Ditch",
@@ -458,31 +302,16 @@
 	"spell.courtyard.etheralPotion.description.expert" : "{Supreme Etheral Extract}\n\nGrants unit ability to fly and 20% damage reduction from spells and attacks.",
 	"spell.courtyard.etheralPotion.description.none" : "{Supreme Etheral Extract}\n\nGrants unit ability to fly and 20% damage reduction from spells and attacks.",
 	"spell.courtyard.etheralPotion.name" : "Etheral Extract",
-<<<<<<< HEAD
-	"spell.courtyard.immolationCurse.description.advanced" : "{Advanced Immolation}\n\nSets an enemy unit aflame, dealing damage at the beginning of each battle round, starting with the next round. Damage depends on the current size of the burning stack and the mastery of Fire Magic.",
-	"spell.courtyard.immolationCurse.description.basic" : "{Basic Immolation}\n\nSets an enemy unit aflame, dealing damage at the beginning of each battle round, starting with the next round. Damage depends on the current size of the burning stack and the mastery of Fire Magic.",
-	"spell.courtyard.immolationCurse.description.expert" : "{Expert Immolation}\n\nSets an enemy unit aflame, dealing damage at the beginning of each battle round, starting with the next round. Damage depends on the current size of the burning stack and the mastery of Fire Magic.",
-	"spell.courtyard.immolationCurse.description.none" : "{Immolation}\n\nSets an enemy unit aflame, dealing damage at the beginning of each battle round, starting with the next round. Damage depends on the current size of the burning stack and the mastery of Fire Magic.",
-=======
 	"spell.courtyard.immolationCurse.description.advanced" : "{Advanced Immolation}\n\nSets enemy unit aflame, dealing damage to it at the beginning of each {round}.",
 	"spell.courtyard.immolationCurse.description.basic" : "{Basic Immolation}\n\nSets enemy unit aflame, dealing damage to it at the beginning of each {round}.",
 	"spell.courtyard.immolationCurse.description.expert" : "{Expert Immolation}\n\nSets enemy unit aflame, dealing damage to it at the beginning of each {round}.",
 	"spell.courtyard.immolationCurse.description.none" : "{Immolation}\n\nSets enemy unit aflame, dealing damage to it at the beginning of each {round}.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"spell.courtyard.immolationCurse.name" : "Immolation",
 	"spell.courtyard.immolationDamage.description.advanced" : "IMMOLATION DAMAGE",
 	"spell.courtyard.immolationDamage.description.basic" : "IMMOLATION DAMAGE",
 	"spell.courtyard.immolationDamage.description.expert" : "IMMOLATION DAMAGE",
 	"spell.courtyard.immolationDamage.description.none" : "IMMOLATION DAMAGE",
 	"spell.courtyard.immolationDamage.name" : "Immolation",
-<<<<<<< HEAD
-	"spell.courtyard.lumiereForceField.description.advanced" : "Places a temporary Force Field on a random unoccupied area of the battlefield.",
-	"spell.courtyard.lumiereForceField.description.basic" : "Places a temporary Force Field on a random unoccupied area of the battlefield.",
-	"spell.courtyard.lumiereForceField.description.expert" : "Places a temporary Force Field on a random unoccupied area of the battlefield.",
-	"spell.courtyard.lumiereForceField.description.none" : "Places a temporary Force Field on a random unoccupied area of the battlefield.",
-	"spell.courtyard.lumiereForceField.name" : "Force Field",
-=======
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"spell.courtyard.pacifism.description.advanced" : "{Advanced Pacifism}\n\nUnits become unable to attack and moves in the direction of other closest unit.",
 	"spell.courtyard.pacifism.description.basic" : "{Basic Pacifism}\n\nUnit becomes unable to attack and moves in the direction of other closest unit.",
 	"spell.courtyard.pacifism.description.expert" : "{Expert Pacifism}\n\nUnits become unable to attack and moves in the direction of other closest unit.",
@@ -514,30 +343,16 @@
 	"spell.courtyard.regenerationPotion.description.none" : "{Regeneration Potion}\n\nGrants unit regeneration ability (5 points/turn).",
 	"spell.courtyard.regenerationPotion.name" : "Regeneration Potion",
 	"spell.courtyard.stunAbility.name" : "Stun",
-<<<<<<< HEAD
-	"spell.courtyard.summonApparition.description.advanced" : "Raises temporary Ephemeral Apparitions from a fallen friendly living stack, consuming its corpse. Apparitions last until the second subsequent round starts (third with Migdigravia).",
-	"spell.courtyard.summonApparition.description.basic" : "Raises temporary Ephemeral Apparitions from a fallen friendly living stack, consuming its corpse. Apparitions last until the second subsequent round starts (third with Migdigravia).",
-	"spell.courtyard.summonApparition.description.expert" : "Raises temporary Ephemeral Apparitions from a fallen friendly living stack, consuming its corpse. Apparitions last until the second subsequent round starts (third with Migdigravia).",
-	"spell.courtyard.summonApparition.description.none" : "Raises temporary Ephemeral Apparitions from a fallen friendly living stack, consuming its corpse. Apparitions last until the second subsequent round starts (third with Migdigravia).",
-=======
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"spell.courtyard.summonApparition.name" : "Summon Apparition",
 	"spell.courtyard.toughnessPotion.description.advanced" : "{Supreme Tonic of Toughness}\n\nIncreases unit's hit points by 40% and damage dealt by unit by 20%.",
 	"spell.courtyard.toughnessPotion.description.basic" : "{Supreme Tonic of Toughness}\n\nIncreases unit's hit points by 40% and damage dealt by unit by 20%.",
 	"spell.courtyard.toughnessPotion.description.expert" : "{Supreme Tonic of Toughness}\n\nIncreases unit's hit points by 40% and damage dealt by unit by 20%.",
 	"spell.courtyard.toughnessPotion.description.none" : "{Tonic of Toughness}\n\nIncreases unit's hit points by 25% and damage dealt by unit by 15%.",
 	"spell.courtyard.toughnessPotion.name" : "Toughness Tonic",
-<<<<<<< HEAD
-	"spell.courtyard.vinesRevive.description.advanced" : "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
-	"spell.courtyard.vinesRevive.description.basic" : "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
-	"spell.courtyard.vinesRevive.description.expert" : "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
-	"spell.courtyard.vinesRevive.description.none" : "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
-=======
 	"spell.courtyard.vinesRevive.description.advanced" : "{Advaced Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +75.",
 	"spell.courtyard.vinesRevive.description.basic" : "{Basic Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +25.",
 	"spell.courtyard.vinesRevive.description.expert" : "{Expert Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +125.",
 	"spell.courtyard.vinesRevive.description.none" : "{Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +25.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 	"spell.courtyard.vinesRevive.name" : "Regrowth",
 	"spell.courtyard.weaponPoisonPotion.description.advanced" : "{Distilled Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (20%).",
 	"spell.courtyard.weaponPoisonPotion.description.basic" : "{Concentrated Vial of Poison}\n\nGrants unit a chance to poison the attacked enemy (15%).",

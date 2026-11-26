@@ -47,8 +47,6 @@
 			},
 			"warmachine" : {
 				"type" : "SIEGE_WEAPON"
-<<<<<<< HEAD
-=======
 			},
 			"supply" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
@@ -65,7 +63,6 @@
 						"includeUpgrades" : false
 					}
 				]
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			}
 			//			"automatic" : {
 			//				"subtype" : "creature.plagueTentCreature",

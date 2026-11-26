@@ -14,12 +14,8 @@
 		},
 		"levels" : {
 			"base" : {
-<<<<<<< HEAD
-				"description" : "Raises temporary Ephemeral Apparitions from a fallen friendly living stack, consuming its corpse. Apparitions last until the second subsequent round starts (third with Migdigravia).",
-=======
 				"description" : "",
 				//				"aiValue" : 0,
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				"power" : 40,
 				"cost" : 1,
 				"range" : "0",
@@ -27,17 +23,9 @@
 					"demonSummon" : {
 						"id" : "courtyard:apparition",
 						"permanent" : false,
-<<<<<<< HEAD
-						"type" : "core:demonSummon"
-					}
-				},
-				"targetModifier" : {
-					"smart" : true
-=======
 						"summonByHealth" : false,
 						"type" : "core:summon"
 					}
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				}
 			},
 			"none" : {},
@@ -54,12 +42,7 @@
 				"bonus.NON_LIVING" : "absolute",
 				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "absolute",
-<<<<<<< HEAD
-				"bonus.GARGOYLE" : "absolute",
-				"bonus.MECHANICAL" : "absolute"
-=======
 				"bonus.GARGOYLE" : "absolute"
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 			}
 		}
 	}

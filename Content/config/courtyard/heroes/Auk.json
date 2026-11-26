@@ -40,10 +40,7 @@
 					"type" : "STACKS_SPEED",
 					"val" : 1,
 					"limiters" : [
-<<<<<<< HEAD
-=======
 						"noneOf",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "dodo",
@@ -55,10 +52,7 @@
 					"type" : "MORALE",
 					"val" : 2,
 					"limiters" : [
-<<<<<<< HEAD
-=======
 						"noneOf",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "greaterDodo",
@@ -70,25 +64,12 @@
 					"type" : "MAGIC_RESISTANCE",
 					"val" : 33,
 					"limiters" : [
-<<<<<<< HEAD
-=======
 						"noneOf",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "battleDodo",
 							"includeUpgrades" : false
 						}
-<<<<<<< HEAD
-					],
-					"stacking" : "courtyard.battleDodoSelfResistance",
-					"valueType" : "BASE_NUMBER"
-				},
-				"battleDodoResistAura" : {
-					"type" : "SPELL_RESISTANCE_AURA",
-					"val" : 100,
-					"limiters" : [
-=======
 					]
 				},
 				"battleDodoResistAura" : {
@@ -96,28 +77,19 @@
 					"val" : 20,
 					"limiters" : [
 						"noneOf",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "battleDodo",
 							"includeUpgrades" : false
 						}
-<<<<<<< HEAD
-					],
-					"valueType" : "PERCENT_TO_ALL"
-=======
 					]
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				},
 				"battleDodoMagicReduction" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "any",
 					"val" : 12,
 					"limiters" : [
-<<<<<<< HEAD
-=======
 						"noneOf",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "battleDodo",

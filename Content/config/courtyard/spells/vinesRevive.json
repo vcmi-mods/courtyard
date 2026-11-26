@@ -10,11 +10,7 @@
 		},
 		"targetType" : "CREATURE",
 		"level" : 5,
-<<<<<<< HEAD
-		"power" : 1,
-=======
 		"power" : 1, //duration spellpower=turns
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 		"defaultGainChance" : 0,
 		"gainChance" : {},
 		"animation" : {
@@ -47,14 +43,9 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-<<<<<<< HEAD
-				"cost" : 0,
-				"description" : "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
-=======
 				//				"aiValue": 20, //don't know what it means
 				"cost" : 0,
 				"description" : "{Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +25.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				"power" : 8,
 				"battleEffects" : {
 					"heal" : {
@@ -77,17 +68,6 @@
 				"cost" : 0
 			},
 			"basic" : {
-<<<<<<< HEAD
-				"description" : "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
-				"power" : 10
-			},
-			"advanced" : {
-				"description" : "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
-				"power" : 12
-			},
-			"expert" : {
-				"description" : "{Regrowth}\n\nRestores fallen allied Vines and removes negative spell effects.",
-=======
 				"description" : "{Basic Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +25.",
 				"power" : 10
 			},
@@ -97,7 +77,6 @@
 			},
 			"expert" : {
 				"description" : "{Expert Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +125.",
->>>>>>> parent of fab4ca2 (Update for VCMI 1.8.0; migrated legacy bonus value types and corrected bonus stacking, propagation and identifiers.)
 				"power" : 14
 			}
 		}
